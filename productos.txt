@@ -1,0 +1,20 @@
+ /* PRODUCTOS */
+
+Categoria 1: Accesorios para Smartphones
+1. Cargador inalámbrico rápido
+
+Precio: $29.99
+Características: Carga rápida de 15W, compatible con iPhone y Android, diseño delgado y portátil.
+Foto: Imagen de un cargador negro sobre un escritorio moderno.
+
+2. Funda protectora para iPhone 14
+
+Precio: $19.99
+Características: Resistente a golpes, diseño transparente, bordes elevados para protección de pantalla y cámara.
+Foto: Funda transparente en un iPhone con fondo minimalista.
+
+3. Auriculares Bluetooth con cancelación de ruido
+
+Precio: $49.99
+Características: Bluetooth 5.0, cancelación activa de ruido, duración de batería de 20 horas, micrófono integrado.
+Foto: Auriculares negros sobre una mesa junto a un smartphone.
