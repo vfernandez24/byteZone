@@ -213,4 +213,6 @@ const catalogo = {
       ]
     }
   };
-console.log(catalogo)
+
+
+console.log('app.js conectado')

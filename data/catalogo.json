@@ -1,4 +1,4 @@
-const catalogo = {
+{
     "categoria1": {
       "nombre": "Accesorios para Smartphones",
       "productos": [
@@ -212,5 +212,5 @@ const catalogo = {
         }
       ]
     }
-  };
+}
   
