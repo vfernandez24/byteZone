@@ -1,20 +1,214 @@
  /* PRODUCTOS */
 
-Categoria 1: Accesorios para Smartphones
-1. Cargador inalámbrico rápido
+Aquí te dejo 10 productos adicionales por categoría en formato de texto:
 
-Precio: $29.99
-Características: Carga rápida de 15W, compatible con iPhone y Android, diseño delgado y portátil.
-Foto: Imagen de un cargador negro sobre un escritorio moderno.
+---
+### **Categoria 1: Accesorios para Smartphones**
 
-2. Funda protectora para iPhone 14
+1. **Cargador inalámbrico rápido**
 
-Precio: $19.99
-Características: Resistente a golpes, diseño transparente, bordes elevados para protección de pantalla y cámara.
-Foto: Funda transparente en un iPhone con fondo minimalista.
+   Precio: $29.99  
+   Características: Carga rápida de 15W, compatible con iPhone y Android, diseño delgado y portátil.  
+   Foto: Imagen de un cargador negro sobre un escritorio moderno.
 
-3. Auriculares Bluetooth con cancelación de ruido
+2. **Funda protectora para iPhone 14**
 
-Precio: $49.99
-Características: Bluetooth 5.0, cancelación activa de ruido, duración de batería de 20 horas, micrófono integrado.
-Foto: Auriculares negros sobre una mesa junto a un smartphone.
+   Precio: $19.99  
+   Características: Resistente a golpes, diseño transparente, bordes elevados para protección de pantalla y cámara.  
+   Foto: Funda transparente en un iPhone con fondo minimalista.
+
+3. **Auriculares Bluetooth con cancelación de ruido**
+
+   Precio: $49.99  
+   Características: Bluetooth 5.0, cancelación activa de ruido, duración de batería de 20 horas, micrófono integrado.  
+   Foto: Auriculares negros sobre una mesa junto a un smartphone.
+
+4. **Power Bank 20,000mAh**
+
+   Precio: $34.99  
+   Características: Carga rápida QC3.0, dos puertos USB, capacidad para cargar hasta 4 veces un smartphone.  
+   Foto: Power Bank blanco sobre una superficie de madera.
+
+5. **Soporte magnético para coche**
+
+   Precio: $15.99  
+   Características: Imanes fuertes, rotación 360 grados, fácil instalación en rejilla de ventilación.  
+   Foto: Soporte montado en un coche con un smartphone en uso.
+
+6. **Cargador de coche doble USB**
+
+   Precio: $12.99  
+   Características: Carga rápida de hasta 2 dispositivos, diseño compacto, compatible con todos los smartphones.  
+   Foto: Cargador en la toma de un coche con dos cables conectados.
+
+7. **Cable de carga trenzado USB-C**
+
+   Precio: $9.99  
+   Características: Cable trenzado resistente de 1.5m, compatible con carga rápida, conector USB-C.  
+   Foto: Primer plano del cable trenzado en gris oscuro.
+
+8. **Anillo de soporte para teléfono**
+
+   Precio: $7.99  
+   Características: Rotación 360 grados, soporte y agarre adicional, diseño ultradelgado.  
+   Foto: Anillo colocado en la parte trasera de un smartphone.
+
+9. **Adaptador de auriculares USB-C a 3.5mm**
+
+   Precio: $12.99  
+   Características: Compatible con dispositivos sin jack de auriculares, sonido de alta fidelidad, diseño compacto.  
+   Foto: Adaptador conectado a un smartphone.
+
+10. **Protector de pantalla de vidrio templado para iPhone 14**
+
+    Precio: $14.99  
+    Características: Resistencia a rayones, fácil instalación, borde redondeado para protección completa.  
+    Foto: Protector de pantalla sobre un iPhone en primer plano.
+
+11. **Lente gran angular para cámara de smartphone**
+
+    Precio: $24.99  
+    Características: Lente desmontable de 0.45x gran angular, ideal para paisajes y fotos de grupo.  
+    Foto: Lente acoplada a la cámara de un smartphone en uso.
+
+---
+### **Categoria 2: Smart Home**
+
+1. **Bombilla inteligente WiFi**
+
+   Precio: $24.99  
+   Características: Control por app, compatible con Alexa y Google Home, regulación de intensidad y colores.  
+   Foto: Bombilla encendida cambiando de color en un ambiente moderno.
+
+2. **Enchufe inteligente**
+
+   Precio: $19.99  
+   Características: Control remoto vía app, programación de horarios, compatible con Alexa y Google Home.  
+   Foto: Enchufe conectado a una lámpara en un entorno doméstico.
+
+3. **Cámara de seguridad inteligente 1080p**
+
+   Precio: $59.99  
+   Características: Visión nocturna, audio bidireccional, detección de movimiento, grabación en la nube.  
+   Foto: Cámara montada en la esquina de una habitación con vista al exterior.
+
+4. **Termostato inteligente WiFi**
+
+   Precio: $129.99  
+   Características: Control por app, programación automática de temperatura, compatible con sistemas HVAC.  
+   Foto: Termostato montado en una pared moderna.
+
+5. **Timbre inteligente con cámara**
+
+   Precio: $89.99  
+   Características: Cámara HD, detección de movimiento, audio bidireccional, compatible con Alexa.  
+   Foto: Timbre montado en la entrada de una casa moderna.
+
+6. **Sensor de puerta inteligente**
+
+   Precio: $29.99  
+   Características: Detección de apertura/cierre, alertas en tiempo real, compatible con smart home.  
+   Foto: Sensor instalado en la puerta de entrada.
+
+7. **Control remoto universal WiFi**
+
+   Precio: $39.99  
+   Características: Controla todos los dispositivos con infrarrojos, compatible con Alexa y Google Home, app fácil de usar.  
+   Foto: Control remoto compacto en una sala de estar.
+
+8. **Altavoz inteligente con asistente virtual**
+
+   Precio: $49.99  
+   Características: Control por voz, integración con dispositivos smart home, reproducción de música.  
+   Foto: Altavoz inteligente en una mesa de centro.
+
+9. **Persianas automáticas inteligentes**
+
+   Precio: $199.99  
+   Características: Control por app, programación de apertura/cierre, compatible con Alexa.  
+   Foto: Persianas en un entorno moderno con luz natural.
+
+10. **Sensor de temperatura y humedad WiFi**
+
+    Precio: $34.99  
+    Características: Monitorización en tiempo real, alertas de cambios, compatible con otros dispositivos smart.  
+    Foto: Sensor montado en una pared junto a una planta.
+
+11. **Interruptor de luz inteligente WiFi**
+
+    Precio: $39.99  
+    Características: Control táctil o por app, compatible con Alexa y Google Home, programación de horarios.  
+    Foto: Interruptor inteligente en una pared blanca.
+
+---
+### **Categoria 3: Wearables**
+
+1. **Reloj inteligente con monitor de salud**
+
+   Precio: $79.99  
+   Características: Pantalla AMOLED, monitor de frecuencia cardíaca, seguimiento de sueño y actividad física, resistente al agua.  
+   Foto: Primer plano del reloj en una muñeca mostrando datos de salud.
+
+2. **Pulsera de actividad con GPS**
+
+   Precio: $59.99  
+   Características: Medición de pasos, calorías, ritmo cardíaco, GPS integrado para seguimiento de rutas.  
+   Foto: Pulsera de actividad en uso durante una carrera.
+
+3. **Auriculares deportivos con resistencia al agua**
+
+   Precio: $39.99  
+   Características: Bluetooth 5.0, diseño ergonómico, resistencia IPX7 al sudor y agua, 10 horas de autonomía.  
+   Foto: Auriculares deportivos en una sesión de entrenamiento.
+
+4. **Smartwatch para niños con GPS**
+
+   Precio: $49.99  
+   Características: Rastreo GPS en tiempo real, llamadas de emergencia, resistente a golpes y agua.  
+   Foto: Niño usando el smartwatch mientras juega.
+
+5. **Reloj inteligente con monitor de presión arterial**
+
+   Precio: $69.99  
+   Características: Monitoreo de presión arterial y frecuencia cardíaca, alertas de salud, resistente al agua.  
+   Foto: Reloj mostrando datos de presión arterial en la pantalla.
+
+6. **Gafas inteligentes con audio integrado**
+
+   Precio: $129.99  
+   Características: Reproducción de música a través de las patillas, llamadas manos libres, diseño resistente a la intemperie.  
+   Foto: Persona usando las gafas inteligentes mientras camina por la ciudad.
+
+7. **Smartwatch con monitor de oxígeno en sangre**
+
+   Precio: $99.99  
+   Características: Monitorización de oxígeno en sangre (SpO2), frecuencia cardíaca, alertas de salud, resistente al agua.  
+   Foto: Primer plano del reloj mostrando niveles de oxígeno.
+
+8. **Auriculares de conducción ósea**
+
+   Precio: $79.99  
+   Características: Diseño abierto, sin bloquear los oídos, ideal para deportes al aire libre, resistencia al agua.  
+   Foto: Persona corriendo con los auriculares puestos.
+
+9. **Reloj fitness con medidor de estrés**
+
+   Precio: $89.99  
+   Características: Medición de nivel de estrés, seguimiento del sueño, alerta de relajación.  
+   Foto: Reloj mostrando los niveles de estrés en una muñeca.
+
+10. **Pulsera inteligente para control del sueño**
+
+    Precio: $49.99  
+    Características: Seguimiento avanzado del sueño, análisis de fases REM, alertas de bienestar.  
+    Foto: Pulsera en una mesita de noche junto a una lámpara.
+
+11. **Auriculares inalámbricos con IA**
+
+    Precio: $149.99  
+    Características: Cancelación de ruido inteligente con inteligencia artificial, ajuste automático según el entorno, resistencia al agua.  
+    Foto: Auriculares cargando en su estuche.
+
+---
+
+Este catálogo ahora incluye más productos detallados en cada categoría. ¿Te gustaría que lo expandiera aún más o necesitas algo adicional?

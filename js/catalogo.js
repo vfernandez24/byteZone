@@ -213,4 +213,4 @@ const catalogo = {
       ]
     }
   };
-console.log(catalogo)
+  
