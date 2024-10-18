@@ -3,8 +3,9 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Inter', 'Montserrat', sans-serif;
+    font-family: 'Montserrat', 'Inter', sans-serif;
     box-sizing: border-box;
+    color: var(--text);
 }
 
 body {
@@ -26,5 +27,13 @@ header .logo {
     height: fit-content;
     display: flex;
     align-items: center;
-    font-size: 30px;
+    font-size: 35px;
+    font-weight: 700;
+    text-shadow: 0px 0px 15px var(--text);
+    text-decoration: none;
+}
+
+header .logo span {
+    color: var(--destacados);
+    text-shadow: 0px 0px 15px var(--destacados);
 }
