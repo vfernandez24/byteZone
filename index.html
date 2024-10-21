@@ -46,14 +46,27 @@
     </nav>
     <div class="containerGrid">
         <aside>
-            <button>
-                <i class="fa-solid fa-xmark"></i>
+            <button onclick=toggleMenu()>
+                <i class="fa-solid fa-chevron-left"></i>
             </button>
             <h2>Filtrar</h2>
             <div class="classCategorias">
-                <label for="hola">
-                    <input id="hola" type="checkbox">
-                    Hola
+                <h3>Por categorías:</h3>
+                <label for="inputCategoria1">
+                    <input id="inputCategoria1" type="checkbox">
+                    Accesorios para Smartphones
+                </label>
+                <label for="inputCategoria2">
+                    <input id="inputCategoria2" type="checkbox">
+                    Smart Home
+                </label>
+                <label for="inputCategoria3">
+                    <input id="inputCategoria3" type="checkbox">
+                    Wearables
+                </label>
+                <label for="inputCategoria4">
+                    <input id="inputCategoria4" type="checkbox">
+                    Gaming
                 </label>
             </div>
             <div class="classPrecio">

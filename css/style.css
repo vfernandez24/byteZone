@@ -103,6 +103,27 @@ aside {
     border-right: 1px solid var(--border)
 }
 
+aside button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background);
+    border: none;
+    font-size: 24px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+aside button:hover {
+    background-color: var(--hover);
+}
+
 .container {
     display: flex;
     justify-content: space-evenly;
@@ -149,7 +170,7 @@ aside {
     transition: scale .5s ease-out;
 }
 
-h2 {
+.box h2 {
     display: block;
     height: 72px;
     max-height: 72px;
@@ -158,14 +179,14 @@ h2 {
     padding-top: 10px;
 }
 
-h3 {
+.box h3 {
     display: block;
     margin-top: 10px;
     font-weight: 600;
     color: var(--btn);
 }
 
-h3::before {
+.box h3::before {
     content: 'COMPRAR: ';
     color: var(--text);
     font-weight: 500;
