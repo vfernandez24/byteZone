@@ -1,5 +1,39 @@
 @import url(root.css);
 
+::-webkit-scrollbar {
+    width: 10px;
+    padding: 1px 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 10px;
+    background-color: var(--text);
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px var(--contraste);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #3c3c3c;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--hover);
+}
+
+::-webkit-scrollbar-button:vertical:decrement {
+    background-color: var(--hover);
+    background-image: url(../assets/arrowUp.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+::-webkit-scrollbar-button:vertical:increment {
+    background-color: var(--hover);
+    background-image: url(../assets/arrowDown.svg);
+    background-size: cover;
+    background-position: center;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -58,11 +92,11 @@ nav {
 .container {
     margin-top: 21vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap ;
     align-items: flex-start;
     row-gap: 20px;
-    padding: 20px 20px;
+    padding: 20px 0;
 }
 
 .box {
@@ -86,16 +120,18 @@ nav {
     margin: auto;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .box:hover img {
-    scale: 1.1;
+    scale: 1;
 }
 
 .img img {
     width: 100%;
     height: 100%;
-    transition: scale .5s ease;
+    scale: 0.8;
+    transition: scale .5s ease-out;
 }
 
 h2 {
