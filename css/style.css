@@ -1,7 +1,7 @@
 @import url(root.css);
 
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 12px;
     padding: 1px 5px;
 }
 
@@ -87,6 +87,50 @@ nav {
     border-bottom: 1px solid var(--border);
     background-color: var(--background);
     z-index: 50;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5vw;
+}
+
+nav .search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 7vh;
+    user-select: none;
+}
+
+nav .search input {
+    border: none;
+    border-bottom: 2.5px solid var(--border);
+    height: 100%;
+    width: 85%;
+    padding: 10px;
+    outline: none;
+    color: var(--text);
+    font-family: 'Inter', 'Montserrat', sans-serif;
+}
+
+nav .search input:focus {
+    border-bottom-color: var(--btn);
+}
+
+nav .search button {
+    height: 100%;
+    width: 7vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    background: none;
+    outline: none;
+}
+
+nav .search button:hover {
+    background: var(--hover);
 }
 
 .containerGrid {
@@ -100,8 +144,19 @@ aside {
     width: 250px;
     position: relative;
     overflow-x: hidden;
-    border-right: 1px solid var(--border)
+    padding: 10px 20px 10px 20px ;
+    border-right: 1px solid var(--border);
+    transition: all .5s ease-out;
 }
+
+aside.close {
+    width: 60px;
+}
+
+aside.close * {
+    visibility: hidden;
+}
+
 
 aside button {
     position: absolute;
@@ -117,11 +172,39 @@ aside button {
     border: none;
     font-size: 24px;
     font-weight: 400;
+    transition: all .5s ease;
+    user-select: none;
+    outline: none;
     cursor: pointer;
+}
+
+aside button.rotate {
+    transform: rotateZ(-180deg);
 }
 
 aside button:hover {
     background-color: var(--hover);
+}
+
+aside.close button, aside.close button i {
+    visibility: visible;
+}
+
+aside h2 {
+    font-size: 30px;
+    display: block;
+    margin-top: 10px;
+    height: 40px;
+    font-weight: 800;
+    color: var(--titulos);
+}
+
+aside h3 {
+
+}
+
+aside label {
+    display: block;
 }
 
 .container {
