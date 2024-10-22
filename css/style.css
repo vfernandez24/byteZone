@@ -89,7 +89,7 @@ nav {
     z-index: 50;
     display: flex;
     justify-content: space-between;
-    padding: 0 5vw;
+    padding: 0 2.5vw 0 5vw;
 }
 
 nav .search {
@@ -106,10 +106,16 @@ nav .search input {
     border-bottom: 2.5px solid var(--border);
     height: 100%;
     width: 85%;
-    padding: 10px;
+    padding: 10px 20px;
     outline: none;
     color: var(--text);
+    font-weight: 400;
+    font-size: 17px;
     font-family: 'Inter', 'Montserrat', sans-serif;
+}
+
+nav .search input::placeholder {
+    color: var(--text);
 }
 
 nav .search input:focus {
@@ -130,6 +136,94 @@ nav .search button {
 }
 
 nav .search button:hover {
+    background: var(--hover);
+}
+
+nav .containerBtn {
+    width: 180px;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .containerBtn button {
+    background: none;
+    width: 7vh;
+    height: 7vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    user-select: none;
+    transition: all .5s ease;
+}
+
+nav .containerBtn button:hover {
+    background: var(--hover);
+}
+
+nav .shopCart {
+    background: none;
+    position: relative;
+    width: 7vh;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 50%;
+    color: #000;
+    transition: all .5s ease;
+}
+
+nav .containerBtn .shopCart:hover {
+    background: var(--hover);
+}
+
+nav .shopCart:before {
+    content: '0';
+    position: absolute;
+    font-size: 14px;
+    top: 0px;
+    right: 3px;
+    padding: 5px;
+    width: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: var(--ofertas);
+}
+
+nav .account {
+    background: none;
+    width: 7vh;
+    height: 7vh;
+    display: flex;
+    user-select: none;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    color: #000;
+    transition: all .5s ease;
+}
+
+nav .containerBtn .account:hover {
     background: var(--hover);
 }
 
@@ -199,9 +293,8 @@ aside h2 {
     color: var(--titulos);
 }
 
-aside h3 {
 
-}
+
 
 aside label {
     display: block;
