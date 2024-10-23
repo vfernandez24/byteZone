@@ -211,8 +211,149 @@ const catalogo = {
           "foto": "Auriculares cargando en su estuche."
         }
       ]
-    }
+    },
+    "categoria4": {
+      "nombre": "Gaming",
+      "productos": [
+        {
+          "nombre": "Teclado mecánico retroiluminado RGB",
+          "precio": 89.99,
+          "caracteristicas": "Switches mecánicos, retroiluminación RGB personalizable, 104 teclas anti-ghosting.",
+          "foto": "Teclado iluminado con colores RGB en un entorno gaming."
+        },
+        {
+          "nombre": "Ratón inalámbrico para gaming 16000 DPI",
+          "precio": 59.99,
+          "caracteristicas": "DPI ajustable hasta 16000, 7 botones programables, diseño ergonómico.",
+          "foto": "Ratón negro con luces LED en un escritorio gaming."
+        },
+        {
+          "nombre": "Silla gamer ergonómica con soporte lumbar",
+          "precio": 199.99,
+          "caracteristicas": "Reclinable hasta 180 grados, soporte lumbar y para cuello, reposabrazos ajustables.",
+          "foto": "Silla negra y roja en una habitación gamer."
+        },
+        {
+          "nombre": "Monitor gaming curvo 144Hz",
+          "precio": 299.99,
+          "caracteristicas": "Resolución 2560x1440, tasa de refresco de 144Hz, tiempo de respuesta de 1ms.",
+          "foto": "Monitor curvo en un escritorio con equipo gaming."
+        },
+        {
+          "nombre": "Auriculares gaming con micrófono retráctil",
+          "precio": 79.99,
+          "caracteristicas": "Sonido envolvente 7.1, micrófono con cancelación de ruido, almohadillas de espuma con memoria.",
+          "foto": "Auriculares negros con luces LED junto a un teclado gaming."
+        },
+        {
+          "nombre": "Alfombrilla para ratón XXL",
+          "precio": 19.99,
+          "caracteristicas": "Superficie de control de precisión, base antideslizante, tamaño extra grande para teclado y ratón.",
+          "foto": "Alfombrilla negra ocupando todo el escritorio."
+        },
+        {
+          "nombre": "Tarjeta gráfica Nvidia RTX 4070",
+          "precio": 699.99,
+          "caracteristicas": "8GB GDDR6, ray tracing en tiempo real, soporte para 4K gaming.",
+          "foto": "Tarjeta gráfica con diseño moderno y luces LED."
+        },
+        {
+          "nombre": "Controlador de mando inalámbrico para PC/Consola",
+          "precio": 49.99,
+          "caracteristicas": "Conexión inalámbrica, vibración dual, botones personalizables.",
+          "foto": "Mando negro con detalles en azul sobre un escritorio gamer."
+        },
+        {
+          "nombre": "Base de carga dual para mandos de consola",
+          "precio": 24.99,
+          "caracteristicas": "Carga simultánea de dos mandos, indicadores LED de carga, diseño compacto.",
+          "foto": "Base de carga con dos mandos apoyados en ella."
+        },
+        {
+          "nombre": "Tarjeta de sonido externa USB para gaming",
+          "precio": 39.99,
+          "caracteristicas": "Sonido envolvente 7.1, conectividad USB, compatible con auriculares y micrófono gaming.",
+          "foto": "Tarjeta de sonido junto a un ordenador gamer."
+        },
+        {
+          "nombre": "Micrófono de estudio USB para streaming",
+          "precio": 99.99,
+          "caracteristicas": "Grabación en alta definición, patrón polar cardioide, soporte antivibración incluido.",
+          "foto": "Micrófono montado en un brazo sobre un escritorio."
+        }
+      ]
+  },
+  "categoria5": {
+    "nombre": "Fitness y Bienestar",
+    "productos": [
+      {
+        "nombre": "Colchoneta de yoga antideslizante",
+        "precio": 29.99,
+        "caracteristicas": "Material antideslizante de 6mm, resistente al sudor, fácil de enrollar y transportar.",
+        "foto": "Colchoneta verde sobre un suelo de madera."
+      },
+      {
+        "nombre": "Banda elástica de resistencia",
+        "precio": 14.99,
+        "caracteristicas": "5 niveles de resistencia, ideal para ejercicios de fuerza y estiramiento, material duradero.",
+        "foto": "Bandas elásticas de colores sobre un banco de gimnasio."
+      },
+      {
+        "nombre": "Rueda abdominal con rodamiento doble",
+        "precio": 19.99,
+        "caracteristicas": "Rodamiento suave, asas acolchadas, incluye alfombrilla para rodillas.",
+        "foto": "Rueda abdominal sobre un suelo de gimnasio."
+      },
+      {
+        "nombre": "Mancuernas ajustables 5-25kg",
+        "precio": 199.99,
+        "caracteristicas": "Sistema de ajuste rápido de peso, agarre antideslizante, ideal para entrenamientos en casa.",
+        "foto": "Mancuernas ajustables en un soporte en una habitación fitness."
+      },
+      {
+        "nombre": "Reloj inteligente deportivo con GPS",
+        "precio": 99.99,
+        "caracteristicas": "Monitoreo de actividad, frecuencia cardíaca y rutas, resistente al agua hasta 50 metros.",
+        "foto": "Primer plano del reloj en una muñeca durante una carrera."
+      },
+      {
+        "nombre": "Cuerda para saltar con contador de calorías",
+        "precio": 24.99,
+        "caracteristicas": "Mango ergonómico, contador digital de saltos y calorías, longitud ajustable.",
+        "foto": "Cuerda para saltar en una habitación de entrenamiento."
+      },
+      {
+        "nombre": "Botella de agua inteligente con recordatorio de hidratación",
+        "precio": 39.99,
+        "caracteristicas": "Alerta para beber agua, capacidad de 600ml, tapa de cierre automático.",
+        "foto": "Botella en una mesa junto a una esterilla de yoga."
+      },
+      {
+        "nombre": "Pesas de tobillo ajustables",
+        "precio": 19.99,
+        "caracteristicas": "Peso ajustable hasta 2kg por pieza, cierre de velcro resistente, ideales para caminatas y entrenamientos.",
+        "foto": "Pesas de tobillo en una persona realizando ejercicios."
+      },
+      {
+        "nombre": "Monitor de composición corporal Bluetooth",
+        "precio": 49.99,
+        "caracteristicas": "Análisis de peso, grasa corporal, músculo y agua, app para seguimiento en smartphone.",
+        "foto": "Monitor de composición corporal en un baño moderno."
+      },
+      {
+        "nombre": "Bicicleta estática plegable",
+        "precio": 149.99,
+        "caracteristicas": "Resistencia ajustable, monitor de ritmo cardíaco, diseño plegable para ahorrar espacio.",
+        "foto": "Bicicleta estática en una habitación moderna."
+      },
+      {
+        "nombre": "Rodillo de espuma para masajes",
+        "precio": 29.99,
+        "caracteristicas": "Textura de relieve para masajes profundos, material EVA duradero, ideal para recuperación muscular.",
+        "foto": "Rodillo de espuma sobre una alfombra de entrenamiento."
+      }
+    ]
+  }
   };
-
 
 console.log('app.js conectado')

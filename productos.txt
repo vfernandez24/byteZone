@@ -1,214 +1,1005 @@
- /* PRODUCTOS */
-
-Aquí te dejo 10 productos adicionales por categoría en formato de texto:
-
 ---
-### **Categoria 1: Accesorios para Smartphones**
 
-1. **Cargador inalámbrico rápido**
+### **Categoría 1: Accesorios para Smartphones**
 
+1. **Cargador inalámbrico rápido**  
    Precio: $29.99  
    Características: Carga rápida de 15W, compatible con iPhone y Android, diseño delgado y portátil.  
    Foto: Imagen de un cargador negro sobre un escritorio moderno.
 
-2. **Funda protectora para iPhone 14**
-
+2. **Funda protectora para iPhone 14**  
    Precio: $19.99  
    Características: Resistente a golpes, diseño transparente, bordes elevados para protección de pantalla y cámara.  
    Foto: Funda transparente en un iPhone con fondo minimalista.
 
-3. **Auriculares Bluetooth con cancelación de ruido**
-
+3. **Auriculares Bluetooth con cancelación de ruido**  
    Precio: $49.99  
    Características: Bluetooth 5.0, cancelación activa de ruido, duración de batería de 20 horas, micrófono integrado.  
    Foto: Auriculares negros sobre una mesa junto a un smartphone.
 
-4. **Power Bank 20,000mAh**
+4. **Soporte ajustable para smartphone**  
+   Precio: $14.99  
+   Características: Ángulo ajustable, plegable, compatible con iPhone y Android.  
+   Foto: Soporte de color blanco con un teléfono en posición vertical.
 
+5. **Powerbank 20,000mAh**  
    Precio: $34.99  
-   Características: Carga rápida QC3.0, dos puertos USB, capacidad para cargar hasta 4 veces un smartphone.  
-   Foto: Power Bank blanco sobre una superficie de madera.
+   Características: Carga rápida, dos puertos USB, pantalla digital de batería.  
+   Foto: Powerbank sobre una mesa junto a un teléfono.
 
-5. **Soporte magnético para coche**
-
-   Precio: $15.99  
-   Características: Imanes fuertes, rotación 360 grados, fácil instalación en rejilla de ventilación.  
-   Foto: Soporte montado en un coche con un smartphone en uso.
-
-6. **Cargador de coche doble USB**
-
-   Precio: $12.99  
-   Características: Carga rápida de hasta 2 dispositivos, diseño compacto, compatible con todos los smartphones.  
-   Foto: Cargador en la toma de un coche con dos cables conectados.
-
-7. **Cable de carga trenzado USB-C**
-
-   Precio: $9.99  
-   Características: Cable trenzado resistente de 1.5m, compatible con carga rápida, conector USB-C.  
-   Foto: Primer plano del cable trenzado en gris oscuro.
-
-8. **Anillo de soporte para teléfono**
-
-   Precio: $7.99  
-   Características: Rotación 360 grados, soporte y agarre adicional, diseño ultradelgado.  
-   Foto: Anillo colocado en la parte trasera de un smartphone.
-
-9. **Adaptador de auriculares USB-C a 3.5mm**
-
-   Precio: $12.99  
-   Características: Compatible con dispositivos sin jack de auriculares, sonido de alta fidelidad, diseño compacto.  
-   Foto: Adaptador conectado a un smartphone.
-
-10. **Protector de pantalla de vidrio templado para iPhone 14**
-
-    Precio: $14.99  
-    Características: Resistencia a rayones, fácil instalación, borde redondeado para protección completa.  
-    Foto: Protector de pantalla sobre un iPhone en primer plano.
-
-11. **Lente gran angular para cámara de smartphone**
-
-    Precio: $24.99  
-    Características: Lente desmontable de 0.45x gran angular, ideal para paisajes y fotos de grupo.  
-    Foto: Lente acoplada a la cámara de un smartphone en uso.
-
----
-### **Categoria 2: Smart Home**
-
-1. **Bombilla inteligente WiFi**
-
-   Precio: $24.99  
-   Características: Control por app, compatible con Alexa y Google Home, regulación de intensidad y colores.  
-   Foto: Bombilla encendida cambiando de color en un ambiente moderno.
-
-2. **Enchufe inteligente**
-
+6. **Cargador de coche USB-C doble**  
    Precio: $19.99  
-   Características: Control remoto vía app, programación de horarios, compatible con Alexa y Google Home.  
-   Foto: Enchufe conectado a una lámpara en un entorno doméstico.
+   Características: Dos puertos de carga rápida, compatible con todos los smartphones, diseño compacto.  
+   Foto: Cargador de coche conectado en un automóvil.
 
-3. **Cámara de seguridad inteligente 1080p**
+7. **Funda impermeable para smartphone**  
+   Precio: $9.99  
+   Características: Resistente al agua hasta 2 metros, compatible con pantallas táctiles, ideal para deportes acuáticos.  
+   Foto: Funda impermeable sumergida en agua con un teléfono dentro.
 
-   Precio: $59.99  
-   Características: Visión nocturna, audio bidireccional, detección de movimiento, grabación en la nube.  
-   Foto: Cámara montada en la esquina de una habitación con vista al exterior.
+8. **Cable de carga rápida USB-C trenzado**  
+   Precio: $12.99  
+   Características: Longitud de 2 metros, resistente a tirones, compatible con Android y dispositivos USB-C.  
+   Foto: Cable trenzado enrollado sobre una mesa.
 
-4. **Termostato inteligente WiFi**
+9. **Lente de cámara para smartphone (kit 3 en 1)**  
+   Precio: $24.99  
+   Características: Incluye lente gran angular, macro y ojo de pez, compatible con la mayoría de smartphones.  
+   Foto: Lentes montados sobre la cámara de un teléfono.
 
-   Precio: $129.99  
-   Características: Control por app, programación automática de temperatura, compatible con sistemas HVAC.  
-   Foto: Termostato montado en una pared moderna.
+10. **Soporte de anillo para smartphone**  
+    Precio: $7.99  
+    Características: Diseño giratorio 360º, función de soporte para ver videos, fácil de adherir a cualquier teléfono.  
+    Foto: Soporte de anillo plateado en la parte posterior de un teléfono.
 
-5. **Timbre inteligente con cámara**
+11. **Limpia pantalla portátil**  
+    Precio: $4.99  
+    Características: Spray de limpieza y paño integrados, tamaño bolsillo, seguro para pantallas táctiles.  
+    Foto: Limpiador de pantalla en una bolsa pequeña.
 
-   Precio: $89.99  
-   Características: Cámara HD, detección de movimiento, audio bidireccional, compatible con Alexa.  
-   Foto: Timbre montado en la entrada de una casa moderna.
+12. **Soporte de coche magnético para smartphone**  
+    Precio: $14.99  
+    Características: Sujeción magnética, rotación de 360 grados, compatible con la mayoría de teléfonos.  
+    Foto: Soporte de coche en un tablero sujetando un smartphone.
 
-6. **Sensor de puerta inteligente**
-
-   Precio: $29.99  
-   Características: Detección de apertura/cierre, alertas en tiempo real, compatible con smart home.  
-   Foto: Sensor instalado en la puerta de entrada.
-
-7. **Control remoto universal WiFi**
-
-   Precio: $39.99  
-   Características: Controla todos los dispositivos con infrarrojos, compatible con Alexa y Google Home, app fácil de usar.  
-   Foto: Control remoto compacto en una sala de estar.
-
-8. **Altavoz inteligente con asistente virtual**
-
-   Precio: $49.99  
-   Características: Control por voz, integración con dispositivos smart home, reproducción de música.  
-   Foto: Altavoz inteligente en una mesa de centro.
-
-9. **Persianas automáticas inteligentes**
-
-   Precio: $199.99  
-   Características: Control por app, programación de apertura/cierre, compatible con Alexa.  
-   Foto: Persianas en un entorno moderno con luz natural.
-
-10. **Sensor de temperatura y humedad WiFi**
-
-    Precio: $34.99  
-    Características: Monitorización en tiempo real, alertas de cambios, compatible con otros dispositivos smart.  
-    Foto: Sensor montado en una pared junto a una planta.
-
-11. **Interruptor de luz inteligente WiFi**
-
+13. **Cargador solar portátil**  
     Precio: $39.99  
-    Características: Control táctil o por app, compatible con Alexa y Google Home, programación de horarios.  
-    Foto: Interruptor inteligente en una pared blanca.
+    Características: Panel solar de alta eficiencia, salida USB dual, resistente al agua y a los golpes.  
+    Foto: Cargador solar junto a una mochila de senderismo.
 
----
-### **Categoria 3: Wearables**
+14. **Gimbal estabilizador para smartphone**  
+    Precio: $99.99  
+    Características: Estabilización en tres ejes, compatible con iPhone y Android, duración de batería de 12 horas.  
+    Foto: Gimbal sosteniendo un smartphone durante una grabación.
 
-1. **Reloj inteligente con monitor de salud**
+15. **Auriculares inalámbricos deportivos**  
+    Precio: $29.99  
+    Características: Resistente al agua y al sudor, diseño ergonómico, 10 horas de batería.  
+    Foto: Auriculares en un bolso de gimnasio.
 
-   Precio: $79.99  
-   Características: Pantalla AMOLED, monitor de frecuencia cardíaca, seguimiento de sueño y actividad física, resistente al agua.  
-   Foto: Primer plano del reloj en una muñeca mostrando datos de salud.
+16. **Funda con batería integrada para iPhone**  
+    Precio: $59.99  
+    Características: Carga adicional de 4000mAh, diseño delgado, protección completa contra caídas.  
+    Foto: Funda negra sobre una mesa de oficina.
 
-2. **Pulsera de actividad con GPS**
+17. **Protector de pantalla de vidrio templado para iPhone 14**  
+    Precio: $9.99  
+    Características: Resistente a los arañazos, fácil instalación, cobertura completa de pantalla.  
+    Foto: Protector de pantalla en proceso de instalación.
 
-   Precio: $59.99  
-   Características: Medición de pasos, calorías, ritmo cardíaco, GPS integrado para seguimiento de rutas.  
-   Foto: Pulsera de actividad en uso durante una carrera.
+18. **Mini impresora portátil para smartphone**  
+    Precio: $79.99  
+    Características: Imprime fotos y documentos directamente desde el teléfono, conexión Bluetooth.  
+    Foto: Mini impresora imprimiendo una foto.
 
-3. **Auriculares deportivos con resistencia al agua**
+19. **Adaptador de audio de 3.5mm a USB-C**  
+    Precio: $12.99  
+    Características: Permite conectar auriculares con conector de 3.5mm a dispositivos USB-C.  
+    Foto: Adaptador conectado a un smartphone.
 
-   Precio: $39.99  
-   Características: Bluetooth 5.0, diseño ergonómico, resistencia IPX7 al sudor y agua, 10 horas de autonomía.  
-   Foto: Auriculares deportivos en una sesión de entrenamiento.
-
-4. **Smartwatch para niños con GPS**
-
-   Precio: $49.99  
-   Características: Rastreo GPS en tiempo real, llamadas de emergencia, resistente a golpes y agua.  
-   Foto: Niño usando el smartwatch mientras juega.
-
-5. **Reloj inteligente con monitor de presión arterial**
-
-   Precio: $69.99  
-   Características: Monitoreo de presión arterial y frecuencia cardíaca, alertas de salud, resistente al agua.  
-   Foto: Reloj mostrando datos de presión arterial en la pantalla.
-
-6. **Gafas inteligentes con audio integrado**
-
-   Precio: $129.99  
-   Características: Reproducción de música a través de las patillas, llamadas manos libres, diseño resistente a la intemperie.  
-   Foto: Persona usando las gafas inteligentes mientras camina por la ciudad.
-
-7. **Smartwatch con monitor de oxígeno en sangre**
-
-   Precio: $99.99  
-   Características: Monitorización de oxígeno en sangre (SpO2), frecuencia cardíaca, alertas de salud, resistente al agua.  
-   Foto: Primer plano del reloj mostrando niveles de oxígeno.
-
-8. **Auriculares de conducción ósea**
-
-   Precio: $79.99  
-   Características: Diseño abierto, sin bloquear los oídos, ideal para deportes al aire libre, resistencia al agua.  
-   Foto: Persona corriendo con los auriculares puestos.
-
-9. **Reloj fitness con medidor de estrés**
-
-   Precio: $89.99  
-   Características: Medición de nivel de estrés, seguimiento del sueño, alerta de relajación.  
-   Foto: Reloj mostrando los niveles de estrés en una muñeca.
-
-10. **Pulsera inteligente para control del sueño**
-
+20. **Teclado plegable Bluetooth para smartphone**  
     Precio: $49.99  
-    Características: Seguimiento avanzado del sueño, análisis de fases REM, alertas de bienestar.  
-    Foto: Pulsera en una mesita de noche junto a una lámpara.
+    Características: Teclado QWERTY, diseño plegable, compatible con Android e iOS.  
+    Foto: Teclado desplegado junto a un teléfono.
 
-11. **Auriculares inalámbricos con IA**
+21. **Cargador inalámbrico para coche con sujeción automática**  
+    Precio: $39.99  
+    Características: Carga inalámbrica rápida, sujeción automática al colocar el teléfono, rotación 360º.  
+    Foto: Cargador montado en un coche.
 
-    Precio: $149.99  
-    Características: Cancelación de ruido inteligente con inteligencia artificial, ajuste automático según el entorno, resistencia al agua.  
-    Foto: Auriculares cargando en su estuche.
+22. **Funda de silicona para AirPods**  
+    Precio: $7.99  
+    Características: Protección completa, resistente al polvo y golpes, disponible en varios colores.  
+    Foto: Funda de silicona azul sobre una mesa.
+
+23. **Llavero localizador Bluetooth para llaves y smartphones**  
+    Precio: $19.99  
+    Características: Localiza objetos perdidos mediante app, notificaciones de separación, batería reemplazable.  
+    Foto: Llavero localizador junto a un llavero.
+
+24. **Soporte de escritorio ajustable para tablet y smartphone**  
+    Precio: $29.99  
+    Características: Altura y ángulo ajustable, base antideslizante, compatible con tablets y smartphones.  
+    Foto: Soporte sosteniendo un tablet en un escritorio.
 
 ---
 
-Este catálogo ahora incluye más productos detallados en cada categoría. ¿Te gustaría que lo expandiera aún más o necesitas algo adicional?
+### **Categoría 2: Tecnología de Salud**
+
+1. **Reloj inteligente con monitor de frecuencia cardíaca**  
+   Precio: $79.99  
+   Características: Monitoreo 24/7 de frecuencia cardíaca, compatible con iOS y Android, resistente al agua.  
+   Foto: Primer plano del reloj en una muñeca durante una carrera.
+
+2. **Pulsera de actividad con contador de calorías**  
+   Precio: $29.99  
+   Características: Contador de pasos y calorías, monitor de sueño, sincronización con smartphone.  
+   Foto: Pulsera de actividad sobre una mesa junto a un smartphone.
+
+3. **Termómetro inteligente con Bluetooth**  
+   Precio: $39.99  
+   Características: Lecturas rápidas y precisas, sincronización con app, historial de temperatura.  
+   Foto: Termómetro en la mano de una persona.
+
+4. **Oxímetro de pulso digital**  
+   Precio: $19.99  
+   Características: Mide saturación de oxígeno en sangre y frecuencia cardíaca, pantalla OLED, compacto.  
+   Foto: Oxímetro sobre la mano de una persona.
+
+5. **Báscula inteligente con análisis corporal**  
+   Precio: $49.99  
+   Características: Mide peso, grasa corporal, músculo y agua, conexión Bluetooth para seguimiento en app.  
+   Foto: Báscula colocada en un baño moderno.
+
+6. **Esfigmomanómetro digital**  
+   Precio: $59.99  
+   Características: Monitor de presión arterial con pantalla grande, memoria para múltiples usuarios, Bluetooth.  
+   Foto: Esfigmomanómetro en una mesa junto a un teléfono móvil.
+
+7. **Cepillo dental eléctrico con inteligencia artificial**  
+   Precio: $99.99  
+   Características: Guía en tiempo real para una limpieza óptima, varios modos de cepillado, batería de larga duración.  
+   Foto: Cepillo eléctrico en un soporte de baño.
+
+8. **Audífonos amplificadores de sonido**  
+   Precio: $199.99  
+   Características: Amplificación de sonido nítido, ajuste de volumen personalizado, diseño discreto.  
+   Foto: Audífonos sobre una mesa.
+
+9. **Monitor de sueño inteligente**  
+   Precio: $149.99  
+   Características: Registra fases de sueño, análisis detallado en app, consejos personalizados para mejorar el sueño.  
+   Foto: Monitor colocado en una cama junto a un smartphone.
+
+10. **Electrocardiógrafo portátil**  
+    Precio: $199.99  
+    Características: ECG de una derivación, resultados en 30 segundos, sincronización con app.  
+    Foto: Electrocardiógrafo en una mano.
+
+11. **Lámpara de terapia de luz**
+
+  
+    Precio: $49.99  
+    Características: Mejora el estado de ánimo y combate el trastorno afectivo estacional, 10,000 lux.  
+    Foto: Lámpara encendida sobre una mesa.
+
+12. **Medidor de glucosa digital portátil**  
+    Precio: $49.99  
+    Características: Monitoreo sin pinchazos, conexión Bluetooth, alertas de nivel bajo/alto de glucosa.  
+    Foto: Medidor de glucosa en una mesita de noche.
+
+13. **Termómetro digital infrarrojo**  
+    Precio: $29.99  
+    Características: Medición precisa en segundos, pantalla digital, sin contacto.  
+    Foto: Termómetro digital en una mano frente a la frente de un niño.
+
+14. **Lentes para bloqueo de luz azul**  
+    Precio: $25.99  
+    Características: Filtran la luz azul de pantallas, protegen los ojos durante el uso prolongado, estilo moderno.  
+    Foto: Lentes con marco negro sobre una laptop.
+
+15. **Inhalador portátil de vapor para descongestión nasal**  
+    Precio: $39.99  
+    Características: Alivia la congestión nasal, diseño compacto y portátil, varios niveles de vapor.  
+    Foto: Inhalador portátil sobre una mesita de noche.
+
+16. **Banda de monitorización de presión arterial**  
+    Precio: $59.99  
+    Características: Registro continuo de presión arterial, notificaciones de alta/baja presión, conexión Bluetooth.  
+    Foto: Banda ajustada a la muñeca de una persona.
+
+17. **Botella de agua inteligente con recordatorio de hidratación**  
+    Precio: $29.99  
+    Características: Luces LED para recordar la hidratación, medición del consumo de agua, app móvil.  
+    Foto: Botella sobre una mesa con luces encendidas.
+
+18. **Masajeador de cuello y espalda portátil**  
+    Precio: $69.99  
+    Características: Masaje de vibración, calor infrarrojo, diseño ergonómico para usar en cualquier lugar.  
+    Foto: Masajeador en uso sobre una silla.
+
+19. **Nebulizador portátil ultrasónico**  
+    Precio: $49.99  
+    Características: Alivio de problemas respiratorios, portátil y silencioso, tecnología ultrasónica.  
+    Foto: Nebulizador en una mano, expulsando vapor.
+
+20. **Tensiómetro de muñeca inteligente**  
+    Precio: $39.99  
+    Características: Monitoreo rápido de la presión arterial, sincronización con app, pantalla OLED.  
+    Foto: Tensiómetro colocado en la muñeca de una persona.
+
+21. **Corrector de postura inteligente**  
+    Precio: $59.99  
+    Características: Sensor que alerta cuando la postura es incorrecta, ajustable, conexión Bluetooth para seguimiento.  
+    Foto: Corrector en la espalda de una persona.
+
+22. **Dispositivo de terapia TENS portátil**  
+    Precio: $89.99  
+    Características: Alivia dolores musculares, varios niveles de intensidad, recargable.  
+    Foto: Dispositivo colocado en la pierna de una persona.
+
+23. **Bastón inteligente con GPS**  
+    Precio: $99.99  
+    Características: Incluye GPS para seguimiento, sistema de emergencia, luz LED integrada.  
+    Foto: Bastón sobre una mesa de madera.
+
+24. **Purificador de aire portátil para colgar**  
+    Precio: $39.99  
+    Características: Filtra el aire alrededor del usuario, compacto y portátil, batería recargable.  
+    Foto: Purificador colgado al cuello de una persona.
+
+---
+
+### **Categoría 3: Hogar Inteligente**
+
+1. **Bombilla inteligente LED**  
+   Precio: $19.99  
+   Características: Control vía app, ajustable en brillo y color, compatible con asistentes de voz.  
+   Foto: Bombilla instalada en una lámpara de techo.
+
+2. **Enchufe inteligente Wi-Fi**  
+   Precio: $14.99  
+   Características: Control remoto de encendido y apagado, programación de horarios, compatible con Alexa y Google Assistant.  
+   Foto: Enchufe inteligente conectado a una pared con un electrodoméstico.
+
+3. **Cámara de seguridad para interiores**  
+   Precio: $39.99  
+   Características: Transmisión en vivo HD, visión nocturna, detección de movimiento, alertas al móvil.  
+   Foto: Cámara montada en una pared.
+
+4. **Termostato inteligente Wi-Fi**  
+   Precio: $99.99  
+   Características: Control remoto desde el móvil, programación automática, compatible con asistentes de voz.  
+   Foto: Termostato en una pared moderna.
+
+5. **Cerradura inteligente con huella digital**  
+   Precio: $149.99  
+   Características: Desbloqueo por huella digital, app móvil, integración con asistentes de voz.  
+   Foto: Cerradura instalada en una puerta.
+
+6. **Cámara de timbre con video**  
+   Precio: $89.99  
+   Características: Cámara HD, visión nocturna, detección de movimiento, alertas al móvil.  
+   Foto: Cámara de timbre en una puerta principal.
+
+7. **Sensor de movimiento para exteriores**  
+   Precio: $29.99  
+   Características: Detección de movimiento de largo alcance, conexión inalámbrica, alertas instantáneas.  
+   Foto: Sensor montado en una pared exterior.
+
+8. **Altavoz inteligente con asistente de voz**  
+   Precio: $49.99  
+   Características: Control de hogar inteligente, respuesta a comandos de voz, reproducción de música.  
+   Foto: Altavoz sobre una mesa de sala.
+
+9. **Cámara de vigilancia 360 grados**  
+   Precio: $129.99  
+   Características: Rotación completa, visión nocturna, detección de sonido y movimiento.  
+   Foto: Cámara montada en el techo de una sala.
+
+10. **Robot aspirador con mopa**  
+    Precio: $299.99  
+    Características: Limpieza automática, control remoto desde app, mopa integrada, programación de horarios.  
+    Foto: Robot aspirador en el piso de una sala.
+
+11. **Sensor de fugas de agua Wi-Fi**  
+    Precio: $39.99  
+    Características: Detección instantánea de fugas, notificaciones en el móvil, fácil instalación.  
+    Foto: Sensor colocado cerca de un fregadero.
+
+12. **Sensor de ventanas y puertas inteligente**  
+    Precio: $24.99  
+    Características: Detección instantánea de apertura, conexión Wi-Fi, compatible con asistentes de voz.  
+    Foto: Sensor colocado en la esquina de una ventana.
+
+13. **Cámara de seguridad exterior con visión nocturna**  
+    Precio: $129.99  
+    Características: Cámara 1080p, visión nocturna de 30 metros, resistente al agua.  
+    Foto: Cámara instalada en la pared exterior de una casa.
+
+14. **Timbre inteligente con video y detección de movimiento**  
+    Precio: $79.99  
+    Características: Cámara HD, notificaciones al móvil, comunicación de dos vías.  
+    Foto: Timbre inteligente colocado en la puerta principal.
+
+15. **Cerradura inteligente con PIN y control remoto**  
+    Precio: $129.99  
+    Características: Cerradura con teclado numérico, control remoto vía app, notificaciones de acceso.  
+    Foto: Cerradura instalada en una puerta moderna.
+
+16. **Monitor de calidad de aire inteligente**  
+    Precio: $59.99  
+    Características: Mide partículas en el aire, humedad, temperatura, alertas en el móvil.  
+    Foto: Monitor de aire sobre una mesa de oficina.
+
+17. **Interruptor de luz inteligente Wi-Fi**  
+    Precio: $29.99  
+    Características: Control remoto de luces, programación de horarios, compatible con asistentes de voz.  
+    Foto: Interruptor instalado en una pared.
+
+18. **Lámpara de escritorio con control táctil**  
+    Precio: $49.99  
+    Características: Ajuste de brillo y temperatura de color, compatible con app móvil y asistentes de voz.  
+    Foto: Lámpara en un escritorio moderno.
+
+19. **Sensor de temperatura y humedad inteligente**  
+    Precio: $24.99  
+    Características: Controla la temperatura y humedad en tiempo real, notificaciones en la app, compatible con otros dispositivos inteligentes.  
+    Foto: Sensor montado en una pared.
+
+20. **Purificador de aire inteligente con Wi-Fi**  
+    Precio: $199.99  
+    Características: Filtra polvo y alérgenos, control vía app, monitoreo de calidad de aire.  
+    Foto: Purificador en una sala de estar.
+
+21. **Alarma inteligente para el hogar**  
+    Precio: $59.99  
+    Características: Sistema de alarma con sensores de movimiento, control remoto, alertas al móvil.  
+    Foto: Alarma montada en una esquina de una casa.
+
+22. **Estación meteorológica inteligente**  
+    Precio: $129.99  
+    Características: Monitorea temperatura, humedad, presión barométrica, conexión a app móvil.  
+    Foto: Estación meteorológica en el jardín de una casa.
+
+23. **Enchufe inteligente con monitor de energía**  
+    Precio: $34.99  
+    Características: Control remoto de encendido, monitor de consumo de energía, compatible con Alexa y Google Home.  
+    Foto: Enchufe conectado a una pared.
+
+24
+
+. **Persianas inteligentes con control remoto**  
+    Precio: $249.99  
+    Características: Control de apertura y cierre vía app o asistente de voz, programables.  
+    Foto: Persianas instaladas en una sala de estar.
+
+---
+
+### **Categoría 4: Electrónica de Entretenimiento**
+
+1. **Smart TV 55” 4K UHD con HDR**  
+   Precio: $499.99  
+   Características: Pantalla 4K con HDR10+, Smart TV con apps integradas, control por voz.  
+   Foto: TV montado en una sala moderna.
+
+2. **Barra de sonido con subwoofer inalámbrico**  
+   Precio: $199.99  
+   Características: Sonido envolvente, conectividad Bluetooth, diseño elegante y minimalista.  
+   Foto: Barra de sonido instalada bajo un televisor.
+
+3. **Proyector portátil 1080p**  
+   Precio: $299.99  
+   Características: Resolución Full HD, conexión HDMI y USB, proyección de hasta 120 pulgadas.  
+   Foto: Proyector en una sala de estar.
+
+4. **Auriculares inalámbricos con sonido envolvente**  
+   Precio: $149.99  
+   Características: Sonido envolvente 7.1, conexión Bluetooth, batería de 20 horas.  
+   Foto: Auriculares en una mesa de videojuegos.
+
+5. **Reproductor de Blu-ray 4K Ultra HD**  
+   Precio: $149.99  
+   Características: Soporte para HDR10 y Dolby Vision, reproducción de discos 4K, conexión a Internet.  
+   Foto: Reproductor de Blu-ray en un centro de entretenimiento.
+
+6. **Consola de videojuegos 1TB**  
+   Precio: $499.99  
+   Características: Compatible con resolución 4K, almacenamiento de 1TB, mando inalámbrico incluido.  
+   Foto: Consola de videojuegos junto a un televisor.
+
+7. **Altavoz Bluetooth portátil resistente al agua**  
+   Precio: $79.99  
+   Características: Sonido de alta calidad, resistente al agua, batería de 12 horas de duración.  
+   Foto: Altavoz portátil junto a una piscina.
+
+8. **Reproductor de streaming 4K**  
+   Precio: $49.99  
+   Características: Soporte para 4K UHD, compatible con las principales plataformas de streaming, control por voz.  
+   Foto: Reproductor de streaming conectado a un televisor.
+
+9. **Sistema de sonido envolvente 5.1**  
+   Precio: $399.99  
+   Características: 5 altavoces y 1 subwoofer, sonido envolvente de cine, conectividad Bluetooth.  
+   Foto: Sistema de sonido instalado en una sala.
+
+10. **Auriculares de estudio con cancelación de ruido**  
+    Precio: $199.99  
+    Características: Sonido de alta fidelidad, cancelación activa de ruido, cómodos para largas sesiones de escucha.  
+    Foto: Auriculares sobre un escritorio de estudio.
+
+11. **Gafas de realidad virtual**  
+    Precio: $299.99  
+    Características: Pantallas de alta resolución, campo de visión amplio, compatible con varios dispositivos.  
+    Foto: Gafas de realidad virtual colocadas sobre una mesa de videojuegos.
+
+12. **Control remoto universal inteligente**  
+    Precio: $49.99  
+    Características: Controla múltiples dispositivos desde una app, compatible con asistentes de voz.  
+    Foto: Control remoto sobre una mesa de centro.
+
+13. **Tocadiscos con Bluetooth y USB**  
+    Precio: $129.99  
+    Características: Reproduce vinilos, conectividad Bluetooth y USB, diseño retro.  
+    Foto: Tocadiscos en una estantería.
+
+14. **Subwoofer inalámbrico para TV**  
+    Precio: $149.99  
+    Características: Sonido de graves potentes, conectividad inalámbrica, diseño compacto.  
+    Foto: Subwoofer colocado junto a un televisor.
+
+15. **Pantalla portátil de 15.6” para juegos**  
+    Precio: $249.99  
+    Características: Resolución Full HD, conexión HDMI y USB-C, compatible con consolas y portátiles.  
+    Foto: Pantalla en una mesa de videojuegos.
+
+16. **Altavoz inteligente con pantalla táctil**  
+    Precio: $129.99  
+    Características: Pantalla de 7 pulgadas, control por voz, integración con dispositivos inteligentes.  
+    Foto: Altavoz inteligente sobre una mesita de noche.
+
+17. **Amplificador de señal Wi-Fi**  
+    Precio: $39.99  
+    Características: Amplía la cobertura Wi-Fi en el hogar, fácil instalación, doble banda.  
+    Foto: Amplificador conectado a una toma de corriente.
+
+18. **Proyector láser 4K Ultra HD**  
+    Precio: $1,999.99  
+    Características: Proyección láser en resolución 4K, brillo de 3000 lúmenes, proyección de hasta 150 pulgadas.  
+    Foto: Proyector láser en un salón de cine en casa.
+
+19. **Monitor ultra ancho 34” curvo**  
+    Precio: $699.99  
+    Características: Resolución WQHD, relación de aspecto 21:9, tasa de refresco de 144Hz, ideal para juegos y multitarea.  
+    Foto: Monitor curvo en un escritorio de juegos.
+
+20. **Teclado mecánico retroiluminado para juegos**  
+    Precio: $129.99  
+    Características: Teclas mecánicas, retroiluminación RGB, anti-ghosting, diseño ergonómico.  
+    Foto: Teclado en un escritorio de juegos.
+
+21. **Controlador de juegos inalámbrico**  
+    Precio: $59.99  
+    Características: Compatible con varias consolas y PC, conexión Bluetooth, diseño ergonómico.  
+    Foto: Controlador en una mesa de videojuegos.
+
+22. **Sistema de altavoces portátiles para exteriores**  
+    Precio: $299.99  
+    Características: Sonido potente, resistente a la intemperie, batería de larga duración.  
+    Foto: Altavoces colocados en una fiesta al aire libre.
+
+23. **Plataforma de juegos retro con 600 juegos clásicos**  
+    Precio: $79.99  
+    Características: Incluye más de 600 juegos clásicos, conectividad HDMI, mandos incluidos.  
+    Foto: Consola retro en una mesa de entretenimiento.
+
+24. **Proyector LED portátil**  
+    Precio: $199.99  
+    Características: Resolución HD, conectividad HDMI y USB, ideal para proyecciones en exteriores.  
+    Foto: Proyector colocado en una mesa de jardín.
+
+---
+
+
+---
+
+### **Categoría 5: Fotografía y Videografía**
+
+1. **Cámara réflex digital Canon EOS 90D**  
+   Precio: $1,199.99  
+   Características: Sensor APS-C de 32.5 MP, grabación de video 4K, enfoque automático rápido.  
+   Foto: Cámara en un paisaje natural.
+
+2. **Objetivo de 50 mm f/1.8 para DSLR**  
+   Precio: $129.99  
+   Características: Apertura rápida, ideal para retratos, ligero y compacto.  
+   Foto: Objetivo sobre una mesa de fotografía.
+
+3. **Dron con cámara 4K y GPS**  
+   Precio: $899.99  
+   Características: Grabación en 4K, tiempo de vuelo de 30 minutos, control por smartphone.  
+   Foto: Dron volando sobre un paisaje.
+
+4. **Trípode de carbono ajustable**  
+   Precio: $149.99  
+   Características: Ligero y portátil, altura ajustable, cabezal de bola de 360 grados.  
+   Foto: Trípode en un campo de flores.
+
+5. **Iluminación LED para estudio fotográfico**  
+   Precio: $89.99  
+   Características: Luz ajustable, temperatura de color variable, incluye soportes.  
+   Foto: Kit de iluminación en un estudio.
+
+6. **Grabadora de audio portátil**  
+   Precio: $199.99  
+   Características: Graba en calidad HD, micrófono incorporado, fácil de usar.  
+   Foto: Grabadora en una mesa de trabajo.
+
+7. **Filtro polarizador para lentes**  
+   Precio: $49.99  
+   Características: Reduce reflejos, mejora el contraste, adecuado para lentes de 77 mm.  
+   Foto: Filtro sobre una mesa de fotografía.
+
+8. **Cámara de acción GoPro HERO10**  
+   Precio: $499.99  
+   Características: Resistente al agua, grabación en 5.3K, estabilización de video avanzada.  
+   Foto: Cámara de acción en una montaña.
+
+9. **Monitor de referencia para edición de video**  
+   Precio: $599.99  
+   Características: Resolución 4K, calibración de color precisa, ideal para estudios de postproducción.  
+   Foto: Monitor en un escritorio de edición.
+
+10. **Mochila para cámara con compartimentos ajustables**  
+    Precio: $89.99  
+    Características: Espacio para varias cámaras y lentes, resistente al agua, diseño ergonómico.  
+    Foto: Mochila sobre una mesa.
+
+11. **Gimbal estabilizador para cámaras**  
+    Precio: $299.99  
+    Características: Estabilización en 3 ejes, fácil de usar, compatible con cámaras DSLR y mirrorless.  
+    Foto: Gimbal en acción durante una grabación.
+
+12. **Cámara instantánea Fujifilm Instax Mini 11**  
+    Precio: $79.99  
+    Características: Revela fotos instantáneas, enfoque automático, diseño compacto.  
+    Foto: Cámara en una mesa junto a fotos impresas.
+
+13. **Micrófono de condensador USB**  
+    Precio: $99.99  
+    Características: Calidad de sonido profesional, conexión USB, ideal para grabación de voz.  
+    Foto: Micrófono en un escritorio.
+
+14. **Filtro ND para grabación de video**  
+    Precio: $29.99  
+    Características: Control de exposición, ideal para filmar en exteriores, compatible con lentes de 58 mm.  
+    Foto: Filtro junto a una cámara.
+
+15. **Soporte de luz para fotografía**  
+    Precio: $59.99  
+    Características: Ajustable en altura, compatible con diferentes tipos de luces, fácil de transportar.  
+    Foto: Soporte en un estudio fotográfico.
+
+16. **Flash externo para cámaras DSLR**  
+    Precio: $149.99  
+    Características: Potente y recargable, cabezal ajustable, ideal para fotografía de retratos.  
+    Foto: Flash montado en una cámara.
+
+17. **Cámara de videovigilancia Wi-Fi**  
+    Precio: $89.99  
+    Características: Visualización en tiempo real, visión nocturna, alertas por movimiento.  
+    Foto: Cámara de vigilancia en una sala de estar.
+
+18. **Tableta gráfica para diseño digital**  
+    Precio: $129.99  
+    Características: Alta sensibilidad a la presión, incluye lápiz, ideal para ilustradores.  
+    Foto: Tableta en un escritorio de diseño.
+
+19. **Batería externa de alta capacidad**  
+    Precio: $39.99  
+    Características: Capacidad de 20,000 mAh, carga rápida, compatible con varios dispositivos.  
+    Foto: Batería externa en una mochila.
+
+20. **Lentes de filtro UV**  
+    Precio: $19.99  
+    Características: Protección para el objetivo, reducción de destellos, compatible con lentes de 52 mm.  
+    Foto: Lentes en una mesa de fotografía.
+
+21. **Cámara web HD para streaming**  
+    Precio: $69.99  
+    Características: Calidad de video 1080p, micrófono incorporado, ideal para videoconferencias.  
+    Foto: Cámara web en un escritorio.
+
+22. **Cámara de seguridad para exteriores**  
+    Precio: $119.99  
+    Características: Resistente al agua, visión nocturna, conectividad Wi-Fi.  
+    Foto: Cámara de seguridad instalada en el exterior de una casa.
+
+23. **Soporte para smartphone para grabación**  
+    Precio: $29.99  
+    Características: Ajustable, rotación de 360 grados, ideal para grabación de videos.  
+    Foto: Soporte en un escritorio con un smartphone.
+
+24. **Lente ojo de pez para smartphones**  
+    Precio: $19.99  
+    Características: Amplio ángulo de visión, fácil de usar, incluye clip de sujeción.  
+    Foto: Lente sobre una mesa.
+
+---
+
+### **Categoría 6: Accesorios para Juegos**
+
+1. **Silla gamer ergonómica con soporte lumbar**  
+   Precio: $299.99  
+   Características: Ajustable, acolchado de alta densidad, ruedas silenciosas.  
+   Foto: Silla gamer en una habitación de videojuegos.
+
+2. **Teclado mecánico RGB para gaming**  
+   Precio: $119.99  
+   Características: Teclas mecánicas, retroiluminación personalizable, anti-ghosting.  
+   Foto: Teclado iluminado en un escritorio.
+
+3. **Mouse gamer con DPI ajustable**  
+   Precio: $49.99  
+   Características: DPI ajustable hasta 16,000, diseño ergonómico, retroiluminación RGB.  
+   Foto: Mouse sobre una alfombrilla de juegos.
+
+4. **Monitor gaming 27” 144Hz**  
+   Precio: $399.99  
+   Características: Resolución QHD, tasa de refresco de 144Hz, tiempo de respuesta de 1 ms.  
+   Foto: Monitor en un setup de juegos.
+
+5. **Auriculares gaming con micrófono ajustable**  
+   Precio: $89.99  
+   Características: Sonido envolvente, micrófono con cancelación de ruido, cómodos para largas sesiones.  
+   Foto: Auriculares en un escritorio de juegos.
+
+6. **Controlador de videojuegos inalámbrico**  
+   Precio: $59.99  
+   Características: Compatible con varias plataformas, conexión Bluetooth, diseño ergonómico.  
+   Foto: Controlador sobre una mesa de juegos.
+
+7. **Alfombrilla de mouse XXL con superficie suave**  
+   Precio: $29.99  
+   Características: Gran superficie, antideslizante, ideal para gamers.  
+   Foto: Alfombrilla extendida en un escritorio.
+
+8. **Cámara web para streaming de alta definición**  
+   Precio: $79.99  
+   Características: Resolución 1080p, micrófono incorporado, ideal para Twitch y YouTube.  
+   Foto: Cámara en un setup de streaming.
+
+9. **Soporte para auriculares gamer**  
+   Precio: $19.99  
+   Características: Diseño elegante, antideslizante, compatible con todos los auriculares.  
+   Foto: Soporte en un escritorio.
+
+10. **Base de carga para controladores**  
+    Precio: $39.99  
+    Características: Carga rápida, diseño compacto, incluye espacio para dos controladores.  
+    Foto: Base de carga en un setup de juegos.
+
+11. **Funda protectora para consola de videojuegos**  
+    Precio: $29.99  
+    Características: Protección contra polvo y arañazos, diseño ajustado, fácil de instalar.  
+    Foto: Funda en una consola.
+
+12. **Luz LED de ambiente para gamer**  
+    Precio: $39.99  
+    Características: Iluminación RGB, control remoto, ideal para personalizar el espacio de juego.  
+    Foto: Luz LED iluminando un setup.
+
+13. **Cable de carga rápida para controladores**  
+    Precio: $9.99  
+    Características: Carga rápida, longitud de 3 metros, compatible con múltiples modelos.  
+    Foto: Cable enredado en un escritorio.
+
+14. **Soporte para consola de videojuegos
+
+**  
+    Precio: $24.99  
+    Características: Diseño compacto, permite ventilación adecuada, compatible con varias consolas.  
+    Foto: Soporte con una consola en un estante.
+
+15. **Cubre teclado para consola**  
+    Precio: $14.99  
+    Características: Protección contra polvo, fácil de limpiar, material suave.  
+    Foto: Cubre teclado sobre una consola.
+
+16. **Mousepad con carga inalámbrica**  
+    Precio: $49.99  
+    Características: Carga de dispositivos, superficie suave, diseño elegante.  
+    Foto: Mousepad sobre un escritorio.
+
+17. **Funda para controlar videojuego personalizable**  
+    Precio: $19.99  
+    Características: Diseño personalizable, material suave, fácil de instalar.  
+    Foto: Funda sobre un controlador.
+
+18. **Ventilador USB para PC gaming**  
+    Precio: $29.99  
+    Características: Silencioso, diseño compacto, ideal para largas sesiones de juego.  
+    Foto: Ventilador sobre un escritorio.
+
+19. **Altavoces Bluetooth para juegos**  
+    Precio: $99.99  
+    Características: Sonido envolvente, conexión Bluetooth, diseño portátil.  
+    Foto: Altavoces en un setup de juegos.
+
+20. **Mando a distancia universal para juegos**  
+    Precio: $34.99  
+    Características: Compatible con múltiples plataformas, fácil de configurar, diseño ergonómico.  
+    Foto: Mando a distancia en un sofá.
+
+21. **Kit de limpieza para consolas y accesorios**  
+    Precio: $19.99  
+    Características: Incluye limpiador, paño de microfibra, brochas para polvo.  
+    Foto: Kit de limpieza en una mesa.
+
+22. **Cámara de acción para gaming**  
+    Precio: $149.99  
+    Características: Grabación en 4K, resistente al agua, ideal para capturar momentos de juego.  
+    Foto: Cámara en un setup de juegos.
+
+23. **Taza térmica para gamers**  
+    Precio: $24.99  
+    Características: Mantiene la temperatura, diseño divertido, ideal para sesiones largas.  
+    Foto: Taza en un escritorio.
+
+24. **Controlador de juegos retro USB**  
+    Precio: $29.99  
+    Características: Diseño clásico, compatible con PC y consolas, fácil de usar.  
+    Foto: Controlador sobre una mesa.
+
+---
+
+### **Categoría 7: Accesorios para Ordenadores**
+
+1. **Monitor 4K Ultra HD de 27”**  
+   Precio: $399.99  
+   Características: Resolución 3840x2160, pantalla IPS, conectividad HDMI y DisplayPort.  
+   Foto: Monitor en un escritorio moderno.
+
+2. **Docking Station USB-C para laptops**  
+   Precio: $99.99  
+   Características: Conexiones HDMI, USB, Ethernet, carga de dispositivos, diseño compacto.  
+   Foto: Docking station conectada a una laptop.
+
+3. **Laptop gamer con procesador Intel i7**  
+   Precio: $1,299.99  
+   Características: Pantalla de 15.6”, tarjeta gráfica NVIDIA, 16GB de RAM.  
+   Foto: Laptop en una mesa de juego.
+
+4. **SSD externo de 1TB**  
+   Precio: $129.99  
+   Características: Alta velocidad de transferencia, diseño portátil, compatible con múltiples sistemas.  
+   Foto: SSD sobre una mesa.
+
+5. **Webcam 4K para videoconferencias**  
+   Precio: $149.99  
+   Características: Resolución 4K, micrófono de cancelación de ruido, ideal para streaming.  
+   Foto: Webcam en un escritorio.
+
+6. **Teclado inalámbrico con retroiluminación**  
+   Precio: $79.99  
+   Características: Conexión Bluetooth, teclas silenciosas, batería recargable.  
+   Foto: Teclado en un setup moderno.
+
+7. **Mouse ergonómico inalámbrico**  
+   Precio: $39.99  
+   Características: Diseño ergonómico, conexión Bluetooth, duración de batería prolongada.  
+   Foto: Mouse sobre una alfombrilla de computadora.
+
+8. **Pantalla de privacidad para laptops**  
+   Precio: $49.99  
+   Características: Protección contra miradas curiosas, fácil de instalar, compatible con varias medidas.  
+   Foto: Pantalla de privacidad en una laptop.
+
+9. **Altavoces Bluetooth de escritorio**  
+   Precio: $69.99  
+   Características: Sonido de alta calidad, conexión Bluetooth, diseño moderno.  
+   Foto: Altavoces en un escritorio.
+
+10. **Soporte de laptop ajustable**  
+    Precio: $29.99  
+    Características: Ajustable en altura, diseño portátil, mejora la ergonomía.  
+    Foto: Soporte con una laptop en un escritorio.
+
+11. **Cable de alimentación de 3 m para PC**  
+    Precio: $9.99  
+    Características: Compatible con la mayoría de las PC, largo de 3 metros, resistente.  
+    Foto: Cable sobre una mesa.
+
+12. **Mochila para laptop con protección antirrobo**  
+    Precio: $89.99  
+    Características: Compartimentos acolchados, material resistente, diseño moderno.  
+    Foto: Mochila sobre una silla.
+
+13. **Hub USB de 4 puertos**  
+    Precio: $19.99  
+    Características: Conexiones USB 3.0, diseño compacto, ideal para uso en escritorio.  
+    Foto: Hub USB en una mesa de trabajo.
+
+14. **Batería de respaldo para laptop**  
+    Precio: $129.99  
+    Características: Capacidad de 20,000 mAh, carga rápida, varios puertos.  
+    Foto: Batería en una mesa.
+
+15. **Soporte para monitor ajustable**  
+    Precio: $39.99  
+    Características: Altura ajustable, diseño moderno, mejora la ergonomía.  
+    Foto: Soporte con un monitor en un escritorio.
+
+16. **Lámpara de escritorio con puerto USB**  
+    Precio: $29.99  
+    Características: Luz LED regulable, puerto de carga USB, diseño elegante.  
+    Foto: Lámpara sobre un escritorio.
+
+17. **Funda protectora para laptop de 15”**  
+    Precio: $24.99  
+    Características: Material resistente, diseño delgado, fácil de llevar.  
+    Foto: Funda sobre una mesa.
+
+18. **Placa base para PC gaming**  
+    Precio: $199.99  
+    Características: Compatible con procesadores Intel y AMD, múltiples puertos, iluminación RGB.  
+    Foto: Placa base en un setup de computadora.
+
+19. **Luz LED para teclado**  
+    Precio: $14.99  
+    Características: Iluminación RGB, fácil instalación, compatible con la mayoría de los teclados.  
+    Foto: Luz LED sobre un teclado.
+
+20. **Cámara de seguridad para interiores**  
+    Precio: $79.99  
+    Características: Conectividad Wi-Fi, visión nocturna, grabación en la nube.  
+    Foto: Cámara en una habitación.
+
+21. **Gafas de luz azul para computadora**  
+    Precio: $29.99  
+    Características: Protección contra la luz azul, diseño ligero, ideal para largas horas frente a la pantalla.  
+    Foto: Gafas sobre una mesa de trabajo.
+
+22. **Cable HDMI de alta velocidad**  
+    Precio: $14.99  
+    Características: Compatible con 4K, longitud de 2 metros, material resistente.  
+    Foto: Cable HDMI sobre un escritorio.
+
+23. **Antena Wi-Fi externa**  
+    Precio: $49.99  
+    Características: Mejora la señal Wi-Fi, fácil instalación, diseño compacto.  
+    Foto: Antena en un escritorio.
+
+24. **Soporte para computadora portátil con ventilación**  
+    Precio: $34.99  
+    Características: Diseño ergonómico, ventilación mejorada, ligero y portátil.  
+    Foto: Soporte con una laptop en un escritorio.
+
+---
+
+### **Categoría 8: Productos de Cuidado Personal**
+
+1. **Cepillo de dientes eléctrico**  
+   Precio: $49.99  
+   Características: Modo de limpieza profunda, temporizador integrado, resistente al agua.  
+   Foto: Cepillo en un baño moderno.
+
+2. **Máquina de afeitar eléctrica**  
+   Precio: $89.99  
+   Características: Afeitado en húmedo y seco, batería recargable, cuchillas de acero inoxidable.  
+   Foto: Máquina de afeitar sobre una mesa de baño.
+
+3. **Secador de pelo profesional**  
+   Precio: $59.99  
+   Características: Potente motor de 2000W, múltiples configuraciones de calor, diseño ergonómico.  
+   Foto: Secador sobre un tocador.
+
+4. **Plancha de pelo de cerámica**  
+   Precio: $39.99  
+   Características: Placas de cerámica, calentamiento rápido, diseño compacto.  
+   Foto: Plancha sobre una mesa de maquillaje.
+
+5. **Espejo con luz LED ajustable**  
+   Precio: $29.99  
+   Características: Luz LED regulable, diseño compacto, ideal para maquillarse.  
+   Foto: Espejo en un tocador.
+
+6. **Cortadora de uñas eléctrica**  
+   Precio: $19.99  
+   Características: Diseño
+
+ ergonómico, recargable, fácil de usar.  
+   Foto: Cortadora de uñas en una mesa.
+
+7. **Rizador de pelo automático**  
+   Precio: $89.99  
+   Características: Temperatura ajustable, calentamiento rápido, diseño compacto.  
+   Foto: Rizador en un tocador.
+
+8. **Difusor de aceite esencial**  
+   Precio: $34.99  
+   Características: Humidificación, luz LED, silencioso.  
+   Foto: Difusor en una habitación relajante.
+
+9. **Masajeador eléctrico portátil**  
+   Precio: $49.99  
+   Características: Variedad de intensidades, recargable, ideal para relajación.  
+   Foto: Masajeador en una sala de estar.
+
+10. **Gel de ducha hidratante**  
+    Precio: $9.99  
+    Características: Fórmula suave, aroma fresco, ideal para todo tipo de piel.  
+    Foto: Gel de ducha en un baño.
+
+11. **Crema hidratante facial**  
+    Precio: $29.99  
+    Características: Hidratación profunda, anti-envejecimiento, apta para piel sensible.  
+    Foto: Crema en un tocador.
+
+12. **Protector solar SPF 50**  
+    Precio: $24.99  
+    Características: Protección de amplio espectro, resistente al agua, fórmula ligera.  
+    Foto: Protector solar en una playa.
+
+13. **Paquete de toallas desmaquillantes**  
+    Precio: $14.99  
+    Características: Reutilizables, suaves con la piel, incluyen 5 toallas.  
+    Foto: Toallas en un baño.
+
+14. **Perfume unisex de 100 ml**  
+    Precio: $49.99  
+    Características: Fragancia fresca y duradera, botella elegante, ideal para uso diario.  
+    Foto: Perfume sobre un tocador.
+
+15. **Cuidado de la piel set de viaje**  
+    Precio: $39.99  
+    Características: Incluye limpiador, tónico e hidratante, envases de viaje.  
+    Foto: Set en un maletín.
+
+16. **Champú y acondicionador hidratante**  
+    Precio: $19.99  
+    Características: Fórmula nutritiva, sin sulfatos, ideal para cabellos secos.  
+    Foto: Botellas en una ducha.
+
+17. **Kit de manicura profesional**  
+    Precio: $29.99  
+    Características: Incluye tijeras, cortauñas, limas, en un estuche.  
+    Foto: Kit en una mesa de baño.
+
+18. **Exfoliante corporal de café**  
+    Precio: $14.99  
+    Características: Elimina células muertas, mejora la circulación, aroma a café.  
+    Foto: Exfoliante en una ducha.
+
+19. **Sérum facial con ácido hialurónico**  
+    Precio: $34.99  
+    Características: Hidratación profunda, fórmula ligera, mejora la textura de la piel.  
+    Foto: Sérum en un tocador.
+
+20. **Tónico facial refrescante**  
+    Precio: $19.99  
+    Características: Refresca e hidrata, ideal para todo tipo de piel.  
+    Foto: Tónico en un baño.
+
+21. **Bálsamo labial hidratante**  
+    Precio: $5.99  
+    Características: Hidratación intensa, aroma natural, envase práctico.  
+    Foto: Bálsamo en un tocador.
+
+22. **Lápiz de cejas waterproof**  
+    Precio: $9.99  
+    Características: Fórmula resistente al agua, aplicador preciso, duradero.  
+    Foto: Lápiz sobre un tocador.
+
+23. **Esmalte de uñas de larga duración**  
+    Precio: $9.99  
+    Características: Fórmula brillante, seca rápido, variedad de colores.  
+    Foto: Esmalte en una mesa.
+
+24. **Cepillo facial eléctrico**  
+    Precio: $39.99  
+    Características: Limpieza profunda, cabezales intercambiables, resistente al agua.  
+    Foto: Cepillo en un baño moderno.
+
+---
+
