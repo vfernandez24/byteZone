@@ -119,6 +119,7 @@ nav .search {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
     width: 350px;
     height: 7vh;
     user-select: none;
@@ -160,6 +161,24 @@ nav .search button {
 
 nav .search button:hover {
     background: var(--hover);
+}
+
+nav .search button.resetSearch {
+    position: absolute;
+    height: 6vh;
+    width: 6vh;
+    font-size: 18px;
+    font-weight: 400;
+    left: calc(297.5px - 6vh);
+    display: none;
+}
+
+nav .search button.resetSearch:hover {
+    background: var(--background);
+}
+
+nav .search button.resetSearch:hover i {
+    color: var(--btn);
 }
 
 nav .containerBtn {
@@ -302,6 +321,7 @@ hr {
 
 aside {
     position: absolute;
+    overflow-y: auto;
     top: 0;
     left: -350px;
     width: 350px;
@@ -309,7 +329,6 @@ aside {
     padding: 30px 10px;
     z-index: 11;
     background-color: var(--background);
-    border-right: 1px solid #000;
     transition: all .3s ease-out;
 }
 
@@ -349,7 +368,7 @@ aside h2 {
 }
 
 aside ul {
-    height: fit-content;
+    height: 100%;
     width: 100%;
     display: flex; 
     justify-content: center; 

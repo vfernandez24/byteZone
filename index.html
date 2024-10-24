@@ -16,6 +16,7 @@
     <script src="js/app.js" defer></script>
     <script src="js/filter.js" defer></script>
     <script src="js/aside.js" defer></script>
+    <script src="js/buscar.js" defer></script>
     <!--? Icon -->
     <link rel="icon" href="images/icon123.png">
 </head>
@@ -37,7 +38,7 @@
             <!-- Buscar -->
             <div class="search">
                 <input placeholder="Buscar" type="text" id="searchInput">
-                <button onclick=cleanSearch()>
+                <button class="resetSearch" onclick=cleanSearch()>
                     <i class="fa-solid fa-xmark"></i>
                 </button>
                 <button onclick=search()>
@@ -45,6 +46,7 @@
                 </button>
             </div>
         </div>
+
         <!-- Botones func -->
         <div class="containerBtn">
             <button onclick=toggleDark()>
