@@ -305,7 +305,7 @@ hr {
 }
 
 .overlay {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -320,7 +320,7 @@ hr {
 }
 
 aside {
-    position: absolute;
+    position: fixed;
     overflow-y: auto;
     top: 0;
     left: -350px;
@@ -364,7 +364,7 @@ aside h2 {
     font-weight: 700;
     font-size: 30px;
     color: var(--btn);
-    border-left: 10px solid var(--destacados)
+    border-left: 10px solid var(--borders)
 }
 
 aside ul {
@@ -402,6 +402,109 @@ aside ul li:hover {
     min-height: calc(89vh - 3px);
     background: var(--background);
     z-index: 1;
+}
+
+section {
+    margin-top: 20px;
+    min-width: 100%;
+    height: 320px;
+    overflow-x: auto; /* Habilitar scroll horizontal */
+    overflow-y: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    scroll-behavior: smooth; /* Hacer el scroll suave */
+    gap: 10px; /* Espacio entre cajas */
+    padding: 0 30px;
+}
+
+section::-webkit-scrollbar {
+    display: none;
+}
+
+section::-webkit-scrollbar-button:increment {
+    background-color: var(--hover);
+    background-image: url(../assets/arrowUp.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+section::-webkit-scrollbar-button:decrement {
+    background-color: var(--hover);
+    background-image: url(../assets/arrowDown.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    display: flex;
+    padding: 10px 20px 0 20px;
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--titulos);
+}
+
+.box {
+    min-width: 250px;
+    height: 300px;
+    overflow: hidden;
+    float: left;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    transition: box-shadow .3s ease;
+}
+
+.box:hover {
+    box-shadow: 0px 0px 20px var(--details),
+    10px 10px 20px var(--destacados)
+}
+
+.img {
+    width: 160px;
+    height: 160px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.box:hover img {
+    scale: 1;
+}
+
+.img img {
+    max-width: 100%;
+    height: 100%;
+    scale: 0.8;
+    transition: scale .5s ease-out;
+}
+
+.box h2 {
+    display: block;
+    height: 72px;
+    max-height: 72px;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.box h3 {
+    display: block;
+    margin-top: 10px;
+    font-weight: 600;
+    color: var(--btn);
+}
+
+.box h3::before {
+    content: 'COMPRAR: ';
+    color: var(--text);
+    font-weight: 500;
+}
+
+.box:hover h3 {
+    text-decoration: underline;
 }
 
 footer {
