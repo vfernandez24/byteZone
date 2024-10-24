@@ -404,7 +404,7 @@ aside ul li:hover {
     z-index: 1;
 }
 
-section {
+section.recomendados, section.categoriasGal {
     margin-top: 20px;
     min-width: 100%;
     height: 320px;
@@ -505,6 +505,22 @@ h1 {
 
 .box:hover h3 {
     text-decoration: underline;
+}
+
+.box.boxCat {
+    border: none;
+    min-width: 100px;
+    height: 220px;
+    text-align: center;
+    background: var(--hover);
+}
+
+.boxCat .img {
+    border: 1px solid var(--border);
+}
+
+.boxCat h4 {
+    padding: 10px 0;
 }
 
 footer {
