@@ -10,11 +10,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!--? Styles -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dark.css">
     <!--? Icons -->
     <script src="https://kit.fontawesome.com/16ace90703.js" crossorigin="anonymous"></script>
     <!--? scripts -->
     <script src="js/app.js" defer></script>
-    <script src="js/filter.js" defer></script>
+    <script src="js/theme.js" defer></script>
     <script src="js/aside.js" defer></script>
     <script src="js/buscar.js" defer></script>
     <!--? Icon -->
@@ -49,8 +50,8 @@
 
         <!-- Botones func -->
         <div class="containerBtn">
-            <button onclick=toggleDark()>
-                <i class="fa-solid fa-moon"></i>
+            <button onclick=toggleTheme()>
+                <i id="btnTheme" class="fa-solid fa-moon"></i>
             </button>
             <a class="shopCart" href="pages/shopCart.html">
                 <img src="assets/shopCart.svg">
@@ -72,14 +73,38 @@
         </button>
         <h2>Categorías</h2>
         <ul>
-            <li>Accesorios para Smartphones</li>
-            <li>Tecnología de Salud</li>
-            <li>Hogar Inteligente</li>
-            <li>Electrónica de Entretenimiento</li>
-            <li>Fotografía y Videografía</li>
-            <li>Accesorios para juegos</li>
-            <li>Accesorios para Ordenadores</li>
-            <li>Productos de Cuidado Personal</li>
+            <li>
+                <i class="fa-solid fa-mobile-alt"></i>
+                Accesorios para Smartphones
+            </li>
+            <li>
+                <i class="fa-solid fa-gamepad"></i>
+                Accesorios para juegos
+            </li>
+            <li>
+                <i class="fa-solid fa-keyboard"></i>
+                Accesorios para Ordenadores
+            </li>
+            <li>
+                <i class="fa-solid fa-home"></i>
+                Hogar Inteligente</li>
+            </li>
+            <li>
+                <i class="fa-solid fa-heartbeat"></i>
+                Tecnología de Salud
+            </li>
+            <li>
+                <i class="fa-solid fa-camera"></i>
+                Fotografía y Videografía
+            </li>
+            <li>
+                <i class="fa-solid fa-tv"></i>
+                Electrónica de Entretenimiento
+            </li>
+            <li>
+                <i class="fa-solid fa-spa"></i>
+                Productos de Cuidado Personal
+            </li>
         </ul>
     </aside>
 

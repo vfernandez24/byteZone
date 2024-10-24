@@ -1,3 +1,5 @@
+console.log('buscar.js conectado')
+
 const searchInput = document.getElementById('searchInput');
 const resetButton = document.querySelector('.resetSearch');
 
