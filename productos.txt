@@ -176,9 +176,7 @@
     Características: ECG de una derivación, resultados en 30 segundos, sincronización con app.  
     Foto: Electrocardiógrafo en una mano.
 
-11. **Lámpara de terapia de luz**
-
-  
+11. **Lámpara de terapia de luz**  
     Precio: $49.99  
     Características: Mejora el estado de ánimo y combate el trastorno afectivo estacional, 10,000 lux.  
     Foto: Lámpara encendida sobre una mesa.
@@ -367,9 +365,7 @@
     Características: Control remoto de encendido, monitor de consumo de energía, compatible con Alexa y Google Home.  
     Foto: Enchufe conectado a una pared.
 
-24
-
-. **Persianas inteligentes con control remoto**  
+24. **Persianas inteligentes con control remoto**  
     Precio: $249.99  
     Características: Control de apertura y cierre vía app o asistente de voz, programables.  
     Foto: Persianas instaladas en una sala de estar.
@@ -497,9 +493,6 @@
     Precio: $199.99  
     Características: Resolución HD, conectividad HDMI y USB, ideal para proyecciones en exteriores.  
     Foto: Proyector colocado en una mesa de jardín.
-
----
-
 
 ---
 
@@ -694,9 +687,7 @@
     Características: Carga rápida, longitud de 3 metros, compatible con múltiples modelos.  
     Foto: Cable enredado en un escritorio.
 
-14. **Soporte para consola de videojuegos
-
-**  
+14. **Soporte para consola de videojuegos**  
     Precio: $24.99  
     Características: Diseño compacto, permite ventilación adecuada, compatible con varias consolas.  
     Foto: Soporte con una consola en un estante.
