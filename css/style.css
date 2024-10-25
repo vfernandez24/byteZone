@@ -404,8 +404,8 @@ aside ul li:hover {
     z-index: 1;
 }
 
-section.recomendados, section.categoriasGal {
-    margin-top: 20px;
+section {
+    margin-top: 30px;
     min-width: 100%;
     height: 320px;
     overflow-x: auto; /* Habilitar scroll horizontal */
@@ -437,13 +437,14 @@ section::-webkit-scrollbar-button:decrement {
 
 h1 {
     display: flex;
-    padding: 10px 20px 0 20px;
+    padding: 30px 20px 0 20px;
     font-size: 30px;
     font-weight: 600;
     color: var(--titulos);
 }
 
 .box {
+    width: 250px;
     min-width: 250px;
     height: 300px;
     overflow: hidden;
@@ -507,20 +508,42 @@ h1 {
     text-decoration: underline;
 }
 
+.categoriasGal {
+    height: 270px;
+}
+
 .box.boxCat {
     border: none;
     min-width: 100px;
     height: 220px;
     text-align: center;
-    background: var(--hover);
 }
 
 .boxCat .img {
-    border: 1px solid var(--border);
+    font-size: 40px;
+    transition: all .3s ease;
+    background: linear-gradient(135deg, var(--destacados), var(--reseñas), var(--btn));
+}
+
+.box.boxCat:hover {
+    box-shadow: none;
+
+    .img {
+        box-shadow: 0px 0px 20px var(--destacados);
+        font-size: 50px;
+    }
 }
 
 .boxCat h4 {
     padding: 10px 0;
+}
+
+.anuncio {
+    width: 85vw;
+    height: 150px;
+    display: flex;
+    background: var(--hover);
+    margin: 0px auto 30px auto;
 }
 
 footer {
