@@ -210,7 +210,7 @@ nav .containerBtn button:hover {
     background: var(--hover);
 }
 
-nav .shopCart {
+nav button.shopCart {
     background: none;
     position: relative;
     width: 7vh;
@@ -229,12 +229,12 @@ nav .shopCart {
     transition: all .5s ease;
 }
 
-nav .containerBtn .shopCart:hover {
+nav .containerBtn button.shopCart:hover {
     background: var(--hover);
     width: 22vh;
 }
 
-nav .shopCart p {
+nav button.shopCart p {
     display: block;
     position: absolute;
     font-size: 14px;
@@ -251,18 +251,18 @@ nav .shopCart p {
     background: var(--btn);
 }
 
-nav .shopCart::after {
+nav button.shopCart::after {
     content: 'Tu cesta';
     text-decoration: none;
     margin-left: 10px;
     display: none;
 }
 
-nav .shopCart:hover::after {
+nav button.shopCart:hover::after {
     display: block;
 }
 
-nav .account {
+nav button.account {
     background: none;
     width: 7vh;
     height: 7vh;
@@ -280,19 +280,19 @@ nav .account {
     transition: all .5s ease;
 }
 
-nav .containerBtn .account:hover {
+nav .containerBtn button.account:hover {
     background: var(--hover);
     width: 22vh;
 }
 
-nav .containerBtn .account::after {
+nav .containerBtn button.account::after {
     content: 'Tu cuenta';
     text-decoration: none;
     margin-left: 10px;
     display: none;
 }
 
-nav .containerBtn .account:hover::after {
+nav .containerBtn button.account:hover::after {
     display: block;
 }
 
@@ -547,5 +547,50 @@ h1 {
 }
 
 footer {
-    height: 0;
+    height: 300px;
+    width: 100%;
+    border-top: 5px solid var(--destacados);
+    background: var(--background)
 }
+
+footer ul {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    flex-direction: row;
+}
+
+footer ul li {
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    transition: all .3s ease;
+    
+    a,i {
+        text-decoration: none;
+        transition: all .3s ease;
+    }
+
+    a:hover {
+        color: var(--btn);
+        font-weight: 500;
+
+        i {
+            color: var(--destacados);
+        }
+    }
+}
+
+
+footer img {
+    height: 40%;
+    display: flex;
+    margin: auto;
+}
+
+
+@import url(dark.css);

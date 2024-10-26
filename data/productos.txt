@@ -868,129 +868,124 @@
 
 ---
 
-### **Categoría 8: Productos de Cuidado Personal**
+### **Categoría 8: Accesorios para Tablets**
 
-1. **Cepillo de dientes eléctrico**  
+1. **Funda con teclado Bluetooth para tablet**  
    Precio: $49.99  
-   Características: Modo de limpieza profunda, temporizador integrado, resistente al agua.  
-   Foto: Cepillo en un baño moderno.
+   Características: Teclado desmontable, funda resistente, compatible con varios modelos de tablets.  
+   Foto: Funda con teclado sobre una mesa de trabajo.
 
-2. **Máquina de afeitar eléctrica**  
-   Precio: $89.99  
-   Características: Afeitado en húmedo y seco, batería recargable, cuchillas de acero inoxidable.  
-   Foto: Máquina de afeitar sobre una mesa de baño.
+2. **Soporte ajustable para tablet**  
+   Precio: $24.99  
+   Características: Ángulo ajustable, diseño plegable, compatible con tablets de 7-12 pulgadas.  
+   Foto: Soporte con una tablet en un escritorio.
 
-3. **Secador de pelo profesional**  
-   Precio: $59.99  
-   Características: Potente motor de 2000W, múltiples configuraciones de calor, diseño ergonómico.  
-   Foto: Secador sobre un tocador.
-
-4. **Plancha de pelo de cerámica**  
-   Precio: $39.99  
-   Características: Placas de cerámica, calentamiento rápido, diseño compacto.  
-   Foto: Plancha sobre una mesa de maquillaje.
-
-5. **Espejo con luz LED ajustable**  
+3. **Lápiz táctil recargable**  
    Precio: $29.99  
-   Características: Luz LED regulable, diseño compacto, ideal para maquillarse.  
-   Foto: Espejo en un tocador.
+   Características: Punta de precisión, batería de larga duración, compatible con iOS y Android.  
+   Foto: Lápiz junto a una tablet.
 
-6. **Cortadora de uñas eléctrica**  
+4. **Protector de pantalla de vidrio templado**  
+   Precio: $14.99  
+   Características: Anti-rayaduras, fácil instalación, alta transparencia.  
+   Foto: Protector sobre una tablet.
+
+5. **Soporte de tablet para coche**  
    Precio: $19.99  
-   Características: Diseño
+   Características: Fácil instalación en el reposacabezas, ajustable, ideal para entretenimiento en viajes.  
+   Foto: Soporte en el asiento trasero de un coche.
 
- ergonómico, recargable, fácil de usar.  
-   Foto: Cortadora de uñas en una mesa.
-
-7. **Rizador de pelo automático**  
-   Precio: $89.99  
-   Características: Temperatura ajustable, calentamiento rápido, diseño compacto.  
-   Foto: Rizador en un tocador.
-
-8. **Difusor de aceite esencial**  
+6. **Cargador rápido USB-C para tablet**  
    Precio: $34.99  
-   Características: Humidificación, luz LED, silencioso.  
-   Foto: Difusor en una habitación relajante.
+   Características: Carga rápida, cable de 1.5 metros, compatible con tablets de varias marcas.  
+   Foto: Cargador en una toma de corriente.
 
-9. **Masajeador eléctrico portátil**  
-   Precio: $49.99  
-   Características: Variedad de intensidades, recargable, ideal para relajación.  
-   Foto: Masajeador en una sala de estar.
+7. **Bolígrafo táctil con múltiples puntas**  
+   Precio: $15.99  
+   Características: Incluye puntas de precisión y goma, compatible con la mayoría de tablets.  
+   Foto: Bolígrafo junto a una tablet y un estuche.
 
-10. **Gel de ducha hidratante**  
-    Precio: $9.99  
-    Características: Fórmula suave, aroma fresco, ideal para todo tipo de piel.  
-    Foto: Gel de ducha en un baño.
+8. **Teclado plegable portátil**  
+   Precio: $39.99  
+   Características: Diseño compacto, conexión Bluetooth, batería recargable.  
+   Foto: Teclado plegable en un escritorio.
 
-11. **Crema hidratante facial**  
+9. **Adaptador USB-C a HDMI para tablet**  
+   Precio: $24.99  
+   Características: Conexión de alta calidad, soporte para resolución 4K, fácil de usar.  
+   Foto: Adaptador conectado a una tablet.
+
+10. **Maletín para tablet resistente al agua**  
     Precio: $29.99  
-    Características: Hidratación profunda, anti-envejecimiento, apta para piel sensible.  
-    Foto: Crema en un tocador.
+    Características: Compartimientos adicionales, material impermeable, correa ajustable.  
+    Foto: Maletín en un entorno al aire libre.
 
-12. **Protector solar SPF 50**  
-    Precio: $24.99  
-    Características: Protección de amplio espectro, resistente al agua, fórmula ligera.  
-    Foto: Protector solar en una playa.
-
-13. **Paquete de toallas desmaquillantes**  
-    Precio: $14.99  
-    Características: Reutilizables, suaves con la piel, incluyen 5 toallas.  
-    Foto: Toallas en un baño.
-
-14. **Perfume unisex de 100 ml**  
-    Precio: $49.99  
-    Características: Fragancia fresca y duradera, botella elegante, ideal para uso diario.  
-    Foto: Perfume sobre un tocador.
-
-15. **Cuidado de la piel set de viaje**  
-    Precio: $39.99  
-    Características: Incluye limpiador, tónico e hidratante, envases de viaje.  
-    Foto: Set en un maletín.
-
-16. **Champú y acondicionador hidratante**  
-    Precio: $19.99  
-    Características: Fórmula nutritiva, sin sulfatos, ideal para cabellos secos.  
-    Foto: Botellas en una ducha.
-
-17. **Kit de manicura profesional**  
-    Precio: $29.99  
-    Características: Incluye tijeras, cortauñas, limas, en un estuche.  
-    Foto: Kit en una mesa de baño.
-
-18. **Exfoliante corporal de café**  
-    Precio: $14.99  
-    Características: Elimina células muertas, mejora la circulación, aroma a café.  
-    Foto: Exfoliante en una ducha.
-
-19. **Sérum facial con ácido hialurónico**  
+11. **Soporte flexible para tablet de cama**  
     Precio: $34.99  
-    Características: Hidratación profunda, fórmula ligera, mejora la textura de la piel.  
-    Foto: Sérum en un tocador.
+    Características: Brazo flexible, ajuste de 360 grados, ideal para usar en cama o sofá.  
+    Foto: Soporte junto a una cama.
 
-20. **Tónico facial refrescante**  
+12. **Power bank de 20,000 mAh para tablets**  
+    Precio: $49.99  
+    Características: Alta capacidad de carga, puertos USB-A y USB-C, carga rápida.  
+    Foto: Power bank al lado de una tablet.
+
+13. **Funda de tablet para niños**  
     Precio: $19.99  
-    Características: Refresca e hidrata, ideal para todo tipo de piel.  
-    Foto: Tónico en un baño.
+    Características: Resistente a golpes, bordes elevados, diseño divertido.  
+    Foto: Funda colorida en una tablet.
 
-21. **Bálsamo labial hidratante**  
-    Precio: $5.99  
-    Características: Hidratación intensa, aroma natural, envase práctico.  
-    Foto: Bálsamo en un tocador.
+14. **Teclado retroiluminado para tablets**  
+    Precio: $54.99  
+    Características: Conexión Bluetooth, teclas retroiluminadas, diseño ultradelgado.  
+    Foto: Teclado encendido en un ambiente oscuro.
 
-22. **Lápiz de cejas waterproof**  
-    Precio: $9.99  
-    Características: Fórmula resistente al agua, aplicador preciso, duradero.  
-    Foto: Lápiz sobre un tocador.
+15. **Cable USB-C trenzado de 2 metros**  
+    Precio: $12.99  
+    Características: Resistente a enredos, alta velocidad de transferencia, ideal para tablets.  
+    Foto: Cable enrollado junto a una tablet.
 
-23. **Esmalte de uñas de larga duración**  
-    Precio: $9.99  
-    Características: Fórmula brillante, seca rápido, variedad de colores.  
-    Foto: Esmalte en una mesa.
-
-24. **Cepillo facial eléctrico**  
+16. **Altavoz Bluetooth portátil para tablet**  
     Precio: $39.99  
-    Características: Limpieza profunda, cabezales intercambiables, resistente al agua.  
-    Foto: Cepillo en un baño moderno.
+    Características: Sonido envolvente, conexión Bluetooth, batería de larga duración.  
+    Foto: Altavoz junto a una tablet.
 
----
+17. **Funda de cuero giratoria 360 grados**  
+    Precio: $34.99  
+    Características: Permite rotación completa, protección completa, aspecto elegante.  
+    Foto: Funda sobre una mesa elegante.
 
+18. **Lápiz táctil magnético con carga inalámbrica**  
+    Precio: $59.99  
+    Características: Carga magnética, alta sensibilidad, compatible con tablets recientes.  
+    Foto: Lápiz cargando en una tablet.
+
+19. **Guantes para dibujo digital en tablet**  
+    Precio: $9.99  
+    Características: Antideslizantes, material transpirable, ideal para ilustradores.  
+    Foto: Guantes sobre una mano usando una tablet.
+
+20. **Adaptador de tarjeta SD para tablet**  
+    Precio: $19.99  
+    Características: Transferencia rápida de archivos, compatible con tarjetas microSD y SD.  
+    Foto: Adaptador conectado a una tablet.
+
+21. **Proyector portátil para tablet**  
+    Precio: $149.99  
+    Características: Proyección hasta 120 pulgadas, batería recargable, ideal para presentaciones y cine en casa.  
+    Foto: Proyector en una sala.
+
+22. **Soporte de tablet para escritorio con carga inalámbrica**  
+    Precio: $69.99  
+    Características: Ángulo ajustable, base con carga inalámbrica, diseño moderno.  
+    Foto: Soporte con una tablet en un escritorio.
+
+23. **Auriculares inalámbricos para tablet**  
+    Precio: $29.99  
+    Características: Bluetooth 5.0, batería de larga duración, diseño ergonómico.  
+    Foto: Auriculares junto a una tablet.
+
+24. **Fundas de silicona para cables de tablet**  
+    Precio: $6.99  
+    Características: Evita enredos, protege los cables, varios colores.  
+    Foto: Fundas coloridas en un cable.

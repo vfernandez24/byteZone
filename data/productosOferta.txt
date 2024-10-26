@@ -1,0 +1,31 @@
+--- Productos en oferta ---
+
+1. Categoria 7; Producto 16:
+    Nombre: 'Lámpara de escritorio con puerto USB'
+    Precio: $29.99  
+    Características: Luz LED regulable, puerto de carga USB, diseño elegante.  
+    Foto: Lámpara sobre un escritorio.
+
+2. Categoria 2; Producto 21:
+    Nombre: 'Corrector de postura inteligente'
+    Precio: $59.99  
+    Características: Sensor que alerta cuando la postura es incorrecta, ajustable, conexión Bluetooth para seguimiento.  
+    Foto: Corrector en la espalda de una persona.
+
+3. Categoria 3; Producto 15:
+    Nombre: 'Cerradura inteligente con PIN y control remoto'
+    Precio: $129.99  
+    Características: Cerradura con teclado numérico, control remoto vía app, notificaciones de acceso.  
+    Foto: Cerradura instalada en una puerta moderna.
+
+4. Categoria 8; Producto 18:
+    Nombre: 'Lápiz táctil magnético con carga inalámbrica'
+    Precio: $59.99  
+    Características: Carga magnética, alta sensibilidad, compatible con tablets recientes.  
+    Foto: Lápiz cargando en una tablet.
+
+5. Categoria 2; Producto 1:
+    Nombre: 'Reloj inteligente con monitor de frecuencia cardíaca'
+    Precio: $79.99  
+   Características: Monitoreo 24/7 de frecuencia cardíaca, compatible con iOS y Android, resistente al agua.  
+   Foto: Primer plano del reloj en una muñeca durante una carrera.
