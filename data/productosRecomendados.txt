@@ -44,10 +44,10 @@ Categoria 5; Producto 24
 
 7. 
 Categoria 8; Producto 3:
-    Nombre: 'Secador de pelo profesional'
-    Precio: $59.99  
-    Características: Potente motor de 2000W, múltiples configuraciones de calor, diseño ergonómico.  
-    Foto: Secador sobre un tocador.
+    Nombre: 'Lápiz táctil recargable'
+    Precio: $29.99  
+    Características: Punta de precisión, batería de larga duración, compatible con iOS y Android.  
+    Foto: Lápiz junto a una tablet.
 
 8.
 Categoria 4; Producto 14:

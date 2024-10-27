@@ -36,6 +36,12 @@
     Características: Imprime fotos y documentos directamente desde el teléfono, conexión Bluetooth.  
     Foto: Mini impresora imprimiendo una foto.
 
+7. Cateoria 7; Producto 3:
+    Nombre: 'Laptop gamer con procesador Intel i7'
+    Precio: $1,299.99  
+    Características: Pantalla de 15.6”, tarjeta gráfica NVIDIA, 16GB de RAM.  
+    Foto: Laptop en una mesa de juego.
+
 8. Categoria 1; Producto 14:
     Nombre: 'Gimbal estabilizador para smartphone'
     Precio: $99.99  
