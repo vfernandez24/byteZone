@@ -1,4 +1,22 @@
-@import url(root.css);
+:root {
+    --background: #fff;
+    --text: #2c2c2c;
+    --backgroundSec-Details: #f4f1ea;
+    --btn: #005f73;
+    --destacados: #d4af37;
+    --contraste: #1c1c1c;
+    --details: #b8b8b8;
+    --border: #4a4a4a;
+    --neutro: #faf3e0;
+    --unicos: #9ba17b;
+    --ofertas: #c0846d;
+    --backgroundLig: #fefedc;
+    --borders: #6b4423;
+    --reseñas: #e2cfc4;
+    --titulos: #627c85;
+    --hover: #eeeeee;
+    --hover1: #ececec;
+}
 
 ::-webkit-scrollbar {
     width: 12px;
@@ -547,7 +565,7 @@ h1 {
 }
 
 footer {
-    height: 300px;
+    height: 400px;
     width: 100%;
     border-top: 5px solid var(--destacados);
     background: var(--background)
@@ -555,18 +573,18 @@ footer {
 
 footer ul {
     width: 100%;
-    height: 50%;
+    height: 100%;
     display: flex;
     justify-content: center;
     gap: 20px;
-    align-items: center;
-    flex-direction: row;
+    align-items: start;
+    flex-direction: column;
 }
 
 footer ul li {
     list-style: none;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     transition: all .3s ease;
     
@@ -592,5 +610,4 @@ footer img {
     margin: auto;
 }
 
-
-@import url(dark.css);
+/*!! DARK MODE */
