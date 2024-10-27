@@ -446,7 +446,7 @@ h1 {
 .box {
     width: 250px;
     min-width: 250px;
-    height: 300px;
+    height: 290px;
     overflow: hidden;
     float: left;
     border: 1px solid var(--border);
@@ -493,19 +493,19 @@ h1 {
 
 .box h3 {
     display: block;
-    margin-top: 10px;
+    margin: 10px 0 0 0;
     font-weight: 600;
     color: var(--btn);
 }
 
 .box h3::before {
-    content: 'COMPRAR: ';
+    content: 'PRECIO: ';
+    font-weight: 400;
     color: var(--text);
-    font-weight: 500;
 }
 
 .box:hover h3 {
-    text-decoration: underline;
+    color: var(--titulos);
 }
 
 .categoriasGal {

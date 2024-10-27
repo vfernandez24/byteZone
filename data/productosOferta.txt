@@ -29,3 +29,15 @@
     Precio: $79.99  
    Características: Monitoreo 24/7 de frecuencia cardíaca, compatible con iOS y Android, resistente al agua.  
    Foto: Primer plano del reloj en una muñeca durante una carrera.
+
+6. Categoria 1; Producto 18:
+    Nombre: 'Mini impresora portátil para smartphone'
+    Precio: $79.99  
+    Características: Imprime fotos y documentos directamente desde el teléfono, conexión Bluetooth.  
+    Foto: Mini impresora imprimiendo una foto.
+
+8. Categoria 1; Producto 14:
+    Nombre: 'Gimbal estabilizador para smartphone'
+    Precio: $99.99  
+    Características: Estabilización en tres ejes, compatible con iPhone y Android, duración de batería de 12 horas.  
+    Foto: Gimbal sosteniendo un smartphone durante una grabación.
