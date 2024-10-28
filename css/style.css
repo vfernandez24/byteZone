@@ -9,7 +9,7 @@
     --border: #4a4a4a;
     --neutro: #faf3e0;
     --unicos: #9ba17b;
-    --ofertas: #c0846d;
+    --ofertas: #af0000;
     --backgroundLig: #fefedc;
     --borders: #6b4423;
     --reseñas: #e2cfc4;
@@ -425,14 +425,13 @@ aside ul li:hover {
 section {
     margin-top: 30px;
     min-width: 100%;
-    height: 320px;
+    height: 350px;
     overflow-x: auto; /* Habilitar scroll horizontal */
-    overflow-y: hidden;
     display: flex;
     justify-content: space-evenly;
     scroll-behavior: smooth; /* Hacer el scroll suave */
     gap: 10px; /* Espacio entre cajas */
-    padding: 0 30px;
+    padding: 5px 30px;
 }
 
 section::-webkit-scrollbar {
@@ -464,9 +463,10 @@ h1 {
 .box {
     width: 250px;
     min-width: 250px;
-    height: 290px;
-    overflow: hidden;
+    height: 310px;
     float: left;
+    overflow: visible;
+    position: relative;
     border: 1px solid var(--border);
     border-radius: 20px;
     padding: 10px;
@@ -511,7 +511,7 @@ h1 {
 }
 
 .box h3 {
-    display: block;
+    display: inline-block;
     margin: 10px 0 0 0;
     font-weight: 600;
     color: var(--btn);
@@ -525,6 +525,22 @@ h1 {
 
 .box:hover h3 {
     color: var(--titulos);
+}
+
+.ofertas .box h3 {
+    text-decoration:line-through;
+    color: var(--border);
+}
+
+.ofertas .box h3::before {
+    text-decoration: none;
+}
+
+.box h4 {
+    display: inline-block;
+    line-height: 20px;
+    color: var(--btn);
+    font-size: 18px;
 }
 
 .categoriasGal {
@@ -555,6 +571,21 @@ h1 {
 
 .boxCat h4 {
     padding: 10px 0;
+}
+
+.box span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: var(--background);
+    font-weight: 600;
+    background: var(--ofertas);
+    position: absolute;
+    border-radius: 10px;
+    top: -5px;
+    left: -5px;
 }
 
 .anuncio {

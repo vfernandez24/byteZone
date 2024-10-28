@@ -5,45 +5,53 @@
     Precio: $29.99  
     Características: Luz LED regulable, puerto de carga USB, diseño elegante.  
     Foto: Lámpara sobre un escritorio.
+    Descuento: 20%
 
 2. Categoria 2; Producto 21:
     Nombre: 'Corrector de postura inteligente'
     Precio: $59.99  
     Características: Sensor que alerta cuando la postura es incorrecta, ajustable, conexión Bluetooth para seguimiento.  
     Foto: Corrector en la espalda de una persona.
+    Descuento: 40%
 
 3. Categoria 3; Producto 15:
     Nombre: 'Cerradura inteligente con PIN y control remoto'
     Precio: $129.99  
     Características: Cerradura con teclado numérico, control remoto vía app, notificaciones de acceso.  
     Foto: Cerradura instalada en una puerta moderna.
+    Descuento: 55%
 
 4. Categoria 8; Producto 18:
     Nombre: 'Lápiz táctil magnético con carga inalámbrica'
     Precio: $59.99  
     Características: Carga magnética, alta sensibilidad, compatible con tablets recientes.  
     Foto: Lápiz cargando en una tablet.
+    Descuento: 60%
 
 5. Categoria 2; Producto 1:
     Nombre: 'Reloj inteligente con monitor de frecuencia cardíaca'
     Precio: $79.99  
-   Características: Monitoreo 24/7 de frecuencia cardíaca, compatible con iOS y Android, resistente al agua.  
-   Foto: Primer plano del reloj en una muñeca durante una carrera.
+    Características: Monitoreo 24/7 de frecuencia cardíaca, compatible con iOS y Android, resistente al agua.  
+    Foto: Primer plano del reloj en una muñeca durante una carrera.
+    Descuento: 35%
 
 6. Categoria 1; Producto 18:
     Nombre: 'Mini impresora portátil para smartphone'
     Precio: $79.99  
     Características: Imprime fotos y documentos directamente desde el teléfono, conexión Bluetooth.  
     Foto: Mini impresora imprimiendo una foto.
+    Descuento: 31%
 
 7. Cateoria 7; Producto 3:
     Nombre: 'Laptop gamer con procesador Intel i7'
     Precio: $1,299.99  
     Características: Pantalla de 15.6”, tarjeta gráfica NVIDIA, 16GB de RAM.  
     Foto: Laptop en una mesa de juego.
+    Descuento: 84%
 
 8. Categoria 1; Producto 14:
     Nombre: 'Gimbal estabilizador para smartphone'
     Precio: $99.99  
     Características: Estabilización en tres ejes, compatible con iPhone y Android, duración de batería de 12 horas.  
     Foto: Gimbal sosteniendo un smartphone durante una grabación.
+    Descuento: 45%
