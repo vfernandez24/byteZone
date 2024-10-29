@@ -1,4 +1,4 @@
-function sectionLeft(btnLeft) {
+const sectionLeft = (btnLeft) => {
     let sectionContainer = btnLeft.parentElement;
     let section = sectionContainer.querySelector('.section');
     section.scrollLeft -= 265;
@@ -8,7 +8,7 @@ function sectionLeft(btnLeft) {
     }
 }
 
-function sectionRight(btnRight) {
+const sectionRight = (btnRight) => {
     let sectionContainer = btnRight.parentElement;
 
     let section = sectionContainer.querySelector(".section");
