@@ -114,7 +114,13 @@
         <!--?? Productos Recomendados -->
         <h1 style="margin-top: 20px;">Productos recomendados de esta semana</h1>
         <div class="sectionContainer">
-            <section class="recomendados">
+            <button onclick=sectionLeft(this) class="btnLeft hidden">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button onclick=sectionRight(this) class="btnRight">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+            <section class="section recomendados">
                 <div class="box">
                     <div class="img">
                         <img src="images/products/categoria2/2-19 Nebulizador portátil ultrasónico.jpg">
@@ -177,7 +183,7 @@
         <!--?? Galeria de Categorias -->
         <h1>Categorías principales</h1>
         <div class="sectionContainer">
-            <section class="categoriasGal">
+            <section class="section categoriasGal">
                 <div class="box boxCat">
                     <div class="img">
                         <i class="fa-solid fa-home"></i>
@@ -224,14 +230,13 @@
         <!--?? Ofertas -->
         <h1>Ofertas semanales</h1>
         <div class="sectionContainer">
-            <button onclick=sectionLeft(this) class="btnLeft">
+            <button onclick=sectionLeft(this) class="hidden btnLeft">
                 <i class="fa-solid fa-chevron-left"></i>
             </button>
             <button onclick=sectionRight(this) class="btnRight">
                 <i class="fa-solid fa-chevron-right"></i>
             </button>
-            <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-            <section class="ofertas">
+            <section class="section ofertas">
                 <div class="box">
                     <div class="img">
                         <img loading="lazy" src="images/products/categoria7/7-16 Lámpara de escritorio con puerto USB.jpg">
