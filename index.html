@@ -17,6 +17,7 @@
     <script src="js/theme.js" defer></script>
     <script src="js/aside.js" defer></script>
     <script src="js/buscar.js" defer></script>
+    <script src="js/scrollSection.js"></script>
     <!--? Icon -->
     <link rel="icon" href="images/Simbolo.png">
 </head>
@@ -220,6 +221,12 @@
         <!--?? Ofertas -->
         <h1>Ofertas semanales</h1>
         <section class="ofertas">
+            <button onclick=sectionLeft() class="btnLeft">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button onclick=sectionRight() class="btnRight">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
             <div class="box">
                 <div class="img">
                     <img loading="lazy" src="images/products/categoria7/7-16 Lámpara de escritorio con puerto USB.jpg">

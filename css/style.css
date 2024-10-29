@@ -425,6 +425,7 @@ aside ul li:hover {
 section {
     margin-top: 30px;
     min-width: 100%;
+    position: relative;
     height: 350px;
     overflow-x: auto; /* Habilitar scroll horizontal */
     display: flex;
@@ -432,6 +433,32 @@ section {
     scroll-behavior: smooth; /* Hacer el scroll suave */
     gap: 10px; /* Espacio entre cajas */
     padding: 5px 30px;
+}
+
+section button {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: var(--background);
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    z-index: 10;
+    top: calc(50% - 50px);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+section button:hover {
+    background-color: var(--hover1);
+    border-color: var(--btn);
+}
+
+section button.btnLeft {
+    left: 10px;
+}
+
+section button.btnRight {
+    right: 10px;
 }
 
 section::-webkit-scrollbar {
