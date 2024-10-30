@@ -639,18 +639,19 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 100px;
     flex-direction: row;
 }
 
 footer ul {
-    width: 250px;
+    min-width: fit-content;
     height: 350px;
     display: flex;
     justify-content: flex-start;
     align-items: start;
     gap: 20px;
     flex-direction: column;
+    overflow: hidden;
 
     h3 {
         color: var(--titulos);
@@ -663,11 +664,16 @@ footer ul {
 
 footer ul li {
     list-style: none;
+    width: 100%;
     text-decoration: none;
     font-size: 17px;
     font-weight: 400;
     transition: all .3s ease;
     
+    a {
+        width: 100%;
+    }
+
     a,i {
         text-decoration: none;
         transition: all .3s ease;
@@ -683,10 +689,11 @@ footer ul li {
     }
 }
 
-footer img {
-    height: 40%;
+footer ul.footer__ul--1 {
+    flex-shrink: 1;
     display: flex;
-    margin: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 /*!! PADDING */
