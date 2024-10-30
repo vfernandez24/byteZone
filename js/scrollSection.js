@@ -23,3 +23,11 @@ const sectionRight = (btnRight) => {
     }
 
 }
+
+const actualizarBtn = (section) => {
+    
+    const sectionContainer = section.parentElement
+    const btnLeft = sectionContainer.querySelector('.btnLeft')
+
+    
+};
