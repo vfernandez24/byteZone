@@ -1,9 +1,9 @@
 const sectionLeft = (btnLeft) => {
     let sectionContainer = btnLeft.parentElement;
     let section = sectionContainer.querySelector('.section');
-    section.scrollLeft -= 265;
+    section.scrollLeft -= 260;
 
-    if (section.scrollLeft <= 265) {
+    if (section.scrollLeft <= 260) {
         btnLeft.classList.add('hidden')
     }
 }
@@ -12,7 +12,7 @@ const sectionRight = (btnRight) => {
     let sectionContainer = btnRight.parentElement;
 
     let section = sectionContainer.querySelector(".section");
-    section.scrollLeft += 265; 
+    section.scrollLeft += 260; 
     
     let btnLeft = sectionContainer.querySelector('.btnLeft')
     btnLeft.classList.remove('hidden')
