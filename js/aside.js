@@ -1,7 +1,7 @@
 console.log('aside.js conectado')
 
 function showAside() {
-    document.getElementById('body').style.overflowY = 'Hidden'
+    document.getElementById('body').style.overflowY = 'hidden'
     document.getElementById('overlay').classList.add('visible')
     document.getElementById('aside').classList.add('visible')
 }
