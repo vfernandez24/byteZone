@@ -24,7 +24,7 @@
 <body id="body" style="overflow-y: auto;">
 
     <!--!! OVERLAY -->
-    <div class="overlay visible" id="overlay" onclick=closeCesta(),closeAside()></div> <!--? => cesta.js /  => aside.js-->
+    <div class="overlay" id="overlay" onclick=closeCesta(),closeAside()></div> <!--? => cesta.js /  => aside.js-->
     
     <!--!! NAV -->
     <nav>
@@ -69,7 +69,7 @@
     <hr> 
 
     <!--!! CESTA -->
-    <div id="cesta" class="visible cesta">
+    <div id="cesta" class="cesta">
         <button onclick=closeCesta()></button> <!--? => cesta.js-->
             <i class="fa-solid fa-xmark"></i>
         </button>
@@ -80,7 +80,7 @@
                 <h4>Producto 1</h4>
                 <h5>$49.99</h5>
                 <span onclick=deleteProducto(this)>
-                    <i class="fa-solid fa-xmark"></i>
+                    <img src="assets/removeShopCart.svg">
                 </span>
             </li>
         </ul>
@@ -351,40 +351,43 @@
             <i class="fa-solid fa-chevron-right"></i>
         </button>
         <section class="section reseñas">
-            <div class="box">
-
+            <div class="box boxRes">
+                <div class="perfil">
+                    <img src="">
+                    <h2>Perfil 1 Apellido 1</h2>
+                </div>
             </div>
-            <div class="box">
+            <div class="box boxRes">
                 
             </div>
-            <div class="box">
+            <div class="box boxRes">
                 
             </div>
-            <div class="box">
+            <div class="box boxRes">
                 
             </div>
-            <div class="box">
+            <div class="box boxRes">
                 
             </div>
-            <div class="box">
+            <div class="box boxRes">
                 
             </div>
-            <div class="box">
+            <div class="box boxRes">
                 
             </div>
-            <div class="box">
+            <div class="box boxRes">
                 
             </div>
-            <div class="box">
+            <div class="box boxRes">
                 
             </div>
-            <div class="box">
+            <div class="box boxRes">
                 
             </div>
-            <div class="box">
+            <div class="box boxRes">
                 
             </div>
-            <div class="box">
+            <div class="box boxRes">
                 
             </div>
         </section>

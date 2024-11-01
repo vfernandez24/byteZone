@@ -383,14 +383,61 @@ hr {
     ul {
         width: 100%;
         max-height: 95%;
-        padding: 10px;
+        padding: 30px 10px;
 
         li {
             width: 100%;
-            height: 7vh;
+            height: 60px;
             border-radius: 13px;
             overflow: hidden;
+            position: relative;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            cursor: pointer;
+
+            img {
+                height: 48px;
+            }
+
+            h4 {
+                display: block;
+                width: 40%;
+                max-width: 40%;
+            }
+
+            h4, h5 {
+                font-size: 20px;
+                font-weight: 400;
+            }
+
+            span {
+                height: 48px;
+                width: 48px;
+                padding: 5px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                opacity: 0;
+                transition: .3s all ease;
+
+                img {
+                    width: 70%;
+                }
+            }
+            
+            span:hover {
+                background-color: var(--reseñas);
+            }
+        }
+
+        li:hover {
             background-color: var(--hover);
+
+            span {
+                opacity: 1;
+            }
         }
     }
 }
@@ -640,11 +687,11 @@ h1 {
     font-size: 18px;
 }
 
-.categoriasGal {
+.categoriasGal, .reseñas {
     height: 270px;
 }
 
-.box.boxCat {
+.box.boxCat, .box.boxRes {
     border: none;
     min-width: 100px;
     height: 220px;
@@ -683,6 +730,37 @@ h1 {
     border-radius: 10px;
     top: -5px;
     left: -5px;
+}
+
+.box.boxRes {
+    min-width: 250px;
+    border: 1px solid var(--text);
+
+    .perfil {
+        height: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        gap: 20px;
+        align-items: center;
+        padding: 10px 10px;
+
+        img {
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            background: var(--text);
+        }
+        
+        h2 {
+            display: flex;
+            align-items: center;
+            padding: 0;
+            width: 150px;
+            height: 30px;
+            font-size: 18px;
+        }
+    }
 }
 
 .anuncio {
