@@ -761,6 +761,20 @@ h1 {
             font-size: 18px;
         }
     }
+
+    .star {
+        height: 30px;
+        color: var(--destacados);
+    }
+
+    .content {
+        margin-top: 10px;
+        max-height: 125px;
+        text-align: left;
+        font-size: 18px;
+        overflow: hidden;
+        text-wrap:balance;
+    }
 }
 
 .anuncio {
