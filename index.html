@@ -24,7 +24,7 @@
 <body id="body" style="overflow-y: auto;">
 
     <!--!! OVERLAY -->
-    <div class="overlay visible" id="overlay" onclick=closeCesta(),closeAside()></div>
+    <div class="overlay visible" id="overlay" onclick=closeCesta(),closeAside()></div> <!--? => cesta.js /  => aside.js-->
     
     <!--!! NAV -->
     <nav>
@@ -35,17 +35,17 @@
         <!-- Buscador -->
         <div class="buscador">
             <!-- Categorias -->
-            <div onclick=showAside() class="categoriasTodas">
+            <div onclick=showAside() class="categoriasTodas"> <!--? => aside.js-->
                 <i class="fa-solid fa-bars"></i>
                 Todas las categorías
             </div>
             <!-- Buscar -->
             <div class="search">
                 <input placeholder="Buscar" type="text" id="searchInput">
-                <button class="resetSearch" onclick=cleanSearch()>
+                <button class="resetSearch" onclick=cleanSearch()> <!--? => buscar.js-->
                     <i class="fa-solid fa-xmark"></i>
                 </button>
-                <button onclick=search()>
+                <button onclick=search()> <!--? => buscar.js-->
                     <img src="assets/buscar.svg">
                 </button>
             </div>
@@ -53,10 +53,10 @@
 
         <!-- Botones func -->
         <div class="containerBtn">
-            <button onclick=toggleTheme()>
+            <button onclick=toggleTheme()> <!--? theme.js-->
                 <i id="btnTheme" class="fa-solid fa-moon"></i>
             </button>
-            <button onclick=showCesta() class="shopCart" href="pages/shopCart.html">
+            <button onclick=showCesta() class="shopCart" href="pages/shopCart.html"> <!--? cesta.js-->
                 <img src="assets/shopCart.svg">
                 <p id="productosCesta">0</p>
             </button>
@@ -70,7 +70,7 @@
 
     <!--!! CESTA -->
     <div id="cesta" class="visible cesta">
-        <button onclick=closeCesta()>
+        <button onclick=closeCesta()></button> <!--? => cesta.js-->
             <i class="fa-solid fa-xmark"></i>
         </button>
         <h3>Tu cesta de la compra</h3>
@@ -84,11 +84,11 @@
                 </span>
             </li>
         </ul>
-    </div>
+    </div> 
     
     <!--!! ASIDE -->
     <aside id="aside" class="">
-        <button onclick=closeAside()>
+        <button onclick=closeAside()> <!--? => aside.js-->
             <i class="fa-solid fa-xmark"></i>
         </button>
         <h2>Categorías</h2>
@@ -134,10 +134,10 @@
         <!--?? Productos Recomendados -->
         <h1 style="margin-top: 20px;">Productos recomendados de esta semana</h1>
         <div class="sectionContainer">
-            <button onclick=sectionLeft(this) class="btnLeft hidden">
+            <button onclick=sectionLeft(this) class="btnLeft hidden"> <!--? => scrollSection.js-->
                 <i class="fa-solid fa-chevron-left"></i>
             </button>
-            <button onclick=sectionRight(this) class="btnRight">
+            <button onclick=sectionRight(this) class="btnRight"> <!--? => scrollSection.js-->
                 <i class="fa-solid fa-chevron-right"></i>
             </button>
             <section class="section recomendados">
@@ -250,10 +250,10 @@
         <!--?? Ofertas -->
         <h1>Descubre las mejores ofertas de la semana</h1>
         <div class="sectionContainer">
-            <button onclick=sectionLeft(this) class="hidden btnLeft">
+            <button onclick=sectionLeft(this) class="hidden btnLeft"> <!--? => scrollSection.js-->
                 <i class="fa-solid fa-chevron-left"></i>
             </button>
-            <button onclick=sectionRight(this) class="btnRight">
+            <button onclick=sectionRight(this) class="btnRight"> <!--? => scrollSection.js-->
                 <i class="fa-solid fa-chevron-right"></i>
             </button>
             <section onscroll=actualizarBtn(this) class="section ofertas">
@@ -344,10 +344,10 @@
         <!--?? Reseñas -->
         <h1>Reseñas de nuestros productos</h1>
         <div class="sectionContainer">
-            <button onclick=sectionLeft(this) class="hidden btnLeft">
+            <button onclick=sectionLeft(this) class="hidden btnLeft"> <!--? => scrollSection.js-->
             <i class="fa-solid fa-chevron-left"></i>
         </button>
-        <button onclick=sectionRight(this) class="btnRight">
+        <button onclick=sectionRight(this) class="btnRight"> <!--? => scrollSection.js-->
             <i class="fa-solid fa-chevron-right"></i>
         </button>
         <section class="section reseñas">
