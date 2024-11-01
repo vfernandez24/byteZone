@@ -53,7 +53,7 @@
             <button onclick=toggleTheme()>
                 <i id="btnTheme" class="fa-solid fa-moon"></i>
             </button>
-            <button class="shopCart" href="pages/shopCart.html">
+            <button onclick=showCesta() class="shopCart" href="pages/shopCart.html">
                 <img src="assets/shopCart.svg">
                 <p id="productosCesta">0</p>
             </button>
@@ -66,8 +66,11 @@
     <hr> 
 
     <!--!! CESTA -->
-    <div class="overlay visible" id="overlayCesta" onclick=closeCesta()></div>
-    <div class="cesta visible">
+    <div class="overlay" id="overlayCesta" onclick=closeCesta()></div>
+    <div id="cesta" class="cesta">
+        <button onclick=closeCesta()>
+            <i class="fa-solid fa-xmark"></i>
+        </button>
         <h3>Tu cesta de la compra</h3>
         <ul>
             <li>

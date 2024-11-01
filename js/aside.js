@@ -7,7 +7,7 @@ function showAside() {
 }
 
 function closeAside() {
-    document.getElementById('body').style.overflowY = 'Auto'
+    document.getElementById('body').style.overflowY = 'auto'
     document.getElementById('overlay').classList.remove('visible')
     document.getElementById('aside').classList.remove('visible')
 }

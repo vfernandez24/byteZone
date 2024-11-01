@@ -358,6 +358,27 @@ hr {
         font-size: 24px;
         font-weight: 600;
     }
+
+    button {
+        background: none;
+        border: none;
+        outline: none;
+        width: 48px;
+        height: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 24px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background: var(--hover1);
+    }
 }
 
 .cesta.visible {
