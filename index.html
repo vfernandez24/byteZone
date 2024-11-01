@@ -22,6 +22,9 @@
     <link rel="icon" href="images/Simbolo.png">
 </head>
 <body id="body" style="overflow-y: auto;">
+
+    <!--!! OVERLAY -->
+    <div class="overlay visible" id="overlay" onclick=closeCesta(),closeAside()></div>
     
     <!--!! NAV -->
     <nav>
@@ -66,24 +69,24 @@
     <hr> 
 
     <!--!! CESTA -->
-    <div class="overlay" id="overlayCesta" onclick=closeCesta()></div>
-    <div id="cesta" class="cesta">
+    <div id="cesta" class="visible cesta">
         <button onclick=closeCesta()>
             <i class="fa-solid fa-xmark"></i>
         </button>
         <h3>Tu cesta de la compra</h3>
         <ul>
             <li>
-                <img src="">
-                <h4></h4>
-                <h3></h3>
-                <span></span>
+                <img src="images/products/categoria2/2-10 Electrocardiógrafo portátil.jpg">
+                <h4>Producto 1</h4>
+                <h5>$49.99</h5>
+                <span onclick=deleteProducto(this)>
+                    <i class="fa-solid fa-xmark"></i>
+                </span>
             </li>
         </ul>
     </div>
     
     <!--!! ASIDE -->
-    <div id="overlay" class="overlay" onclick=closeAside()></div>
     <aside id="aside" class="">
         <button onclick=closeAside()>
             <i class="fa-solid fa-xmark"></i>
