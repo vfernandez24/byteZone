@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API's | byteZone.com</title>
+    <!--? fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--? Styles -->
+    <link rel="stylesheet" href="../../css/style.css">
+    <!--? Icons -->
+    <script src="https://kit.fontawesome.com/16ace90703.js" crossorigin="anonymous"></script>
+    <!--? scripts -->
+    <script src="../../js/cesta.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+    <script src="../../js/aside.js" defer></script>
+    <script src="../../js/buscar.js" defer></script>
+    <script src="../../js/scrollSection.js" defer></script>
+    <script src="../../js/perfil.js" defer></script>
+    <!--? Icon -->
+    <link rel="icon" href="../../images/Simbolo.png">
+</head>
+<body>
+    <!--!! OVERLAY -->
+    <div class="overlay" id="overlay" onclick=closeCesta(),closeAside(),closePerfil()></div> <!--? => cesta.js /  => aside.js / => perfil.js-->
+    
+    <!--!! NAV -->
+    <nav>
+        <!-- Logo -->
+        <a href="" class="logo">
+            <img src="../../images/Nombre.png">
+        </a>
+        <!-- Buscador -->
+        <div class="buscador">
+            <!-- Categorias -->
+            <div onclick=showAside() class="categoriasTodas"> <!--? => aside.js-->
+                <i class="fa-solid fa-bars"></i>
+                Todas las categorías
+            </div>
+            <!-- Buscar -->
+            <div class="search">
+                <input placeholder="Buscar" type="text" id="searchInput">
+                <button class="resetSearch" onclick=cleanSearch()> <!--? => buscar.js-->
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <button onclick=search()> <!--? => buscar.js-->
+                    <img src="../../assets/buscar.svg">
+                </button>
+            </div>
+        </div>
+
+        <!-- Botones func -->
+        <div class="containerBtn">
+            <button onclick=toggleTheme()> <!--? => theme.js-->
+                <i id="btnTheme" class="fa-solid fa-moon"></i>
+            </button>
+            <button onclick=showCesta() class="shopCart"> <!--? => cesta.js-->
+                <img src="../../assets/shopCart.svg">
+                <p id="productosCesta">0</p>
+            </button>
+            <button onclick=showPerfil() class="account"> <!--? => perfil.js-->
+                <i class="fa-solid fa-user"></i>
+            </button>
+        </div>
+    </nav>
+
+    <hr> 
+
+    <!--!! CESTA -->
+    <div id="cesta" class="overlayDiv cesta">
+        <button onclick=closeCesta()></button> <!--? => cesta.js-->
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <h3>Tu cesta de la compra</h3>
+        <ul>
+            <li>
+                <img src="images/products/categoria2/2-10 Electrocardiógrafo portátil.jpg">
+                <h4>Producto 1</h4>
+                <h5>$49.99</h5>
+                <span onclick=deleteProducto(this)> <!--? => cesta.js-->
+                    <img src="assets/removeShopCart.svg">
+                </span>
+            </li>
+        </ul>
+    </div> 
+
+    <!--!! PERFIL -->
+    <div id="perfil" class="overlayDiv perfil">
+        <button onclick=closePerfil()></button> <!--? => perfil.js-->
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </div>
+    
+    <!--!! ASIDE -->
+    <aside id="aside" class="">
+        <button onclick=closeAside()> <!--? => aside.js-->
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <h2>Categorías</h2>
+        <ul>
+            <li>
+                <i class="fa-solid fa-mobile-alt"></i>
+                Accesorios para Smartphones
+            </li>
+            <li>
+                <i class="fa-solid fa-gamepad"></i>
+                Accesorios para juegos
+            </li>
+            <li>
+                <i class="fa-solid fa-computer"></i>
+                Accesorios para Ordenadores
+            </li>
+            <li>
+                <i class="fa-solid fa-tablet-alt"></i>
+                Accesorios para Tablets
+            </li>
+            <li>
+                <i class="fa-solid fa-home"></i>
+                Hogar Inteligente</li>
+            </li>
+            <li>
+                <i class="fa-solid fa-heartbeat"></i>
+                Tecnología de Salud
+            </li>
+            <li>
+                <i class="fa-solid fa-camera"></i>
+                Fotografía y Videografía
+            </li>
+            <li>
+                <i class="fa-solid fa-tv"></i>
+                Electrónica de Entretenimiento
+            </li>
+        </ul>
+    </aside>
+
+    <!--!! CONTAINER -->
+    <div class="container"></div>
+
+    <!--!! FOOTER -->
+    <footer>
+        <ul>
+            <h3>Sobre nosotros</h3>
+            <li>
+                <a href="aboutus.html">About us</a>
+            </li>
+            <li>
+                <a href="terminosycondiciones.html">Terminos y condiciones</a>
+            </li>
+            <li>
+                <a href="api.html">API</a>
+            </li>
+            <li>
+                <a href="blog.html">Blog</a>
+            </li>
+            <li>
+                <a href="reseñas.html">Reseñas</a>
+            </li>
+        </ul>
+        <ul>
+            <h3>Contacto</h3>
+            <li>
+                <a href="contacto.html">Contacto</a>
+            </li>
+            <li>
+                <a href="ayuda.html">Ayuda</a>
+            </li>
+            <li>
+                <a href="devoluciones.html">Devoluciones</a>
+            </li>
+            
+        </ul>
+        <ul>
+            <h3>Redes Sociales</h3>
+            <li>
+                <a href="instagram.com">
+                    <i class="fa-brands fa-instagram"></i>
+                    Instagram
+                </a>
+            </li>
+            <li>
+                <a href="x.com">
+                    <i class="fa-brands fa-x-twitter"></i>
+                    Twitter
+                </a>
+            </li>
+            <li>
+                <a href="github.com/vfernandez24">
+                    <i class="fa-brands fa-github"></i>
+                    Github
+                </a>
+            </li>
+            <li>
+                <a href="linkedin.com">
+                    <i class="fa-brands fa-linkedin"></i>
+                    Linkedin
+                </a>
+            </li>
+            <li>
+                <a href="facebook.com">
+                    <i class="fa-brands fa-facebook"></i>
+                    Facebook
+                </a>
+            </li>
+            <li>
+                <a href="youtube.com">
+                    <i class="fa-brands fa-youtube"></i>
+                    Youtube
+                </a>
+            </li>
+            <li>
+                <a href="tiktok.com">
+                    <i class="fa-brands fa-tiktok"></i>
+                    Tik Tok
+                </a>
+            </li>
+        </ul>
+        <ul class="footer__ul--1">
+            <img style="height: 60%;" src="../../images/Isologo.png">
+        </ul>
+    </footer>
+</body>
+</html>
