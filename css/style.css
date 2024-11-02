@@ -85,233 +85,190 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 0 2.5vw 0 5vw;
-}
 
-nav .logo {
-    width: fit-content;
-    height: fit-content;
-    display: flex;
-    align-items: center;
-    font-size: 35px;
-    font-weight: 700;
-    text-shadow: 0px 0px 15px var(--text);
-    text-decoration: none;
-    user-select: none;
-}
+    .logo {
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        font-size: 35px;
+        font-weight: 700;
+        text-shadow: 0px 0px 15px var(--text);
+        text-decoration: none;
+        user-select: none;
+    
+        img {
+            height: 11vh;
+            user-select: none;
+        }
+    }
 
-nav .logo img {
-    height: 11vh;
-    user-select: none;
-}
+    .buscador {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
 
-nav .buscador {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
-}
+    .categoriasTodas {
+        width: 220px;
+        height: 6vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: auto;
+        color: #000;
+        cursor: pointer;
+        user-select: none;
+        border: 1px solid var(--text);
+        transition: all .3s ease;
 
-nav .categoriasTodas {
-    width: 220px;
-    height: 6vh;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: auto;
-    color: #000;
-    cursor: pointer;
-    user-select: none;
-    border: 1px solid var(--text);
-    transition: all .3s ease;
-}
+        i {
+            font-size: 20px;
+        }
+    }
 
-nav .categoriasTodas:hover {
-    background-color: var(--hover1);
-}
+    .categoriasTodas:hover {
+        background-color: var(--hover1);
+    }
 
-nav .categoriasTodas i {
-    font-size: 20px;
-}
+    .search {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        width: 350px;
+        height: 7vh;
+        user-select: none;
 
-nav .search {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    width: 350px;
-    height: 7vh;
-    user-select: none;
-}
+        input {
+            border: none;
+            border-bottom: 2.5px solid var(--border);
+            height: 100%;
+            width: 85%;
+            padding: 10px 20px;
+            outline: none;
+            color: var(--text);
+            font-weight: 400;
+            font-size: 17px;
+            font-family: 'Inter', 'Montserrat', sans-serif;
+        }
 
-nav .search input {
-    border: none;
-    border-bottom: 2.5px solid var(--border);
-    height: 100%;
-    width: 85%;
-    padding: 10px 20px;
-    outline: none;
-    color: var(--text);
-    font-weight: 400;
-    font-size: 17px;
-    font-family: 'Inter', 'Montserrat', sans-serif;
-}
+        input::placeholder {
+            color: var(--text);
+        }
 
-nav .search input::placeholder {
-    color: var(--text);
-}
+        input:focus {
+            border-bottom-color: var(--btn);
+        }
 
-nav .search input:focus {
-    border-bottom-color: var(--btn);
-}
+        button {
+            height: 100%;
+            width: 7vh;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            cursor: pointer;
+            background: none;
+            outline: none;
+        }
 
-nav .search button {
-    height: 100%;
-    width: 7vh;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    cursor: pointer;
-    background: none;
-    outline: none;
-}
+        button:hover {
+            background: var(--hover);
+        }
 
-nav .search button:hover {
-    background: var(--hover);
-}
+        button.resetSearch {
+            position: absolute;
+            height: 6vh;
+            width: 6vh;
+            font-size: 18px;
+            font-weight: 400;
+            left: calc(297.5px - 6vh);
+            display: none;
+        }
 
-nav .search button.resetSearch {
-    position: absolute;
-    height: 6vh;
-    width: 6vh;
-    font-size: 18px;
-    font-weight: 400;
-    left: calc(297.5px - 6vh);
-    display: none;
-}
+        button.resetSearch:hover {
+            background: var(--background);
 
-nav .search button.resetSearch:hover {
-    background: var(--background);
-}
+            i {
+                color: var(--btn);
+            }
+        }
+    }
 
-nav .search button.resetSearch:hover i {
-    color: var(--btn);
-}
+    .containerBtn {
+        min-width: 180px;
+        height: 7vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        button {
+            background: none;
+            width: 7vh;
+            height: 7vh;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            outline: none;
+            font-size: 20px;
+            cursor: pointer;
+            border-radius: 50%;
+            user-select: none;
+            transition: all .5s ease;
+        }
 
-nav .containerBtn {
-    min-width: 180px;
-    height: 7vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+        button:hover {
+            background-color: var(--hover);
+        }
 
-nav .containerBtn button {
-    background: none;
-    width: 7vh;
-    height: 7vh;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    outline: none;
-    font-size: 20px;
-    cursor: pointer;
-    border-radius: 50%;
-    user-select: none;
-    transition: all .5s ease;
-}
+        button.shopCart, button.account {
+            text-decoration: none;
+            border-radius: 7vh;
+            color: #000;
 
-nav .containerBtn button:hover {
-    background: var(--hover);
-}
+            p {
+                display: block;
+                position: absolute;
+                font-size: 14px;
+                top: 0px;
+                right: 3px;
+                padding: 10px;
+                width: 10px;
+                height: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                color: var(--backgroundSec-Details);
+                background: var(--btn);
+            }
+        }
 
-nav button.shopCart {
-    background: none;
-    position: relative;
-    width: 7vh;
-    height: 7vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    outline: none;
-    font-size: 20px;
-    user-select: none;
-    cursor: pointer;
-    text-decoration: none;
-    border-radius: 7vh;
-    color: #000;
-    transition: all .5s ease;
-}
+        button.shopCart:hover, button.account:hover {
+            background: var(--hover);
+            width: 22vh;
+        }
 
-nav .containerBtn button.shopCart:hover {
-    background: var(--hover);
-    width: 22vh;
-}
+        button.shopCart::after, button.account::after {
+            content: 'Tu cesta';
+            text-decoration: none;
+            margin-left: 10px;
+            display: none;
+        }
+        
+        button.account::after {
+            content: 'Tu cuenta';
+        }
 
-nav button.shopCart p {
-    display: block;
-    position: absolute;
-    font-size: 14px;
-    top: 0px;
-    right: 3px;
-    padding: 10px;
-    width: 10px;
-    height: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    color: var(--backgroundSec-Details);
-    background: var(--btn);
-}
-
-nav button.shopCart::after {
-    content: 'Tu cesta';
-    text-decoration: none;
-    margin-left: 10px;
-    display: none;
-}
-
-nav button.shopCart:hover::after {
-    display: block;
-}
-
-nav button.account {
-    background: none;
-    width: 7vh;
-    height: 7vh;
-    display: flex;
-    user-select: none;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    outline: none;
-    font-size: 20px;
-    cursor: pointer;
-    text-decoration: none;
-    border-radius: 7vh;
-    color: #000;
-    transition: all .5s ease;
-}
-
-nav .containerBtn button.account:hover {
-    background: var(--hover);
-    width: 22vh;
-}
-
-nav .containerBtn button.account::after {
-    content: 'Tu cuenta';
-    text-decoration: none;
-    margin-left: 10px;
-    display: none;
-}
-
-nav .containerBtn button.account:hover::after {
-    display: block;
+        button.shopCart:hover::after, button.account:hover::after {
+            display: block;
+        }
+    }
 }
 
 hr {
