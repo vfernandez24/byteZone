@@ -17,14 +17,15 @@
     <script src="js/theme.js" defer></script>
     <script src="js/aside.js" defer></script>
     <script src="js/buscar.js" defer></script>
-    <script src="js/scrollSection.js"></script>
+    <script src="js/scrollSection.js" defer></script>
+    <script src="js/perfil.js" defer></script>
     <!--? Icon -->
     <link rel="icon" href="images/Simbolo.png">
 </head>
 <body id="body" style="overflow-y: auto;">
 
     <!--!! OVERLAY -->
-    <div class="overlay" id="overlay" onclick=closeCesta(),closeAside()></div> <!--? => cesta.js /  => aside.js-->
+    <div class="overlay" id="overlay" onclick=closeCesta(),closeAside(),closePerfil()></div> <!--? => cesta.js /  => aside.js / => perfil.js-->
     
     <!--!! NAV -->
     <nav>
@@ -53,14 +54,14 @@
 
         <!-- Botones func -->
         <div class="containerBtn">
-            <button onclick=toggleTheme()> <!--? theme.js-->
+            <button onclick=toggleTheme()> <!--? => theme.js-->
                 <i id="btnTheme" class="fa-solid fa-moon"></i>
             </button>
-            <button onclick=showCesta() class="shopCart" href="pages/shopCart.html"> <!--? cesta.js-->
+            <button onclick=showCesta() class="shopCart"> <!--? => cesta.js-->
                 <img src="assets/shopCart.svg">
                 <p id="productosCesta">0</p>
             </button>
-            <button class="account" href="pages/account.html">
+            <button onclick=showPerfil() class="account"> <!--? => perfil.js-->
                 <i class="fa-solid fa-user"></i>
             </button>
         </div>
@@ -69,7 +70,7 @@
     <hr> 
 
     <!--!! CESTA -->
-    <div id="cesta" class="cesta">
+    <div id="cesta" class="overlayDiv cesta">
         <button onclick=closeCesta()></button> <!--? => cesta.js-->
             <i class="fa-solid fa-xmark"></i>
         </button>
@@ -79,12 +80,19 @@
                 <img src="images/products/categoria2/2-10 Electrocardiógrafo portátil.jpg">
                 <h4>Producto 1</h4>
                 <h5>$49.99</h5>
-                <span onclick=deleteProducto(this)>
+                <span onclick=deleteProducto(this)> <!--? => cesta.js-->
                     <img src="assets/removeShopCart.svg">
                 </span>
             </li>
         </ul>
     </div> 
+
+    <!--!! PERFIL -->
+    <div id="perfil" class="overlayDiv perfil">
+        <button onclick=closePerfil()></button> <!--? => perfil.js-->
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </div>
     
     <!--!! ASIDE -->
     <aside id="aside" class="">

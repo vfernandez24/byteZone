@@ -11,3 +11,8 @@ const closeCesta = () => {
     document.getElementById('overlay').classList.remove('visible')
     document.getElementById('cesta').classList.remove('visible')
 }
+
+const deleteProducto = (span) => {
+    const li = span.parentElement
+    li.remove()
+}
