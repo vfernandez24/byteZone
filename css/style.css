@@ -55,7 +55,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', 'Inter', sans-serif;
+    font-family: 'Montserrat', 'Inter', arial, helvetica, sans-serif;
     box-sizing: border-box;
     color: var(--text);
 }
