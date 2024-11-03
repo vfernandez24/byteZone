@@ -1,0 +1,13 @@
+{
+    "theme": "One Dark Pro Monokai Darker Theme",
+    "extensions": [
+        "Better Comments", 
+        "CodeSnap",
+        "Error Lens",
+        "indent-rainbow",
+        "SVG-Viewer",
+        "Image preview"
+    ],
+    "icons": "Material Icon Theme",
+    "indent-space": "4 spaces"
+}
