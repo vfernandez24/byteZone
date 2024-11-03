@@ -11,13 +11,23 @@
         display: block;
         width: 100%;
         padding: 10px 15%;
-        font-size: 22px;
+        font-size: 20px;
         text-align: justify;
         font-weight: 400;
         line-height: 27px;
         
         span {
             color: var(--destacados);
+        }
+
+        strong {
+            font-size: 25px;
+        }
+
+        strong, a {
+            color: var(--titulos);
+            text-decoration: underline;
+            font-weight: 600;
         }
     }
 
@@ -26,4 +36,8 @@
         display: flex;
         margin: auto;
     }
+}
+
+footer {
+    margin-top: 20px;
 }
