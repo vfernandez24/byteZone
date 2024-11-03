@@ -1,0 +1,29 @@
+.container {
+    h3 {
+        text-align: center;
+        font-size: 30px;
+        margin-top: 30px;
+        font-weight: 800;
+        color: var(--btn);
+    }
+
+    p {
+        display: block;
+        width: 100%;
+        padding: 10px 15%;
+        font-size: 22px;
+        text-align: justify;
+        font-weight: 400;
+        line-height: 27px;
+        
+        span {
+            color: var(--destacados);
+        }
+    }
+
+    img {
+        height: 250px;
+        display: flex;
+        margin: auto;
+    }
+}

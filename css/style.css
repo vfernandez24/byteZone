@@ -769,59 +769,59 @@ footer {
     align-items: center;
     gap: 100px;
     flex-direction: row;
-}
 
-footer ul {
-    min-width: fit-content;
-    height: 350px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: start;
-    gap: 20px;
-    flex-direction: column;
-    overflow: hidden;
+    ul {
+        min-width: fit-content;
+        height: 350px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: start;
+        gap: 20px;
+        flex-direction: column;
+        overflow: hidden;
 
-    h3 {
-        color: var(--titulos);
-        font-size: 20px;
-        font-family: 'Inter';
-        font-weight: 800;
-        letter-spacing: 2px;
-    }
-}
+        h3 {
+            color: var(--titulos);
+            font-size: 20px;
+            font-family: 'Inter';
+            font-weight: 800;
+            letter-spacing: 2px;
+        }
 
-footer ul li {
-    list-style: none;
-    width: 100%;
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: 400;
-    transition: all .3s ease;
-    
-    a {
-        width: 100%;
-    }
+        li {
+            list-style: none;
+            width: 100%;
+            text-decoration: none;
+            font-size: 17px;
+            font-weight: 400;
+            transition: all .3s ease;
+            
+            a {
+                width: 100%;
+            }
 
-    a,i {
-        text-decoration: none;
-        transition: all .3s ease;
-    }
+            a,i {
+                text-decoration: none;
+                transition: all .3s ease;
+            }
 
-    a:hover {
-        color: var(--btn);
-        font-weight: 500;
+            a:hover {
+                color: var(--btn);
+                font-weight: 500;
 
-        i {
-            color: var(--destacados);
+                i {
+                    color: var(--destacados);
+                }
+            }
         }
     }
-}
 
-footer ul.footer__ul--1 {
-    flex-shrink: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    ul.footer__ul--1 {
+        flex-shrink: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 /*!! PADDING */
