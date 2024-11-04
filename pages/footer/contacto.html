@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!--? Styles -->
     <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/footerPage.css">
     <!--? Icons -->
     <script src="https://kit.fontawesome.com/16ace90703.js" crossorigin="anonymous"></script>
     <!--? scripts -->
@@ -19,6 +20,7 @@
     <script src="../../js/buscar.js" defer></script>
     <script src="../../js/scrollSection.js" defer></script>
     <script src="../../js/perfil.js" defer></script>
+    <script src="../../js/scrollAnimation.js" defer></script>
     <!--? Icon -->
     <link rel="icon" href="../../images/Simbolo.png">
 </head>
@@ -136,10 +138,25 @@
     </aside>
 
     <!--!! CONTAINER -->
-    <div class="container"></div>
+    <div class="container">
+        <h3>Contáctanos</h3>
+        <div class="info">
+            
+            <ul>
+                <li>Correo Electrónico: <a href="mailto:byteZone@gmail.com">byteZone@gmail.com</a></li>
+                <li>Teléfono: <a href="tel:+34667061920">+34 667 06 19 20</a></li>
+                <li><a class="link__animation" href="#footer">Redes Sociales</a></li>
+            </ul>
+        </div>
+        <div class="form">
+            <p><strong>Envíanos un mensaje</strong></p>
+            <label for="email">Tu correo electrónico</label>
+            <input type="email" id="email">
+        </div>
+    </div>
 
     <!--!! FOOTER -->
-    <footer>
+    <footer id="footer">
         <ul>
             <h3>Sobre nosotros</h3>
             <li>
