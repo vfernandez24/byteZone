@@ -22,7 +22,7 @@
     <!--? Icon -->
     <link rel="icon" href="../../images/Simbolo.png">
 </head>
-<body>
+<body id="body">
     <!--!! OVERLAY -->
     <div class="overlay" id="overlay" onclick=closeCesta(),closeAside(),closePerfil()></div> <!--? => cesta.js /  => aside.js / => perfil.js-->
     
@@ -70,7 +70,7 @@
 
     <!--!! CESTA -->
     <div id="cesta" class="overlayDiv cesta">
-        <button onclick=closeCesta()></button> <!--? => cesta.js-->
+        <button onclick=closeCesta()> <!--? => cesta.js-->
             <i class="fa-solid fa-xmark"></i>
         </button>
         <h3>Tu cesta de la compra</h3>
@@ -88,7 +88,7 @@
 
     <!--!! PERFIL -->
     <div id="perfil" class="overlayDiv perfil">
-        <button onclick=closePerfil()></button> <!--? => perfil.js-->
+        <button onclick=closePerfil()> <!--? => perfil.js-->
             <i class="fa-solid fa-xmark"></i>
         </button>
     </div>
