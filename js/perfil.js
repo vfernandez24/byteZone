@@ -1,14 +1,9 @@
 console.log("perfil.js conectado");
 
-let clickPerfil = 0
-// clickPerfil = localStorage.getItem('clickPerfil')
-
 const showPerfil = () => {
     document.getElementById("body").style.overflowY = "hidden";
     document.getElementById("overlay").classList.add("visible");
     document.getElementById("perfil").classList.add("visible");
-    clickPerfil++;
-    localStorage.setItem('clickPerfil', clickPerfil)
 };
 
 const closePerfil = () => {
@@ -20,3 +15,18 @@ const closePerfil = () => {
 const paginaPerfil = () => {
 
 };
+
+let cuentaActiva = localStorage.getItem("cuentaActiva");
+
+if (cuentaActiva === null) {
+    cuentaActiva = 0;
+    localStorage.setItem("cuentaActiva", cuentaActiva);
+}
+
+if (cuentaActiva==0) {
+    document.getElementById('siCuenta').style.display = 'none'
+    document.getElementById('noCuenta').style.display = 'flex'
+} else if (cuentaActiva==1) {
+    document.getElementById('noCuenta').style.display = 'none'
+    document.getElementById('siCuenta').style.display = 'block'
+}

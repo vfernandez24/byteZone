@@ -321,6 +321,7 @@ hr {
         color: var(--btn);
         font-size: 24px;
         font-weight: 600;
+        padding: 10px 20%;
     }
 
     button {
@@ -404,8 +405,50 @@ hr {
             }
         }
     }
-}
 
+    #noCuenta {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 300px;
+            height: 60px;
+            font-size: 25px;
+            text-decoration: none;
+            border-radius: 15px;
+            margin: 10px auto;
+            cursor: pointer;
+            transition: all .3s ease;
+        }
+        
+        a:nth-of-type(2) {
+            background: var(--text);
+            color: var(--background);
+            border: 1px solid var(--text);
+        }
+
+        a:nth-of-type(2):hover {
+            background: var(--background);
+            color: var(--text);
+        }
+
+        a:nth-of-type(1) {
+            background: var(--background);
+            color: var(--text);
+            border: 1px solid var(--text);
+        }
+
+        a:nth-of-type(1):hover {
+            background: var(--text);
+            color: var(--background);
+        }
+    }
+}
 
 aside {
     position: fixed;
