@@ -16,6 +16,37 @@ const paginaPerfil = () => {
 
 };
 
+const datosPerfil = (pagina) => {
+    const checkBox = document.getElementById('acept');
+    const password1 = document.getElementById('password1');
+    const password2 = document.getElementById('password2');
+
+    if (password1.value !== '' && password2.value !== '' && password1.value == password2.value && checkBox.value == 'on') {
+        if (pagina == 'registrar') {
+            console.log('registrar')
+        } else if (pagina == 'iniciarSesion') {
+        
+        }
+
+        password1.value = ''
+        password2.value = ''
+        checkBox.value = 'off'
+
+    } else {
+        if ((password1.value == '' && password2.value == '') || password1.value !== password2.value) {
+            let label1 = password1.parentElement;
+            label1.classList.add('red')
+            let label2 = password2.parentElement;
+            label2.classList.add('red')
+            console.log('passwordWrong')
+        }
+        if (checkBox.value == 'off') {
+            let label = checkBox.parentElement;
+            label.querySelector('#checkmark').classList.add('red')
+        }
+    }
+}
+
 let cuentaActiva = localStorage.getItem("cuentaActiva");
 
 if (cuentaActiva === null) {
@@ -29,12 +60,4 @@ if (cuentaActiva==0) {
 } else if (cuentaActiva==1) {
     document.getElementById('noCuenta').style.display = 'none'
     document.getElementById('siCuenta').style.display = 'block'
-}
-
-const datosPerfil = (pagina) => {
-    if(pagina=='registrar'){
-
-    }else if(pagina=='iniciarSesion'){
-        
-    }
 }

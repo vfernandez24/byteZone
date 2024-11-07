@@ -45,7 +45,7 @@ body {
         font-size: 30px;
         display: block;
         text-align: center;
-        margin: 40px 0 10px 0;
+        margin: 30px 0 10px 0;
         color: var(--btn);
     }
 
@@ -66,6 +66,10 @@ body {
             font-size: 18px;
             outline: none;
         }
+    }
+
+    label.red {
+        color: var(--ofertas);
     }
 
     label:last-of-type {
@@ -137,18 +141,27 @@ body {
     position: relative;
 }
 
+.checkbox-container .checkmark.red {
+    border: 2px solid  var(--ofertas);
+}
+
 /* Estilo cuando el checkbox está marcado */
 .checkbox-container input[type="checkbox"]:checked + .checkmark {
     background-color: var(--btn);
     border-color: var(--btn);
 }
 
+.checkbox-container input[type="checkbox"]:checked + .checkmark.red {
+    background-color: var(--ofertas);
+    border-color: var(--ofertas);
+}
+
 /* Icono de "check" */
 .checkbox-container input[type="checkbox"]:checked + .checkmark::after {
     content: "";
     position: absolute;
-    left: 6px;
-    top: 2px;
+    left: 4.3px;
+    top: 0px;
     width: 5px;
     height: 10px;
     border: solid white;
