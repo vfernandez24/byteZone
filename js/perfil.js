@@ -30,3 +30,11 @@ if (cuentaActiva==0) {
     document.getElementById('noCuenta').style.display = 'none'
     document.getElementById('siCuenta').style.display = 'block'
 }
+
+const datosPerfil = (pagina) => {
+    if(pagina=='registrar'){
+
+    }else if(pagina=='iniciarSesion'){
+        
+    }
+}
