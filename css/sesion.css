@@ -52,6 +52,7 @@ body {
     label {
         display: block;
         margin: 20px auto;
+        position: relative;
         padding: 0 20px 0 20px;
 
         input {
@@ -65,6 +66,25 @@ body {
             padding: 10px;
             font-size: 18px;
             outline: none;
+        }
+
+        button {
+            position: absolute;
+            background: var(--hover);
+            border: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            right: 30px;
+            top: 35px;
+        }
+
+        button:hover {
+            background: var(--details);
         }
     }
 

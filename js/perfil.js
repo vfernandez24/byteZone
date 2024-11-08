@@ -21,7 +21,8 @@ const datosPerfil = (pagina) => {
     const password1 = document.getElementById('password1');
     const password2 = document.getElementById('password2');
 
-    if (password1.value !== '' && password2.value !== '' && password1.value == password2.value && checkBox.value == 'on') {
+    if (password1.value !== '' && password2.value !== '' && password1.value == password2.value && checkBox.checked) {
+        
         if (pagina == 'registrar') {
             console.log('registrar')
         } else if (pagina == 'iniciarSesion') {
@@ -40,9 +41,12 @@ const datosPerfil = (pagina) => {
             label2.classList.add('red')
             console.log('passwordWrong')
         }
-        if (checkBox.value == 'off') {
-            let label = checkBox.parentElement;
-            label.querySelector('#checkmark').classList.add('red')
+        if (!checkBox.checked) {
+            let checkmark = document.getElementById('checkmark');
+            checkmark.classList.add('red')
+        } else {
+            let checkmark = document.getElementById('checkmark');
+            checkmark.classList.remove('red')
         }
     }
 }
