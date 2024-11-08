@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Regístrate | byteZone.com</title>
+    <title>Iniciar sesión | byteZone.com</title>
     <!--? fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,6 +11,11 @@
     <!--? Styles -->
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/sesion.css">
+    <style>
+        .right h3 {
+            margin-top: 90px;
+        }
+    </style>
     <!--? Icons -->
     <script src="https://kit.fontawesome.com/16ace90703.js" crossorigin="anonymous"></script>
     <!--? scripts -->
@@ -20,8 +25,15 @@
 </head>
 <body id="body">
     <div class="right">
+        <a class="btnHome" href="../index.html">
+            <i class="fa-solid fa-arrow-left"></i>
+        </a>
         <h3>Iniciar sesión</h3>
         <div class="form">
+            <label for="name">
+                Nombre completo:
+                <input type="text" id="name">
+            </label>
             <label for="email">
                 Correo electrónico:
                 <input type="email" id="email">
