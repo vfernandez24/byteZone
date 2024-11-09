@@ -39,13 +39,13 @@ const datosPerfil = (pagina) => {
         
         if (pagina == 'iniciarSesion') { //? Protocolo para iniciar sesion
             console.log('iniciarSesion')
-            guardarDatos() //*Guarda los datos en localStorage
+            guardarDatos(0) //*Guarda los datos en localStorage
         }
 
         if (pagina == 'registrar') { //? Protocolo para registrarse
             console.log('registrar')
             if (password1.value !== '' && password2.value !== '' && password1.value == password2.value && checkBox.checked) {
-            guardarDatos() //*Guarda los datos en localStorage
+            guardarDatos(1) //*Guarda los datos en localStorage
         } else {
             if ((password1.value == '' && password2.value == '') || password1.value !== password2.value) {
                 let label1 = password1.parentElement;
@@ -65,13 +65,25 @@ const datosPerfil = (pagina) => {
     }
 }
 
-const guardarDatos = () => {
+const guardarDatos = (numero) => {
     localStorage.setItem("cuentaActiva", 1)
     const nombre = document.getElementById('nombre').value
     localStorage.setItem('nombre', nombre)
     const correo = document.getElementById('email').value
     localStorage.setItem('email', correo)
+    // if (numero == 0) {
+    //     const contraseña = document.getElementById('password').value
+    //     localStorage.setItem('password', contraseña)
+    // } else if (numero == 1) {
+    //     const contraseña = document.getElementById('password1').value
+    //     localStorage.setItem('password', contraseña)
+    // }
     window.location.href = "../index.html";
+}
+
+const cerrarSesion = () => {
+    localStorage.setItem("cuentaActiva", 0)
+    window.location.href = "index.html"   
 }
 
 let cuentaActiva = localStorage.getItem("cuentaActiva");

@@ -30,7 +30,7 @@
         </a>
         <h3>Iniciar sesión</h3>
         <div class="form">
-            <label for="name">
+            <label for="nombre">
                 Nombre completo:
                 <input type="text" id="nombre">
             </label>
@@ -40,7 +40,7 @@
             </label>
             <label for="password1">
                 Contraseña:
-                <input type="password" id="password1">
+                <input minlength="8" type="password" id="password1">
                 <button onclick="togglePassword('1')">
                     <i id="iPassword1" class="fa-solid fa-eye-slash"></i>
                 </button>
@@ -50,7 +50,7 @@
                 <span class="checkmark"></span>
                 Recuerdame
             </label>
-            <button onclick=datosPerfil(iniciarSesion)>Iniciar sesión</button>
+            <button onclick="datosPerfil('iniciarSesion')">Iniciar sesión</button>
         </div>
     </div>
     <div style="border-radius: 60px 20px 20px 60px;" class="left">

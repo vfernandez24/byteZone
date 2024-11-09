@@ -86,9 +86,17 @@ body {
             font-size: 18px;
             outline: none;
         }
-
+        
         input:focus {
-            outline: 1px solid var(--btn);
+            outline: 2px solid var(--btn);
+        }
+
+        input:focus:invalid {
+            outline: 2px solid var(--ofertas);
+        }
+        
+        input:user-invalid {
+            outline: 2px solid var(--ofertas);
         }
 
         button {
