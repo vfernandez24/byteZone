@@ -16,39 +16,62 @@ const paginaPerfil = () => {
 
 };
 
+const togglePassword = (numero) => {
+    if (numero == '1') {
+        document.getElementById('iPassword1').classList.toggle('fa-eye-slash')
+        document.getElementById('iPassword1').classList.toggle('fa-eye')
+        const passwordInput = document.getElementById('password1');
+        const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+        passwordInput.setAttribute('type', type);
+    } if (numero == '2') {
+        document.getElementById('iPassword2').classList.toggle('fa-eye-slash')
+        document.getElementById('iPassword2').classList.toggle('fa-eye')
+        const passwordInput = document.getElementById('password2');
+        const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+        passwordInput.setAttribute('type', type);
+    }
+}
+
 const datosPerfil = (pagina) => {
     const checkBox = document.getElementById('acept');
     const password1 = document.getElementById('password1');
     const password2 = document.getElementById('password2');
-
-    if (password1.value !== '' && password2.value !== '' && password1.value == password2.value && checkBox.checked) {
         
-        if (pagina == 'registrar') {
+        if (pagina == 'iniciarSesion') { //? Protocolo para iniciar sesion
+            console.log('iniciarSesion')
+            guardarDatos() //*Guarda los datos en localStorage
+        }
+
+        if (pagina == 'registrar') { //? Protocolo para registrarse
             console.log('registrar')
-        } else if (pagina == 'iniciarSesion') {
-        
-        }
-
-        password1.value = ''
-        password2.value = ''
-        checkBox.value = 'off'
-
-    } else {
-        if ((password1.value == '' && password2.value == '') || password1.value !== password2.value) {
-            let label1 = password1.parentElement;
-            label1.classList.add('red')
-            let label2 = password2.parentElement;
-            label2.classList.add('red')
-            console.log('passwordWrong')
-        }
-        if (!checkBox.checked) {
-            let checkmark = document.getElementById('checkmark');
-            checkmark.classList.add('red')
+            if (password1.value !== '' && password2.value !== '' && password1.value == password2.value && checkBox.checked) {
+            guardarDatos() //*Guarda los datos en localStorage
         } else {
-            let checkmark = document.getElementById('checkmark');
-            checkmark.classList.remove('red')
+            if ((password1.value == '' && password2.value == '') || password1.value !== password2.value) {
+                let label1 = password1.parentElement;
+                label1.classList.add('red')
+                let label2 = password2.parentElement;
+                label2.classList.add('red')
+                console.log('passwordWrong')
+            }
+            if (!checkBox.checked) {
+                let checkmark = document.getElementById('checkmark');
+                checkmark.classList.add('red')
+            } else {
+                let checkmark = document.getElementById('checkmark');
+                checkmark.classList.remove('red')
+            }
         }
     }
+}
+
+const guardarDatos = () => {
+    localStorage.setItem("cuentaActiva", 1)
+    const nombre = document.getElementById('nombre').value
+    localStorage.setItem('nombre', nombre)
+    const correo = document.getElementById('email').value
+    localStorage.setItem('email', correo)
+    window.location.href = "../index.html";
 }
 
 let cuentaActiva = localStorage.getItem("cuentaActiva");

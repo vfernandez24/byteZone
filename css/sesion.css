@@ -87,6 +87,10 @@ body {
             outline: none;
         }
 
+        input:focus {
+            outline: 1px solid var(--btn);
+        }
+
         button {
             position: absolute;
             background: var(--hover);
