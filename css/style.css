@@ -461,6 +461,18 @@ hr {
         top: 85%;
         left: 50%;
         transform: translateX(-50%);
+        width: fit-content;
+        height: fit-content;
+        padding: 10px 40px;
+        font-size: 20px;
+        border-radius: 30px;
+        background-color: var(--contraste);
+        color: var(--background);
+        transition: all .3s ease;
+    }
+
+    button.cerrarSesion:hover {
+        background: var(--ofertas);
     }
 }
 

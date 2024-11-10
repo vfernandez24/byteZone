@@ -13,8 +13,16 @@ const closePerfil = () => {
 };
 
 const paginaPerfil = () => {
+    const frase1 = document.getElementById('frase-1')
+    const nombre1 = document.getElementById('nombre-1')
+    const correo1 = document.getElementById('correo-1')
+    const contraseña1 = document.getElementById('password-1')
 
-};
+    frase1.innerHTML = '¡Bienvenido de nuevo ' + localStorage.getItem('nombre') + '!';
+    nombre1.innerHTML = localStorage.getItem('nombre');
+    correo1.innerHTML = localStorage.getItem('email');
+    contraseña1.innerHTML = localStorage.getItem('password');
+}
 
 const togglePassword = (numero) => {
     if (numero == '1') {
@@ -39,13 +47,13 @@ const datosPerfil = (pagina) => {
         
         if (pagina == 'iniciarSesion') { //? Protocolo para iniciar sesion
             console.log('iniciarSesion')
-            guardarDatos(0) //*Guarda los datos en localStorage
+            guardarDatos() //*Guarda los datos en localStorage
         }
 
         if (pagina == 'registrar') { //? Protocolo para registrarse
             console.log('registrar')
             if (password1.value !== '' && password2.value !== '' && password1.value == password2.value && checkBox.checked) {
-            guardarDatos(1) //*Guarda los datos en localStorage
+            guardarDatos() //*Guarda los datos en localStorage
         } else {
             if ((password1.value == '' && password2.value == '') || password1.value !== password2.value) {
                 let label1 = password1.parentElement;
@@ -65,19 +73,14 @@ const datosPerfil = (pagina) => {
     }
 }
 
-const guardarDatos = (numero) => {
+const guardarDatos = () => {
     localStorage.setItem("cuentaActiva", 1)
     const nombre = document.getElementById('nombre').value
     localStorage.setItem('nombre', nombre)
     const correo = document.getElementById('email').value
     localStorage.setItem('email', correo)
-    // if (numero == 0) {
-    //     const contraseña = document.getElementById('password').value
-    //     localStorage.setItem('password', contraseña)
-    // } else if (numero == 1) {
-    //     const contraseña = document.getElementById('password1').value
-    //     localStorage.setItem('password', contraseña)
-    // }
+    const contraseña = document.getElementById('password1').value
+    localStorage.setItem('password', contraseña)
     window.location.href = "../index.html";
 }
 
@@ -100,3 +103,5 @@ if (cuentaActiva==0) {
     document.getElementById('noCuenta').style.display = 'none'
     document.getElementById('siCuenta').style.display = 'block'
 }
+
+paginaPerfil()
