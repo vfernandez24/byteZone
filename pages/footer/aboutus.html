@@ -92,6 +92,22 @@
         <button onclick=closePerfil()> <!--? => perfil.js-->
             <i class="fa-solid fa-xmark"></i>
         </button>
+        <div id="noCuenta">
+            <h3>¡Vaya!, parece que no tienes una cuenta activa en este dispositivo</h3>
+            <a style="margin-top: 100px;" href="pages/registrar.html">Regístrate</a>
+            <a href="pages/iniciodesesion.html">Iniciar Sesión</a>
+        </div>
+        <div id="siCuenta">
+            <h3>Tu cuenta</h3>
+            <h4 id="frase-1">¡Bienvenido de nuevo Victor Fernandez! </h4>
+            <h5>Nombre Completo:</h5>
+            <p id="nombre-1">  </p>
+            <h5>Correo electrónico: </h5>
+            <p id="correo-1">@gmail.com </p>
+            <h5>Contraseña:</h5>
+            <p id="password-1"> </p>
+            <button class="cerrarSesion" onclick=cerrarSesion()>Cerrar Sesion</button>
+        </div>
     </div>
     
     <!--!! ASIDE -->

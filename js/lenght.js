@@ -8,6 +8,12 @@ const textarea = document.getElementById("mensaje"),
 const lenghtChange = () => {
     const caracteresRestantes = 200 - textarea.value.length;
     lenght.textContent = `${caracteresRestantes}`;
+
+    if (document.getElementById('mensajeLenght').innerText == '0') {
+        document.getElementById('mensajeLenght').classList.add('red')
+    } else {
+        document.getElementById('mensajeLenght').classList.remove('red')
+    }
 }
 
 let correo = document.getElementById("email").value;
