@@ -1,0 +1,243 @@
+[
+    {},
+    {
+        "nombre": "Smart TV 55” 4K UHD con HDR",
+        "precio": "499.99",
+        "categoria": 4,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Pantalla 4K con HDR10+, Smart TV con apps integradas, control por voz.",
+        "imagen": "../images/products/categoria4/Smart TV 55 pulgadas 4K UHD con HDR.jpg"
+    },
+    {
+        "nombre": "Barra de sonido con subwoofer inalámbrico",
+        "precio": "199.99",
+        "categoria": 4,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Sonido envolvente, conectividad Bluetooth, diseño elegante y minimalista.",
+        "imagen": "../images/products/categoria4/Barra de sonido con subwoofer inalámbrico.jpg"
+    },
+    {
+        "nombre": "Proyector portátil 1080p",
+        "precio": "299.99",
+        "categoria": 4,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Resolución Full HD, conexión HDMI y USB, proyección de hasta 120 pulgadas.",
+        "imagen": "../images/products/categoria4/Proyector portátil 1080p.jpg"
+    },
+    {
+        "nombre": "Auriculares inalámbricos con sonido envolvente",
+        "precio": "149.99",
+        "categoria": 4,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Sonido envolvente 7.1, conexión Bluetooth, batería de 20 horas.",
+        "imagen": "../images/products/categoria4/Auriculares inalámbricos con sonido envolvente.jpg"
+    },
+    {
+        "nombre": "Reproductor de Blu-ray 4K Ultra HD",
+        "precio": "149.99",
+        "categoria": 4,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Soporte para HDR10 y Dolby Vision, reproducción de discos 4K, conexión a Internet.",
+        "imagen": "../images/products/categoria4/Reproductor de Blu-ray 4K Ultra HD.jpg"
+    },
+    {
+        "nombre": "Consola de videojuegos 1TB",
+        "precio": "499.99",
+        "categoria": 4,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Compatible con resolución 4K, almacenamiento de 1TB, mando inalámbrico incluido.",
+        "imagen": "../images/products/categoria4/Consola de videojuegos 1TB.jpg"
+    },
+    {
+        "nombre": "Altavoz Bluetooth portátil resistente al agua",
+        "precio": "79.99",
+        "categoria": 4,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Sonido de alta calidad, resistente al agua, batería de 12 horas de duración.",
+        "imagen": "../images/products/categoria4/Altavoz Bluetooth portátil resistente al agua.jpg"
+    },
+    {
+        "nombre": "Reproductor de streaming 4K",
+        "precio": "49.99",
+        "categoria": 4,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Soporte para 4K UHD, compatible con las principales plataformas de streaming, control por voz.",
+        "imagen": "../images/products/categoria4/Reproductor de streaming 4K.jpg"
+    },
+    {
+        "nombre": "Sistema de sonido envolvente 5.1",
+        "precio": "499.99",
+        "categoria": 4,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "5 altavoces y 1 subwoofer, sonido envolvente de cine, conectividad Bluetooth.",
+        "imagen": "../images/products/categoria4/Sistema de sonido envolvente 5.1.jpg"
+    },
+    {
+        "nombre": "Auriculares de estudio con cancelación de ruido",
+        "precio": "199.99",
+        "categoria": 4,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Sonido de alta fidelidad, cancelación activa de ruido, cómodos para largas sesiones de escucha.",
+        "imagen": "../images/products/categoria4/Auriculares de estudio con cancelación de ruido.jpg"
+    },
+    {
+        "nombre": "Gafas de realidad virtual",
+        "precio": "299.99",
+        "categoria": 4,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Pantallas de alta resolución, campo de visión amplio, compatible con varios dispositivos.",
+        "imagen": "../images/products/categoria4/Gafas de realidad virtual.jpg"
+    },
+    {
+        "nombre": "Control remoto universal inteligente",
+        "precio": "49.99",
+        "categoria": 4,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Controla múltiples dispositivos desde una app, compatible con asistentes de voz.",
+        "imagen": "../images/products/categoria4/Control remoto universal inteligente.jpg"
+    },
+    {
+        "nombre": "Tocadiscos con Bluetooth y USB",
+        "precio": "129.99",
+        "categoria": 4,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Reproduce vinilos, conectividad Bluetooth y USB, diseño retro.",
+        "imagen": "../images/products/categoria4/Tocadiscos con Bluetooth y USB.jpg"
+    },
+    {
+        "nombre": "Subwoofer inalámbrico para TV",
+        "precio": "149.99",
+        "categoria": 4,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Sonido de graves potentes, conectividad inalámbrica, diseño compacto.",
+        "imagen": "../images/products/categoria4/Subwoofer inalámbrico para TV.jpg"
+    },
+    {
+        "nombre": "Pantalla portátil de 15.6” para juegos",
+        "precio": "249.99",
+        "categoria": 4,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Resolución Full HD, conexión HDMI y USB-C, compatible con consolas y portátiles.",
+        "imagen": "../images/products/categoria4/Pantalla portátil de 15.6 pulgadas para juegos.jpg"
+    },
+    {
+        "nombre": "Altavoz inteligente con pantalla táctil",
+        "precio": "129.99",
+        "categoria": 4,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Pantalla de 7 pulgadas, control por voz, integración con dispositivos inteligentes.",
+        "imagen": "../images/products/categoria4/Altavoz inteligente con pantalla táctil.jpg"
+    },
+    {
+        "nombre": "Amplificador de señal Wi-Fi",
+        "precio": "49.99",
+        "categoria": 4,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Amplía la cobertura Wi-Fi en el hogar, fácil instalación, doble banda.",
+        "imagen": "../images/products/categoria4/Amplificador de señal Wi-Fi.jpg"
+    },
+    {
+        "nombre": "Proyector láser 4K Ultra HD",
+        "precio": "1999.99",
+        "categoria": 4,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Proyección láser en resolución 4K, brillo de 4000 lúmenes, proyección de hasta 150 pulgadas.",
+        "imagen": "../images/products/categoria4/Proyector láser 4K Ultra HD.jpg"
+    },
+    {
+        "nombre": "Monitor ultra ancho 44” curvo",
+        "precio": "699.99",
+        "categoria": 4,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Resolución WQHD, relación de aspecto 21:9, tasa de refresco de 144Hz, ideal para juegos y multitarea.",
+        "imagen": "../images/products/categoria4/Monitor ultra ancho 44 pulgadas curvo.jpg"
+    },
+    {
+        "nombre": "Teclado mecánico retroiluminado para juegos",
+        "precio": "129.99",
+        "categoria": 4,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Teclas mecánicas, retroiluminación RGB, anti-ghosting, diseño ergonómico.",
+        "imagen": "../images/products/categoria4/Teclado mecánico retroiluminado para juegos.jpg"
+    },
+    {
+        "nombre": "Controlador de juegos inalámbrico",
+        "precio": "59.99",
+        "categoria": 4,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Compatible con varias consolas y PC, conexión Bluetooth, diseño ergonómico.",
+        "imagen": "../images/products/categoria4/Controlador de juegos inalámbrico.jpg"
+    },
+    {
+        "nombre": "Sistema de altavoces portátiles para exteriores",
+        "precio": "299.99",
+        "categoria": 4,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Sonido potente, resistente a la intemperie, batería de larga duración.",
+        "imagen": "../images/products/categoria4/Sistema de altavoces portátiles para exteriores.jpg"
+    },
+    {
+        "nombre": "Plataforma de juegos retro con 600 juegos clásicos",
+        "precio": "79.99",
+        "categoria": 4,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Incluye más de 600 juegos clásicos, conectividad HDMI, mandos incluidos.",
+        "imagen": "../images/products/categoria4/Plataforma de juegos retro con 600 juegos clásicos.jpg"
+    },
+    {
+        "nombre": "Proyector LED portátil",
+        "precio": "199.99",
+        "categoria": 4,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Resolución HD, conectividad HDMI y USB, ideal para proyecciones en exteriores.",
+        "imagen": "../images/products/categoria4/Proyector LED portátil.jpg"
+    }
+]

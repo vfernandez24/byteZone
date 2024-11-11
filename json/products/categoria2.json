@@ -1,0 +1,243 @@
+[
+    {},
+    {
+        "nombre": "Reloj inteligente con monitor de frecuencia cardíaca",
+        "precio": "79.99",
+        "categoria": 2,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Monitoreo 24/7 de frecuencia cardíaca, compatible con iOS y Android, resistente al agua.",
+        "imagen": "../images/products/categoria2/Reloj inteligente con monitor de frecuencia cardíaca.jpg"
+    },
+    {
+        "nombre": "Pulsera de actividad con contador de calorías",
+        "precio": "29.99",
+        "categoria": 2,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Contador de pasos y calorías, monitor de sueño, sincronización con smartphone.",
+        "imagen": "../images/products/categoria2/Pulsera de actividad con contador de calorías.jpg"
+    },
+    {
+        "nombre": "Termómetro inteligente con Bluetooth",
+        "precio": "39.99",
+        "categoria": 2,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Lecturas rápidas y precisas, sincronización con app, historial de temperatura.",
+        "imagen": "../images/products/categoria2/Termómetro inteligente con Bluetooth.jpg"
+    },
+    {
+        "nombre": "Oxímetro de pulso digital",
+        "precio": "19.99",
+        "categoria": 2,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Mide saturación de oxígeno en sangre y frecuencia cardíaca, pantalla OLED, compacto.",
+        "imagen": "../images/products/categoria2/Oxímetro de pulso digital.jpg"
+    },
+    {
+        "nombre": "Báscula inteligente con análisis corporal",
+        "precio": "49.99",
+        "categoria": 2,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Mide peso, grasa corporal, músculo y agua, conexión Bluetooth para seguimiento en app.",
+        "imagen": "../images/products/categoria2/Báscula inteligente con análisis corporal.jpg"
+    },
+    {
+        "nombre": "Esfigmomanómetro digital",
+        "precio": "59.99",
+        "categoria": 2,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Monitor de presión arterial con pantalla grande, memoria para múltiples usuarios, Bluetooth.",
+        "imagen": "../images/products/categoria2/Esfigmomanómetro digital.jpg"
+    },
+    {
+        "nombre": "Cepillo dental eléctrico con inteligencia artificial",
+        "precio": "99.99",
+        "categoria": 2,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Guía en tiempo real para una limpieza óptima, varios modos de cepillado, batería de larga duración.",
+        "imagen": "../images/products/categoria2/Cepillo dental eléctrico con inteligencia artificial.jpg"
+    },
+    {
+        "nombre": "Audífonos amplificadores de sonido",
+        "precio": "199.99",
+        "categoria": 2,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Amplificación de sonido nítido, ajuste de volumen personalizado, diseño discreto.",
+        "imagen": "../images/products/categoria2/Audífonos amplificadores de sonido.jpg"
+    },
+    {
+        "nombre": "Monitor de sueño inteligente",
+        "precio": "149.99",
+        "categoria": 2,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Registra fases de sueño, análisis detallado en app, consejos personalizados para mejorar el sueño.",
+        "imagen": "../images/products/categoria2/Monitor de sueño inteligente.jpg"
+    },
+    {
+        "nombre": "Electrocardiógrafo portátil",
+        "precio": "199.99",
+        "categoria": 2,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "ECG de una derivación, resultados en 30 segundos, sincronización con app.",
+        "imagen": "../images/products/categoria2/Electrocardiógrafo portátil.jpg"
+    },
+    {
+        "nombre": "Lámpara de terapia de luz",
+        "precio": "49.99",
+        "categoria": 2,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Mejora el estado de ánimo y combate el trastorno afectivo estacional, 10,000 lux.",
+        "imagen": "../images/products/categoria2/Lámpara de terapia de luz.jpg"
+    },
+    {
+        "nombre": "Medidor de glucosa digital portátil",
+        "precio": "49.99",
+        "categoria": 2,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Monitoreo sin pinchazos, conexión Bluetooth, alertas de nivel bajo/alto de glucosa.",
+        "imagen": "../images/products/categoria2/Medidor de glucosa digital portátil.jpg"
+    },
+    {
+        "nombre": "Termómetro digital infrarrojo",
+        "precio": "29.99",
+        "categoria": 2,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Medición precisa en segundos, pantalla digital, sin contacto.",
+        "imagen": "../images/products/categoria2/Termómetro digital infrarrojo.jpg"
+    },
+    {
+        "nombre": "Lentes para bloqueo de luz azul",
+        "precio": "25.99",
+        "categoria": 2,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Filtran la luz azul de pantallas, protegen los ojos durante el uso prolongado, estilo moderno.",
+        "imagen": "../images/products/categoria2/Lentes para bloqueo de luz azul.jpg"
+    },
+    {
+        "nombre": "Inhalador portátil de vapor para descongestión nasal",
+        "precio": "39.99",
+        "categoria": 2,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Alivia la congestión nasal, diseño compacto y portátil, varios niveles de vapor.",
+        "imagen": "../images/products/categoria2/Inhalador portátil de vapor para descongestión nasal.jpg"
+    },
+    {
+        "nombre": "Banda de monitorización de presión arterial",
+        "precio": "59.99",
+        "categoria": 2,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Registro continuo de presión arterial, notificaciones de alta/baja presión, conexión Bluetooth.",
+        "imagen": "../images/products/categoria2/Banda de monitorización de presión arterial.jpg"
+    },
+    {
+        "nombre": "Botella de agua inteligente con recordatorio de hidratación",
+        "precio": "29.99",
+        "categoria": 2,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Luces LED para recordar la hidratación, medición del consumo de agua, app móvil.",
+        "imagen": "../images/products/categoria2/Botella de agua inteligente con recordatorio de hidratación.jpg"
+    },
+    {
+        "nombre": "Masajeador de cuello y espalda portátil",
+        "precio": "69.99",
+        "categoria": 2,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Masaje de vibración, calor infrarrojo, diseño ergonómico para usar en cualquier lugar.",
+        "imagen": "../images/products/categoria2/Masajeador de cuello y espalda portátil.jpg"
+    },
+    {
+        "nombre": "Nebulizador portátil ultrasónico",
+        "precio": "49.99",
+        "categoria": 2,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Alivio de problemas respiratorios, portátil y silencioso, tecnología ultrasónica.",
+        "imagen": "../images/products/categoria2/Nebulizador portátil ultrasónico.jpg"
+    },
+    {
+        "nombre": "Tensiómetro de muñeca inteligente",
+        "precio": "39.99",
+        "categoria": 2,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Monitoreo rápido de la presión arterial, sincronización con app, pantalla OLED.",
+        "imagen": "../images/products/categoria2/Tensiómetro de muñeca inteligente.jpg"
+    },
+    {
+        "nombre": "Corrector de postura inteligente",
+        "precio": "59.99",
+        "categoria": 2,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Sensor que alerta cuando la postura es incorrecta, ajustable, conexión Bluetooth para seguimiento.",
+        "imagen": "../images/products/categoria2/Corrector de postura inteligente.jpg"
+    },
+    {
+        "nombre": "Dispositivo de terapia TENS portátil",
+        "precio": "89.99",
+        "categoria": 2,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Alivia dolores musculares, varios niveles de intensidad, recargable.",
+        "imagen": "../images/products/categoria2/Dispositivo de terapia TENS portátil.jpg"
+    },
+    {
+        "nombre": "Bastón inteligente con GPS",
+        "precio": "99.99",
+        "categoria": 2,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Incluye GPS para seguimiento, sistema de emergencia, luz LED integrada.",
+        "imagen": "../images/products/categoria2/Bastón inteligente con GPS.jpg"
+    },
+    {
+        "nombre": "Purificador de aire portátil para colgar",
+        "precio": "39.99",
+        "categoria": 2,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Filtra el aire alrededor del usuario, compacto y portátil, batería recargable.",
+        "imagen": "../images/products/categoria2/Purificador de aire portátil para colgar.jpg"
+    }
+]

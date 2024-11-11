@@ -1,0 +1,243 @@
+[
+    {},
+    {
+        "nombre": "Bombilla inteligente LED",
+        "precio": "19.99",
+        "categoria": 3,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Control vía app, ajustable en brillo y color, compatible con asistentes de voz.",
+        "imagen": "../images/products/categoria3/Bombilla inteligente LED.jpg"
+    },
+    {
+        "nombre": "Enchufe inteligente Wi-Fi",
+        "precio": "14.99",
+        "categoria": 3,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Control remoto de encendido y apagado, programación de horarios, compatible con Alexa y Google Assistant.",
+        "imagen": "../images/products/categoria3/Enchufe inteligente Wi-Fi.jpg"
+    },
+    {
+        "nombre": "Cámara de seguridad para interiores",
+        "precio": "39.99",
+        "categoria": 3,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Transmisión en vivo HD, visión nocturna, detección de movimiento, alertas al móvil.",
+        "imagen": "../images/products/categoria3/Cámara de seguridad para interiores.jpg"
+    },
+    {
+        "nombre": "Termostato inteligente Wi-Fi",
+        "precio": "99.99",
+        "categoria": 3,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Control remoto desde el móvil, programación automática, compatible con asistentes de voz.",
+        "imagen": "../images/products/categoria3/Termostato inteligente Wi-Fi.jpg"
+    },
+    {
+        "nombre": "Cerradura inteligente con huella digital",
+        "precio": "149.99",
+        "categoria": 3,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Desbloqueo por huella digital, app móvil, integración con asistentes de voz.",
+        "imagen": "../images/products/categoria3/Cerradura inteligente con huella digital.jpg"
+    },
+    {
+        "nombre": "Cámara de timbre con video",
+        "precio": "89.99",
+        "categoria": 3,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Cámara HD, visión nocturna, detección de movimiento, alertas al móvil.",
+        "imagen": "../images/products/categoria3/Cámara de timbre con video.jpg"
+    },
+    {
+        "nombre": "Sensor de movimiento para exteriores",
+        "precio": "29.99",
+        "categoria": 3,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Detección de movimiento de largo alcance, conexión inalámbrica, alertas instantáneas.",
+        "imagen": "../images/products/categoria3/Sensor de movimiento para exteriores.jpg"
+    },
+    {
+        "nombre": "Altavoz inteligente con asistente de voz",
+        "precio": "49.99",
+        "categoria": 3,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Control de hogar inteligente, respuesta a comandos de voz, reproducción de música.",
+        "imagen": "../images/products/categoria3/Altavoz inteligente con asistente de voz.jpg"
+    },
+    {
+        "nombre": "Cámara de vigilancia 360 grados",
+        "precio": "129.99",
+        "categoria": 3,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Rotación completa, visión nocturna, detección de sonido y movimiento.",
+        "imagen": "../images/products/categoria3/Cámara de vigilancia 360 grados.jpg"
+    },
+    {
+        "nombre": "Robot aspirador con mopa",
+        "precio": "299.99",
+        "categoria": 3,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Limpieza automática, control remoto desde app, mopa integrada, programación de horarios.",
+        "imagen": "../images/products/categoria3/Robot aspirador con mopa.jpg"
+    },
+    {
+        "nombre": "Sensor de fugas de agua Wi-Fi",
+        "precio": "39.99",
+        "categoria": 3,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Detección instantánea de fugas, notificaciones en el móvil, fácil instalación.",
+        "imagen": "../images/products/categoria3/Sensor de fugas de agua Wi-Fi.jpg"
+    },
+    {
+        "nombre": "Sensor de ventanas y puertas inteligente",
+        "precio": "24.99",
+        "categoria": 3,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Detección instantánea de apertura, conexión Wi-Fi, compatible con asistentes de voz.",
+        "imagen": "../images/products/categoria3/Sensor de ventanas y puertas inteligente.jpg"
+    },
+    {
+        "nombre": "Cámara de seguridad exterior con visión nocturna",
+        "precio": "129.99",
+        "categoria": 3,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Cámara 1080p, visión nocturna de 30 metros, resistente al agua.",
+        "imagen": "../images/products/categoria3/Cámara de seguridad exterior con visión nocturna.jpg"
+    },
+    {
+        "nombre": "Timbre inteligente con video y detección de movimiento",
+        "precio": "79.99",
+        "categoria": 3,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Cámara HD, notificaciones al móvil, comunicación de dos vías.",
+        "imagen": "../images/products/categoria3/Timbre inteligente con video y detección de movimiento.jpg"
+    },
+    {
+        "nombre": "Cerradura inteligente con PIN y control remoto",
+        "precio": "129.99",
+        "categoria": 3,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Cerradura con teclado numérico, control remoto vía app, notificaciones de acceso.",
+        "imagen": "../images/products/categoria3/Cerradura inteligente con PIN y control remoto.jpg"
+    },
+    {
+        "nombre": "Monitor de calidad de aire inteligente",
+        "precio": "59.99",
+        "categoria": 3,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Mide partículas en el aire, humedad, temperatura, alertas en el móvil.",
+        "imagen": "../images/products/categoria3/Monitor de calidad de aire inteligente.jpg"
+    },
+    {
+        "nombre": "Interruptor de luz inteligente Wi-Fi",
+        "precio": "29.99",
+        "categoria": 3,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Control remoto de luces, programación de horarios, compatible con asistentes de voz.",
+        "imagen": "../images/products/categoria3/Interruptor de luz inteligente Wi-Fi.jpg"
+    },
+    {
+        "nombre": "Lámpara de escritorio con control táctil",
+        "precio": "49.99",
+        "categoria": 3,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Ajuste de brillo y temperatura de color, compatible con app móvil y asistentes de voz.",
+        "imagen": "../images/products/categoria3/Lámpara de escritorio con control táctil.jpg"
+    },
+    {
+        "nombre": "Sensor de temperatura y humedad inteligente",
+        "precio": "24.99",
+        "categoria": 3,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Controla la temperatura y humedad en tiempo real, notificaciones en la app, compatible con otros dispositivos inteligentes.",
+        "imagen": "../images/products/categoria3/Sensor de temperatura y humedad inteligente.jpg"
+    },
+    {
+        "nombre": "Purificador de aire inteligente con Wi-Fi",
+        "precio": "199.99",
+        "categoria": 3,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Filtra polvo y alérgenos, control vía app, monitoreo de calidad de aire.",
+        "imagen": "../images/products/categoria3/Purificador de aire inteligente con Wi-Fi.jpg"
+    },
+    {
+        "nombre": "Alarma inteligente para el hogar",
+        "precio": "59.99",
+        "categoria": 3,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Sistema de alarma con sensores de movimiento, control remoto, alertas al móvil.",
+        "imagen": "../images/products/categoria3/Alarma inteligente para el hogar.jpg"
+    },
+    {
+        "nombre": "Estación meteorológica inteligente",
+        "precio": "129.99",
+        "categoria": 3,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Monitorea temperatura, humedad, presión barométrica, conexión a app móvil.",
+        "imagen": "../images/products/categoria3/Estación meteorológica inteligente.jpg"
+    },
+    {
+        "nombre": "Enchufe inteligente con monitor de energía",
+        "precio": "34.99",
+        "categoria": 3,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Control remoto de encendido, monitor de consumo de energía, compatible con Alexa y Google Home.",
+        "imagen": "../images/products/categoria3/Enchufe inteligente con monitor de energía.jpg"
+    },
+    {
+        "nombre": "Persianas inteligentes con control remoto",
+        "precio": "249.99",
+        "categoria": 3,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Control de apertura y cierre vía app o asistente de voz, programables.",
+        "imagen": "../images/products/categoria3/Persianas inteligentes con control remoto.jpg"
+    }
+]

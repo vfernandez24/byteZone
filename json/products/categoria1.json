@@ -1,0 +1,243 @@
+[
+    {},
+    {
+        "nombre": "Cargador inalámbico rápido",
+        "precio": "10.00",
+        "categoria": 1,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Carga rápida de 15W, compatible con iPhone y Android, diseño delgado y portátil",
+        "imagen": "../../images/products/categoria1/1-1 Cargador inalámbrico rápido.jpg"
+    },
+    {
+        "nombre": "Funda protectora para iPhone 14",
+        "precio": "19.99",
+        "categoria": 1,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Resistente a golpes, diseño transparente, bordes elevados para protección de pantalla y cámara.",
+        "imagen": "../../images/products/categoria1/1-2 Funda protectora para iPhone 14.jpg"
+    },
+    {
+        "nombre": "Auriculares Bluetooth con cancelación de ruido",
+        "precio": "49.99",
+        "categoria": 1,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Bluetooth 5.0, cancelación activa de ruido, duración de batería de 20 horas, micrófono integrado.",
+        "imagen": "../../images/products/categoria1/1-3 Auriculares Bluetooth con cancelación de ruido.jpg"
+    },
+    {
+        "nombre": "Soporte ajustable para smartphone",
+        "precio": "14.99",
+        "categoria": 1,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Ángulo ajustable, plegable, compatible con iPhone y Android.",
+        "imagen": "../../images/products/categoria1/1-4 Soporte ajustable para smartphone.jpg"
+    },
+    {
+        "nombre": "Powerbank 20,000mAh",
+        "precio": "34.99",
+        "categoria": 1,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Carga rápida, dos puertos USB, pantalla digital de batería.",
+        "imagen": "../../images/products/categoria1/1-5 Power Bank 20,000mAh.png"
+    },
+    {
+        "nombre": "Cargador de coche USB-C doble",
+        "precio": "19.99",
+        "categoria": 1,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Dos puertos de carga rápida, compatible con todos los smartphones, diseño compacto.",
+        "imagen": "../../images/products/categoria1/1-6 Cargador de coche doble USB.jpeg"
+    },
+    {
+        "nombre": "Funda impermeable para smartphone",
+        "precio": "9.99",
+        "categoria": 1,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Resistente al agua hasta 2 metros, compatible con pantallas táctiles, ideal para deportes acuáticos.",
+        "imagen": "../../images/products/categoria1/1-7 Funda impermeable para smartphone.jpg"
+    },
+    {
+        "nombre": "Cable de carga rápida USB-C trenzado",
+        "precio": "12.99",
+        "categoria": 1,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Longitud de 2 metros, resistente a tirones, compatible con Android y dispositivos USB-C.",
+        "imagen": "../../images/products/categoria1/1-8 Cable de carga trenzado USB-C.jpg"
+    },
+    {
+        "nombre": "Lente de cámara para smartphone (kit 3 en 1)",
+        "precio": "24.99",
+        "categoria": 1,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Incluye lente gran angular, macro y ojo de pez, compatible con la mayoría de smartphones.",
+        "imagen": "../../images/products/categoria1/1-9 Lente de cámara para smartphone (kit 3 en 1).jpg"
+    },
+    {
+        "nombre": "Soporte de anillo para smartphone",
+        "precio": "7.99",
+        "categoria": 1,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Diseño giratorio 360º, función de soporte para ver videos, fácil de adherir a cualquier teléfono.",
+        "imagen": "../../images/products/categoria1/1-10 Soporte de anillo para smartphon.jpg"
+    },
+    {
+        "nombre": "Limpia pantalla portátil",
+        "precio": "4.99",
+        "categoria": 1,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Spray de limpieza y paño integrados, tamaño bolsillo, seguro para pantallas táctiles.",
+        "imagen": "../../images/products/categoria1/1-11 Limpia pantalla portátil.jpg"
+    },
+    {
+        "nombre": "Soporte de coche magnético para smartphone",
+        "precio": "14.99",
+        "categoria": 1,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Sujeción magnética, rotación de 360 grados, compatible con la mayoría de teléfonos.",
+        "imagen": "../../images/products/categoria1/1-12 Soporte magnético para coche.jpg"
+    },
+    {
+        "nombre": "Cargador solar portátil",
+        "precio": "39.99",
+        "categoria": 1,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Panel solar de alta eficiencia, salida USB dual, resistente al agua y a los golpes.",
+        "imagen": "../../images/products/categoria1/1-13 Cargador solar portátil.jpg"
+    },
+    {
+        "nombre": "Gimbal estabilizador para smartphone",
+        "precio": "99.99",
+        "categoria": 1,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Estabilización en tres ejes, compatible con iPhone y Android, duración de batería de 12 horas.",
+        "imagen": "../../images/products/categoria1/1-14 Gimbal estabilizador para smartphone.jpg"
+    },
+    {
+        "nombre": "Auriculares inalámbricos deportivos",
+        "precio": "29.99",
+        "categoria": 1,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Resistente al agua y al sudor, diseño ergonómico, 10 horas de batería.",
+        "imagen": "../../images/products/categoria1/1-15 Auriculares inalámbricos deportivos.jpg"
+    },
+    {
+        "nombre": "Funda con batería integrada para iPhone",
+        "precio": "59.99",
+        "categoria": 1,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Carga adicional de 4000mAh, diseño delgado, protección completa contra caídas.",
+        "imagen": "../../images/products/categoria1/1-16 Funda con batería integrada para iPhone.jpg"
+    },
+    {
+        "nombre": "Protector de pantalla de vidrio templado para iPhone 14",
+        "precio": "9.99",
+        "categoria": 1,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Resistente a los arañazos, fácil instalación, cobertura completa de pantalla.",
+        "imagen": "../../images/products/categoria1/1-17 Protector de pantalla de vidrio templado para iPhone 14.jpeg"
+    },
+    {
+        "nombre": "Mini impresora portátil para smartphone",
+        "precio": "79.99",
+        "categoria": 1,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Imprime fotos y documentos directamente desde el teléfono, conexión Bluetooth.",
+        "imagen": "../../images/products/categoria1/1-18 Mini impresora portátil para smartphone.jpg"
+    },
+    {
+        "nombre": "Adaptador de audio de 3.5mm a USB-C",
+        "precio": "12.99",
+        "categoria": 1,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Permite conectar auriculares con conector de 3.5mm a dispositivos USB-C.",
+        "imagen": "../../images/products/categoria1/1-19 Adaptador de audio de 3.5mm a USB-C.jpg"
+    },
+    {
+        "nombre": "Teclado plegable Bluetooth para smartphone",
+        "precio": "49.99",
+        "categoria": 1,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Teclado QWERTY, diseño plegable, compatible con Android e iOS.",
+        "imagen": "../../images/products/categoria1/1-20 Teclado plegable Bluetooth para smartphone.jpg"
+    },
+    {
+        "nombre": "Cargador inalámbrico para coche con sujeción automática",
+        "precio": "39.99",
+        "categoria": 1,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Carga inalámbrica rápida, sujeción automática al colocar el teléfono, rotación 360º.",
+        "imagen": "../../images/products/categoria1/1-21 Cargador inalámbrico para coche con sujeción automática.jpg"
+    },
+    {
+        "nombre": "Funda de silicona para AirPods",
+        "precio": "7.99",
+        "categoria": 1,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Protección completa, resistente al polvo y golpes, disponible en varios colores.",
+        "imagen": "../../images/products/categoria1/1-22 Funda de silicona para AirPods.jpg"
+    },
+    {
+        "nombre": "Llavero localizador Bluetooth para llaves y smartphones",
+        "precio": "19.99",
+        "categoria": 1,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Localiza objetos perdidos mediante app, notificaciones de separación, batería reemplazable.",
+        "imagen": "../../images/products/categoria1/1-23 Llavero localizador Bluetooth para llaves y smartphones.jpg"
+    },
+    {
+        "nombre": "Soporte de escritorio ajustable para tablet y smartphone",
+        "precio": "29.99",
+        "categoria": 1,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Altura y ángulo ajustable, base antideslizante, compatible con tablets y smartphones.",
+        "imagen": "../../images/products/categoria1/1-24 Soporte de escritorio ajustable para tablet y smartphone.jpg"
+    }
+]
