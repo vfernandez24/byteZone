@@ -4,34 +4,45 @@
 
 // Función para cargar un producto específico desde un archivo JSON
 async function cargarProductoEspecifico(categoria, indice, idSection) {
-    let response
+    let response;
     
     try {
         switch (categoria) {
             case 1:
                 // Cargar y analizar el archivo JSON
                 response = await fetch('json/products/categoria1.json');
+                break;
             case 2: 
                 // Cargar y analizar el archivo JSON
                 response = await fetch('json/products/categoria2.json');
+                break;
             case 3: 
                 // Cargar y analizar el archivo JSON
                 response = await fetch('json/products/categoria3.json');
+                break;
             case 4: 
                 // Cargar y analizar el archivo JSON
                 response = await fetch('json/products/categoria4.json');
+                break;
             case 5: 
                 // Cargar y analizar el archivo JSON
                 response = await fetch('json/products/categoria5.json');
+                break;
             case 6: 
                 // Cargar y analizar el archivo JSON
                 response = await fetch('json/products/categoria6.json');
+                break;
             case 7: 
                 // Cargar y analizar el archivo JSON
                 response = await fetch('json/products/categoria7.json');
+                break;
             case 8: 
                 // Cargar y analizar el archivo JSON
                 response = await fetch('json/products/categoria8.json');
+                break;
+            default:
+                console.error('Categoría no válida.');
+                return;
         }
 
         const productos = await response.json();
@@ -65,11 +76,11 @@ async function cargarProductoEspecifico(categoria, indice, idSection) {
 
         // Crear el elemento de precio
         const precio = document.createElement('h3');
-        precio.textContent = `Precio: $${producto.precio}`;
+        precio.textContent = `$${producto.precio}`;
 
         // Agregar todos los elementos al div del producto
         divProducto.appendChild(imagenDiv);
-        imagenDiv.appendChild(imagen)
+        imagenDiv.appendChild(imagen);
         divProducto.appendChild(nombre);
         divProducto.appendChild(precio);
 

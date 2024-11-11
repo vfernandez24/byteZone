@@ -54,7 +54,8 @@ const datosPerfil = (pagina) => {
             console.log('registrar')
             if (password1.value !== '' && password2.value !== '' && password1.value == password2.value && checkBox.checked) {
             guardarDatos() //*Guarda los datos en localStorage
-        } else {
+        } else 
+        {
             if ((password1.value == '' && password2.value == '') || password1.value !== password2.value) {
                 let label1 = password1.parentElement;
                 label1.classList.add('red')

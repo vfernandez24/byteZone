@@ -1,0 +1,243 @@
+[
+    {},
+    {
+        "nombre": "Funda con teclado Bluetooth para tablet",
+        "precio": "49.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Teclado desmontable, funda resistente, compatible con varios modelos de tablets.",
+        "imagen": "../images/products/categoria8/Funda con teclado Bluetooth para tablet.jpg"
+    },
+    {
+        "nombre": "Soporte ajustable para tablet",
+        "precio": "24.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Ángulo ajustable, diseño plegable, compatible con tablets de 7-12 pulgadas.",
+        "imagen": "../images/products/categoria8/Soporte ajustable para tablet.jpg"
+    },
+    {
+        "nombre": "Lápiz táctil recargable",
+        "precio": "29.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Punta de precisión, batería de larga duración, compatible con iOS y Android.",
+        "imagen": "../images/products/categoria8/Lápiz táctil recargable.jpg"
+    },
+    {
+        "nombre": "Protector de pantalla de vidrio templado",
+        "precio": "14.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Anti-rayaduras, fácil instalación, alta transparencia.",
+        "imagen": "../images/products/categoria8/Protector de pantalla de vidrio templado.jpg"
+    },
+    {
+        "nombre": "Soporte de tablet para coche",
+        "precio": "19.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Fácil instalación en el reposacabezas, ajustable, ideal para entretenimiento en viajes.",
+        "imagen": "../images/products/categoria8/Soporte de tablet para coche.jpg"
+    },
+    {
+        "nombre": "Cargador rápido USB-C para tablet",
+        "precio": "34.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Carga rápida, cable de 1.5 metros, compatible con tablets de varias marcas.",
+        "imagen": "../images/products/categoria8/Cargador rápido USB-C para tablet.jpg"
+    },
+    {
+        "nombre": "Bolígrafo táctil con múltiples puntas",
+        "precio": "15.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Incluye puntas de precisión y goma, compatible con la mayoría de tablets.",
+        "imagen": "../images/products/categoria8/Bolígrafo táctil con múltiples puntas.jpg"
+    },
+    {
+        "nombre": "Teclado plegable portátil",
+        "precio": "39.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Diseño compacto, conexión Bluetooth, batería recargable.",
+        "imagen": "../images/products/categoria8/Teclado plegable portátil.jpg"
+    },
+    {
+        "nombre": "Adaptador USB-C a HDMI para tablet",
+        "precio": "24.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Conexión de alta calidad, soporte para resolución 4K, fácil de usar.",
+        "imagen": "../images/products/categoria8/Adaptador USB-C a HDMI para tablet.jpg"
+    },
+    {
+        "nombre": "Maletín para tablet resistente al agua",
+        "precio": "29.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Compartimientos adicionales, material impermeable, correa ajustable.",
+        "imagen": "../images/products/categoria8/Maletín para tablet resistente al agua.jpg"
+    },
+    {
+        "nombre": "Soporte flexible para tablet de cama",
+        "precio": "34.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Brazo flexible, ajuste de 360 grados, ideal para usar en cama o sofá.",
+        "imagen": "../images/products/categoria8/Soporte flexible para tablet de cama.jpg"
+    },
+    {
+        "nombre": "Power bank de 20,000 mAh para tablets",
+        "precio": "49.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Alta capacidad de carga, puertos USB-A y USB-C, carga rápida.",
+        "imagen": "../images/products/categoria8/Power bank de 20,000 mAh para tablets.jpg"
+    },
+    {
+        "nombre": "Funda de tablet para niños",
+        "precio": "19.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Resistente a golpes, bordes elevados, diseño divertido.",
+        "imagen": "../images/products/categoria8/Funda de tablet para niños.jpg"
+    },
+    {
+        "nombre": "Teclado retroiluminado para tablets",
+        "precio": "54.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Conexión Bluetooth, teclas retroiluminadas, diseño ultradelgado.",
+        "imagen": "../images/products/categoria8/Teclado retroiluminado para tablets.jpg"
+    },
+    {
+        "nombre": "Cable USB-C trenzado de 2 metros",
+        "precio": "12.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Resistente a enredos, alta velocidad de transferencia, ideal para tablets.",
+        "imagen": "../images/products/categoria8/Cable USB-C trenzado de 2 metros.jpg"
+    },
+    {
+        "nombre": "Altavoz Bluetooth portátil para tablet",
+        "precio": "39.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Sonido envolvente, conexión Bluetooth, batería de larga duración.",
+        "imagen": "../images/products/categoria8/Altavoz Bluetooth portátil para tablet.jpg"
+    },
+    {
+        "nombre": "Funda de cuero giratoria 360 grados",
+        "precio": "34.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Permite rotación completa, protección completa, aspecto elegante.",
+        "imagen": "../images/products/categoria8/Funda de cuero giratoria 360 grados.jpg"
+    },
+    {
+        "nombre": "Lápiz táctil magnético con carga inalámbrica",
+        "precio": "59.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Carga magnética, alta sensibilidad, compatible con tablets recientes.",
+        "imagen": "../images/products/categoria8/Lápiz táctil magnético con carga inalámbrica.jpg"
+    },
+    {
+        "nombre": "Guantes para dibujo digital en tablet",
+        "precio": "9.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Antideslizantes, material transpirable, ideal para ilustradores.",
+        "imagen": "../images/products/categoria8/Guantes para dibujo digital en tablet.jpg"
+    },
+    {
+        "nombre": "Adaptador de tarjeta SD para tablet",
+        "precio": "19.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Transferencia rápida de archivos, compatible con tarjetas microSD y SD.",
+        "imagen": "../images/products/categoria8/Adaptador de tarjeta SD para tablet.jpg"
+    },
+    {
+        "nombre": "Proyector portátil para tablet",
+        "precio": "149.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Proyección hasta 120 pulgadas, batería recargable, ideal para presentaciones y cine en casa.",
+        "imagen": "../images/products/categoria8/Proyector portátil para tablet.jpg"
+    },
+    {
+        "nombre": "Soporte de tablet para escritorio con carga inalámbrica",
+        "precio": "69.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Ángulo ajustable, base con carga inalámbrica, diseño moderno.",
+        "imagen": "../images/products/categoria8/Soporte de tablet para escritorio con carga inalámbrica.jpg"
+    },
+    {
+        "nombre": "Auriculares inalámbricos para tablet",
+        "precio": "29.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Bluetooth 5.0, batería de larga duración, diseño ergonómico.",
+        "imagen": "../images/products/categoria8/Auriculares inalámbricos para tablet.jpg"
+    },
+    {
+        "nombre": "Fundas de silicona para cables de tablet",
+        "precio": "6.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Evita enredos, protege los cables, varios colores.",
+        "imagen": "../images/products/categoria8/Fundas de silicona para cables de tablet.jpg"
+    }
+]

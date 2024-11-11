@@ -1,0 +1,243 @@
+[
+    {},
+    {
+        "nombre": "Silla gamer ergonómica con soporte lumbar",
+        "precio": "299.99",
+        "categoria": 6,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Ajustable, acolchado de alta densidad, ruedas silenciosas.",
+        "imagen": "../images/products/categoria6/Silla gamer ergonómica con soporte lumbar.jpg"
+    },
+    {
+        "nombre": "Teclado mecánico RGB para gaming",
+        "precio": "119.99",
+        "categoria": 6,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Teclas mecánicas, retroiluminación personalizable, anti-ghosting.",
+        "imagen": "../images/products/categoria6/Teclado mecánico RGB para gaming.jpg"
+    },
+    {
+        "nombre": "Mouse gamer con DPI ajustable",
+        "precio": "49.99",
+        "categoria": 6,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "DPI ajustable hasta 16,000, diseño ergonómico, retroiluminación RGB.",
+        "imagen": "../images/products/categoria6/Mouse gamer con DPI ajustable.jpg"
+    },
+    {
+        "nombre": "Monitor gaming 27” 144Hz",
+        "precio": "399.99",
+        "categoria": 6,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Resolución QHD, tasa de refresco de 144Hz, tiempo de respuesta de 1 ms.",
+        "imagen": "../images/products/categoria6/Monitor gaming 27” 144Hz.jpg"
+    },
+    {
+        "nombre": "Auriculares gaming con micrófono ajustable",
+        "precio": "89.99",
+        "categoria": 6,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Sonido envolvente, micrófono con cancelación de ruido, cómodos para largas sesiones.",
+        "imagen": "../images/products/categoria6/Auriculares gaming con micrófono ajustable.jpg"
+    },
+    {
+        "nombre": "Controlador de videojuegos inalámbrico",
+        "precio": "59.99",
+        "categoria": 6,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Compatible con varias plataformas, conexión Bluetooth, diseño ergonómico.",
+        "imagen": "../images/products/categoria6/Controlador de videojuegos inalámbrico.jpg"
+    },
+    {
+        "nombre": "Alfombrilla de mouse XXL con superficie suave",
+        "precio": "29.99",
+        "categoria": 6,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Gran superficie, antideslizante, ideal para gamers.",
+        "imagen": "../images/products/categoria6/Alfombrilla de mouse XXL con superficie suave.jpg"
+    },
+    {
+        "nombre": "Cámara web para streaming de alta definición",
+        "precio": "79.99",
+        "categoria": 6,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Resolución 1080p, micrófono incorporado, ideal para Twitch y YouTube.",
+        "imagen": "../images/products/categoria6/Cámara web para streaming de alta definición.jpg"
+    },
+    {
+        "nombre": "Soporte para auriculares gamer",
+        "precio": "19.99",
+        "categoria": 6,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Diseño elegante, antideslizante, compatible con todos los auriculares.",
+        "imagen": "../images/products/categoria6/Soporte para auriculares gamer.jpg"
+    },
+    {
+        "nombre": "Base de carga para controladores",
+        "precio": "39.99",
+        "categoria": 6,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Carga rápida, diseño compacto, incluye espacio para dos controladores.",
+        "imagen": "../images/products/categoria6/Base de carga para controladores.jpg"
+    },
+    {
+        "nombre": "Funda protectora para consola de videojuegos",
+        "precio": "29.99",
+        "categoria": 6,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Protección contra polvo y arañazos, diseño ajustado, fácil de instalar.",
+        "imagen": "../images/products/categoria6/Funda protectora para consola de videojuegos.jpg"
+    },
+    {
+        "nombre": "Luz LED de ambiente para gamer",
+        "precio": "39.99",
+        "categoria": 6,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Iluminación RGB, control remoto, ideal para personalizar el espacio de juego.",
+        "imagen": "../images/products/categoria6/Luz LED de ambiente para gamer.jpg"
+    },
+    {
+        "nombre": "Cable de carga rápida para controladores",
+        "precio": "9.99",
+        "categoria": 6,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Carga rápida, longitud de 3 metros, compatible con múltiples modelos.",
+        "imagen": "../images/products/categoria6/Cable de carga rápida para controladores.jpg"
+    },
+    {
+        "nombre": "Soporte para consola de videojuegos",
+        "precio": "24.99",
+        "categoria": 6,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Diseño compacto, permite ventilación adecuada, compatible con varias consolas.",
+        "imagen": "../images/products/categoria6/Soporte para consola de videojuegos.jpg"
+    },
+    {
+        "nombre": "Cubre teclado para consola",
+        "precio": "14.99",
+        "categoria": 6,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Protección contra polvo, fácil de limpiar, material suave.",
+        "imagen": "../images/products/categoria6/Cubre teclado para consola.jpg"
+    },
+    {
+        "nombre": "Mousepad con carga inalámbrica",
+        "precio": "49.99",
+        "categoria": 6,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Carga de dispositivos, superficie suave, diseño elegante.",
+        "imagen": "../images/products/categoria6/Mousepad con carga inalámbrica.jpg"
+    },
+    {
+        "nombre": "Funda para controlar videojuego personalizable",
+        "precio": "19.99",
+        "categoria": 6,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Diseño personalizable, material suave, fácil de instalar.",
+        "imagen": "../images/products/categoria6/Funda para controlar videojuego personalizable.jpg"
+    },
+    {
+        "nombre": "Ventilador USB para PC gaming",
+        "precio": "29.99",
+        "categoria": 6,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Silencioso, diseño compacto, ideal para largas sesiones de juego.",
+        "imagen": "../images/products/categoria6/Ventilador USB para PC gaming.jpg"
+    },
+    {
+        "nombre": "Altavoces Bluetooth para juegos",
+        "precio": "99.99",
+        "categoria": 6,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Sonido envolvente, conexión Bluetooth, diseño portátil.",
+        "imagen": "../images/products/categoria6/Altavoces Bluetooth para juegos.jpg"
+    },
+    {
+        "nombre": "Mando a distancia universal para juegos",
+        "precio": "34.99",
+        "categoria": 6,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Compatible con múltiples plataformas, fácil de configurar, diseño ergonómico.",
+        "imagen": "../images/products/categoria6/Mando a distancia universal para juegos.jpg"
+    },
+    {
+        "nombre": "Kit de limpieza para consolas y accesorios",
+        "precio": "19.99",
+        "categoria": 6,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Incluye limpiador, paño de microfibra, brochas para polvo.",
+        "imagen": "../images/products/categoria6/Kit de limpieza para consolas y accesorios.jpg"
+    },
+    {
+        "nombre": "Cámara de acción para gaming",
+        "precio": "149.99",
+        "categoria": 6,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Grabación en 4K, resistente al agua, ideal para capturar momentos de juego.",
+        "imagen": "../images/products/categoria6/Cámara de acción para gaming.jpg"
+    },
+    {
+        "nombre": "Taza térmica para gamers",
+        "precio": "24.99",
+        "categoria": 6,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Mantiene la temperatura, diseño divertido, ideal para sesiones largas.",
+        "imagen": "../images/products/categoria6/Taza térmica para gamers.jpg"
+    },
+    {
+        "nombre": "Controlador de juegos retro USB",
+        "precio": "29.99",
+        "categoria": 6,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Diseño clásico, compatible con PC y consolas, fácil de usar.",
+        "imagen": "../images/products/categoria6/Controlador de juegos retro USB.jpg"
+    }
+]
