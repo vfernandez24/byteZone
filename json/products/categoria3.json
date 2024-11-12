@@ -44,9 +44,9 @@
         "nombre": "Cerradura inteligente con huella digital",
         "precio": "149.99",
         "categoria": 3,
-        "oferta": false,
-        "precioDesc": "0",
-        "porcentDesc": "0%",
+        "oferta": true,
+        "precioDesc": "67.49",
+        "porcentDesc": "55%",
         "descripcion": "Desbloqueo por huella digital, app móvil, integración con asistentes de voz.",
         "imagen": "../images/products/categoria3/Cerradura inteligente con huella digital.jpg"
     },

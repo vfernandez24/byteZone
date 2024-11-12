@@ -174,9 +174,9 @@
         "nombre": "Lápiz táctil magnético con carga inalámbrica",
         "precio": "59.99",
         "categoria": 8,
-        "oferta": false,
-        "precioDesc": "0",
-        "porcentDesc": "0%",
+        "oferta": true,
+        "precioDesc": "23.99",
+        "porcentDesc": "60%",
         "descripcion": "Carga magnética, alta sensibilidad, compatible con tablets recientes.",
         "imagen": "../images/products/categoria8/Lápiz táctil magnético con carga inalámbrica.jpg"
     },

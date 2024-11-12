@@ -69,6 +69,7 @@ async function cargarProductoEspecifico(categoria, indice, idSection) {
         const imagen = document.createElement('img');
         imagen.src = producto.imagen;
         imagen.alt = producto.nombre;
+        imagen.loading = 'lazy'
 
         // Crear el elemento de nombre
         const nombre = document.createElement('h2');
@@ -77,12 +78,30 @@ async function cargarProductoEspecifico(categoria, indice, idSection) {
         // Crear el elemento de precio
         const precio = document.createElement('h3');
         precio.textContent = `$${producto.precio}`;
+        
+        // Crear los elementos extra de los productos en oferta
+        const precioDescuento = document.createElement('h4');
+        const descuento = document.createElement('span');
+
+        // Poner el text de los elementos extra de los productos en oferta
+        if (producto.oferta == true) {
+            // Crear el nuevo precio
+            precioDescuento.textContent = `$${producto.precioDesc}`;
+
+            // Crear la etiqueta de descuento
+            descuento.textContent = `-${producto.porcentDesc}`;
+        }
 
         // Agregar todos los elementos al div del producto
         divProducto.appendChild(imagenDiv);
         imagenDiv.appendChild(imagen);
         divProducto.appendChild(nombre);
         divProducto.appendChild(precio);
+
+        if (producto.oferta == true) {
+            divProducto.appendChild(precioDescuento);
+            divProducto.appendChild(descuento);
+        }
 
         // Agregar el div del producto al contenedor principal
         contenedor.appendChild(divProducto);

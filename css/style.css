@@ -718,6 +718,7 @@ h1 {
 .ofertas .box h3 {
     text-decoration:line-through;
     color: var(--border);
+    margin-right: 0;
 }
 
 .ofertas .box h3::before {
@@ -729,6 +730,7 @@ h1 {
     line-height: 20px;
     color: var(--btn);
     font-size: 18px;
+    margin-left: 5px;
 }
 
 .categoriasGal, .reseñas {
