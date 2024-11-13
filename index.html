@@ -25,68 +25,7 @@
 </head>
 <body id="body" style="overflow-y: auto;">
 
-    <!--!! OVERLAY -->
-    <div class="overlay" id="overlay" onclick=closeCesta(),closeAside(),closePerfil()></div> <!--? => cesta.js /  => aside.js / => perfil.js-->
-    
-    <!--!! NAV -->
-    <nav>
-        <!-- Logo -->
-        <a href="index.html" class="logo">
-            <img src="images/Nombre.png">
-        </a>
-        <!-- Buscador -->
-        <div class="buscador">
-            <!-- Categorias -->
-            <div onclick=showAside() class="categoriasTodas"> <!--? => aside.js-->
-                <i class="fa-solid fa-bars"></i>
-                Todas las categorías
-            </div>
-            <!-- Buscar -->
-            <div class="search">
-                <input placeholder="Buscar" type="text" id="searchInput">
-                <button class="resetSearch" onclick=cleanSearch()> <!--? => buscar.js-->
-                    <i class="fa-solid fa-xmark"></i>
-                </button>
-                <button onclick=search()> <!--? => buscar.js-->
-                    <img src="assets/buscar.svg">
-                </button>
-            </div>
-        </div>
-
-        <!-- Botones func -->
-        <div class="containerBtn">
-            <button onclick=toggleTheme()> <!--? => theme.js-->
-                <i id="btnTheme" class="fa-solid fa-moon"></i>
-            </button>
-            <button onclick=showCesta() class="shopCart"> <!--? => cesta.js-->
-                <img src="assets/shopCart.svg">
-                <p id="productosCesta">0</p>
-            </button>
-            <button onclick=showPerfil() class="account"> <!--? => perfil.js-->
-                <i class="fa-solid fa-user"></i>
-            </button>
-        </div>
-    </nav>
-
-    <hr> 
-
-    <!--!! CESTA -->
-    <div id="cesta" class="overlayDiv cesta">
-        <button onclick=closeCesta()> <!--? => cesta.js-->
-            <i class="fa-solid fa-xmark"></i>
-        </button>
-        <h3>Tu cesta de la compra</h3>
-        <ul>
-            <li>
-                <img src="images/products/categoria2/2-10 Electrocardiógrafo portátil.jpg">
-                <h4>Producto 1</h4>
-                <h5>$49.99</h5>
-                <span onclick=deleteProducto(this)> <!--? => cesta.js-->
-                    <img src="assets/removeShopCart.svg">
-                </span>
-            </li>
-        </ul>
-    </div> 
+    <script src="js/createBase.js"></script>
 
     <!--!! PERFIL -->
     <div id="perfil" class="overlayDiv perfil">

@@ -1,4 +1,4 @@
-console.log('cesta.js conectado')
+console.log("cesta.js conectado")
 
 const showCesta = () => {
     document.getElementById("body").style.overflowY = "hidden";
@@ -7,9 +7,9 @@ const showCesta = () => {
 };
 
 const closeCesta = () => {
-    document.getElementById('body').style.overflowY = 'auto'
-    document.getElementById('overlay').classList.remove('visible')
-    document.getElementById('cesta').classList.remove('visible')
+    document.getElementById("body").style.overflowY = "auto"
+    document.getElementById("overlay").classList.remove("visible")
+    document.getElementById("cesta").classList.remove("visible")
 }
 
 const deleteProducto = (span) => {
