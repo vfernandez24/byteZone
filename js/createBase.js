@@ -188,3 +188,59 @@ body.appendChild(perfil);
         const siCuenta__h4 = document.createElement('h4');
         siCuenta__h4.id = 'frase-1';
         siCuenta.appendChild(siCuenta__h4);
+
+        // h5 nombre
+        const siCuenta__h5Nombre = document.createElement('h5');
+        siCuenta__h5Nombre.innerText = 'Nombre Completo:';
+        siCuenta.appendChild(siCuenta__h5Nombre);
+
+        // p nombre
+        const siCuenta__pNombre = document.createElement('p');
+        siCuenta__pNombre.id = 'nombre-1';
+        siCuenta__pNombre.innerText = ' ';
+        siCuenta.appendChild(siCuenta__pNombre);
+
+        // h5 correo
+        const siCuenta__h5Correo = document.createElement('h5');
+        siCuenta__h5Correo.innerText = 'Correo Electrónico:';
+        siCuenta.appendChild(siCuenta__h5Correo);
+
+        // p correo
+        const siCuenta__pCorreo = document.createElement('p');
+        siCuenta__pCorreo.id = 'correo-1';
+        siCuenta__pCorreo.innerText = ' ';
+        siCuenta.appendChild(siCuenta__pCorreo);
+
+        // h5 password
+        const siCuenta__h5password = document.createElement('h5');
+        siCuenta__h5password.innerText = 'Contraseña:';
+        siCuenta.appendChild(siCuenta__h5password);
+
+        // p password
+        const siCuenta__pPassword = document.createElement('p');
+        siCuenta__pPassword.id = 'password-1';
+        siCuenta__pPassword.innerText = ' ';
+        siCuenta.appendChild(siCuenta__pPassword);
+
+// Crear el aside
+const aside = document.createElement('aside');
+aside.id = 'aside';
+body.appendChild(aside);
+
+    // button cerrar
+    const aside__button = document.createElement('button');
+    aside__button.onclick = function() {
+        closeAside();
+    };
+    aside__button.innerHTML = '<i class="fa-solid fa-xmark"></i>';
+    aside.appendChild(aside__button);
+
+    // h2 
+    const aside__h2 = document.createElement('h2');
+    aside__h2.innerText = 'Categorías';
+    aside.appendChild(aside__h2);
+
+    // ul
+    const aside__ul = document.createElement('ul');
+    aside__ul.innerHTML = '<li><i class="fa-solid fa-mobile-alt"></i>Accesorios para Smartphones</li><li><i class="fa-solid fa-gamepad"></i>Accesorios para juegos</li><li><i class="fa-solid fa-computer"></i>Accesorios para Ordenadores</li><li><i class="fa-solid fa-tablet-alt"></i>Accesorios para Tablets</li><li><i class="fa-solid fa-home"></i>Hogar Inteligente</li></li><li><i class="fa-solid fa-heartbeat"></i>Tecnología de Salud</li><li><i class="fa-solid fa-camera"></i>Fotografía y Videografía</li><li><i class="fa-solid fa-tv"></i>Electrónica de Entretenimiento</li>';
+    aside.appendChild(aside__ul);
