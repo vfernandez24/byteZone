@@ -23,7 +23,7 @@ body.appendChild(nav);
 
         // Img
         const logo__img = document.createElement('img');
-        logo__img.src = '../images/Nombre.png'
+        logo__img.src = 'images/Nombre.png'
         logo.appendChild(logo__img)
 
     // Buscador
@@ -164,13 +164,13 @@ body.appendChild(perfil);
         // registrar (a)
         const noCuenta__reg = document.createElement('a');
         noCuenta__reg.style = 'margin-top: 100px;';
-        noCuenta__reg.href = '../pages/registrar.html';
+        noCuenta__reg.href = 'pages/registrar.html';
         noCuenta__reg.innerText = 'Regístrate';
         noCuenta.appendChild(noCuenta__reg);
 
         // iniciar sesion (a)
         const noCuenta__ini = document.createElement('a');
-        noCuenta__ini.href = '../pages/iniciodesesion.html';
+        noCuenta__ini.href = 'pages/iniciodesesion.html';
         noCuenta__ini.innerText = 'Iniciar Sesión';
         noCuenta.appendChild(noCuenta__ini);
 
