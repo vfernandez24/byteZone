@@ -20,10 +20,11 @@
     <script src="../../js/buscar.js" defer></script>
     <script src="../../js/scrollSection.js" defer></script>
     <script src="../../js/perfil.js" defer></script>
+    <script src="../../js/crearDivProductCategoria.js"></script>
     <!--? Icon -->
     <link rel="icon" href="../../images/Simbolo.png">
 </head>
-<body>
+<body id="body">
     <script src="../../js/createBase.js"></script>
     <script>
         logo.href = '../../index.html';
@@ -33,7 +34,21 @@
     </script>
 
     <!--!! CONTAINER -->
-    <div class="container"></div>
+    <div class="container">
+        <h1>Hogar Inteligente :: Productos</h2>
+        <div class="grid">
+            <div class="left"></div>
+            <div id="right" class="right">
+                <script>
+                    cargarProductoEspecifico(3,1,'right')
+                    cargarProductoEspecifico(3,2,'right')
+                    cargarProductoEspecifico(3,3,'right')
+                    cargarProductoEspecifico(3,4,'right')
+                    cargarProductoEspecifico(3,5,'right')
+                </script>
+            </div>
+        </div>
+    </div>
 
     <script src="../../js/createFooter.js"></script>
 </body>

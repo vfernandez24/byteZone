@@ -222,6 +222,15 @@ body.appendChild(perfil);
         siCuenta__pPassword.innerText = ' ';
         siCuenta.appendChild(siCuenta__pPassword);
 
+        //button cerrar sesion
+        const siCuenta__button = document.createElement('button');
+        siCuenta__button.className = 'cerrarSesion';
+        siCuenta__button.innerText = 'Cerrar sesión';
+        siCuenta__button.onclick = function() {
+            cerrarSesion();
+        };
+        siCuenta.appendChild(siCuenta__button);
+
 // Crear el aside
 const aside = document.createElement('aside');
 aside.id = 'aside';
