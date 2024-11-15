@@ -28,4 +28,9 @@ h1 {
     justify-content: space-evenly;
     row-gap: 10px;
     flex-wrap: wrap;
+
+    h3 {
+        text-decoration: line-through;
+        color: var(--border);
+    }
 }
