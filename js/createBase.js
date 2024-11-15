@@ -251,5 +251,14 @@ body.appendChild(aside);
 
     // ul
     const aside__ul = document.createElement('ul');
-    aside__ul.innerHTML = '<li><i class="fa-solid fa-mobile-alt"></i>Accesorios para Smartphones</li><li><i class="fa-solid fa-gamepad"></i>Accesorios para juegos</li><li><i class="fa-solid fa-computer"></i>Accesorios para Ordenadores</li><li><i class="fa-solid fa-tablet-alt"></i>Accesorios para Tablets</li><li><i class="fa-solid fa-home"></i>Hogar Inteligente</li></li><li><i class="fa-solid fa-heartbeat"></i>Tecnología de Salud</li><li><i class="fa-solid fa-camera"></i>Fotografía y Videografía</li><li><i class="fa-solid fa-tv"></i>Electrónica de Entretenimiento</li>';
+    aside__ul.innerHTML = `
+        <li><a href="pages/categorias/accesoriosParaSmartphones.html"><i class="fa-solid fa-mobile-alt"></i>Accesorios para Smartphones</a></li>
+        <li><a href="pages/categorias/accesoriosParaJuegos.html"><i class="fa-solid fa-gamepad"></i>Accesorios para juegos</a></li>
+        <li><a href="pages/categorias/accesoriosParaOrdenadores.html"><i class="fa-solid fa-computer"></i>Accesorios para Ordenadores</a></li>
+        <li><a href="pages/categorias/accesoriosParaTablets.html"><i class="fa-solid fa-tablet-alt"></i>Accesorios para Tablets</a></li>
+        <li><a href="pages/categorias/hogar.html"><i class="fa-solid fa-home"></i>Hogar Inteligente</a></li>
+        <li><a href="pages/categorias/salud.html"><i class="fa-solid fa-heartbeat"></i>Tecnología de Salud</a></li>
+        <li><a href="pages/categorias/fotografia.html"><i class="fa-solid fa-camera"></i>Fotografía y Videografía</a></li>
+        <li><a href="pages/categorias/entretenimiento.html"><i class="fa-solid fa-tv"></i>Electrónica de Entretenimiento</a></li>
+        `;
     aside.appendChild(aside__ul);

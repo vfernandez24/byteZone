@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', (categoria) => {
+const cargarContanido = (categoria) => {
     const h1 = document.createElement('h1');
     let nombreCat = '';
     switch (categoria) {
@@ -27,8 +27,10 @@ document.addEventListener('DOMContentLoaded', (categoria) => {
             nombreCat = 'Accesorios para Tablets';
             return;
     }
+    h1.innerText = `${nombreCat} :: Productos`
+    containerBtn.appendChild(h1);
 
     const grid = document.createElement('div');
     grid.class = 'grid';
     body.appendChild(grid);
-})
+}

@@ -555,11 +555,15 @@ aside {
             font-weight: 400;
             cursor: pointer;
             transition: font-weight .2s ease;
+
+            a {
+                all: inherit;
+            }
         }
 
         li:hover {
             font-weight: 500;
-            border-bottom: 3px solid var(--btn);
+            color: var(--btn);
         }
     }
 }
