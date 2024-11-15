@@ -20,6 +20,7 @@
     <script src="../../js/buscar.js" defer></script>
     <script src="../../js/scrollSection.js" defer></script>
     <script src="../../js/perfil.js" defer></script>
+    <script src="../../js/left.js" defer></script>
     <script src="../../js/crearDivProductCategoria.js"></script>
     <!--? Icon -->
     <link rel="icon" href="../../images/Simbolo.png">
@@ -37,7 +38,12 @@
     <div class="container">
         <h1>Hogar Inteligente :: Productos</h2>
         <div class="grid">
-            <div class="left"></div>
+            <div class="left">
+                <button class="close" onclick=toggleLeft()>
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+            </div>
+
             <div id="right" class="right">
                 <script>
                     cargarProductoEspecifico(3,1,'right')

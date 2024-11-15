@@ -61,6 +61,10 @@ async function cargarProductoEspecifico(categoria, indice, idSection) {
         const divProducto = document.createElement('div');
         divProducto.className = 'box';
 
+        if (producto.oferta == true) {
+            divProducto.className = 'box oferta';
+        }
+
         // Crear el div de la imagen
         const imagenDiv = document.createElement('div');
         imagenDiv.className = 'img';

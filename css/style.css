@@ -715,14 +715,10 @@ h1 {
     color: var(--titulos);
 }
 
-.ofertas .box h3 {
+.box.oferta h3 {
     text-decoration:line-through;
     color: var(--border);
     margin-right: 0;
-}
-
-.ofertas .box h3::before {
-    text-decoration: none;
 }
 
 .box h4 {
