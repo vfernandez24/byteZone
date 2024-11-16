@@ -22,6 +22,8 @@
     <script src="../../js/perfil.js" defer></script>
     <script src="../../js/left.js" defer></script>
     <script src="../../js/crearDivProductCategoria.js"></script>
+    <script src="../../js/autoCreateBox.js"></script>
+    <script src="../../js/createBaseCategoria.js"></script>
     <!--? Icon -->
     <link rel="icon" href="../../images/Simbolo.png">
 </head>
@@ -45,7 +47,7 @@
     </script>
 
     <!--!! CONTAINER -->
-    <div class="container">
+    <div id="container" class="container">
         <h1>Hogar Inteligente :: Productos</h2>
         <div class="grid">
             <div id="left" class="left">
@@ -78,30 +80,7 @@
 
             <div id="right" class="right"></div>
             <script>
-                cargarProductoEspecifico(3,1,'right')
-                cargarProductoEspecifico(3,2,'right')
-                cargarProductoEspecifico(3,3,'right')
-                cargarProductoEspecifico(3,4,'right')
-                cargarProductoEspecifico(3,5,'right')
-                cargarProductoEspecifico(3,6,'right')
-                cargarProductoEspecifico(3,7,'right')
-                cargarProductoEspecifico(3,8,'right')
-                cargarProductoEspecifico(3,9,'right')
-                cargarProductoEspecifico(3,10,'right')
-                cargarProductoEspecifico(3,11,'right')
-                cargarProductoEspecifico(3,12,'right')
-                cargarProductoEspecifico(3,13,'right')
-                cargarProductoEspecifico(3,14,'right')
-                cargarProductoEspecifico(3,15,'right')
-                cargarProductoEspecifico(3,16,'right')
-                cargarProductoEspecifico(3,17,'right')
-                cargarProductoEspecifico(3,18,'right')
-                cargarProductoEspecifico(3,19,'right')
-                cargarProductoEspecifico(3,20,'right')
-                cargarProductoEspecifico(3,21,'right')
-                cargarProductoEspecifico(3,22,'right')
-                cargarProductoEspecifico(3,23,'right')
-                cargarProductoEspecifico(3,24,'right')
+                autoCreate(3);
             </script>
         </div>
     </div>
