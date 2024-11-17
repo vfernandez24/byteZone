@@ -71,7 +71,7 @@ async function cargarProductoEspecifico(categoria, indice, idSection) {
 
         // Crear el elemento de imagen
         const imagen = document.createElement('img');
-        imagen.src = producto.imagen;
+        imagen.src = '../../' + producto.imagen;
         imagen.alt = producto.nombre;
         imagen.loading = 'lazy'
 

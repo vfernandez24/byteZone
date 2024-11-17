@@ -8,7 +8,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Resolución 3840x2160, pantalla IPS, conectividad HDMI y DisplayPort.",
-        "imagen": "../images/products/categoria7/Monitor 4K Ultra HD de 27.jpg"
+        "imagen": "images/products/categoria7/Monitor 4K Ultra HD de 27.jpg"
     },
     {
         "nombre": "Docking Station USB-C para laptops",
@@ -18,7 +18,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Conexiones HDMI, USB, Ethernet, carga de dispositivos, diseño compacto.",
-        "imagen": "../images/products/categoria7/Docking Station USB-C para laptops.jpg"
+        "imagen": "images/products/categoria7/Docking Station USB-C para laptops.jpg"
     },
     {
         "nombre": "Laptop gamer con procesador Intel i7",
@@ -28,7 +28,7 @@
         "precioDesc": "207.99",
         "porcentDesc": "84%",
         "descripcion": "Pantalla de 15.6”, tarjeta gráfica NVIDIA, 16GB de RAM.",
-        "imagen": "../images/products/categoria7/Laptop gamer con procesador Intel i7.jpg"
+        "imagen": "images/products/categoria7/Laptop gamer con procesador Intel i7.jpg"
     },
     {
         "nombre": "SSD externo de 1TB",
@@ -38,7 +38,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Alta velocidad de transferencia, diseño portátil, compatible con múltiples sistemas.",
-        "imagen": "../images/products/categoria7/SSD externo de 1TB.jpg"
+        "imagen": "images/products/categoria7/SSD externo de 1TB.jpg"
     },
     {
         "nombre": "Webcam 4K para videoconferencias",
@@ -48,7 +48,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Resolución 4K, micrófono de cancelación de ruido, ideal para streaming.",
-        "imagen": "../images/products/categoria7/Webcam 4K para videoconferencias.jpg"
+        "imagen": "images/products/categoria7/Webcam 4K para videoconferencias.jpg"
     },
     {
         "nombre": "Teclado inalámbrico con retroiluminación",
@@ -58,7 +58,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Conexión Bluetooth, teclas silenciosas, batería recargable.",
-        "imagen": "../images/products/categoria7/Teclado inalámbrico con retroiluminación.jpg"
+        "imagen": "images/products/categoria7/Teclado inalámbrico con retroiluminación.jpg"
     },
     {
         "nombre": "Mouse ergonómico inalámbrico",
@@ -68,7 +68,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Diseño ergonómico, conexión Bluetooth, duración de batería prolongada.",
-        "imagen": "../images/products/categoria7/Mouse ergonómico inalámbrico.jpg"
+        "imagen": "images/products/categoria7/Mouse ergonómico inalámbrico.jpg"
     },
     {
         "nombre": "Pantalla de privacidad para laptops",
@@ -78,7 +78,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Protección contra miradas curiosas, fácil de instalar, compatible con varias medidas.",
-        "imagen": "../images/products/categoria7/Pantalla de privacidad para laptops.jpg"
+        "imagen": "images/products/categoria7/Pantalla de privacidad para laptops.jpg"
     },
     {
         "nombre": "Altavoces Bluetooth de escritorio",
@@ -88,7 +88,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Sonido de alta calidad, conexión Bluetooth, diseño moderno.",
-        "imagen": "../images/products/categoria7/Altavoces Bluetooth de escritorio.jpg"
+        "imagen": "images/products/categoria7/Altavoces Bluetooth de escritorio.jpg"
     },
     {
         "nombre": "Soporte de laptop ajustable",
@@ -98,7 +98,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Ajustable en altura, diseño portátil, mejora la ergonomía.",
-        "imagen": "../images/products/categoria7/Soporte de laptop ajustable.jpg"
+        "imagen": "images/products/categoria7/Soporte de laptop ajustable.jpg"
     },
     {
         "nombre": "Cable de alimentación de 3 m para PC",
@@ -108,7 +108,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Compatible con la mayoría de las PC, largo de 3 metros, resistente.",
-        "imagen": "../images/products/categoria7/Cable de alimentación de 3 m para PC.jpg"
+        "imagen": "images/products/categoria7/Cable de alimentación de 3 m para PC.jpg"
     },
     {
         "nombre": "Mochila para laptop con protección antirrobo",
@@ -118,7 +118,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Compartimentos acolchados, material resistente, diseño moderno.",
-        "imagen": "../images/products/categoria7/Mochila para laptop con protección antirrobo.jpg"
+        "imagen": "images/products/categoria7/Mochila para laptop con protección antirrobo.jpg"
     },
     {
         "nombre": "Hub USB de 4 puertos",
@@ -128,7 +128,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Conexiones USB 3.0, diseño compacto, ideal para uso en escritorio.",
-        "imagen": "../images/products/categoria7/Hub USB de 4 puertos.jpg"
+        "imagen": "images/products/categoria7/Hub USB de 4 puertos.jpg"
     },
     {
         "nombre": "Batería de respaldo para laptop",
@@ -138,7 +138,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Capacidad de 20,000 mAh, carga rápida, varios puertos.",
-        "imagen": "../images/products/categoria7/Batería de respaldo para laptop.jpg"
+        "imagen": "images/products/categoria7/Batería de respaldo para laptop.jpg"
     },
     {
         "nombre": "Soporte para monitor ajustable",
@@ -148,7 +148,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Altura ajustable, diseño moderno, mejora la ergonomía.",
-        "imagen": "../images/products/categoria7/Soporte para monitor ajustable.jpg"
+        "imagen": "images/products/categoria7/Soporte para monitor ajustable.jpg"
     },
     {
         "nombre": "Lámpara de escritorio con puerto USB",
@@ -158,7 +158,7 @@
         "precioDesc": "23.99",
         "porcentDesc": "20%",
         "descripcion": "Luz LED regulable, puerto de carga USB, diseño elegante.",
-        "imagen": "../images/products/categoria7/Lámpara de escritorio con puerto USB.jpg"
+        "imagen": "images/products/categoria7/Lámpara de escritorio con puerto USB.jpg"
     },
     {
         "nombre": "Funda protectora para laptop de 15”",
@@ -168,7 +168,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Material resistente, diseño delgado, fácil de llevar.",
-        "imagen": "../images/products/categoria7/Funda protectora para laptop de 15.jpg"
+        "imagen": "images/products/categoria7/Funda protectora para laptop de 15.jpg"
     },
     {
         "nombre": "Placa base para PC gaming",
@@ -178,7 +178,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Compatible con procesadores Intel y AMD, múltiples puertos, iluminación RGB.",
-        "imagen": "../images/products/categoria7/Placa base para PC gaming.jpg"
+        "imagen": "images/products/categoria7/Placa base para PC gaming.jpg"
     },
     {
         "nombre": "Luz LED para teclado",
@@ -188,7 +188,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Iluminación RGB, fácil instalación, compatible con la mayoría de los teclados.",
-        "imagen": "../images/products/categoria7/Luz LED para teclado.jpg"
+        "imagen": "images/products/categoria7/Luz LED para teclado.jpg"
     },
     {
         "nombre": "Cámara de seguridad para interiores",
@@ -198,7 +198,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Conectividad Wi-Fi, visión nocturna, grabación en la nube.",
-        "imagen": "../images/products/categoria7/Cámara de seguridad para interiores.jpg"
+        "imagen": "images/products/categoria7/Cámara de seguridad para interiores.jpg"
     },
     {
         "nombre": "Gafas de luz azul para computadora",
@@ -208,7 +208,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Protección contra la luz azul, diseño ligero, ideal para largas horas frente a la pantalla.",
-        "imagen": "../images/products/categoria7/Gafas de luz azul para computadora.jpg"
+        "imagen": "images/products/categoria7/Gafas de luz azul para computadora.jpg"
     },
     {
         "nombre": "Cable HDMI de alta velocidad",
@@ -218,7 +218,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Compatible con 4K, longitud de 2 metros, material resistente.",
-        "imagen": "../images/products/categoria7/Cable HDMI de alta velocidad.jpg"
+        "imagen": "images/products/categoria7/Cable HDMI de alta velocidad.jpg"
     },
     {
         "nombre": "Antena Wi-Fi externa",
@@ -228,7 +228,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Mejora la señal Wi-Fi, fácil instalación, diseño compacto.",
-        "imagen": "../images/products/categoria7/Antena Wi-Fi externa.jpg"
+        "imagen": "images/products/categoria7/Antena Wi-Fi externa.jpg"
     },
     {
         "nombre": "Soporte para computadora portátil con ventilación",
@@ -238,6 +238,6 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Diseño ergonómico, ventilación mejorada, ligero y portátil.",
-        "imagen": "../images/products/categoria7/Soporte para computadora portátil con ventilación.jpg"
+        "imagen": "images/products/categoria7/Soporte para computadora portátil con ventilación.jpg"
     }
 ]
