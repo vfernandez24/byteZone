@@ -23,7 +23,6 @@
     <script src="../../js/left.js" defer></script>
     <script src="../../js/crearDivProductCategoria.js"></script>
     <script src="../../js/autoCreateBox.js"></script>
-    <script src="../../js/createBaseCategoria.js"></script>
     <!--? Icon -->
     <link rel="icon" href="../../images/Simbolo.png">
 </head>
@@ -48,41 +47,13 @@
 
     <!--!! CONTAINER -->
     <div id="container" class="container">
-        <h1>Hogar Inteligente :: Productos</h2>
-        <div class="grid">
-            <div id="left" class="left">
-                <button class="close" onclick=toggleLeft()>
-                    <i id="arrow" class="fa-solid fa-chevron-left"></i>
-                </button>
-                <!-- Aquí irán los filtros -->
-                <h3>Filtros</h3>
-                <form id="filtersForm">
-                <!-- Categorías -->
-                <div class="filter">
-                    <h4>Oferta</h4>
-                    <ul>
-                    <li><input type="checkbox" id="smartphones" name="category" value="smartphones"> <label for="smartphones">Con oferta</label></li>
-                    <li><input type="checkbox" id="games" name="category" value="games"> <label for="games">Sin oferta</label></li>
-                    </ul>
-                </div>
-                
-                <!-- Rango de precios -->
-                <div class="filter">
-                    <h4>Precio</h4>
-                    <input type="number" id="minPrice" placeholder="Mínimo"">
-                    <input type="number" id="maxPrice" placeholder="Máximo"">
-                </div>
-                
-                <!-- Botón de aplicar -->
-                <button type="submit" id="applyFilters">Aplicar filtros</button>
-                </form>
-            </div>
-
-            <div id="right" class="right"></div>
-            <script>
-                autoCreate(3);
-            </script>
-        </div>
+        <script src="../../js/createBaseCategoria.js"></script>
+        <script>
+            cargarContenido(3);
+        </script>
+        <script>
+            autoCreate(3);
+        </script>
     </div>
 
     <script src="../../js/createFooterCategoria.js"></script>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogar Inteligente | Categoria de productos | byteZone.com</title>
+    <!--? fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--? Styles -->
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/catPage.css">
+    <!--? Icons -->
+    <script src="https://kit.fontawesome.com/16ace90703.js" crossorigin="anonymous"></script>
+    <!--? scripts -->
+    <script src="../../js/cesta.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+    <script src="../../js/aside.js" defer></script>
+    <script src="../../js/buscar.js" defer></script>
+    <script src="../../js/scrollSection.js" defer></script>
+    <script src="../../js/perfil.js" defer></script>
+    <script src="../../js/left.js" defer></script>
+    <script src="../../js/crearDivProductCategoria.js"></script>
+    <script src="../../js/autoCreateBox.js"></script>
+    <!--? Icon -->
+    <link rel="icon" href="../../images/Simbolo.png">
+</head>
+<body id="body">
+    <script src="../../js/createBase.js"></script>
+    <script>
+        logo.href = '../../index.html';
+        logo__img.src = '../../images/Nombre.png';
+        buscar__button__img.src = '../../assets/buscar.svg';
+        btnCesta__img.src = '../../assets/shopCart.svg';
+        aside__ul.innerHTML = `
+        <li><a href="accesoriosParaSmartphones.html"><i class="fa-solid fa-mobile-alt"></i>Accesorios para Smartphones</a></li>
+        <li><a href="accesoriosParaJuegos.html"><i class="fa-solid fa-gamepad"></i>Accesorios para juegos</a></li>
+        <li><a href="accesoriosParaOrdenadores.html"><i class="fa-solid fa-computer"></i>Accesorios para Ordenadores</a></li>
+        <li><a href="accesoriosParaTablets.html"><i class="fa-solid fa-tablet-alt"></i>Accesorios para Tablets</a></li>
+        <li><a href="hogar.html"><i class="fa-solid fa-home"></i>Hogar Inteligente</a></li>
+        <li><a href="salud.html"><i class="fa-solid fa-heartbeat"></i>Tecnología de Salud</a></li>
+        <li><a href="fotografia.html"><i class="fa-solid fa-camera"></i>Fotografía y Videografía</a></li>
+        <li><a href="entretenimiento.html"><i class="fa-solid fa-tv"></i>Electrónica de Entretenimiento</a></li>
+        `;
+    </script>
+
+    <!--!! CONTAINER -->
+    <div id="container" class="container">
+        <script src="../../js/createBaseCategoria.js"></script>
+        <script>
+            cargarContenido(2);
+        </script>
+        <script>
+            autoCreate(2);
+        </script>
+    </div>
+
+    <script src="../../js/createFooterCategoria.js"></script>
+</body>
+</html>

@@ -666,6 +666,10 @@ h1 {
     transition: box-shadow .3s ease;
 }
 
+.box a {
+    text-decoration: none;
+}
+
 .box:hover {
     box-shadow: 0px 0px 20px var(--details),
     10px 10px 20px var(--destacados)
