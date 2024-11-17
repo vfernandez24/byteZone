@@ -96,11 +96,15 @@ async function cargarProductoEspecifico(categoria, indice, idSection) {
             descuento.textContent = `-${producto.porcentDesc}`;
         }
 
+        const descripcion = document.createElement('p');
+        descripcion.textContent = producto.descripcion;
+
         // Agregar todos los elementos al div del producto
         divProducto.appendChild(imagenDiv);
         imagenDiv.appendChild(imagen);
         divProducto.appendChild(nombre);
         divProducto.appendChild(precio);
+        divProducto.appendChild(descripcion);
 
         if (producto.oferta == true) {
             divProducto.appendChild(precioDescuento);

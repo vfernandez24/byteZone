@@ -8,6 +8,7 @@ overlay.addEventListener('click', () => {
     closeAside();
     closeCesta();
     closePerfil();
+    closeProduct();
 })
 body.appendChild(overlay);
 
@@ -230,6 +231,20 @@ body.appendChild(perfil);
             cerrarSesion();
         };
         siCuenta.appendChild(siCuenta__button);
+
+// Crear el overlay product
+const product = document.createElement('div');
+product.className = 'overlayDiv overlayProduct';
+product.id = 'overlayProduct';
+body.appendChild(product);
+
+        // button cerar
+        const product__cerrar = document.createElement('button');
+        product__cerrar.onclick = function() {
+            closeProduct();
+        }
+        product__cerrar.innerHTML = '<i class="fa-solid fa-xmark"></i>';
+        product.appendChild(product__cerrar);
 
 // Crear el aside
 const aside = document.createElement('aside');

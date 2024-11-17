@@ -60,9 +60,12 @@ async function cargarProductoEspecifico(categoria, indice, idSection) {
         // Crear el contenedor para el producto
         const divProducto = document.createElement('div');
         divProducto.className = 'box';
+        divProducto.onclick = function() {
+            showProduct(this);
+        }
 
         if (producto.oferta == true) {
-            divProducto.className = 'box oferta';
+            divProducto.classList.add('oferta');
         }
 
         // Crear el div de la imagen
@@ -96,11 +99,17 @@ async function cargarProductoEspecifico(categoria, indice, idSection) {
             descuento.textContent = `-${producto.porcentDesc}`;
         }
 
+        // Crear la descripcion (display: none)
+        const descripcion = document.createElement('p');
+        descripcion.textContent = producto.descripcion;
+        descripcion.style = 'display: none;';
+
         // Agregar todos los elementos al div del producto
         divProducto.appendChild(imagenDiv);
         imagenDiv.appendChild(imagen);
         divProducto.appendChild(nombre);
         divProducto.appendChild(precio);
+        divProducto.appendChild(descripcion);
 
         if (producto.oferta == true) {
             divProducto.appendChild(precioDescuento);
@@ -112,4 +121,14 @@ async function cargarProductoEspecifico(categoria, indice, idSection) {
     } catch (error) {
         console.error('Error al cargar el producto:', error);
     }
+}
+
+const showProduct = (div) => {
+    document.getElementById('overlay').classList.add('visible');
+    document.getElementById('overlayProduct').classList.add('visible');
+}
+
+const closeProduct = () => {
+    document.getElementById('overlay').classList.remove('visible');
+    document.getElementById('overlayProduct').classList.remove('visible');
 }

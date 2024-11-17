@@ -75,7 +75,7 @@ const cargarContenido = (categoria) => {
     oferta__h4.innerText = 'Oferta';
     form__oferta.appendChild(oferta__h4);
 
-    // ul
+    // oferta
     const oferta__ul = document.createElement('ul');
     oferta__ul.innerHTML = `
         <li><input type="checkbox" id="smartphones" name="category" value="smartphones"> 
