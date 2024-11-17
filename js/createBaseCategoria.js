@@ -49,6 +49,7 @@ const cargarContenido = (categoria) => {
     // close
     const left__close = document.createElement('button');
     left__close.className = 'close';
+    left__close.innerHTML = '<i id="arrow" class="fa-solid fa-chevron-left"></i>'
     left__close.onclick = function () {
         toggleLeft();
     };
