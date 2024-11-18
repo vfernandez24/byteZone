@@ -246,6 +246,40 @@ body.appendChild(product);
         product__cerrar.innerHTML = '<i class="fa-solid fa-xmark"></i>';
         product.appendChild(product__cerrar);
 
+        // imagen
+        const product__divImg = document.createElement('div');
+        product__divImg.className = 'divImg';
+        product.appendChild(product__divImg);
+
+            // img
+            const product__img = document.createElement('img');
+            product__img.id = 'productImg';
+            product__divImg.appendChild(product__img);
+
+        // titulo y precio
+        const product__h = document.createElement('div');
+        product__h.className = 'productH';
+        product.appendChild(product__h);
+
+            // titulo
+            const product__titulo = document.createElement('h2');
+            product__titulo.id = 'product__titulo';
+            product__titulo.textContent = ' ';
+            product__h.appendChild(product__titulo);
+
+            // precio
+            const product__precio = document.createElement('h3');
+            product__precio.id = 'product__precio';
+            product__precio.textContent = ' ';
+            product__h.appendChild(product__precio);
+
+        // descripcion
+        const product__descripcion = document.createElement('p');
+        product__descripcion.textContent = ' ';
+        product__descripcion.id = 'product__description';
+        product.appendChild(product__descripcion);
+
+
 // Crear el aside
 const aside = document.createElement('aside');
 aside.id = 'aside';

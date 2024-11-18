@@ -60,9 +60,12 @@ async function cargarProductoEspecifico(categoria, indice, idSection) {
         // Crear el contenedor para el producto
         const divProducto = document.createElement('div');
         divProducto.className = 'box';
+        divProducto.onclick = function() {
+            showProduct(this);
+        }
 
         if (producto.oferta == true) {
-            divProducto.className = 'box oferta';
+            divProducto.classList.add('oferta');
         }
 
         // Crear el div de la imagen
@@ -71,21 +74,26 @@ async function cargarProductoEspecifico(categoria, indice, idSection) {
 
         // Crear el elemento de imagen
         const imagen = document.createElement('img');
-        imagen.src = '../../' + producto.imagen;
+        imagen.className = 'imagen';
+        imagen.src = '../../'+producto.imagen;
         imagen.alt = producto.nombre;
         imagen.loading = 'lazy'
 
         // Crear el elemento de nombre
         const nombre = document.createElement('h2');
+        nombre.className = 'nombre';
         nombre.textContent = producto.nombre;
 
         // Crear el elemento de precio
         const precio = document.createElement('h3');
+        precio.className = 'precio';
         precio.textContent = `$${producto.precio}`;
         
         // Crear los elementos extra de los productos en oferta
         const precioDescuento = document.createElement('h4');
+        precioDescuento.className = 'precioDescuento'
         const descuento = document.createElement('span');
+        descuento.className = 'descuento';
 
         // Poner el text de los elementos extra de los productos en oferta
         if (producto.oferta == true) {
@@ -96,8 +104,11 @@ async function cargarProductoEspecifico(categoria, indice, idSection) {
             descuento.textContent = `-${producto.porcentDesc}`;
         }
 
+        // Crear la descripcion (display: none)
         const descripcion = document.createElement('p');
+        descripcion.className = 'descripcion';
         descripcion.textContent = producto.descripcion;
+        descripcion.style = 'display: none;';
 
         // Agregar todos los elementos al div del producto
         divProducto.appendChild(imagenDiv);
@@ -116,4 +127,44 @@ async function cargarProductoEspecifico(categoria, indice, idSection) {
     } catch (error) {
         console.error('Error al cargar el producto:', error);
     }
+}
+
+const showProduct = (div) => {
+    // Mostrar el overlay
+    const overlay = document.getElementById('overlay');
+    const overlayProduct = document.getElementById('overlayProduct');
+    if (overlayProduct) {
+        overlay.classList.add('visible');
+        overlayProduct.classList.add('visible');
+    } else {
+        console.error('No se encontró el overlayProduct.');
+        return;
+    }
+
+    // Obtener datos del producto desde el elemento `div` recibido
+    const nombre = div.querySelector('.nombre')?.textContent || 'Nombre no disponible';
+    const precio = div.querySelector('.precio')?.textContent || 'Precio no disponible';
+    const descripcion = div.querySelector('.descripcion')?.textContent || 'Descripción no disponible';
+    const imagen = div.querySelector('img')?.src || '';
+
+    // Actualizar el contenido del overlay
+    const productImg = document.getElementById('productImg');
+    const productTitulo = document.getElementById('product__titulo');
+    const productPrecio = document.getElementById('product__precio');
+    const productDescripcion = document.getElementById('product__description');
+
+    if (productImg && productTitulo && productPrecio && productDescripcion) {
+        productImg.src = imagen;
+        productTitulo.textContent = nombre;
+        productPrecio.textContent = precio;
+        productDescripcion.textContent = descripcion;
+    } else {
+        console.error('No se encontraron los elementos del producto dentro del overlay.');
+        return;
+    }
+}
+
+const closeProduct = () => {
+    document.getElementById('overlay').classList.remove('visible');
+    document.getElementById('overlayProduct').classList.remove('visible');
 }

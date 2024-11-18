@@ -87,7 +87,7 @@ const guardarDatos = () => {
 
 const cerrarSesion = () => {
     localStorage.setItem("cuentaActiva", 0)
-    window.location.href = "index.html"   
+    window.location.href = ""   
 }
 
 let cuentaActiva = localStorage.getItem("cuentaActiva");
