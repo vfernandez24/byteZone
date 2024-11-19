@@ -528,6 +528,15 @@ hr {
     }
 }
 
+.overlayProduct.oferta {
+    .productH {
+        h3 {
+            color: var(--border);
+            text-decoration: line-through;
+        }
+    }
+}
+
 .overlayProduct.visible {
     width: 800px;
     height: 500px;

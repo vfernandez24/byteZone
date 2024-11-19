@@ -141,7 +141,11 @@ const showProduct = (div) => {
         return;
     }
 
-    // Obtener datos del producto desde el elemento `div` recibido
+    if (div.classList.contains('oferta')) {
+        overlayProduct.classList.add('oferta');
+    }
+
+    // Obtener datos del producto desde el elemento 'div' recibido
     const nombre = div.querySelector('.nombre')?.textContent || 'Nombre no disponible';
     const precio = div.querySelector('.precio')?.textContent || 'Precio no disponible';
     const descripcion = div.querySelector('.descripcion')?.textContent || 'Descripción no disponible';
@@ -152,6 +156,10 @@ const showProduct = (div) => {
     const productTitulo = document.getElementById('product__titulo');
     const productPrecio = document.getElementById('product__precio');
     const productDescripcion = document.getElementById('product__description');
+
+    if (div.classList.contains('oferta')) {
+            
+    }
 
     if (productImg && productTitulo && productPrecio && productDescripcion) {
         productImg.src = imagen;
