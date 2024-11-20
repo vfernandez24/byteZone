@@ -143,6 +143,8 @@ const showProduct = (div) => {
 
     if (div.classList.contains('oferta')) {
         overlayProduct.classList.add('oferta');
+    } else {
+        overlayProduct.classList.remove('oferta');
     }
 
     // Obtener datos del producto desde el elemento 'div' recibido
@@ -150,6 +152,12 @@ const showProduct = (div) => {
     const precio = div.querySelector('.precio')?.textContent || 'Precio no disponible';
     const descripcion = div.querySelector('.descripcion')?.textContent || 'Descripción no disponible';
     const imagen = div.querySelector('img')?.src || '';
+    let descuento, precioDesc;
+
+    if (div.classList.contains('oferta')) {
+        descuento = div.querySelector('span').textContent;
+        precioDesc = div.querySelector('h4').textContent;
+    }
 
     // Actualizar el contenido del overlay
     const productImg = document.getElementById('productImg');
@@ -159,10 +167,7 @@ const showProduct = (div) => {
     const productDescuento = document.getElementById('product__descuento');
     const productPrecioDesc = document.getElementById('product__precioDesc');
 
-    if (div.classList.contains('oferta')) {
-            
-    }
-
+    
     if (productImg && productTitulo && productPrecio && productDescripcion) {
         productImg.src = imagen;
         productTitulo.textContent = nombre;
@@ -171,6 +176,21 @@ const showProduct = (div) => {
     } else {
         console.error('No se encontraron los elementos del producto dentro del overlay.');
         return;
+    }
+    
+    if (div.classList.contains('oferta')) {
+        if (productDescuento && productPrecioDesc) {
+            productDescuento.textContent = descuento;
+            productPrecioDesc.textContent = precioDesc;
+            productDescuento.classList.add('visible');
+            productPrecioDesc.classList.add('visible');
+        } else {
+            console.error('No se encontraron los elementos del producto dentro del overlay.');
+            return;
+        }
+    } else {
+        productDescuento.classList.remove('visible');
+        productPrecioDesc.classList.remove('visible');
     }
 }
 

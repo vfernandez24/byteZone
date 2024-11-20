@@ -141,18 +141,33 @@ const showProduct = (div) => {
         return;
     }
 
-    // Obtener datos del producto desde el elemento `div` recibido
+    if (div.classList.contains('oferta')) {
+        overlayProduct.classList.add('oferta');
+    } else {
+        overlayProduct.classList.remove('oferta');
+    }
+
+    // Obtener datos del producto desde el elemento 'div' recibido
     const nombre = div.querySelector('.nombre')?.textContent || 'Nombre no disponible';
     const precio = div.querySelector('.precio')?.textContent || 'Precio no disponible';
     const descripcion = div.querySelector('.descripcion')?.textContent || 'Descripción no disponible';
     const imagen = div.querySelector('img')?.src || '';
+    let descuento, precioDesc;
+
+    if (div.classList.contains('oferta')) {
+        descuento = div.querySelector('span').textContent;
+        precioDesc = div.querySelector('h4').textContent;
+    }
 
     // Actualizar el contenido del overlay
     const productImg = document.getElementById('productImg');
     const productTitulo = document.getElementById('product__titulo');
     const productPrecio = document.getElementById('product__precio');
     const productDescripcion = document.getElementById('product__description');
+    const productDescuento = document.getElementById('product__descuento');
+    const productPrecioDesc = document.getElementById('product__precioDesc');
 
+    
     if (productImg && productTitulo && productPrecio && productDescripcion) {
         productImg.src = imagen;
         productTitulo.textContent = nombre;
@@ -161,6 +176,25 @@ const showProduct = (div) => {
     } else {
         console.error('No se encontraron los elementos del producto dentro del overlay.');
         return;
+    }
+    
+    if (div.classList.contains('oferta')) {
+        if (productDescuento && productPrecioDesc) {
+            productDescuento.textContent = descuento;
+            productPrecioDesc.textContent = precioDesc;
+            productDescuento.classList.add('visible');
+            productPrecioDesc.classList.add('visible');
+            productDescuento.style.display = 'flex';
+            productPrecioDesc.style.display = 'initial';
+        } else {
+            console.error('No se encontraron los elementos del producto dentro del overlay.');
+            return;
+        }
+    } else {
+        productDescuento.classList.remove('visible');
+        productPrecioDesc.classList.remove('visible');
+        productDescuento.style.display = 'none';
+        productPrecioDesc.style.display = 'none';
     }
 }
 

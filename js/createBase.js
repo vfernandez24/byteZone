@@ -267,17 +267,29 @@ body.appendChild(product);
             product__titulo.textContent = ' ';
             product__h.appendChild(product__titulo);
 
-            // precio
+            // precio h3
             const product__precio = document.createElement('h3');
             product__precio.id = 'product__precio';
             product__precio.textContent = ' ';
             product__h.appendChild(product__precio);
+
+            // precio h4
+            const product__precioDesc = document.createElement('h4');
+            product__precioDesc.id = 'product__precioDesc';
+            product__precioDesc.textContent = '';
+            product__h.appendChild(product__precioDesc);
 
         // descripcion
         const product__descripcion = document.createElement('p');
         product__descripcion.textContent = ' ';
         product__descripcion.id = 'product__description';
         product.appendChild(product__descripcion);
+
+        // span 
+        const product__descuento = document.createElement('span');
+        product__descuento.textContent = '';
+        product__descuento.id = 'product__descuento';
+        product.appendChild(product__descuento);
 
 
 // Crear el aside

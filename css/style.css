@@ -534,6 +534,29 @@ hr {
             color: var(--border);
             text-decoration: line-through;
         }
+
+        h4 {
+            color: var(--btn);
+            font-size: 24px;
+            padding-left: 10px;
+            display: none;
+        }
+    }
+    
+    span {
+        display: none;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        font-weight: 500;
+        background: var(--ofertas);
+        color: var(--background);
+        padding: 5px 10px;
+        border-radius: 6px;
+    }
+
+    h4.visible, span.visible {
+        display: flex;
     }
 }
 
