@@ -156,6 +156,8 @@ const showProduct = (div) => {
     const productTitulo = document.getElementById('product__titulo');
     const productPrecio = document.getElementById('product__precio');
     const productDescripcion = document.getElementById('product__description');
+    const productDescuento = document.getElementById('product__descuento');
+    const productPrecioDesc = document.getElementById('product__precioDesc');
 
     if (div.classList.contains('oferta')) {
             
