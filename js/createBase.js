@@ -111,6 +111,12 @@ body.appendChild(nav);
         btnCuenta.className = 'account';
         containerBtn.appendChild(btnCuenta);
 
+    // bars
+    const btnBars = document.createElement('button');
+    btnBars.innerHTML = '<i class="fa-solid fa-bars"></i>'
+    btnBars.className = 'btnBars';
+    nav.appendChild(btnBars);
+
 // Crear el hr
 const hr = document.createElement('hr');
 body.appendChild(hr)
