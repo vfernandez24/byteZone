@@ -518,13 +518,43 @@ hr {
             text-align: initial;
             padding: 0;
         }
+
+        h4 {
+            display: none;
+        }
+    }
+
+    span {
+        display: none;
     }
 
     p {
         font-size: 20px;
         font-weight: 300;
         text-wrap: balance;
-        margin: 30px 0
+        margin: 30px 0 10px 0;
+    }
+
+    button.addCesta {
+        position: static;
+        margin: 0;
+        top: 0;
+        left: 0;
+        width: fit-content;
+    }
+
+    button.addCesta::after {
+        content: 'Añadir a la cesta';
+        margin-left: 10px;
+    }
+
+    button.addCesta:hover {
+        background: var(--background);
+        color: var(--btn);
+
+        i {
+            color: var(--btn);
+        }
     }
 }
 
@@ -536,15 +566,15 @@ hr {
         }
 
         h4 {
+            display: initial;
             color: var(--btn);
             font-size: 24px;
             padding-left: 10px;
-            display: none;
         }
     }
     
     span {
-        display: none;
+        display: flex;
         position: absolute;
         top: 30px;
         left: 30px;
@@ -553,10 +583,6 @@ hr {
         color: var(--background);
         padding: 5px 10px;
         border-radius: 6px;
-    }
-
-    h4.visible, span.visible {
-        display: flex;
     }
 }
 

@@ -291,6 +291,12 @@ body.appendChild(product);
         product__descuento.id = 'product__descuento';
         product.appendChild(product__descuento);
 
+        // añadir cesta
+        const product__cesta = document.createElement('button');
+        product__cesta.innerHTML = '<i class="fa-solid fa-cart-shopping"></i>'
+        product__cesta.className = 'addCesta';
+        product.appendChild(product__cesta);
+
 
 // Crear el aside
 const aside = document.createElement('aside');

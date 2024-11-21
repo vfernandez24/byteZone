@@ -130,6 +130,7 @@ async function cargarProductoEspecifico(categoria, indice, idSection) {
 }
 
 const showProduct = (div) => {
+    document.getElementById("body").style.overflowY = "hidden";
     // Mostrar el overlay
     const overlay = document.getElementById('overlay');
     const overlayProduct = document.getElementById('overlayProduct');
@@ -182,19 +183,15 @@ const showProduct = (div) => {
         if (productDescuento && productPrecioDesc) {
             productDescuento.textContent = descuento;
             productPrecioDesc.textContent = precioDesc;
-            productDescuento.classList.add('visible');
-            productPrecioDesc.classList.add('visible');
         } else {
             console.error('No se encontraron los elementos del producto dentro del overlay.');
             return;
         }
-    } else {
-        productDescuento.classList.remove('visible');
-        productPrecioDesc.classList.remove('visible');
     }
 }
 
 const closeProduct = () => {
     document.getElementById('overlay').classList.remove('visible');
     document.getElementById('overlayProduct').classList.remove('visible');
+    document.getElementById("body").style.overflowY = "auto";
 }
