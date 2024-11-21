@@ -1,4 +1,1 @@
-Creando la funcionalidad del click de los productos
-    createBase.js
-    crearDivProduct.js
-    style.css
+Creando el responsive (width: <= 900px) => style.css, createBase.js
