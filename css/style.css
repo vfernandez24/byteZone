@@ -1016,8 +1016,19 @@ footer {
     }
 }
 
+.btnBars {
+    display: none;
+}
+
 @media (max-width: 900px) {
     nav {
+        padding: 0 20px 0 10px;
+
+        .logo {
+            margin: 0;
+            padding: 0;
+        }
+
         .categoriasTodas {
             display: none;
         }
@@ -1033,15 +1044,33 @@ footer {
             
             button {
                 width: 100%;
-                height: 10vh;
+                height: 11vh;
                 background: var(--background);
                 border-radius: 0;
                 border-bottom: 1px solid var(--text);
             }
 
+            button.theme {
+                display: none;
+            }
+
             button.shopCart, button.account {
                 border-radius: 0;
             }
+
+            button.shopCart::after, button.account::after {
+                display: block;
+            }
+
+            button.shopCart:hover, button.account:hover {
+                width: 100%;
+            }
+        }
+        .btnBars {
+            display: flex;
+            background: none;
+            border: none;
+            font-size: 25px;
         }
     }
 }

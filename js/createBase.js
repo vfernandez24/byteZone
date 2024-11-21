@@ -16,6 +16,15 @@ body.appendChild(overlay);
 const nav = document.createElement('nav');
 body.appendChild(nav);
 
+    // bars
+    const btnBars = document.createElement('button');
+    btnBars.innerHTML = '<i class="fa-solid fa-bars"></i>'
+    btnBars.className = 'btnBars';
+    btnBars.onclick = function() {
+        showAside();
+    }
+    nav.appendChild(btnBars);
+
     // Logo
     const logo = document.createElement('a');
     logo.href = 'index.html';
@@ -79,6 +88,7 @@ body.appendChild(nav);
         btnTheme.onclick = function() {
             toggleTheme()
         };
+        btnTheme.className = 'theme';
         btnTheme.innerHTML = '<i id="btnTheme" class="fa-solid fa-moon"></i>';
         containerBtn.appendChild(btnTheme);
 
@@ -98,7 +108,7 @@ body.appendChild(nav);
         // Contador de productos (cambia a 'p' en lugar de 'img')
         const btnCesta__p = document.createElement('p');
         btnCesta__p.id = 'productosCesta';
-        btnCesta__p.innerText = '0';
+        btnCesta__p.innerText = localStorage.getItem('productosCesta');
         btnCesta.appendChild(btnCesta__p);
 
 
@@ -110,12 +120,6 @@ body.appendChild(nav);
         btnCuenta.innerHTML = '<i class="fa-solid fa-user"></i>';
         btnCuenta.className = 'account';
         containerBtn.appendChild(btnCuenta);
-
-    // bars
-    const btnBars = document.createElement('button');
-    btnBars.innerHTML = '<i class="fa-solid fa-bars"></i>'
-    btnBars.className = 'btnBars';
-    nav.appendChild(btnBars);
 
 // Crear el hr
 const hr = document.createElement('hr');
