@@ -1020,35 +1020,53 @@ footer {
     display: none;
 }
 
+.logoImg.grande {
+    display: flex;
+}
+
+.logoImg.pequeno {
+    display: none;
+}
+
 @media (max-width: 900px) {
     nav {
-        padding: 0 20px 0 10px;
+        padding: 0 20px;
+        max-width: 100vw;
+        overflow-x: hidden;
 
         .logo {
             margin: 0;
             padding: 0;
+            
+            img {
+                height: 6vh;
+            }
+        }
+
+        .logoImg.grande {
+            display: none;
+        }
+
+        .logoImg.pequeno {
+            display: flex;
         }
 
         .categoriasTodas {
             display: none;
         }
 
+        .search {
+            width: 47vw;
+        }
+
         .containerBtn {
-            position: absolute;
-            top: 11vh;
-            left: 0;
-            height: fit-content;
+            margin: 0;
+            padding: 0;
+            min-width: 100px;
             width: 100%;
-            display: flex;
-            flex-direction: column;
-            
-            button {
-                width: 100%;
-                height: 11vh;
-                background: var(--background);
-                border-radius: 0;
-                border-bottom: 1px solid var(--text);
-            }
+            flex-wrap: nowrap;
+            gap: 0;
+            justify-content: space-evenly;
 
             button.theme {
                 display: none;
@@ -1058,19 +1076,58 @@ footer {
                 border-radius: 0;
             }
 
-            button.shopCart::after, button.account::after {
-                display: block;
+            button.shopCart:hover::after, button.account:hover::after {
+                display: none;
             }
 
             button.shopCart:hover, button.account:hover {
-                width: 100%;
+                width: 7vh;
             }
         }
         .btnBars {
             display: flex;
             background: none;
             border: none;
-            font-size: 25px;
+            font-size: 30px;
+            margin-right: 5px;
         }
+    }
+
+    aside {
+        left: -100vw;
+        width: 100vw;
+    }
+
+    .overlayDiv, .overlayDiv.overlayProduct {
+        width: 90vw;
+        height: 85vh;
+
+        h3 {
+            font-size: 20px;
+        }
+
+        h4 {
+            font-size: 20px;
+        }
+
+        h5 {
+            font-size: 18px;
+        }
+    }
+
+    .overlayDiv.overlayProduct{
+        h2 {
+            font-size: 23px;
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: 400;
+        }
+    }
+
+    .categoriasGal, .reseñas {
+        flex-wrap: wrap;
+        height: fit-content;
     }
 }

@@ -32,9 +32,16 @@ body.appendChild(nav);
     nav.appendChild(logo);
 
         // Img
-        const logo__img = document.createElement('img');
-        logo__img.src = 'images/Nombre.png'
-        logo.appendChild(logo__img)
+        const logo__imgGrande = document.createElement('img');
+        logo__imgGrande.src = 'images/Nombre.png'
+        logo__imgGrande.className = 'logoImg grande'
+        logo.appendChild(logo__imgGrande)
+
+        // Img 
+        const logo__imgPequeno = document.createElement('img');
+        logo__imgPequeno.src = 'images/Simbolo.png'
+        logo__imgPequeno.className = 'logoImg pequeno'
+        logo.appendChild(logo__imgPequeno)
 
     // Buscador
     const buscador = document.createElement('div');
@@ -108,9 +115,11 @@ body.appendChild(nav);
         // Contador de productos (cambia a 'p' en lugar de 'img')
         const btnCesta__p = document.createElement('p');
         btnCesta__p.id = 'productosCesta';
+        if (localStorage.getItem('productosCesta') == null) {
+            localStorage.setItem('productosCesta', 0)
+        }
         btnCesta__p.innerText = localStorage.getItem('productosCesta');
         btnCesta.appendChild(btnCesta__p);
-
 
         // Button perfil
         const btnCuenta = document.createElement('button')
@@ -300,14 +309,7 @@ body.appendChild(product);
         product__descuento.textContent = '';
         product__descuento.id = 'product__descuento';
         product.appendChild(product__descuento);
-
-        // añadir cesta
-        const product__cesta = document.createElement('button');
-        product__cesta.innerHTML = '<i class="fa-solid fa-cart-shopping"></i>'
-        product__cesta.className = 'addCesta';
-        product.appendChild(product__cesta);
-
-
+        
 // Crear el aside
 const aside = document.createElement('aside');
 aside.id = 'aside';
