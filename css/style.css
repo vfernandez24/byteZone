@@ -997,6 +997,10 @@ footer {
                 transition: all .3s ease;
             }
 
+            i {
+                margin-right: 5px;
+            }
+
             a:hover {
                 color: var(--btn);
                 font-weight: 500;
@@ -1150,5 +1154,9 @@ footer {
     .categoriasGal, .reseñas {
         flex-wrap: wrap;
         height: fit-content;
+    }
+
+    footer {
+        
     }
 }
