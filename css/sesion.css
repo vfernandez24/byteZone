@@ -1,64 +1,39 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.left, .right {
-    width: 50vw;
+    width: 100%;
     height: 100vh;
-}
-
-.left {
-    background: linear-gradient(135deg, var(--btn), var(--titulos), var(--unicos));
-    border-radius: 20px 60px 60px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    gap: 50px;
+    background: linear-gradient(135deg, var(--btn), var(--titulos), var(--unicos));
+}
 
-    h3 {
-        color: var(--background);
-        font-size: 30px;
-    }
+.btnHome {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    z-index: 10;
+    border-radius: 50%;
+    background: var(--hover);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 
-    a {
-        text-decoration: none;
-        padding: 20px 60px;
-        border-radius: 50px;
-        font-size: 20px;
-        background: var(--btn);
-        color: var(--background);
-        transition: all .3s ease;
-    }
-
-    a:hover {
-        color: var(--text);
-        background: var(--background);
-        border: 1px solid var(--text);
+    i {
+        font-size: 25px;
+        color: var(--btn);
     }
 }
 
-.right {
-    .btnHome {
-        position: absolute;
-        top: 20px;
-        left: 20px;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        background: var(--hover);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-
-        i {
-            font-size: 25px;
-            color: var(--btn);
-        }
-    }
+.container {
+    width: 60vh;
+    height: 60vh;
+    overflow: hidden;
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 12% 80% 5%;
 
     h3 {
         font-size: 30px;
@@ -70,7 +45,7 @@ body {
 
     label {
         display: block;
-        margin: 20px auto;
+        margin: 10px auto;
         position: relative;
         padding: 0 20px 0 20px;
 
@@ -79,7 +54,7 @@ body {
             margin-top: 10px;
             width: 100%;
             border-radius: 10px;
-            height: 50px;
+            height: 40px;
             border: none;
             background: var(--hover);
             padding: 10px;
@@ -107,11 +82,11 @@ body {
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 40px;
-            height: 40px;
+            width: 30px;
+            height: 30px;
             border-radius: 50%;
             right: 30px;
-            top: 35px;
+            top: 33px;
         }
 
         button:hover {
@@ -148,7 +123,7 @@ body {
         display: flex;
         padding: 10px 50px;
         border-radius: 20px;
-        margin: auto;
+        margin: 20px auto;
         background: var(--btn);
         border: 1px solid var(--btn);
         color: var(--background);
@@ -162,12 +137,29 @@ body {
         background: var(--background);
         color: var(--btn);
     }
+
+    .aviso {
+        width: 100%;
+        padding: 0 10px;
+
+        a {
+            color: var(--btn);
+        }
+    }
 }
 
 @keyframes anim {
     
 }
 
+@media (max-width: 900px) {
+    .container {
+        min-height: 70%;
+        height: fit-content;
+        max-height: 90%;
+        max-width: 80%;
+    }
+}
 
 /* Oculta el checkbox real */
 .checkbox-container input[type="checkbox"] {

@@ -90,15 +90,6 @@ body.appendChild(nav);
     containerBtn.className = 'containerBtn';
     nav.appendChild(containerBtn);
 
-        // Button theme
-        const btnTheme = document.createElement('button')
-        btnTheme.onclick = function() {
-            toggleTheme()
-        };
-        btnTheme.className = 'theme';
-        btnTheme.innerHTML = '<i id="btnTheme" class="fa-solid fa-moon"></i>';
-        containerBtn.appendChild(btnTheme);
-
         // Botón "Cesta"
         const btnCesta = document.createElement('button');
         btnCesta.onclick = function() {
