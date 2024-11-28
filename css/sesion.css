@@ -29,7 +29,9 @@ body {
 
 .container {
     width: 60vh;
-    height: 60vh;
+    min-height: 30vh;
+    height: fit-content;
+    max-height: 90vh;
     overflow: hidden;
     border-radius: 20px;
     display: grid;
@@ -86,7 +88,7 @@ body {
             height: 30px;
             border-radius: 50%;
             right: 30px;
-            top: 33px;
+            top: 15px;
         }
 
         button:hover {
@@ -141,6 +143,7 @@ body {
     .aviso {
         width: 100%;
         padding: 0 10px;
+        text-align: center;
 
         a {
             color: var(--btn);
@@ -148,15 +151,9 @@ body {
     }
 }
 
-@keyframes anim {
-    
-}
-
 @media (max-width: 900px) {
     .container {
-        min-height: 70%;
-        height: fit-content;
-        max-height: 90%;
+        
         max-width: 80%;
     }
 }
