@@ -131,26 +131,6 @@ async function cargarProductoEspecifico(categoria, indice, idSection) {
     }
 }
 
-async function cargarMarcaEspecifica(indice, idSection) {
-    try {
-        // Cargar y analizar el archivo JSON
-        let response = await fetch('../../json/marcas/marcas.json');
-
-        const marcas = await response.json();
-
-        // Verifica si el índice existe en el arreglo
-        if (indice < 0 || indice >= marcas.length) {
-            console.error('Producto no encontrado.');
-            return;
-        }
-        
-        // Selecciona el producto específico
-        const producto = marcas[indice];
-        const contenedor = document.getElementById(idSection);
-    } catch (error) {
-        console.error('Error al cargar la marca:', error);
-    }
-}
 
 const showProduct = (div) => {
     document.getElementById("body").style.overflowY = "hidden";
