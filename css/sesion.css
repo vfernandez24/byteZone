@@ -34,6 +34,7 @@ body {
     max-height: 90vh;
     overflow: hidden;
     border-radius: 20px;
+    padding-bottom: 20px;
     display: grid;
     grid-template-rows: 12% 80% 5%;
 
@@ -141,8 +142,10 @@ body {
     }
 
     .aviso {
+        display: block;
         width: 100%;
         padding: 0 10px;
+        border-bottom: 30px;
         text-align: center;
 
         a {
