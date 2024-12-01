@@ -847,6 +847,14 @@ h1 {
     text-align: center;
 }
 
+.marcasContainer.categoriasGal .img {
+    background: none;
+
+    img {
+        scale: 1;
+    }
+}
+
 .boxCat .img {
     font-size: 40px;
     transition: all .3s ease;

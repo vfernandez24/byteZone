@@ -1,0 +1,53 @@
+[  
+    {},
+    {
+        "nombre": "TechNova",
+        "especialidad": "Desarrollo de inteligencia artificial avanzada para asistentes virtuales y aplicaciones médicas",
+        "logo": "images/marcas/TechNova.jpg"
+    },
+    {
+        "nombre": "NeuraLink Solutions",
+        "especialidad": "Tecnología de interfaz cerebro-máquina, permitiendo controlar dispositivos con señales neuronales",
+        "logo": "images/marcas/NeuraLinkSolutions.jpg"
+    },
+    {
+        "nombre": "Orbitech Systems",
+        "especialidad": "Creación de dispositivos de realidad aumentada para el sector educativo y entrenamiento corporativo",
+        "logo": "images/marcas/OrbitechSystems.jpg"
+    },
+    {
+        "nombre": "LumenoTech",
+        "especialidad": "Iluminación inteligente y sostenible, incluyendo lámparas LED con integración IoT para hogares y oficinas",
+        "logo": "images/marcas/LumenoTech.jpg"
+    },
+    {
+        "nombre": "QuantumSphere",
+        "especialidad": "Computación cuántica accesible para startups y pequeñas empresas, con énfasis en simulaciones y predicciones complejas",
+        "logo": "images/marcas/QuantumSphere.jpg"
+    },
+    {
+        "nombre": "EcoCircuit",
+        "especialidad": "Desarrollo de hardware ecológico y reciclable para ordenadores portátiles y dispositivos móviles",
+        "logo": "images/marcas/EcoCircuit.jpg"
+    },
+    {
+        "nombre": "SkyCom Networks",
+        "especialidad": "Redes satelitales de alta velocidad para conectar zonas rurales y remotas a internet",
+        "logo": "images/marcas/SkyComNetworks.jpg"
+    },
+    {
+        "nombre": "HoloCore",
+        "especialidad": "Creación de hologramas interactivos para conferencias, espectáculos y comunicación a distancia",
+        "logo": "images/marcas/Holocore.jpg"
+    },
+    {
+        "nombre": "DataVault Dynamics",
+        "especialidad": "Soluciones de ciberseguridad con almacenamiento de datos en bóvedas digitales ultraseguras",
+        "logo": "images/marcas/DataVaultDynamics.jpg"
+    },
+    {
+        "nombre": "Zenith Robotics",
+        "especialidad": "Robots asistenciales y de servicio para cuidado en hospitales, hogares de ancianos y entornos domésticos",
+        "logo": "../../images/marcas/ZenithRobotics.jpg"
+    }
+]

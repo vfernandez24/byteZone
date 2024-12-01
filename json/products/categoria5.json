@@ -8,7 +8,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Sensor APS-C de 32.5 MP, grabación de video 4K, enfoque automático rápido.",
-        "imagen": "images/products/categoria5/Cámara réflex digital Canon EOS 90D.jpg"
+        "imagen": "images/products/categoria5/5-1 Cámara réflex digital Canon EOS 90D.jpg"
     },
     {
         "nombre": "Objetivo de 50 mm f/1.8 para DSLR",
@@ -18,7 +18,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Apertura rápida, ideal para retratos, ligero y compacto.",
-        "imagen": "images/products/categoria5/Objetivo de 50 mm f1.8 para DSLR.jpg"
+        "imagen": "images/products/categoria5/5-2.jpg"
     },
     {
         "nombre": "Dron con cámara 4K y GPS",
@@ -28,7 +28,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Grabación en 4K, tiempo de vuelo de 30 minutos, control por smartphone.",
-        "imagen": "images/products/categoria5/Dron con cámara 4K y GPS.jpg"
+        "imagen": "images/products/categoria5/5-3 Dron con cámara 4K y GPS.jpg"
     },
     {
         "nombre": "Trípode de carbono ajustable",
@@ -38,7 +38,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Ligero y portátil, altura ajustable, cabezal de bola de 360 grados.",
-        "imagen": "images/products/categoria5/Trípode de carbono ajustable.jpg"
+        "imagen": "images/products/categoria5/5-4 Trípode de carbono ajustable.jpg"
     },
     {
         "nombre": "Iluminación LED para estudio fotográfico",
@@ -48,7 +48,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Luz ajustable, temperatura de color variable, incluye soportes.",
-        "imagen": "images/products/categoria5/Iluminación LED para estudio fotográfico.jpg"
+        "imagen": "images/products/categoria5/5-5 Iluminación LED para estudio fotográfico.webp"
     },
     {
         "nombre": "Grabadora de audio portátil",
@@ -58,7 +58,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Graba en calidad HD, micrófono incorporado, fácil de usar.",
-        "imagen": "images/products/categoria5/Grabadora de audio portátil.jpg"
+        "imagen": "images/products/categoria5/5-6 Grabadora de audio portátil.webp"
     },
     {
         "nombre": "Filtro polarizador para lentes",
@@ -68,7 +68,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Reduce reflejos, mejora el contraste, adecuado para lentes de 77 mm.",
-        "imagen": "images/products/categoria5/Filtro polarizador para lentes.jpg"
+        "imagen": "images/products/categoria5/5-7 Filtro polarizador para lentes.jpg"
     },
     {
         "nombre": "Cámara de acción GoPro HERO10",
@@ -78,7 +78,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Resistente al agua, grabación en 5.3K, estabilización de video avanzada.",
-        "imagen": "images/products/categoria5/Cámara de acción GoPro HERO10.jpg"
+        "imagen": "images/products/categoria5/5-8 Cámara de acción GoPro HERO10.jpg"
     },
     {
         "nombre": "Monitor de referencia para edición de video",
@@ -88,7 +88,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Resolución 4K, calibración de color precisa, ideal para estudios de postproducción.",
-        "imagen": "images/products/categoria5/Monitor de referencia para edición de video.jpg"
+        "imagen": "images/products/categoria5/5-9 Monitor de referencia para edición de video.jpg"
     },
     {
         "nombre": "Mochila para cámara con compartimentos ajustables",
@@ -98,7 +98,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Espacio para varias cámaras y lentes, resistente al agua, diseño ergonómico.",
-        "imagen": "images/products/categoria5/Mochila para cámara con compartimentos ajustables.jpg"
+        "imagen": "images/products/categoria5/5-10 Mochila para cámara con compartimentos ajustables.jpg"
     },
     {
         "nombre": "Gimbal estabilizador para cámaras",
@@ -108,7 +108,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Estabilización en 3 ejes, fácil de usar, compatible con cámaras DSLR y mirrorless.",
-        "imagen": "images/products/categoria5/Gimbal estabilizador para cámaras.jpg"
+        "imagen": "images/products/categoria5/5-11 Gimbal estabilizador para cámaras.jpg"
     },
     {
         "nombre": "Cámara instantánea Fujifilm Instax Mini 11",
@@ -118,7 +118,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Revela fotos instantáneas, enfoque automático, diseño compacto.",
-        "imagen": "images/products/categoria5/Cámara instantánea Fujifilm Instax Mini 11.jpg"
+        "imagen": "images/products/categoria5/5-12 Cámara instantánea Fujifilm Instax Mini 11.jpg"
     },
     {
         "nombre": "Micrófono de condensador USB",
@@ -128,7 +128,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Calidad de sonido profesional, conexión USB, ideal para grabación de voz.",
-        "imagen": "images/products/categoria5/Micrófono de condensador USB.jpg"
+        "imagen": "images/products/categoria5/5-13 Micrófono de condensador USB.jpg"
     },
     {
         "nombre": "Filtro ND para grabación de video",
@@ -138,7 +138,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Control de exposición, ideal para filmar en exteriores, compatible con lentes de 58 mm.",
-        "imagen": "images/products/categoria5/Filtro ND para grabación de video.jpg"
+        "imagen": "images/products/categoria5/5-14 Filtro ND para grabación de video.jpg"
     },
     {
         "nombre": "Soporte de luz para fotografía",
@@ -148,7 +148,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Ajustable en altura, compatible con diferentes tipos de luces, fácil de transportar.",
-        "imagen": "images/products/categoria5/Soporte de luz para fotografía.jpg"
+        "imagen": "images/products/categoria5/5-15 Soporte de luz para fotografía.jpg"
     },
     {
         "nombre": "Flash externo para cámaras DSLR",
@@ -158,7 +158,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Potente y recargable, cabezal ajustable, ideal para fotografía de retratos.",
-        "imagen": "images/products/categoria5/Flash externo para cámaras DSLR.jpg"
+        "imagen": "images/products/categoria5/5-16 Flash externo para cámaras DSLR.jpg"
     },
     {
         "nombre": "Cámara de videovigilancia Wi-Fi",
@@ -168,7 +168,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Visualización en tiempo real, visión nocturna, alertas por movimiento.",
-        "imagen": "images/products/categoria5/Cámara de videovigilancia Wi-Fi.jpg"
+        "imagen": "images/products/categoria5/5-17 Cámara de videovigilancia Wi-Fi.jpg"
     },
     {
         "nombre": "Tableta gráfica para diseño digital",
@@ -178,7 +178,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Alta sensibilidad a la presión, incluye lápiz, ideal para ilustradores.",
-        "imagen": "images/products/categoria5/Tableta gráfica para diseño digital.jpg"
+        "imagen": "images/products/categoria5/5-18 Tableta gráfica para diseño digital.jpg"
     },
     {
         "nombre": "Batería externa de alta capacidad",
@@ -188,7 +188,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Capacidad de 20,000 mAh, carga rápida, compatible con varios dispositivos.",
-        "imagen": "images/products/categoria5/Batería externa de alta capacidad.jpg"
+        "imagen": "images/products/categoria5/5-19 Batería externa de alta capacidad.jpg"
     },
     {
         "nombre": "Lentes de filtro UV",
@@ -198,7 +198,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Protección para el objetivo, reducción de destellos, compatible con lentes de 52 mm.",
-        "imagen": "images/products/categoria5/Lentes de filtro UV.jpg"
+        "imagen": "images/products/categoria5/5-20 Lentes de filtro UV.webp"
     },
     {
         "nombre": "Cámara web HD para streaming",
@@ -208,7 +208,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Calidad de video 1080p, micrófono incorporado, ideal para videoconferencias.",
-        "imagen": "images/products/categoria5/Cámara web HD para streaming.jpg"
+        "imagen": "images/products/categoria5/5-21 Cámara web HD para streaming.webp"
     },
     {
         "nombre": "Cámara de seguridad para exteriores",
@@ -218,7 +218,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Resistente al agua, visión nocturna, conectividad Wi-Fi.",
-        "imagen": "images/products/categoria5/Cámara de seguridad para exteriores.jpg"
+        "imagen": "images/products/categoria5/5-22 Cámara de seguridad para exteriores.jpg"
     },
     {
         "nombre": "Soporte para smartphone para grabación",
@@ -228,7 +228,7 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Ajustable, rotación de 360 grados, ideal para grabación de videos.",
-        "imagen": "images/products/categoria5/Soporte para smartphone para grabación.jpg"
+        "imagen": "images/products/categoria5/5-23 Soporte para smartphone para grabación.jpeg"
     },
     {
         "nombre": "Lente ojo de pez para smartphones",
@@ -238,6 +238,6 @@
         "precioDesc": "0",
         "porcentDesc": "0%",
         "descripcion": "Amplio ángulo de visión, fácil de usar, incluye clip de sujeción.",
-        "imagen": "images/products/categoria5/Lente ojo de pez para smartphones.jpg"
+        "imagen": "images/products/categoria5/5-24 Lente ojo de pez de smartpones.jpg"
     }
 ]

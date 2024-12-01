@@ -1,3 +1,5 @@
+console.log('crearDivProduct.js conectado')
+
 //? Categoria => Numero de la categoria para buscar archivo
 //? Indice => Numero del producto dentro de la categoria
 //? idSection => Div donde van a ir los productos
@@ -126,6 +128,43 @@ async function cargarProductoEspecifico(categoria, indice, idSection) {
         contenedor.appendChild(divProducto);
     } catch (error) {
         console.error('Error al cargar el producto:', error);
+    }
+}
+
+async function cargarMarcaEspecifica(indice, idSection) {
+    try {
+        // Cargar y analizar el archivo JSON
+        let response = await fetch('json/marcas/marcas.json');
+
+        const marcas = await response.json();
+
+        // Verifica si el índice existe en el arreglo
+        if (indice < 0 || indice >= marcas.length) {
+            console.error('Producto no encontrado.');
+            return;
+        }
+        
+        // Selecciona el producto específico
+        const producto = marcas[indice];
+        const contenedor = document.getElementById(idSection);
+
+        // Crear el container(box)
+        const box = document.createElement('div');
+        box.className = 'box boxCat';
+        contenedor.appendChild(box);
+
+        // Crear el imgBox
+        const imgBox = document.createElement('div');
+        imgBox.className = 'img';
+        box.appendChild(imgBox);
+
+        // Crear la img
+        const img = document.createElement('img');
+        img.src = producto.logo;
+        imgBox.appendChild(img);
+
+    } catch (error) {
+        console.error('Error al cargar la marca:', error);
     }
 }
 
