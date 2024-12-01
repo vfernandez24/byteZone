@@ -636,7 +636,7 @@ aside {
         height: 100%;
         width: 100%;
         display: flex; 
-        justify-content: center; 
+        justify-content: start; 
         align-items: center;
         flex-direction: column; 
         row-gap: 30px;
@@ -976,6 +976,18 @@ footer {
             letter-spacing: 2px;
         }
 
+        nav {
+            all: unset;
+            min-width: fit-content;
+            height: 350px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: start;
+            gap: 20px;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
         li {
             list-style: none;
             width: 100%;
@@ -1094,7 +1106,8 @@ footer {
             }
 
             button.shopCart, button.account {
-                border-radius: 0;
+                border-radius: 50%;
+                width: 7vh;
             }
 
             button.shopCart::after, button.account::after {
@@ -1158,6 +1171,63 @@ footer {
     }
 
     footer {
-        
+        display: flex ;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        gap: 5px;
+        padding: 0 10px;
+
+        ul {
+            position: relative;
+            width: 100%;
+            height: 8vh;
+            border-bottom: 1px solid var(--border);
+
+            h3 {
+                line-height: 8vh;
+            }
+            
+            nav {
+                height: 1px;
+            }
+        }
+
+        ul::before {
+            position: absolute;
+            top: 2vh;
+            height: 4vh;
+            width: 4vh;
+            content: '';
+        }
+    }
+}
+
+@media (max-width: 1150px) and (min-width: 701px) {
+    nav {
+        grid-template-columns: 0.5fr 1fr 2fr 2fr;
+        .logoImg.grande {
+            display: block;
+        }
+        .logoImg.pequeno {
+            display: none;
+        }
+
+        button.shopCart, button.account {
+            border-radius: 0;
+        }
+
+        button.shopCart::after, button.account::after {
+            display: none;
+        }
+
+        button.shopCart:hover, button.account:hover {
+            width: 7vh;
+        }
+    }
+
+    aside {
+        left: -350px;
+        width: 350px;
     }
 }
