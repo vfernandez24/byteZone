@@ -551,24 +551,15 @@ hr {
     }
 
     button.addCesta {
-        position: static;
-        margin: 0;
-        top: 0;
-        left: 0;
-        width: fit-content;
-    }
+        position: absolute;
+        top: 85%;
+        right: 20px;
+        width: 7vh;
+        height: 7vh;
+        border-radius: 10px;
 
-    button.addCesta::after {
-        content: 'Añadir a la cesta';
-        margin-left: 10px;
-    }
-
-    button.addCesta:hover {
-        background: var(--background);
-        color: var(--btn);
-
-        i {
-            color: var(--btn);
+        img {
+            height: 5vh;
         }
     }
 }

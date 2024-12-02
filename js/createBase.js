@@ -301,7 +301,20 @@ body.appendChild(product);
         product__descuento.textContent = '';
         product__descuento.id = 'product__descuento';
         product.appendChild(product__descuento);
-        
+
+        // button
+        const product__button = document.createElement('button');
+        product__button.className = 'addCesta';
+        product__button.onclick = function() {
+            addProduct(this)
+        };
+        product.appendChild(product__button);
+
+            // img 
+            const product__buttonImg = document.createElement('img');
+            product__buttonImg.src = 'assets/addShopCart.svg'
+            product__button.appendChild(product__buttonImg);
+
 // Crear el aside
 const aside = document.createElement('aside');
 aside.id = 'aside';

@@ -17,8 +17,19 @@ const deleteProducto = (span) => {
     li.remove()
 }
 
-const addProduct = (productDiv) => {
-    
+const addProduct = (button) => {
+    const product = button.parentElement;
+    const img = product.querySelector('img').src;
+    const nombre = product.querySelector('h2').textContent;
+    const precio = product.querySelector('h3').textContent;
+
+    if (product.classList.contains('oferta')) {
+        const precioDesc = product.querySelector('h4').textContent;
+        const descuento = product.querySelector('span').textContent;
+    }
+
+    // Crear un nuevo li
+    const newLi = document.createElement('li');
 }
 
 let innerUlDefault = `
