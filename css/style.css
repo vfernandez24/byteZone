@@ -447,6 +447,24 @@ hr {
     }
 }
 
+.overlayDiv.cesta ul.default {
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-wrap: balance;
+
+    img {
+        height: 30%;
+    }
+
+    h1 {
+        text-align: center;
+        color: var(--border);
+    }
+}
+
 .perfil {
     h4 {
         font-size: 25px;
@@ -850,11 +868,16 @@ h1 {
 .marcasContainer.categoriasGal .img {
     background: none;
     box-shadow: 0 0 20px 10px var(--background);
+    overflow: visible;
 
     img {
         scale: 1;
-        box-shadow: 0 0 20px 10px var(--contraste);
+        border-radius: 40%;
     }
+}
+
+.marcasContainer.categoriasGal .box:hover .img {
+    box-shadow: none;
 }
 
 .boxCat .img {

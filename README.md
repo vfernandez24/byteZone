@@ -5,7 +5,7 @@ Hay que descargar TODAS las fotos de los productos
 
 Hay que generar las reseñas
 
-Hay que crear la funcionalidad de la cesta
+<!--! Hay que crear la funcionalidad de la cesta -->
 
 Hay que crear la funcionalidad del left en las categorias
 

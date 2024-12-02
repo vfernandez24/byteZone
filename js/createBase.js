@@ -146,6 +146,7 @@ body.appendChild(cesta);
 
     // ul 
     const cesta__ul = document.createElement('ul');
+    cesta__ul.id = 'cestaUl';
     cesta.appendChild(cesta__ul);
 
 // Crear el perfil
