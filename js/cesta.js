@@ -17,13 +17,26 @@ const deleteProducto = (span) => {
     cestaProducts -= 1;
     localStorage.setItem('productosCesta', cestaProducts);
 
-    document.getElementById('productosCesta').textContent = localStorage.getItem('productosCesta')
+    document.getElementById('productosCesta').textContent = localStorage.getItem('productosCesta');
 
     const li = span.parentElement
     li.remove()
+
+    localStorage.setItem('contentUl', document.getElementById('cestaUl').innerHTML);
+
+    const ul = document.getElementById('cestaUl');
+    if (localStorage.getItem('contentUl') == '') {
+        ul.classList.add('default');
+        ul.innerHTML = innerUlDefault;
+    }
 }
 
 const addProduct = (button) => {
+    if (localStorage.getItem('productosCesta') == 0) {
+        document.getElementById('cestaUl').innerHTML = '';
+        document.getElementById('cestaUl').classList.remove('default');
+    }
+
     let cestaProducts = parseInt(localStorage.getItem('productosCesta'));
     cestaProducts += 1;
     localStorage.setItem('productosCesta', cestaProducts);
@@ -59,9 +72,10 @@ const addProduct = (button) => {
 
         const liButton = document.createElement('button');
         liButton.innerHTML = '<i class="fa-solid fa-trash"></i>';
+        liButton.className = 'deleteBtn';
         liButton.onclick = function() {
             deleteProducto(this);
-        }
+        };
         newLi.appendChild(liButton);
 
     localStorage.setItem('contentUl', document.getElementById('cestaUl').innerHTML)
@@ -77,10 +91,17 @@ function contentCesta() {
     ul.classList.remove('default');
     ul.innerHTML = localStorage.getItem('contentUl');
 
-    if (localStorage.getItem('contentUl') == null) {
+    if (localStorage.getItem('contentUl') == null || localStorage.getItem('contentUl') == '') {
         ul.classList.add('default');
         ul.innerHTML = innerUlDefault;
+        return
     }
+
+    ul.querySelectorAll('button').forEach(button => {
+        button.onclick = function () {
+        deleteProducto(this);
+        };
+    });
 }
 
 contentCesta();

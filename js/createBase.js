@@ -306,8 +306,8 @@ body.appendChild(product);
         const product__button = document.createElement('button');
         product__button.className = 'addCesta';
         product__button.onclick = function() {
-            addProduct(this)
-        };
+            addProduct(this);
+        }
         product.appendChild(product__button);
 
             // img 
