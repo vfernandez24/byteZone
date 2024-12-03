@@ -6,6 +6,8 @@ Hay que descargar TODAS las fotos de los productos
 Hay que generar las reseñas
 
 <!--! Hay que crear la funcionalidad de la cesta -->
+    Revisar la eliminacion del ul default al añadir un producto para no alterar la recarga de la página
+    Cambiar el src de la imagen de la cesta vacia
 
 Hay que crear la funcionalidad del left en las categorias
 

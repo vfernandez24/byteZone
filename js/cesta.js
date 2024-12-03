@@ -13,11 +13,23 @@ const closeCesta = () => {
 }
 
 const deleteProducto = (span) => {
+    let cestaProducts = parseInt(localStorage.getItem('productosCesta'));
+    cestaProducts -= 1;
+    localStorage.setItem('productosCesta', cestaProducts);
+
+    document.getElementById('productosCesta').textContent = localStorage.getItem('productosCesta')
+
     const li = span.parentElement
     li.remove()
 }
 
 const addProduct = (button) => {
+    let cestaProducts = parseInt(localStorage.getItem('productosCesta'));
+    cestaProducts += 1;
+    localStorage.setItem('productosCesta', cestaProducts);
+
+    document.getElementById('productosCesta').textContent = localStorage.getItem('productosCesta');
+
     const product = button.parentElement;
     const img = product.querySelector('img').src;
     const nombre = product.querySelector('h2').textContent;
@@ -30,6 +42,29 @@ const addProduct = (button) => {
 
     // Crear un nuevo li
     const newLi = document.createElement('li');
+    document.getElementById('cestaUl').appendChild(newLi);
+
+        // Crear el contenido del li
+        const liImg = document.createElement('img');
+        liImg.src = img;
+        newLi.appendChild(liImg);
+
+        const liNombre = document.createElement('h2');
+        liNombre.textContent = nombre;
+        newLi.appendChild(liNombre);
+
+        const liPrecio = document.createElement('h3');
+        liPrecio.textContent = precio;
+        newLi.appendChild(liPrecio);
+
+        const liButton = document.createElement('button');
+        liButton.innerHTML = '<i class="fa-solid fa-trash"></i>';
+        liButton.onclick = function() {
+            deleteProducto(this);
+        }
+        newLi.appendChild(liButton);
+
+    localStorage.setItem('contentUl', document.getElementById('cestaUl').innerHTML)
 }
 
 let innerUlDefault = `
@@ -39,8 +74,8 @@ let innerUlDefault = `
 
 function contentCesta() {
     const ul = document.getElementById('cestaUl');
-    ul.innerHTML = localStorage.getItem('contentUl');
     ul.classList.remove('default');
+    ul.innerHTML = localStorage.getItem('contentUl');
 
     if (localStorage.getItem('contentUl') == null) {
         ul.classList.add('default');

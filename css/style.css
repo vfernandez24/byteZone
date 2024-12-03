@@ -856,14 +856,18 @@ h1 {
     text-align: center;
 }
 
-.marcasContainer.categoriasGal .img {
-    background: none;
-    box-shadow: 0 0 20px 10px var(--background);
-    overflow: visible;
+.marcasContainer.categoriasGal .box {
+    cursor: default;
 
-    img {
-        scale: 1;
-        border-radius: 40%;
+    .img {
+        background: none;
+        box-shadow: 0 0 20px 10px var(--background);
+        overflow: visible;
+
+        img {
+            scale: 1;
+            border-radius: 40%;
+        }
     }
 }
 
