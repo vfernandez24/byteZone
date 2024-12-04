@@ -48,27 +48,34 @@ const addProduct = (button) => {
     const nombre = product.querySelector('h2').textContent;
     const precio = product.querySelector('h3').textContent;
 
-    if (product.classList.contains('oferta')) {
-        const precioDesc = product.querySelector('h4').textContent;
-        const descuento = product.querySelector('span').textContent;
-    }
+    const precioDesc = product.querySelector('h4').textContent;
+    const descuento = product.querySelector('span').textContent;
 
     // Crear un nuevo li
     const newLi = document.createElement('li');
     document.getElementById('cestaUl').appendChild(newLi);
 
         // Crear el contenido del li
-        const liImg = document.createElement('img');
-        liImg.src = img;
-        newLi.appendChild(liImg);
+        const liDiv1 = document.createElement('div');
+        newLi.appendChild(liDiv1);
 
-        const liNombre = document.createElement('h2');
-        liNombre.textContent = nombre;
-        newLi.appendChild(liNombre);
+            const liImg = document.createElement('img');
+            liImg.src = img;
+            liDiv1.appendChild(liImg);
 
-        const liPrecio = document.createElement('h3');
-        liPrecio.textContent = precio;
-        newLi.appendChild(liPrecio);
+            const liNombre = document.createElement('h2');
+            liNombre.textContent = nombre;
+            liDiv1.appendChild(liNombre);
+
+        const liDiv2 = document.createElement('div');
+        newLi.appendChild(liDiv2);
+
+            const liPrecio = document.createElement('h3');
+            liPrecio.textContent = precio;
+            liDiv2.appendChild(liPrecio);
+            
+            const liPrecioDesc = document.createElement('h4');
+            liDiv2.appendChild(liPrecioDesc);
 
         const liButton = document.createElement('button');
         liButton.innerHTML = '<i class="fa-solid fa-trash"></i>';
@@ -77,6 +84,15 @@ const addProduct = (button) => {
             deleteProducto(this);
         };
         newLi.appendChild(liButton);
+
+        const liDescuento = document.createElement('span');
+        newLi.appendChild(liDescuento);
+        
+        if (product.classList.contains('oferta') && precioDesc && descuento) {
+            newLi.classList.add('oferta');
+            liPrecioDesc.textContent = precioDesc;
+            liDescuento.textContent = descuento;
+        }
 
     localStorage.setItem('contentUl', document.getElementById('cestaUl').innerHTML)
 }
@@ -99,7 +115,7 @@ function contentCesta() {
 
     ul.querySelectorAll('button').forEach(button => {
         button.onclick = function () {
-        deleteProducto(this);
+            deleteProducto(this);
         };
     });
 }
