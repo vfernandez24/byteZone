@@ -70,78 +70,79 @@ const cargarContenido = (categoria) => {
     form__oferta.className = 'filter';
     left__form.appendChild(form__oferta);
 
-    // h4
-    const oferta__h4 = document.createElement('h4');
-    oferta__h4.innerText = 'Oferta';
-    form__oferta.appendChild(oferta__h4);
+        // h4
+        const oferta__h4 = document.createElement('h4');
+        oferta__h4.innerText = 'Oferta';
+        form__oferta.appendChild(oferta__h4);
 
-    // oferta
-    const oferta__ul = document.createElement('ul');
-    form__oferta.appendChild(oferta__ul);
+        // oferta ul
+        const oferta__ul = document.createElement('ul');
+        form__oferta.appendChild(oferta__ul);
 
-        // opcion neutra
-        const liOferta = document.createElement('li');
-        oferta__ul.appendChild(liOferta);
+            // opcion neutra
+            const liOferta = document.createElement('li');
+            oferta__ul.appendChild(liOferta);
 
-            const inputOferta = document.createElement('input');
-            inputOferta.type = 'radio';
-            inputOferta.id = 'neutroOferta';
-            inputOferta.name = 'option';
-            inputOferta.checked = true;
-            inputOferta.onchange = function() {
-                neutroOferta();
-            };
-            liOferta.appendChild(inputOferta);
+                const inputOferta = document.createElement('input');
+                inputOferta.type = 'radio';
+                inputOferta.id = 'neutroOferta';
+                inputOferta.name = 'option';
+                inputOferta.checked = true;
+                inputOferta.onchange = function() {
+                    neutroOferta();
+                };
+                liOferta.appendChild(inputOferta);
 
-            const labelOferta = document.createElement('label');
-            labelOferta.htmlFor = 'neutroOferta';
-            labelOferta.textContent = 'Sin filtrar';
-            liOferta.appendChild(labelOferta);
+                const labelOferta = document.createElement('label');
+                labelOferta.htmlFor = 'neutroOferta';
+                labelOferta.textContent = 'Sin filtrar';
+                liOferta.appendChild(labelOferta);
 
-        // opcion con oferta
-        const liConOferta = document.createElement('li');
-        oferta__ul.appendChild(liConOferta);
+            // opcion con oferta
+            const liConOferta = document.createElement('li');
+            oferta__ul.appendChild(liConOferta);
 
-            const inputConOferta = document.createElement('input');
-            inputConOferta.type = 'radio';
-            inputConOferta.id = 'conOferta';
-            inputConOferta.name = 'option';
-            inputConOferta.onchange = function() {
-                conOferta();
-            };
-            liConOferta.appendChild(inputConOferta);
+                const inputConOferta = document.createElement('input');
+                inputConOferta.type = 'radio';
+                inputConOferta.id = 'conOferta';
+                inputConOferta.name = 'option';
+                inputConOferta.onchange = function() {
+                    conOferta();
+                };
+                liConOferta.appendChild(inputConOferta);
 
-            const labelConOferta = document.createElement('label');
-            labelConOferta.htmlFor = 'conOferta';
-            labelConOferta.textContent = 'Con oferta';
-            liConOferta.appendChild(labelConOferta);
+                const labelConOferta = document.createElement('label');
+                labelConOferta.htmlFor = 'conOferta';
+                labelConOferta.textContent = 'Con oferta';
+                liConOferta.appendChild(labelConOferta);
 
-        // opcion sin oferta
-        const liSinOferta = document.createElement('li');
-        oferta__ul.appendChild(liSinOferta);
+            // opcion sin oferta
+            const liSinOferta = document.createElement('li');
+            oferta__ul.appendChild(liSinOferta);
 
-            const inputSinOferta = document.createElement('input');
-            inputSinOferta.type = 'radio';
-            inputSinOferta.id = 'sinOferta';
-            inputSinOferta.name = 'option';
-            inputSinOferta.onchange = function() {
-                sinOferta();
-            };
-            liSinOferta.appendChild(inputSinOferta);
+                const inputSinOferta = document.createElement('input');
+                inputSinOferta.type = 'radio';
+                inputSinOferta.id = 'sinOferta';
+                inputSinOferta.name = 'option';
+                inputSinOferta.onchange = function() {
+                    sinOferta();
+                };
+                liSinOferta.appendChild(inputSinOferta);
 
-            const labelSinOferta = document.createElement('label');
-            labelSinOferta.htmlFor = 'sinOferta';
-            labelSinOferta.textContent = 'Sin oferta';
-            liSinOferta.appendChild(labelSinOferta);
+                const labelSinOferta = document.createElement('label');
+                labelSinOferta.htmlFor = 'sinOferta';
+                labelSinOferta.textContent = 'Sin oferta';
+                liSinOferta.appendChild(labelSinOferta);
 
     // Precio
     const form__Precio = document.createElement('div');
     form__Precio.className = 'filter';
-    form__Precio.innerHTML = `
-        <h4>Precio</h4>
-        <input type="number" id="minPrice" placeholder="Mínimo">
-        <input type="number" id="maxPrice" placeholder="Máximo">`;
     left__form.appendChild(form__Precio);
+
+        // h2 
+        const precio__h2 = document.createElement('h2');
+        precio__h2.textContent = 'Rango de precio';
+        form__Precio.appendChild(precio__h2);
 
     // submit
     const form__button = document.createElement('button');

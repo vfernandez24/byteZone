@@ -161,6 +161,7 @@ async function cargarMarcaEspecifica(indice, idSection) {
         // Crear la img
         const img = document.createElement('img');
         img.src = producto.logo;
+        img.loading = 'lazy';
         imgBox.appendChild(img);
 
     } catch (error) {
