@@ -1,3 +1,35 @@
+console.log('left.js conectado');
+
+const right = document.getElementById('right')
+const btnOferta = document.getElementById('conOferta');
+const btnSinOferta = document.getElementById('sinOferta');
+
+const neutroOferta = () => {
+    Array.from(right.querySelectorAll('div')).forEach(box => {
+        box.classList.remove('hidden');
+    });
+};
+
+const conOferta = () => {
+    Array.from(right.querySelectorAll('div')).forEach(box => {
+        if (!box.classList.contains('oferta')) {
+            box.classList.add('hidden');
+        } else {
+            box.classList.remove('hidden');
+        }
+    });
+};
+
+const sinOferta = () => {
+    Array.from(right.querySelectorAll('div')).forEach(box => {
+        if (box.classList.contains('oferta')) {
+            box.classList.add('hidden');
+        } else {
+            box.classList.remove('hidden');
+        }
+    });
+};
+
 const toggleLeft = () => {
     const left = document.getElementById('left');
     left.classList.toggle('hidden');
@@ -6,22 +38,12 @@ const toggleLeft = () => {
     arrow.classList.toggle('fa-chevron-right');
 }
 
-// Seleccionar el elemento al que deseas añadir/eliminar la clase
 const element = document.querySelector('#left');
-
-// Crear un MediaQueryList para el ancho máximo de 900px
 const mediaQuery = window.matchMedia('(max-width: 900px)');
-
-// Función para manejar los cambios en la media query
 function handleMediaQueryChange(e) {
     if (e.matches) {
-        // Si el dispositivo tiene un ancho menor o igual a 900px
         toggleLeft();
     }
 }
-
-// Agregar un listener para cambios en la media query
 mediaQuery.addEventListener('change', handleMediaQueryChange);
-
-// Ejecutar la función al cargar la página para manejar el estado inicial
 handleMediaQueryChange(mediaQuery);

@@ -77,12 +77,62 @@ const cargarContenido = (categoria) => {
 
     // oferta
     const oferta__ul = document.createElement('ul');
-    oferta__ul.innerHTML = `
-        <li><input type="checkbox" id="smartphones" name="category" value="smartphones"> 
-            <label for="smartphones">Con oferta</label></li>
-        <li><input type="checkbox" id="games" name="category" value="games"> 
-            <label for="games">Sin oferta</label></li>`;
     form__oferta.appendChild(oferta__ul);
+
+        // opcion neutra
+        const liOferta = document.createElement('li');
+        oferta__ul.appendChild(liOferta);
+
+            const inputOferta = document.createElement('input');
+            inputOferta.type = 'radio';
+            inputOferta.id = 'neutroOferta';
+            inputOferta.name = 'option';
+            inputOferta.checked = true;
+            inputOferta.onchange = function() {
+                neutroOferta();
+            };
+            liOferta.appendChild(inputOferta);
+
+            const labelOferta = document.createElement('label');
+            labelOferta.htmlFor = 'neutroOferta';
+            labelOferta.textContent = 'Sin filtrar';
+            liOferta.appendChild(labelOferta);
+
+        // opcion con oferta
+        const liConOferta = document.createElement('li');
+        oferta__ul.appendChild(liConOferta);
+
+            const inputConOferta = document.createElement('input');
+            inputConOferta.type = 'radio';
+            inputConOferta.id = 'conOferta';
+            inputConOferta.name = 'option';
+            inputConOferta.onchange = function() {
+                conOferta();
+            };
+            liConOferta.appendChild(inputConOferta);
+
+            const labelConOferta = document.createElement('label');
+            labelConOferta.htmlFor = 'conOferta';
+            labelConOferta.textContent = 'Con oferta';
+            liConOferta.appendChild(labelConOferta);
+
+        // opcion sin oferta
+        const liSinOferta = document.createElement('li');
+        oferta__ul.appendChild(liSinOferta);
+
+            const inputSinOferta = document.createElement('input');
+            inputSinOferta.type = 'radio';
+            inputSinOferta.id = 'sinOferta';
+            inputSinOferta.name = 'option';
+            inputSinOferta.onchange = function() {
+                sinOferta();
+            };
+            liSinOferta.appendChild(inputSinOferta);
+
+            const labelSinOferta = document.createElement('label');
+            labelSinOferta.htmlFor = 'sinOferta';
+            labelSinOferta.textContent = 'Sin oferta';
+            liSinOferta.appendChild(labelSinOferta);
 
     // Precio
     const form__Precio = document.createElement('div');

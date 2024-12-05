@@ -69,7 +69,44 @@ h1 {
     }
 
     .filter li {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
         margin-bottom: 8px;
+
+        label {
+            cursor: pointer;
+        }
+
+        input {
+            appearance: none;
+            display: flex;
+            align-self: center;
+            width: 16px;
+            height: 16px;
+            border: 1px solid var(--border);
+            border-radius: 50%;
+            outline: none;
+            cursor: pointer;
+            position: relative;
+            margin-right: 10px;
+        }
+
+        input:checked {
+            border-color: var(--destacados);
+            accent-color: var(--destacados);
+        }
+
+        input:checked::after {
+            content: '';
+            width: 8px;
+            height: 8px;
+            background-color: var(--destacados);
+            border-radius: 50%;
+            position: absolute;
+            top: 3px;
+            left: 3px;
+        }
     }
 
     .filter input[type=number] {
@@ -122,6 +159,10 @@ h1 {
     justify-content: space-evenly;
     row-gap: 10px;
     flex-wrap: wrap;
+}
+
+.box.hidden {
+    display: none;
 }
 
 @media (max-width: 900px) {
