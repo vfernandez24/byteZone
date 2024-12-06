@@ -11,8 +11,8 @@ Hay que crear la funcionalidad de la cesta
 <!--! Hay que crear la funcionalidad del left en las categorias -->
     Filtro de oferta -> Completado
     Filtro de precio -> Empezado
-        createBaseCategoria.js => línea 145
-        chatGPT => modelo de referencia
+        left.js => funcionamiento
+        json => poner en el dato 0 el precio max de la categoria
     Filtro de ordenación -> Sin empezar
 
 Hay que acabar las páginas del footer

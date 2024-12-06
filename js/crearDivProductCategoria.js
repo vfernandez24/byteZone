@@ -49,6 +49,9 @@ async function cargarProductoEspecifico(categoria, indice, idSection) {
 
         const productos = await response.json();
 
+        maxPrice = productos[0];
+        updatePrices()
+
         // Verifica si el índice existe en el arreglo
         if (indice < 0 || indice >= productos.length) {
             console.error('Producto no encontrado.');

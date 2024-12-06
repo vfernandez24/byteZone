@@ -136,13 +136,39 @@ const cargarContenido = (categoria) => {
 
     // Precio
     const form__Precio = document.createElement('div');
-    form__Precio.className = 'filter';
+    form__Precio.className = 'filterPrice';
     left__form.appendChild(form__Precio);
 
         // h2 
         const precio__h2 = document.createElement('h2');
         precio__h2.textContent = 'Rango de precio';
         form__Precio.appendChild(precio__h2);
+
+        // rango
+        const precio__div = document.createElement('div');
+        precio__div.className = 'filtroPrecio';
+        form__Precio.appendChild(precio__div);
+
+            // linea
+            const precio__line = document.createElement('div');
+            precio__line.className = 'lineaPrecio';
+            precio__div.appendChild(precio__line);
+
+            // circulo min
+            const precio__minCirc = document.createElement('div');
+            precio__minCirc.className = 'circuloPrecio circuloMin';
+            precio__div.appendChild(precio__minCirc);
+
+            // circulo max
+            const precio__maxCirc = document.createElement('div');
+            precio__maxCirc.className = 'circuloPrecio circuloMax';
+            precio__div.appendChild(precio__maxCirc);
+
+        // p 
+        const precio__p = document.createElement('p');
+        precio__p.className = 'valoresPrecio';
+        precio__p.textContent = '0$ - 1000$';
+        precio__div.appendChild(precio__p);
 
     // submit
     const form__button = document.createElement('button');
