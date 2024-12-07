@@ -168,7 +168,7 @@ const cargarContenido = (categoria) => {
         const precio__p = document.createElement('p');
         precio__p.className = 'valoresPrecio';
         precio__p.textContent = '0$ - 1000$';
-        precio__div.appendChild(precio__p);
+        form__Precio.appendChild(precio__p);
 
     // submit
     const form__button = document.createElement('button');
