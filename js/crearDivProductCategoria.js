@@ -50,7 +50,7 @@ async function cargarProductoEspecifico(categoria, indice, idSection) {
         const productos = await response.json();
 
         let maxPrice = productos[0];
-        localStorage.setItem('maxPrice', maxPrice);
+        sessionStorage.setItem('maxPrice', maxPrice);
 
         // Verifica si el índice existe en el arreglo
         if (indice < 0 || indice >= productos.length) {

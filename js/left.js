@@ -33,138 +33,132 @@ const sinOferta = () => {
 };
 
 //! Funcionamiento del filtro de precio
-    //? Parte visual
-    const minCircle = document.querySelector('.circuloMin');
-    const maxCircle = document.querySelector('.circuloMax');
-    const line = document.querySelector('.lineaPrecio');
-    const priceValues = document.querySelector('.valoresPrecio');
-    const boxes = document.querySelectorAll('.box');
+const minCircle = document.querySelector('.circuloMin');
+const maxCircle = document.querySelector('.circuloMax');
+const line = document.querySelector('.lineaPrecio');
+const priceValues = document.querySelector('.valoresPrecio');
+const boxes = document.querySelectorAll('.box');
 
-    let minPrice = 0;
-    let maxPrice = localStorage.getItem('maxPrice');
-    let isDraggingMin = false;
-    let isDraggingMax = false;
+let minPrice = 0;
+let maxValue;
+let isDraggingMin = false;
+let isDraggingMax = false;
 
-    // Función para actualizar los precios
-    function updatePricesIni() {
-        console.log('updatePrices ejecutándose');
-        const lineWidth = line.offsetWidth;
-        const minPosition = parseInt(minCircle.style.left || '0');
-        const maxPosition = parseInt(maxCircle.style.left || `${lineWidth}px`);
+// Función para actualizar los precios
+function updatePricesIni() {
+    console.log('updatePricesIni ejecutándose');
+    const maxValue = parseFloat(sessionStorage.getItem('maxPrice'));
 
-        const minValue = Math.round((minPosition / lineWidth) * maxPrice);
-        const maxValue = localStorage.getItem('maxPrice');
+    priceValues.textContent = `0$ - ${maxValue}$`;
+};
 
-        priceValues.textContent = `${minValue}$ - ${maxValue}$`;
-    };
+function updatePricesTouch() {
+    console.log('updatePricesTouch ejecutándose');
+    const lineWidth = line.offsetWidth;
+    const minPosition = parseInt(minCircle.style.left || '0');
+    const maxPosition = parseInt(maxCircle.style.left || `${lineWidth}px`);
 
-    function updatePricesTouch() {
-        console.log('updatePrices ejecutándose');
-        const lineWidth = line.offsetWidth;
-        const minPosition = parseInt(minCircle.style.left || '0');
-        const maxPosition = parseInt(maxCircle.style.left || `${lineWidth}px`);
+    const minValue = Math.round((minPosition / lineWidth) * maxPrice);
+    const maxValue = Math.round((maxPosition / lineWidth) * maxPrice);
 
-        const minValue = Math.round((minPosition / lineWidth) * maxPrice);
-        const maxValue = Math.round((maxPosition / lineWidth) * maxPrice);
+    priceValues.textContent = `${minValue}$ - ${maxValue}$`;
 
-        priceValues.textContent = `${minValue}$ - ${maxValue}$`;
+    filterProducts(minValue, maxValue);
+};
 
-        filterProducts(minValue, maxValue);
-    };
+// Función para manejar el arrastre
+function handleDrag(event, circle, isTouch = false) {
+    const lineRect = line.getBoundingClientRect();
+    const lineWidth = line.offsetWidth;
+    let clientX;
 
-    // Función para manejar el arrastre
-    function handleDrag(event, circle, isTouch = false) {
-        const lineRect = line.getBoundingClientRect();
-        const lineWidth = line.offsetWidth;
-        let clientX;
-
-        if (isTouch) {
-            clientX = event.touches[0].clientX;
-        } else {
-            clientX = event.clientX;
-        }
-
-        let newLeft = clientX - lineRect.left;
-
-        if (newLeft < 0) newLeft = 0;
-        if (newLeft > lineWidth) newLeft = lineWidth;
-
-        const otherCircle = circle === minCircle ? maxCircle : minCircle;
-        const otherLeft = parseInt(otherCircle.style.left || `${lineWidth}px`);
-
-        if (circle === minCircle && newLeft >= otherLeft) {
-            newLeft = otherLeft - 1;
-        } else if (circle === maxCircle && newLeft <= otherLeft) {
-            newLeft = otherLeft + 1;
-        }
-
-        circle.style.left = `${newLeft}px`;
-
-        updatePricesTouch();
+    if (isTouch) {
+        clientX = event.touches[0].clientX;
+    } else {
+        clientX = event.clientX;
     }
 
-    // Eventos para el círculo mínimo
-    minCircle.addEventListener('mousedown', () => isDraggingMin = true);
-    minCircle.addEventListener('touchstart', (event) => {
-        isDraggingMin = true;
-        event.preventDefault();
-    }, { passive: false });
+    let newLeft = clientX - lineRect.left;
 
-    // Eventos para el círculo máximo
-    maxCircle.addEventListener('mousedown', () => isDraggingMax = true);
-    maxCircle.addEventListener('touchstart', (event) => {
-        isDraggingMax = true;
-        event.preventDefault();
-    }, { passive: false });
+    if (newLeft < 0) newLeft = 0;
+    if (newLeft > lineWidth) newLeft = lineWidth;
 
-    // Movimiento del mouse y táctil
-    document.addEventListener('mousemove', (event) => {
-        if (isDraggingMin) handleDrag(event, minCircle);
-        if (isDraggingMax) handleDrag(event, maxCircle);
+    const otherCircle = circle === minCircle ? maxCircle : minCircle;
+    const otherLeft = parseInt(otherCircle.style.left || `${lineWidth}px`);
+
+    if (circle === minCircle && newLeft >= otherLeft) {
+        newLeft = otherLeft - 1;
+    } else if (circle === maxCircle && newLeft <= otherLeft) {
+        newLeft = otherLeft + 1;
+    }
+
+    circle.style.left = `${newLeft}px`;
+
+    updatePricesTouch();
+}
+
+// Eventos para el círculo mínimo
+minCircle.addEventListener('mousedown', () => isDraggingMin = true);
+minCircle.addEventListener('touchstart', (event) => {
+    isDraggingMin = true;
+    event.preventDefault();
+}, { passive: false });
+
+// Eventos para el círculo máximo
+maxCircle.addEventListener('mousedown', () => isDraggingMax = true);
+maxCircle.addEventListener('touchstart', (event) => {
+    isDraggingMax = true;
+    event.preventDefault();
+}, { passive: false });
+
+// Movimiento del mouse y táctil
+document.addEventListener('mousemove', (event) => {
+    if (isDraggingMin) handleDrag(event, minCircle);
+    if (isDraggingMax) handleDrag(event, maxCircle);
+});
+document.addEventListener('touchmove', (event) => {
+    event.preventDefault();
+    if (isDraggingMin) handleDrag(event, minCircle, true);
+    if (isDraggingMax) handleDrag(event, maxCircle, true);
+}, { passive: false });
+
+// Finalización del arrastre
+document.addEventListener('mouseup', () => {
+    isDraggingMin = false;
+    isDraggingMax = false;
+});
+document.addEventListener('touchend', () => {
+    isDraggingMin = false;
+    isDraggingMax = false;
+}, { passive: false });
+
+// Inicializar las posiciones de los círculos
+const lineWidth = line.offsetWidth;
+minCircle.style.left = '0px';
+maxCircle.style.left = `${lineWidth}px`;
+
+updatePricesIni();  
+
+// Filtrar productos
+function filterProducts(min, max) {
+    const boxes = document.querySelectorAll('.box');
+    boxes.forEach(box => {
+
+        let priceText = '';
+        if (box.classList.contains('oferta')) {
+            priceText = box.querySelector('h4')?.textContent;
+        } else {
+            priceText = box.querySelector('h3')?.textContent;
+        }
+        const price = parseFloat(priceText.replace('$', ''));
+        
+        if (price >= min && price <= max) {
+            box.classList.remove('hidden');
+        } else {
+            box.classList.add('hidden');
+        }
     });
-    document.addEventListener('touchmove', (event) => {
-        event.preventDefault();
-        if (isDraggingMin) handleDrag(event, minCircle, true);
-        if (isDraggingMax) handleDrag(event, maxCircle, true);
-    }, { passive: false });
-
-    // Finalización del arrastre
-    document.addEventListener('mouseup', () => {
-        isDraggingMin = false;
-        isDraggingMax = false;
-    });
-    document.addEventListener('touchend', () => {
-        isDraggingMin = false;
-        isDraggingMax = false;
-    }, { passive: false });
-
-    // Inicializar las posiciones de los círculos
-    const lineWidth = line.offsetWidth;
-    minCircle.style.left = '0px';
-    maxCircle.style.left = `${lineWidth}px`;
-
-    updatePricesIni();  
-    
-    // Filtrar productos
-    function filterProducts(min, max) {
-        const boxes = document.querySelectorAll('.box');
-        boxes.forEach(box => {
-
-            let priceText = '';
-            if (box.classList.contains('oferta')) {
-                priceText = box.querySelector('h4')?.textContent;
-            } else {
-                priceText = box.querySelector('h3')?.textContent;
-            }
-            const price = parseFloat(priceText.replace('$', ''));
-            
-            if (price >= min && price <= max) {
-                box.classList.remove('hidden');
-            } else {
-                box.classList.add('hidden');
-            }
-        });
-    };
+};
 
 
 //! Funcionalidad para esconder el left
