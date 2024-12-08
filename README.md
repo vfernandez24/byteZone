@@ -7,12 +7,11 @@ Hay que generar las reseñas
 
 Hay que crear la funcionalidad de la cesta
     Cambiar el src de la imagen de la cesta vacia
+    Ajustar el style de los li en moviles
 
 <!--! Hay que crear la funcionalidad del left en las categorias -->
     Filtro de oferta -> Completado
-    Filtro de precio -> Empezado
-        left.js => funcionamiento
-        json => poner en el dato 0 el precio max de la categoria
+    Filtro de precio -> Completado
     Filtro de ordenación -> Sin empezar
 
 Hay que acabar las páginas del footer

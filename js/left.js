@@ -33,43 +33,62 @@ const sinOferta = () => {
 };
 
 //! Funcionamiento del filtro de precio
-
     //? Parte visual
     const minCircle = document.querySelector('.circuloMin');
     const maxCircle = document.querySelector('.circuloMax');
     const line = document.querySelector('.lineaPrecio');
     const priceValues = document.querySelector('.valoresPrecio');
+    const boxes = document.querySelectorAll('.box');
 
-    let minPrice = 0; // Valor inicial mínimo del rango.
-    let maxPrice = 1000; // Valor inicial máximo del rango.
-    let isDraggingMin = false; // Flag para saber si el círculo mínimo está siendo arrastrado.
-    let isDraggingMax = false; // Flag para saber si el círculo máximo está siendo arrastrado.
+    let minPrice = 0;
+    let maxPrice = localStorage.getItem('maxPrice');
+    let isDraggingMin = false;
+    let isDraggingMax = false;
 
     // Función para actualizar los precios
-    const updatePrices = () => {
-        const lineWidth = line.offsetWidth; // Ancho de la línea.
-        const minPosition = parseInt(minCircle.style.left || '0'); // Posición del círculo mínimo.
-        const maxPosition = parseInt(maxCircle.style.left || `${lineWidth}px`); // Posición del círculo máximo.
+    function updatePricesIni() {
+        console.log('updatePrices ejecutándose');
+        const lineWidth = line.offsetWidth;
+        const minPosition = parseInt(minCircle.style.left || '0');
+        const maxPosition = parseInt(maxCircle.style.left || `${lineWidth}px`);
 
-        // Convertir las posiciones a valores de precio
         const minValue = Math.round((minPosition / lineWidth) * maxPrice);
-        const maxValue = Math.round((maxPosition / lineWidth) * maxPrice);
+        const maxValue = localStorage.getItem('maxPrice');
 
-        // Actualizar el texto del rango de precios
         priceValues.textContent = `${minValue}$ - ${maxValue}$`;
     };
 
-    // Función para manejar el arrastre
-    const handleDrag = (event, circle) => {
-        const lineRect = line.getBoundingClientRect(); // Coordenadas absolutas de la línea.
-        const lineWidth = line.offsetWidth; // Ancho total de la línea.
-        let newLeft = event.clientX - lineRect.left; // Nueva posición basada en el mouse.
+    function updatePricesTouch() {
+        console.log('updatePrices ejecutándose');
+        const lineWidth = line.offsetWidth;
+        const minPosition = parseInt(minCircle.style.left || '0');
+        const maxPosition = parseInt(maxCircle.style.left || `${lineWidth}px`);
 
-        // Limitar el movimiento dentro del rango
+        const minValue = Math.round((minPosition / lineWidth) * maxPrice);
+        const maxValue = Math.round((maxPosition / lineWidth) * maxPrice);
+
+        priceValues.textContent = `${minValue}$ - ${maxValue}$`;
+
+        filterProducts(minValue, maxValue);
+    };
+
+    // Función para manejar el arrastre
+    function handleDrag(event, circle, isTouch = false) {
+        const lineRect = line.getBoundingClientRect();
+        const lineWidth = line.offsetWidth;
+        let clientX;
+
+        if (isTouch) {
+            clientX = event.touches[0].clientX;
+        } else {
+            clientX = event.clientX;
+        }
+
+        let newLeft = clientX - lineRect.left;
+
         if (newLeft < 0) newLeft = 0;
         if (newLeft > lineWidth) newLeft = lineWidth;
 
-        // No permitir que los círculos se crucen
         const otherCircle = circle === minCircle ? maxCircle : minCircle;
         const otherLeft = parseInt(otherCircle.style.left || `${lineWidth}px`);
 
@@ -79,31 +98,73 @@ const sinOferta = () => {
             newLeft = otherLeft + 1;
         }
 
-        // Actualizar la posición del círculo
         circle.style.left = `${newLeft}px`;
-        updatePrices();
-    };
+
+        updatePricesTouch();
+    }
 
     // Eventos para el círculo mínimo
     minCircle.addEventListener('mousedown', () => isDraggingMin = true);
-    document.addEventListener('mousemove', (event) => {
-        if (isDraggingMin) handleDrag(event, minCircle);
-    });
-    document.addEventListener('mouseup', () => isDraggingMin = false);
+    minCircle.addEventListener('touchstart', (event) => {
+        isDraggingMin = true;
+        event.preventDefault();
+    }, { passive: false });
 
     // Eventos para el círculo máximo
     maxCircle.addEventListener('mousedown', () => isDraggingMax = true);
+    maxCircle.addEventListener('touchstart', (event) => {
+        isDraggingMax = true;
+        event.preventDefault();
+    }, { passive: false });
+
+    // Movimiento del mouse y táctil
     document.addEventListener('mousemove', (event) => {
+        if (isDraggingMin) handleDrag(event, minCircle);
         if (isDraggingMax) handleDrag(event, maxCircle);
     });
-    document.addEventListener('mouseup', () => isDraggingMax = false);
+    document.addEventListener('touchmove', (event) => {
+        event.preventDefault();
+        if (isDraggingMin) handleDrag(event, minCircle, true);
+        if (isDraggingMax) handleDrag(event, maxCircle, true);
+    }, { passive: false });
 
-    // Inicializar las posiciones
+    // Finalización del arrastre
+    document.addEventListener('mouseup', () => {
+        isDraggingMin = false;
+        isDraggingMax = false;
+    });
+    document.addEventListener('touchend', () => {
+        isDraggingMin = false;
+        isDraggingMax = false;
+    }, { passive: false });
+
+    // Inicializar las posiciones de los círculos
+    const lineWidth = line.offsetWidth;
     minCircle.style.left = '0px';
-    maxCircle.style.left = `${line.offsetWidth}px`;
-    updatePrices();
+    maxCircle.style.left = `${lineWidth}px`;
 
-    //? Parte interna
+    updatePricesIni();  
+    
+    // Filtrar productos
+    function filterProducts(min, max) {
+        const boxes = document.querySelectorAll('.box');
+        boxes.forEach(box => {
+
+            let priceText = '';
+            if (box.classList.contains('oferta')) {
+                priceText = box.querySelector('h4')?.textContent;
+            } else {
+                priceText = box.querySelector('h3')?.textContent;
+            }
+            const price = parseFloat(priceText.replace('$', ''));
+            
+            if (price >= min && price <= max) {
+                box.classList.remove('hidden');
+            } else {
+                box.classList.add('hidden');
+            }
+        });
+    };
 
 
 //! Funcionalidad para esconder el left

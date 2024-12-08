@@ -49,8 +49,8 @@ async function cargarProductoEspecifico(categoria, indice, idSection) {
 
         const productos = await response.json();
 
-        maxPrice = productos[0];
-        updatePrices()
+        let maxPrice = productos[0];
+        localStorage.setItem('maxPrice', maxPrice);
 
         // Verifica si el índice existe en el arreglo
         if (indice < 0 || indice >= productos.length) {
@@ -65,6 +65,7 @@ async function cargarProductoEspecifico(categoria, indice, idSection) {
         // Crear el contenedor para el producto
         const divProducto = document.createElement('div');
         divProducto.className = 'box';
+        divProducto.name = 'hola';
         divProducto.onclick = function() {
             showProduct(this);
         }

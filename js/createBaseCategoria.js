@@ -170,12 +170,6 @@ const cargarContenido = (categoria) => {
         precio__p.textContent = '0$ - 1000$';
         form__Precio.appendChild(precio__p);
 
-    // submit
-    const form__button = document.createElement('button');
-    form__button.id = 'applyFilters';
-    form__button.type = 'submit';
-    form__button.innerText = 'Aplicar filtros';
-    left__form.appendChild(form__button);
 
     // Crear el right
     const right = document.createElement('div');
