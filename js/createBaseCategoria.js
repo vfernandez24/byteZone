@@ -159,8 +159,19 @@ const cargarContenido = (categoria) => {
         const ordenar__precioAsc = document.createElement('li');
         ordenar.appendChild(ordenar__precioAsc);
 
-                precioAsc__input = document.createElement('input');
+                const precioAsc__input = document.createElement('input');
                 precioAsc__input.type = 'radio';
+                precioAsc__input.name = 'optionOrdenar';
+                precioAsc__input.id = 'ordenarPrecioAsc';
+                precioAsc__input.onclick = function() {
+                    order("precioAsc");
+                };
+                ordenar__precioAsc.appendChild(precioAsc__input);
+
+                const precioAsc__label = document.createElement('label');
+                precioAsc__label.innerHTML = '<i class="fa-solid fa-arrow-up"></i>Por precio';
+                precioAsc__label.htmlFor = 'ordenarPrecioAsc';
+                ordenar__precioAsc.appendChild(precioAsc__label);
 
     const right = document.createElement('div');
     right.id = 'right';
