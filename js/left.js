@@ -42,7 +42,6 @@ let maxPrice;
 let isDraggingMin = false;
 let isDraggingMax = false;
 
-// Función para actualizar los precios
 function updatePricesIni() {
     console.log('updatePricesIni ejecutándose');
     console.log('cambiando maxValue')
@@ -71,7 +70,6 @@ function updatePricesTouch() {
     filterProducts(minValue, maxValue);
 };
 
-// Función para manejar el arrastre
 function handleDrag(event, circle, isTouch = false) {
     const lineRect = line.getBoundingClientRect();
     const lineWidth = line.offsetWidth;
@@ -102,21 +100,18 @@ function handleDrag(event, circle, isTouch = false) {
     updatePricesTouch();
 }
 
-// Eventos para el círculo mínimo
 minCircle.addEventListener('mousedown', () => isDraggingMin = true);
 minCircle.addEventListener('touchstart', (event) => {
     isDraggingMin = true;
     event.preventDefault();
 }, { passive: false });
 
-// Eventos para el círculo máximo
 maxCircle.addEventListener('mousedown', () => isDraggingMax = true);
 maxCircle.addEventListener('touchstart', (event) => {
     isDraggingMax = true;
     event.preventDefault();
 }, { passive: false });
 
-// Movimiento del mouse y táctil
 document.addEventListener('mousemove', (event) => {
     if (isDraggingMin) handleDrag(event, minCircle);
     if (isDraggingMax) handleDrag(event, maxCircle);
@@ -127,7 +122,6 @@ document.addEventListener('touchmove', (event) => {
     if (isDraggingMax) handleDrag(event, maxCircle, true);
 }, { passive: false });
 
-// Finalización del arrastre
 document.addEventListener('mouseup', () => {
     isDraggingMin = false;
     isDraggingMax = false;
@@ -137,12 +131,10 @@ document.addEventListener('touchend', () => {
     isDraggingMax = false;
 }, { passive: false });
 
-// Inicializar las posiciones de los círculos
 const lineWidth = line.offsetWidth;
 minCircle.style.left = '0px';
 maxCircle.style.left = `${lineWidth}px`;
 
-// Filtrar productos
 function filterProducts(min, max) {
     const boxes = document.querySelectorAll('.box');
     boxes.forEach(box => {
@@ -167,6 +159,9 @@ document.addEventListener('DOMContentLoaded', () => {
         updatePricesIni();
     }, 100);
 })
+
+//! Funcionalidad del filtro para ordenar los productos
+
 
 //! Funcionalidad para esconder el left
 const toggleLeft = () => {

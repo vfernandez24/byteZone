@@ -153,6 +153,14 @@ const cargarContenido = (categoria) => {
         form__Precio.appendChild(precio__p);
 
     const ordenar = document.createElement('div');
+    ordenar.className = 'ordenarDiv';
+    left__form.appeddChild(ordenar);
+
+        const ordenar__precioAsc = document.createElement('li');
+        ordenar.appendChild(ordenar__precioAsc);
+
+                precioAsc__input = document.createElement('input');
+                precioAsc__input.type = 'radio';
 
     const right = document.createElement('div');
     right.id = 'right';
