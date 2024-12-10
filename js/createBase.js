@@ -312,6 +312,7 @@ body.appendChild(product);
 
             // img 
             const product__buttonImg = document.createElement('img');
+            product__buttonImg.id = 'btnProducto';
             product__buttonImg.src = 'assets/addShopCart.svg'
             product__button.appendChild(product__buttonImg);
 

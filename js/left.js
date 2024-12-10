@@ -3,8 +3,6 @@ console.log('left.js conectado');
 
 //! Funcionamiento del filtro por oferta
 const right = document.getElementById('right')
-const btnOferta = document.getElementById('conOferta');
-const btnSinOferta = document.getElementById('sinOferta');
 
 const neutroOferta = () => {
     Array.from(right.querySelectorAll('div')).forEach(box => {
@@ -40,16 +38,23 @@ const priceValues = document.querySelector('.valoresPrecio');
 const boxes = document.querySelectorAll('.box');
 
 let minPrice = 0;
-let maxValue;
+let maxPrice;
 let isDraggingMin = false;
 let isDraggingMax = false;
 
 // Función para actualizar los precios
 function updatePricesIni() {
     console.log('updatePricesIni ejecutándose');
+    console.log('cambiando maxValue')
     const maxValue = parseFloat(sessionStorage.getItem('maxPrice'));
+    console.log(maxValue);
+    console.log('cambiando maxPrice');
+    maxPrice = parseFloat(sessionStorage.getItem('maxPrice'));
+    console.log(maxPrice)
 
+    console.log('cambiando el p')
     priceValues.textContent = `0$ - ${maxValue}$`;
+    console.log(priceValues.textContent);
 };
 
 function updatePricesTouch() {
@@ -137,8 +142,6 @@ const lineWidth = line.offsetWidth;
 minCircle.style.left = '0px';
 maxCircle.style.left = `${lineWidth}px`;
 
-updatePricesIni();  
-
 // Filtrar productos
 function filterProducts(min, max) {
     const boxes = document.querySelectorAll('.box');
@@ -159,7 +162,11 @@ function filterProducts(min, max) {
         }
     });
 };
-
+document.addEventListener('DOMContentLoaded', () => {
+    setTimeout( () => {
+        updatePricesIni();
+    }, 100);
+})
 
 //! Funcionalidad para esconder el left
 const toggleLeft = () => {

@@ -780,6 +780,7 @@ aside.visible {
 
 .sectionContainer {
     position: relative;
+    overflow-y: visible;
 }
 
 .sectionContainer button {
@@ -817,12 +818,13 @@ section {
     min-width: 100%;
     position: relative;
     height: 350px;
+    overflow-y: visible;
     overflow-x: auto; /* Habilitar scroll horizontal */
     display: flex;
     justify-content: space-evenly;
     scroll-behavior: smooth; /* Hacer el scroll suave */
     gap: 10px; /* Espacio entre cajas */
-    padding: 5px 30px;
+    padding: 10px 30px;
 }
 
 section::-webkit-scrollbar {
@@ -858,11 +860,11 @@ h1 {
     float: left;
     overflow: visible;
     position: relative;
-    border: 1px solid var(--border);
-    border-radius: 20px;
+    border: 1px solid var(--hover);
+    border-radius: 10px;
     padding: 10px;
     cursor: pointer;
-    transition: box-shadow .3s ease;
+    transition: border-color .8s ease;
 }
 
 .box a {
@@ -870,8 +872,7 @@ h1 {
 }
 
 .box:hover {
-    box-shadow: 0px 0px 20px var(--details),
-    10px 10px 20px var(--destacados)
+    border-color: var(--destacados);
 }
 
 .img {
