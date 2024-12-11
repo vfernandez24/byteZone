@@ -161,26 +161,62 @@ document.addEventListener('DOMContentLoaded', () => {
 })
 
 //! Funcionalidad del filtro para ordenar los productos
+    const rightContent = right.innerHTML;
     function order(e) {
-        const boxes = document.querySelectorAll('.box');
+        const boxes = Array.from(document.querySelectorAll('.box'));
         switch (e) {
             case "default":
-                console.log(e);
+                right.innerHTML = rightContent;
                 break;
-            case "precioAsc":
+            case "nombreAsc":
+                right.innerHTML = '';
+                    const ordenarNombreAsc = boxes.sort((a, b) => {
+                    const nombreA = a.querySelector('h2').textContent.toLowerCase();
+                    const nombreB = b.querySelector('h2').textContent.toLowerCase(); 
+                    return nombreA.localeCompare(nombreB);
+                });
+                ordenarNombreAsc.forEach(div => right.appendChild(div));   
+                break;
+            case "nombreDes":
+                const ordenarNombreDes = boxes.sort((a, b) => {
+                    const nombreA = a.querySelector('h2').textContent.toLowerCase();
+                    const nombreB = b.querySelector('h2').textContent.toLowerCase(); 
+                    return nombreB.localeCompare(nombreA);
+                });
+                ordenarNombreDes.forEach(div => right.appendChild(div));
+                break;
+            case "precioAsc": 
                 console.log(e);
                 break;
             case "precioDes":
                 console.log(e);
                 break;
-            case "nombreAsc": 
-                console.log(e);
-                break;
-            case "nombreDes":
-                console.log(e);
-                break;
         };
     }
+
+/* 
+const divs = Array.from(document.querySelectorAll('div')); // Convierte NodeList en un array
+
+function obtenerPrecio(div) {
+    if (div.classList.contains('oferta')) {
+        return parseFloat(div.querySelector('h4').textContent.replace(/[^0-9.]/g, ''));
+    } 
+    else {
+        return parseFloat(div.querySelector('h3').textContent.replace(/[^0-9.]/g, ''));
+    }
+}
+
+const divsOrdenados = divs.sort((a, b) => {
+    const precioA = obtenerPrecio(a);
+    const precioB = obtenerPrecio(b);
+    return precioA - precioB; // Orden ascendente
+});
+
+const contenedor = document.querySelector('#contenedor');
+
+contenedor.innerHTML = ''; // Elimina el contenido actual
+divsOrdenados.forEach(div => contenedor.appendChild(div)); // Agrega los divs ordenados
+*/
 
 //! Funcionalidad para esconder el left
 const toggleLeft = () => {
