@@ -12,7 +12,8 @@ Hay que crear la funcionalidad de la cesta
 <!--! Hay que crear la funcionalidad del left en las categorias -->
     Filtro de oferta -> Completado
     Filtro de precio -> Completado
-    Filtro de ordenación -> Sin empezar
+    Filtro de ordenación -> Empezado
+        Hay que crear el algoritmo para ordenar los productos a partir de un switch
 
 Hay que acabar las páginas del footer
     api.html

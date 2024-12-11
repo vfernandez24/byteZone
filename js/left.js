@@ -161,7 +161,26 @@ document.addEventListener('DOMContentLoaded', () => {
 })
 
 //! Funcionalidad del filtro para ordenar los productos
-
+    function order(e) {
+        const boxes = document.querySelectorAll('.box');
+        switch (e) {
+            case "default":
+                console.log(e);
+                break;
+            case "precioAsc":
+                console.log(e);
+                break;
+            case "precioDes":
+                console.log(e);
+                break;
+            case "nombreAsc": 
+                console.log(e);
+                break;
+            case "nombreDes":
+                console.log(e);
+                break;
+        };
+    }
 
 //! Funcionalidad para esconder el left
 const toggleLeft = () => {

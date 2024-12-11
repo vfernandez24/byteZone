@@ -127,7 +127,7 @@ const cargarContenido = (categoria) => {
     form__Precio.className = 'filterPrice';
     left__form.appendChild(form__Precio);
 
-        const precio__h2 = document.createElement('h2');
+        const precio__h2 = document.createElement('h4');
         precio__h2.textContent = 'Rango de precio';
         form__Precio.appendChild(precio__h2);
 
@@ -153,8 +153,31 @@ const cargarContenido = (categoria) => {
         form__Precio.appendChild(precio__p);
 
     const ordenar = document.createElement('div');
-    ordenar.className = 'ordenarDiv';
-    left__form.appeddChild(ordenar);
+    ordenar.className = 'ordenarDiv filter';
+    ordenar.style.marginTop = '20px';
+    left__form.appendChild(ordenar);
+
+        const ordenar__h4 = document.createElement('h4');
+        ordenar__h4.textContent = 'Ordenar';
+        ordenar.appendChild(ordenar__h4);
+
+        const ordenar__default = document.createElement('li');
+        ordenar.appendChild(ordenar__default);
+
+                const default__input = document.createElement('input');
+                default__input.type = 'radio';
+                default__input.name = 'optionOrdenar';
+                default__input.checked = true;
+                default__input.id = 'ordenardefault';
+                default__input.onchange = function() {
+                    order("default");
+                };
+                ordenar__default.appendChild(default__input);
+
+                const default__label = document.createElement('label');
+                default__label.innerHTML = '<i class="fa-solid fa-arrow-up"></i>Sin ordenar';
+                default__label.htmlFor = 'ordenardefault';
+                ordenar__default.appendChild(default__label);
 
         const ordenar__precioAsc = document.createElement('li');
         ordenar.appendChild(ordenar__precioAsc);
@@ -163,7 +186,7 @@ const cargarContenido = (categoria) => {
                 precioAsc__input.type = 'radio';
                 precioAsc__input.name = 'optionOrdenar';
                 precioAsc__input.id = 'ordenarPrecioAsc';
-                precioAsc__input.onclick = function() {
+                precioAsc__input.onchange = function() {
                     order("precioAsc");
                 };
                 ordenar__precioAsc.appendChild(precioAsc__input);
@@ -172,6 +195,57 @@ const cargarContenido = (categoria) => {
                 precioAsc__label.innerHTML = '<i class="fa-solid fa-arrow-up"></i>Por precio';
                 precioAsc__label.htmlFor = 'ordenarPrecioAsc';
                 ordenar__precioAsc.appendChild(precioAsc__label);
+
+        const ordenar__precioDes = document.createElement('li');
+        ordenar.appendChild(ordenar__precioDes);
+
+                const precioDes__input = document.createElement('input');
+                precioDes__input.type = 'radio';
+                precioDes__input.name = 'optionOrdenar';
+                precioDes__input.id = 'ordenarPrecioDes';
+                precioDes__input.onchange = function() {
+                    order("precioDes");
+                };
+                ordenar__precioDes.appendChild(precioDes__input);
+
+                const precioDes__label = document.createElement('label');
+                precioDes__label.innerHTML = '<i class="fa-solid fa-arrow-down"></i>Por precio';
+                precioDes__label.htmlFor = 'ordenarPrecioDes';
+                ordenar__precioDes.appendChild(precioDes__label);
+
+        const ordenar__nombreAsc = document.createElement('li');
+        ordenar.appendChild(ordenar__nombreAsc);
+
+                const nombreAsc__input = document.createElement('input');
+                nombreAsc__input.type = 'radio';
+                nombreAsc__input.name = 'optionOrdenar';
+                nombreAsc__input.id = 'ordenarNombreAsc';
+                nombreAsc__input.onchange = function() {
+                    order("nombreAsc");
+                };
+                ordenar__nombreAsc.appendChild(nombreAsc__input);
+
+                const nombreAsc__label = document.createElement('label');
+                nombreAsc__label.innerHTML = '<i class="fa-solid fa-arrow-up"></i>Por nombre';
+                nombreAsc__label.htmlFor = 'ordenarNombreAsc';
+                ordenar__nombreAsc.appendChild(nombreAsc__label);
+
+        const ordenar__nombreDes = document.createElement('li');
+        ordenar.appendChild(ordenar__nombreDes);
+
+                const nombreDes__input = document.createElement('input');
+                nombreDes__input.type = 'radio';
+                nombreDes__input.name = 'optionOrdenar';
+                nombreDes__input.id = 'ordenarNombreDes';
+                nombreDes__input.onchange = function() {
+                    order("nombreDes");
+                };
+                ordenar__nombreDes.appendChild(nombreDes__input);
+
+                const nombreDes__label = document.createElement('label');
+                nombreDes__label.innerHTML = '<i class="fa-solid fa-arrow-down"></i>Por nombre';
+                nombreDes__label.htmlFor = 'ordenarNombreDes';
+                ordenar__nombreDes.appendChild(nombreDes__label);
 
     const right = document.createElement('div');
     right.id = 'right';

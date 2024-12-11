@@ -113,11 +113,9 @@ h1 {
         text-align: center;
         width: 90%;
 
-        h2 {
-            margin: 0;
-            font-size: 18px;
-            color: var(--text);
+        h4 {
             user-select: none;
+            text-align: left;
         }
 
         .filtroPrecio {
