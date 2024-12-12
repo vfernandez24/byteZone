@@ -1,3 +1,5 @@
+console.log('scrollAnimation.js conectado');
+
 document.querySelectorAll('.link__animation').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();

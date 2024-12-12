@@ -1331,6 +1331,10 @@ footer {
         }
     }
 
+    .sectionContainer button {
+        display: none;
+    }
+
     .categoriasGal, .reseñas {
         flex-wrap: wrap;
         height: fit-content;

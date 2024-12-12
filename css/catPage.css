@@ -76,6 +76,10 @@ h1 {
 
         label {
             cursor: pointer;
+
+            i {
+                margin-right: 5px;
+            }
         }
 
         input {

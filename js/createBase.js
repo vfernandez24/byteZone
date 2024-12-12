@@ -1,3 +1,5 @@
+console.log('createBase.js conectado')
+
 const body = document.getElementById('body');
 
 // Crear el overlay
@@ -33,13 +35,13 @@ body.appendChild(nav);
 
         // Img
         const logo__imgGrande = document.createElement('img');
-        logo__imgGrande.src = 'images/Nombre.png'
+        logo__imgGrande.src = '../../images/Nombre.png'
         logo__imgGrande.className = 'logoImg grande'
         logo.appendChild(logo__imgGrande)
 
         // Img 
         const logo__imgPequeno = document.createElement('img');
-        logo__imgPequeno.src = 'images/Simbolo.png'
+        logo__imgPequeno.src = '../../images/Simbolo.png'
         logo__imgPequeno.className = 'logoImg pequeno'
         logo.appendChild(logo__imgPequeno)
 
@@ -82,7 +84,7 @@ body.appendChild(nav);
             buscar.appendChild(buscar__button);
 
             const buscar__button__img = document.createElement('img');
-            buscar__button__img.src = 'assets/buscar.svg';
+            buscar__button__img.src = '../../assets/buscar.svg';
             buscar__button.appendChild(buscar__button__img);
 
     // Botones func
@@ -100,7 +102,7 @@ body.appendChild(nav);
 
         // Imagen dentro del botón "Cesta"
         const btnCesta__img = document.createElement('img');
-        btnCesta__img.src = 'assets/shopCart.svg';
+        btnCesta__img.src = '../../assets/shopCart.svg';
         btnCesta.appendChild(btnCesta__img);
 
         // Contador de productos (cambia a 'p' en lugar de 'img')
@@ -313,7 +315,7 @@ body.appendChild(product);
             // img 
             const product__buttonImg = document.createElement('img');
             product__buttonImg.id = 'btnProducto';
-            product__buttonImg.src = 'assets/addShopCart.svg'
+            product__buttonImg.src = '../../assets/addShopCart.svg'
             product__button.appendChild(product__buttonImg);
 
 // Crear el aside

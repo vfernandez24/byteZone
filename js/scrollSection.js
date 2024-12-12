@@ -1,3 +1,5 @@
+console.log('scrollSection.js conectado');
+
 const sectionLeft = (btnLeft) => {
     let sectionContainer = btnLeft.parentElement;
     let section = sectionContainer.querySelector('.section');

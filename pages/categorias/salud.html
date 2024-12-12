@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,10 +31,6 @@
     <script src="../../js/createBase.js"></script>
     <script>
         logo.href = '../../index.html';
-        logo__imgGrande.src = '../../images/Nombre.png';
-        logo__imgPequeno.src = '../../images/Simbolo.png';
-        buscar__button__img.src = '../../assets/buscar.svg';
-        btnCesta__img.src = '../../assets/shopCart.svg';
         noCuenta__ini.href = '../iniciodesesion.html';
         noCuenta__reg.href = '../registrar.html';
         aside__ul.innerHTML = `
@@ -46,6 +42,10 @@
         <li><a href="./salud.html"><i class="fa-solid fa-heartbeat"></i>Tecnología de Salud</a></li>
         <li><a href="./fotografia.html"><i class="fa-solid fa-camera"></i>Fotografía y Videografía</a></li>
         <li><a href="./entretenimiento.html"><i class="fa-solid fa-tv"></i>Electrónica de Entretenimiento</a></li>
+        `;
+        innerUlDefault = `
+            <img src="../../assets/noProductsCart.svg" alt"">
+            <h1 class"cestaH1">No tienes actualmente ningún producto en tu cesta</h1>
         `;
     </script>
 

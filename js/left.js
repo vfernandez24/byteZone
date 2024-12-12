@@ -100,26 +100,32 @@ function handleDrag(event, circle, isTouch = false) {
     updatePricesTouch();
 }
 
-minCircle.addEventListener('mousedown', () => isDraggingMin = true);
-minCircle.addEventListener('touchstart', (event) => {
-    isDraggingMin = true;
-    event.preventDefault();
-}, { passive: false });
-
-maxCircle.addEventListener('mousedown', () => isDraggingMax = true);
-maxCircle.addEventListener('touchstart', (event) => {
+function desactivarFiltros(circle) {
+    if (circle == 'min') {
+        isDraggingMin = true;
+    } else if (circle == 'max') {
     isDraggingMax = true;
-    event.preventDefault();
-}, { passive: false });
+    }
+    document.getElementById('neutroOferta').checked = true;
+    document.getElementById('ordenardefault').checked = true;
+}
+
+minCircle.addEventListener('mousedown', () => desactivarFiltros('min'));
+minCircle.addEventListener('touchstart', () => desactivarFiltros('min'), { passive: false });
+
+maxCircle.addEventListener('mousedown', () => desactivarFiltros('max'));
+maxCircle.addEventListener('touchstart', () => desactivarFiltros('max'), { passive: false });
 
 document.addEventListener('mousemove', (event) => {
     if (isDraggingMin) handleDrag(event, minCircle);
     if (isDraggingMax) handleDrag(event, maxCircle);
 });
 document.addEventListener('touchmove', (event) => {
-    event.preventDefault();
-    if (isDraggingMin) handleDrag(event, minCircle, true);
-    if (isDraggingMax) handleDrag(event, maxCircle, true);
+    if (isDraggingMin || isDraggingMax) {
+        event.preventDefault();
+        const circle = isDraggingMin ? minCircle : maxCircle;
+        handleDrag(event, circle, true);
+    }
 }, { passive: false });
 
 document.addEventListener('mouseup', () => {
@@ -129,7 +135,7 @@ document.addEventListener('mouseup', () => {
 document.addEventListener('touchend', () => {
     isDraggingMin = false;
     isDraggingMax = false;
-}, { passive: false });
+}, { passive: true });
 
 const lineWidth = line.offsetWidth;
 minCircle.style.left = '0px';
@@ -157,16 +163,41 @@ function filterProducts(min, max) {
 document.addEventListener('DOMContentLoaded', () => {
     setTimeout( () => {
         updatePricesIni();
+        sessionStorage.setItem('rightContent', right.innerHTML); 
     }, 100);
 })
 
 //! Funcionalidad del filtro para ordenar los productos
-    const rightContent = right.innerHTML;
-    function order(e) {
-        const boxes = Array.from(document.querySelectorAll('.box'));
-        switch (e) {
-            case "default":
-                right.innerHTML = rightContent;
+function obtenerPrecio(div) {
+    if (div.classList.contains('oferta')) {
+        return parseFloat(div.querySelector('h4').textContent.replace('$', ''));
+    } else {
+        return parseFloat(div.querySelector('h3').textContent.replace('$', ''));
+    }
+}
+function order(e) {
+    const boxes = Array.from(document.querySelectorAll('.box'));
+    switch (e) {
+        case "default":
+            right.innerHTML = sessionStorage.getItem('rightContent');
+            break;
+            case "precioAsc": 
+                right.innerHTML = '';
+                const ordenarPrecioAsc = boxes.sort((a, b) => {
+                    const precioA = obtenerPrecio(a);
+                    const precioB = obtenerPrecio(b); 
+                    return precioA - precioB;
+                });
+                ordenarPrecioAsc.forEach(div => right.appendChild(div));   
+                break;
+            case "precioDes":
+                right.innerHTML = '';
+                const ordenarPrecioDes = boxes.sort((a, b) => {
+                    const precioA = obtenerPrecio(a);
+                    const precioB = obtenerPrecio(b);
+                    return precioB - precioA;
+                });
+                ordenarPrecioDes.forEach(div => right.appendChild(div));   
                 break;
             case "nombreAsc":
                 right.innerHTML = '';
@@ -185,38 +216,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
                 ordenarNombreDes.forEach(div => right.appendChild(div));
                 break;
-            case "precioAsc": 
-                console.log(e);
-                break;
-            case "precioDes":
-                console.log(e);
-                break;
-        };
-    }
-
-/* 
-const divs = Array.from(document.querySelectorAll('div')); // Convierte NodeList en un array
-
-function obtenerPrecio(div) {
-    if (div.classList.contains('oferta')) {
-        return parseFloat(div.querySelector('h4').textContent.replace(/[^0-9.]/g, ''));
-    } 
-    else {
-        return parseFloat(div.querySelector('h3').textContent.replace(/[^0-9.]/g, ''));
-    }
+    };
 }
-
-const divsOrdenados = divs.sort((a, b) => {
-    const precioA = obtenerPrecio(a);
-    const precioB = obtenerPrecio(b);
-    return precioA - precioB; // Orden ascendente
-});
-
-const contenedor = document.querySelector('#contenedor');
-
-contenedor.innerHTML = ''; // Elimina el contenido actual
-divsOrdenados.forEach(div => contenedor.appendChild(div)); // Agrega los divs ordenados
-*/
 
 //! Funcionalidad para esconder el left
 const toggleLeft = () => {

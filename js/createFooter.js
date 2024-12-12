@@ -1,3 +1,5 @@
+console.log('createFooter.js conectado');
+
 // Crear el footer
 const footer = document.createElement('footer');
 footer.id = 'footer';

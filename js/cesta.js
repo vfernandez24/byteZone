@@ -98,7 +98,7 @@ const addProduct = (button) => {
 }
 
 let innerUlDefault = `
-    <img src="assets/noProductsCart.svg" alt"">
+    <img src="../../assets/noProductsCart.svg" alt"">
     <h1 class"cestaH1">No tienes actualmente ningún producto en tu cesta</h1>
 `;
 

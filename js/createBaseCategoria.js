@@ -1,3 +1,5 @@
+console.log('createBaseCategoria.js conectado')
+
 const container = document.getElementById('container');
 
 const cargarContenido = (categoria) => {
@@ -175,7 +177,7 @@ const cargarContenido = (categoria) => {
                 ordenar__default.appendChild(default__input);
 
                 const default__label = document.createElement('label');
-                default__label.innerHTML = '<i class="fa-solid fa-arrow-up"></i>Sin ordenar';
+                default__label.innerHTML = 'Sin ordenar';
                 default__label.htmlFor = 'ordenardefault';
                 ordenar__default.appendChild(default__label);
 
