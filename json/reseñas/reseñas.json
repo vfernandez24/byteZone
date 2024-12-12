@@ -1,0 +1,158 @@
+[
+    {
+        "perfil": "JuanTechLover",
+        "foto": "../../images/perfiles/fotoPerfil - (1).png",
+        "texto": "Excelente servicio, la entrega fue rápida y los productos cumplen lo prometido.",
+        "estrellas": 5
+    },
+    {
+        "perfil": "MariaGadgetFan",
+        "foto": "../../images/perfiles/fotoPerfil - (2).png",
+        "texto": "El producto llegó en buen estado, pero tardaron un poco más de lo esperado.",
+        "estrellas": 4
+    },
+    {
+        "perfil": "CarlosPCBuilder",
+        "foto": "../../images/perfiles/fotoPerfil - (3).png",
+        "texto": "Buena calidad, pero podrían mejorar la atención al cliente.",
+        "estrellas": 3
+    },
+    {
+        "perfil": "LuisaTechEnthusiast",
+        "foto": "../../images/perfiles/fotoPerfil - (4).png",
+        "texto": "Muy buenos precios y promociones, sin duda compraré de nuevo.",
+        "estrellas": 5
+    },
+    {
+        "perfil": "DiegoSmartShopper",
+        "foto": "../../images/perfiles/fotoPerfil - (5).png",
+        "texto": "El sitio web es fácil de usar, aunque el producto llegó con un pequeño rasguño.",
+        "estrellas": 4
+    },
+    {
+        "perfil": "TechyAna",
+        "foto": "../../images/perfiles/fotoPerfil - (6).png",
+        "texto": "El soporte técnico resolvió mis dudas, pero el envío fue algo lento.",
+        "estrellas": 3
+    },
+    {
+        "perfil": "AndresLaptopFan",
+        "foto": "../../images/perfiles/fotoPerfil - (7).png",
+        "texto": "Gran variedad de productos a buen precio, todo llegó en perfectas condiciones.",
+        "estrellas": 5
+    },
+    {
+        "perfil": "CarmenTechShop",
+        "foto": "../../images/perfiles/fotoPerfil - (8).png",
+        "texto": "El empaque fue excelente y la entrega fue dentro del tiempo estimado.",
+        "estrellas": 4
+    },
+    {
+        "perfil": "VictorGadgetPro",
+        "foto": "../../images/perfiles/fotoPerfil - (9).png",
+        "texto": "El producto no cumplió con mis expectativas, aunque llegó a tiempo.",
+        "estrellas": 2
+    },
+    {
+        "perfil": "ElenaDigitalFan",
+        "foto": "../../images/perfiles/fotoPerfil - (10).png",
+        "texto": "Todo perfecto, definitivamente recomiendo esta tienda.",
+        "estrellas": 5
+    },
+    {
+        "perfil": "PabloTechy",
+        "foto": "../../images/perfiles/fotoPerfil - (11).png",
+        "texto": "El servicio al cliente es excelente y me ayudaron con un problema en la configuración.",
+        "estrellas": 4
+    },
+    {
+        "perfil": "NataliaGadgetGeek",
+        "foto": "../../images/perfiles/fotoPerfil - (12).png",
+        "texto": "El proceso de compra fue fácil y los tiempos de entrega fueron razonables.",
+        "estrellas": 4
+    },
+    {
+        "perfil": "EduardoTechLover",
+        "foto": "../../images/perfiles/fotoPerfil - (13).png",
+        "texto": "El producto tenía un defecto, pero el cambio fue rápido y sencillo.",
+        "estrellas": 3
+    },
+    {
+        "perfil": "LauraSmartTech",
+        "foto": "../../images/perfiles/fotoPerfil - (14).png",
+        "texto": "Los productos son originales y el precio competitivo.",
+        "estrellas": 5
+    },
+    {
+        "perfil": "RamonGadgetExpert",
+        "foto": "../../images/perfiles/fotoPerfil - (15).png",
+        "texto": "La atención al cliente fue un poco lenta, pero al final resolvieron mi problema.",
+        "estrellas": 3
+    },
+    {
+        "perfil": "MonicaTechie",
+        "foto": "../../images/perfiles/fotoPerfil - (16).png",
+        "texto": "La página tiene muy buenas descripciones de los productos, lo que facilita la compra.",
+        "estrellas": 4
+    },
+    {
+        "perfil": "JorgePCPro",
+        "foto": "../../images/perfiles/fotoPerfil - (17).png",
+        "texto": "No tuve problemas con la compra ni con el envío, todo genial.",
+        "estrellas": 5
+    },
+    {
+        "perfil": "SofiaDigitalFanatic",
+        "foto": "../../images/perfiles/fotoPerfil - (18).png",
+        "texto": "El empaque podría ser más seguro, aunque el producto llegó sin daños.",
+        "estrellas": 3
+    },
+    {
+        "perfil": "RicardoTechSavvy",
+        "foto": "../../images/perfiles/fotoPerfil - (19).png",
+        "texto": "Muy buena experiencia, repetiré en el futuro.",
+        "estrellas": 5
+    },
+    {
+        "perfil": "AlejandraGeek",
+        "foto": "../../images/perfiles/fotoPerfil - (20).png",
+        "texto": "Los tiempos de envío podrían mejorar, pero el producto es de calidad.",
+        "estrellas": 4
+    },
+    {
+        "perfil": "FernandoGadgetLover",
+        "foto": "../../images/perfiles/fotoPerfil - (21).png",
+        "texto": "El proceso de pago fue complicado, pero al final todo salió bien.",
+        "estrellas": 3
+    },
+    {
+        "perfil": "CristinaTechShopper",
+        "foto": "../../images/perfiles/fotoPerfil - (22).png",
+        "texto": "Los descuentos son muy buenos y los productos valen la pena.",
+        "estrellas": 5
+    },
+    {
+        "perfil": "GonzaloGadgetHunter",
+        "foto": "../../images/perfiles/fotoPerfil - (23).png",
+        "texto": "Tardaron en procesar mi pedido, pero el producto es excelente.",
+        "estrellas": 4
+    },
+    {
+        "perfil": "PatriciaTechPro",
+        "foto": "../../images/perfiles/fotoPerfil - (24).png",
+        "texto": "Buena atención y resolución de problemas, aunque no fue inmediata.",
+        "estrellas": 4
+    },
+    {
+        "perfil": "OscarGadgetMaster",
+        "foto": "../../images/perfiles/fotoPerfil - (25).png",
+        "texto": "Tuve problemas con el producto y no recibí ayuda suficiente.",
+        "estrellas": 2
+    },
+    {
+        "perfil": "ValeriaTechFan",
+        "foto": "../../images/perfiles/fotoPerfil - (26).png",
+        "texto": "Muy satisfecha con mi compra, el producto es tal cual lo describen.",
+        "estrellas": 5
+    }
+]

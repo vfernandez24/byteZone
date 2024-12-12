@@ -160,23 +160,11 @@
         <button onclick=sectionRight(this) class="btnRight"> <!--? => scrollSection.js-->
             <i class="fa-solid fa-chevron-right"></i>
         </button>
-        <section class="section reseñas">
-            <div class="box boxRes">
-                <div class="perfil">
-                    <img src="">
-                    <h2>Perfil 1 Apellido 1</h2>
-                </div>
-                <div class="star">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i style="color: var(--details);" class="fa-solid fa-star"></i>
-                </div>
-                <div class="content">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident vero nemo in, quis architecto nisi ad omnis. Ex quidem sapiente minus recusandae pariatur et, distinctio rem similique ducimus ab eius.
-                </div>
-            </div>
+        <section id="sectionReseñas" class="section reseñas">
+            <script src="js/crearDivReseña.js"></script>
+            <script>
+                cargarReseñaEspecifica('index.html', 0, 'sectionReseñas');
+            </script>
         </section>
         </div>
 
