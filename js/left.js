@@ -107,7 +107,6 @@ function desactivarFiltros(circle) {
     isDraggingMax = true;
     }
     document.getElementById('neutroOferta').checked = true;
-    document.getElementById('ordenardefault').checked = true;
 }
 
 minCircle.addEventListener('mousedown', () => desactivarFiltros('min'));

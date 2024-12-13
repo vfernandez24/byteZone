@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!--? Styles -->
     <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/footerPage.css">
     <!--? Icons -->
     <script src="https://kit.fontawesome.com/16ace90703.js" crossorigin="anonymous"></script>
     <!--? scripts -->
@@ -19,6 +20,7 @@
     <script src="../../js/buscar.js" defer></script>
     <script src="../../js/scrollSection.js" defer></script>
     <script src="../../js/perfil.js" defer></script>
+    <script src="../../js/scrollAnimation.js" defer></script>
     <script src="../../js/animationFooter.js"></script>
     <!--? Icon -->
     <link rel="icon" href="../../images/Simbolo.png">
@@ -46,7 +48,63 @@
     </script>
 
     <!--!! CONTAINER -->
-    <div class="container"></div>
+    <div class="container">
+        <h3>Reseñas de nuestros clientes</h3>
+        <div class="resumen">
+            <div class="left">
+                <div class="divBarra">
+                    5
+                    <div class="exterior">
+                        <div style="width: 50%;" class="interior"></div>
+                    </div>
+                </div>
+                <div class="divBarra">
+                    4
+                    <div class="exterior">
+                        <div style="width: 40%;" class="interior"></div>
+                    </div>
+                </div>
+                <div class="divBarra">
+                    3
+                    <div class="exterior">
+                        <div style="width: 23.08%" class="interior"></div>
+                    </div>
+                </div>
+                <div class="divBarra">
+                    2
+                    <div class="exterior">
+                        <div style="width: 8%;" class="interior"></div>
+                    </div>
+                </div>
+                <div class="divBarra">
+                    1
+                    <div class="exterior">
+                        <div style="width: 1%;" class="interior"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <h4>4.8</h4>
+                <h5>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i style="color: var(--text);" class="fa-solid fa-star"></i>
+                </h5>
+                <p><a class="link__animation" href="#spanReseñas">26 reseñas</a></p>
+            </div>
+        </div>
+        <span style="position: relative; top: -11vh;" id="spanReseñas"></span>
+        <section id="sectionReseñas" class="sectionRes">
+            <script src="../../js/crearDivReseña.js"></script>
+            <script>
+                for (i = 0; i < 25; i++) {
+                    cargarReseñaEspecifica('reseñas.html', i, 'sectionReseñas');
+                };
+            </script>
+        </section>
+    </div>
 
     <!--!! FOOTER -->
     <script src="../../js/createFooter.js"></script>

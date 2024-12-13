@@ -1069,9 +1069,7 @@ h1 {
 }
 
 .box.boxRes:hover {
-    .star i {
-        color: var(--destacados);
-    }
+    border-color: var(--destacados);
 }
 
 .anuncio {

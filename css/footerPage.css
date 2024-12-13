@@ -125,8 +125,104 @@
     button:hover {
         background-color: var(--btn);
     }
+
+    .resumen {
+        margin-top: 40px;
+        width: 100%;
+        height: 200px;
+        display: flex;
+
+        .left {
+            width: 70%;
+            height: 100%;
+            
+            .divBarra {
+                height: 20%;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                font-size: 20px;
+                padding: 0 20px;
+
+                .exterior {
+                    width: 95%;
+                    height: 50%;
+                    overflow: hidden;
+                    border-radius: 30px;
+                    background: #dfdfdf;
+
+                    .interior {
+                        height: 100%;
+                        background-color: var(--destacados);
+                    }
+                }
+            }
+        }
+
+        .right {
+            width: 30%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            h4 {
+                font-size: 50px;
+                font-weight: 500;
+            }
+
+            h5 * {
+                color: var(--destacados);
+            }
+
+            p {
+                margin-top: 20px;
+                text-align: center;
+                
+                a {
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+
+    section {
+        height: fit-content;
+    }
 }
 
 footer {
     margin-top: 20px;
+}
+
+@media (max-width: 900px) {
+    .container {
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .resumen {
+        flex-direction: column;
+        min-height: fit-content;
+        overflow: visible;
+
+        .left, .right {
+            min-width: 100%;
+            min-height: 200px;
+        }
+
+        .left {
+            
+            .divBarra {
+                justify-content: space-between;
+                width: 100%;
+
+                .exterior {
+                    max-width: 80%;
+                }
+            }
+        }
+    }
 }
