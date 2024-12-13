@@ -179,6 +179,8 @@ function order(e) {
     switch (e) {
         case "default":
             right.innerHTML = sessionStorage.getItem('rightContent');
+            updatePricesIni();
+            updatePricesTouch();
             break;
             case "precioAsc": 
                 right.innerHTML = '';

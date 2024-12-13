@@ -32,7 +32,7 @@ async function cargarReseñaEspecifica(pagina, indice, idSection) {
         topDiv.appendChild(topUser);
 
         const topStars = document.createElement('h3');
-        topStars.className = `${reseña.estrellas}star`;
+        topStars.className = `star${reseña.estrellas}`;
         topStars.innerHTML = `
             <i class="fa-solid fa-star" id="star1"></i>
             <i class="fa-solid fa-star" id="star2"></i>
