@@ -1004,6 +1004,8 @@ h1 {
 #sectionReseñas {
     padding-bottom: 20px;
     margin-bottom: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .box.boxRes {
@@ -1023,7 +1025,6 @@ h1 {
             height: 49.6px;
             width: 49.6px;
             border-radius: 50%;
-            background: var(--ofertas);
         }
 
         div {
@@ -1032,11 +1033,16 @@ h1 {
 
             h2 {
                 height: 50%;
+                max-width: 100%;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
                 padding: 0;
                 margin: 0;
                 text-align: left;
                 color: var(--text);
-                font-size: 20px;
+                font-size: 18px;
+                line-height: 30px;
             }
 
             h3 {
@@ -1056,6 +1062,7 @@ h1 {
     .reseñaBottom {
         margin-top: 5%;
         height: 70%;
+        padding-top: 10px;
         text-align: left;
         font-size: 18px;
     }
