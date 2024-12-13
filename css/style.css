@@ -1001,55 +1001,63 @@ h1 {
     left: -5px;
 }
 
+#sectionReseñas {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
 .box.boxRes {
     min-width: 250px;
-    border: 1px solid var(--text);
+    border: 1px solid var(--hover);
+    padding: 10px;
+    cursor: default;
 
-    .perfil {
-        height: 30px;
-        width: 100%;
+    .reseñaTop {
+        height: 25%;
         display: flex;
-        justify-content: start;
-        gap: 10px;
+        justify-content:space-between;
         align-items: center;
-        padding: 10px 10px;
+        gap: 2%;
 
         img {
-            height: 30px;
-            width: 30px;
+            height: 49.6px;
+            width: 49.6px;
             border-radius: 50%;
-            background: var(--text);
+            background: var(--ofertas);
         }
-        
-        h2 {
-            padding: 0;
-            width: 150px;
-            height: 30px;
-            font-size: 19px;
-            display: -webkit-box;            /* Necesario para el truncado de múltiples líneas */
-            -webkit-box-orient: vertical;    /* Orientación en caja vertical */
-            overflow: hidden;                /* Oculta el texto excedente */
-            text-overflow: ellipsis;         /* Muestra los puntos suspensivos */
-            max-height: 4.5em;               /* Altura máxima según el número de líneas */    
+
+        div {
+            width: 73%;
+            height: 49.6px;
+
+            h2 {
+                height: 50%;
+                padding: 0;
+                margin: 0;
+                text-align: left;
+                color: var(--text);
+                font-size: 20px;
+            }
+
+            h3 {
+                margin-top: 5px;
+                height: 40%;
+                width: 100%;
+                font-size: 17px;
+                text-align: left;
+            }
+
+            h3::before {
+                display: none;
+            }
         }
     }
 
-    .star {
-        height: 30px;
-
-        i{
-            color: var(--border);
-            transition: color .3s ease;
-        }
-    }
-
-    .content {
-        margin-top: 10px;
-        max-height: 125px;
+    .reseñaBottom {
+        margin-top: 5%;
+        height: 70%;
         text-align: left;
         font-size: 18px;
-        overflow: hidden;
-        text-overflow: ellipsis;
     }
 }
 

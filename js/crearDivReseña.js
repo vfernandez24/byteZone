@@ -28,7 +28,7 @@ async function cargarReseñaEspecifica(pagina, indice, idSection) {
         top.appendChild(topDiv);
 
         const topUser = document.createElement('h2');
-        topUser.textContent = pagina.perfil;
+        topUser.textContent = reseña.perfil;
         topDiv.appendChild(topUser);
 
         const topStars = document.createElement('h3');
@@ -36,9 +36,9 @@ async function cargarReseñaEspecifica(pagina, indice, idSection) {
         topStars.innerHTML = `
             <i class="fa-solid fa-star" id="star1"></i>
             <i class="fa-solid fa-star" id="star2"></i>
-            <i class="fa-solid fa-star" id="star3"><i>
-            <i class="fa-solid fa-star" id="star4"><i>
-            <i class="fa-solid fa-star" id="star5"><i>
+            <i class="fa-solid fa-star" id="star3"></i>
+            <i class="fa-solid fa-star" id="star4"></i>
+            <i class="fa-solid fa-star" id="star5"></i>
         `;
         topDiv.appendChild(topStars);
 
