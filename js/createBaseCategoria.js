@@ -38,6 +38,7 @@ const cargarContenido = (categoria) => {
     container.appendChild(h1);
 
     const grid = document.createElement('div');
+    grid.id = 'grid';
     grid.className = 'grid';
     container.appendChild(grid);
 
@@ -253,4 +254,13 @@ const cargarContenido = (categoria) => {
     right.id = 'right';
     right.className = 'right';
     grid.appendChild(right);
+
+    const btnVerMas = document.createElement('button');
+    btnVerMas.className = 'btnVerMas';
+    btnVerMas.innerHTML = '<i class="fa-solid fa-arrow-down"></i>';
+    btnVerMas.onclick = function() {
+        grid.classList.add('full');
+        btnVerMas.remove();
+    }
+    container.appendChild(btnVerMas);
 };

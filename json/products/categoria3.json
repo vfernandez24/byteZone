@@ -1,5 +1,5 @@
 [
-    199.99,
+    399.99,
     {
         "nombre": "Bombilla inteligente LED",
         "precio": "19.99",
@@ -239,5 +239,365 @@
         "porcentDesc": "35%",
         "descripcion": "Control de apertura y cierre vía app o asistente de voz, programables.",
         "imagen": "images/products/categoria3/3-24 Persianas inteligentes con control remoto.avif"
+    },
+    {
+        "nombre": "Detector de humo inteligente",
+        "precio": "79.99",
+        "categoria": 3,
+        "oferta": true,
+        "precioDesc": "55.99",
+        "porcentDesc": "30%",
+        "descripcion": "Alerta en tiempo real vía móvil, sensores avanzados de humo y calor, integración con asistentes de voz.",
+        "imagen": "images/products/categoria3/3-25 Detector de humo inteligente.jpg"
+    },
+    {
+        "nombre": "Cortinas motorizadas inteligentes",
+        "precio": "199.99",
+        "categoria": 3,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Control remoto de apertura, conexión a asistentes de voz, programación de horarios.",
+        "imagen": "images/products/categoria3/3-26 Cortinas motorizadas inteligentes.jpg"
+    },
+    {
+        "nombre": "Espejo inteligente con luz LED",
+        "precio": "249.99",
+        "categoria": 3,
+        "oferta": true,
+        "precioDesc": "174.99",
+        "porcentDesc": "30%",
+        "descripcion": "Luz ajustable, integración con asistentes de voz, ideal para maquillaje y cuidado personal.",
+        "imagen": "images/products/categoria3/3-27 Espejo inteligente con luz LED.jpg"
+    },
+    {
+        "nombre": "Sistema de riego inteligente",
+        "precio": "149.99",
+        "categoria": 3,
+        "oferta": true,
+        "precioDesc": "104.99",
+        "porcentDesc": "30%",
+        "descripcion": "Automatización del riego, control remoto desde app, sensores de humedad y clima.",
+        "imagen": "images/products/categoria3/3-28 Sistema de riego inteligente.jpg"
+    },
+    {
+        "nombre": "Luces de ambiente inteligentes",
+        "precio": "59.99",
+        "categoria": 3,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Luces RGB, control por app, sincronización con música y asistentes de voz.",
+        "imagen": "images/products/categoria3/3-29 Luces de ambiente inteligentes.jpg"
+    },
+    {
+        "nombre": "Termómetro inteligente para el hogar",
+        "precio": "29.99",
+        "categoria": 3,
+        "oferta": true,
+        "precioDesc": "20.99",
+        "porcentDesc": "30%",
+        "descripcion": "Lectura precisa de temperatura, conexión Wi-Fi, alertas en tiempo real.",
+        "imagen": "images/products/categoria3/3-30 Termómetro inteligente para el hogar.jpg"
+    },
+    {
+        "nombre": "Detector de monóxido de carbono inteligente",
+        "precio": "99.99",
+        "categoria": 3,
+        "oferta": true,
+        "precioDesc": "69.99",
+        "porcentDesc": "30%",
+        "descripcion": "Alerta en tiempo real vía app, detección precisa de CO, integración con sistemas de hogar inteligente.",
+        "imagen": "images/products/categoria3/3-31 Detector de monóxido de carbono inteligente.jpg"
+    },
+    {
+        "nombre": "Lámpara de pie inteligente RGB",
+        "precio": "89.99",
+        "categoria": 3,
+        "oferta": true,
+        "precioDesc": "62.99",
+        "porcentDesc": "30%",
+        "descripcion": "Iluminación personalizable, control táctil y vía app, sincronización con música.",
+        "imagen": "images/products/categoria3/3-32 Lámpara de pie inteligente RGB.jpg"
+    },
+    {
+        "nombre": "Control remoto universal inteligente",
+        "precio": "49.99",
+        "categoria": 3,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Control de múltiples dispositivos desde una app, compatible con infrarrojos y asistentes de voz.",
+        "imagen": "images/products/categoria3/3-33 Control remoto universal inteligente.jpg"
+    },
+    {
+        "nombre": "Estación de carga inteligente para dispositivos",
+        "precio": "79.99",
+        "categoria": 3,
+        "oferta": true,
+        "precioDesc": "55.99",
+        "porcentDesc": "30%",
+        "descripcion": "Carga rápida para múltiples dispositivos, puertos USB y carga inalámbrica, diseño compacto.",
+        "imagen": "images/products/categoria3/3-34 Estación de carga inteligente para dispositivos.jpg"
+    },
+    {
+        "nombre": "Reloj despertador inteligente",
+        "precio": "49.99",
+        "categoria": 3,
+        "oferta": true,
+        "precioDesc": "34.99",
+        "porcentDesc": "30%",
+        "descripcion": "Alarmas personalizables, sincronización con app móvil, luces y sonidos para despertar suavemente.",
+        "imagen": "images/products/categoria3/3-35 Reloj despertador inteligente.jpg"
+    },
+    {
+        "nombre": "Dispensador automático de jabón",
+        "precio": "39.99",
+        "categoria": 3,
+        "oferta": true,
+        "precioDesc": "27.99",
+        "porcentDesc": "30%",
+        "descripcion": "Detección de movimiento, diseño higiénico, compatible con líquidos y espumas.",
+        "imagen": "images/products/categoria3/3-36 Dispensador automático de jabón.jpg"
+    },
+    {
+        "nombre": "Báscula inteligente para el hogar",
+        "precio": "59.99",
+        "categoria": 3,
+        "oferta": true,
+        "precioDesc": "41.99",
+        "porcentDesc": "30%",
+        "descripcion": "Monitoreo de peso y composición corporal, conexión Bluetooth, estadísticas en app.",
+        "imagen": "images/products/categoria3/3-37 Báscula inteligente para el hogar.jpg"
+    },
+    {
+        "nombre": "Mini proyector portátil inteligente",
+        "precio": "199.99",
+        "categoria": 3,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Proyección en HD, conexión Wi-Fi y Bluetooth, compatible con apps de streaming.",
+        "imagen": "images/products/categoria3/3-38 Mini proyector portátil inteligente.jpg"
+    },
+    {
+        "nombre": "Ventilador de techo inteligente",
+        "precio": "299.99",
+        "categoria": 3,
+        "oferta": true,
+        "precioDesc": "209.99",
+        "porcentDesc": "30%",
+        "descripcion": "Control remoto y por app, velocidad ajustable, iluminación LED integrada.",
+        "imagen": "images/products/categoria3/3-39 Ventilador de techo inteligente.jpg"
+    },
+    {
+        "nombre": "Regulador de luz inteligente",
+        "precio": "39.99",
+        "categoria": 3,
+        "oferta": true,
+        "precioDesc": "27.99",
+        "porcentDesc": "30%",
+        "descripcion": "Controla la intensidad de la luz desde tu móvil, compatible con asistentes de voz.",
+        "imagen": "images/products/categoria3/3-40 Regulador de luz inteligente.jpg"
+    },
+    {
+        "nombre": "Cámara oculta para el hogar",
+        "precio": "99.99",
+        "categoria": 3,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Diseño discreto, grabación en HD, conectividad Wi-Fi.",
+        "imagen": "images/products/categoria3/3-41 Cámara oculta para el hogar.jpg"
+    },
+    {
+        "nombre": "Controlador de energía inteligente",
+        "precio": "129.99",
+        "categoria": 3,
+        "oferta": true,
+        "precioDesc": "90.99",
+        "porcentDesc": "30%",
+        "descripcion": "Monitoreo y optimización del consumo energético, integración con sistemas domóticos.",
+        "imagen": "images/products/categoria3/3-42 Controlador de energía inteligente.jpg"
+    },
+    {
+        "nombre": "Interruptor para persianas eléctricas",
+        "precio": "49.99",
+        "categoria": 3,
+        "oferta": true,
+        "precioDesc": "34.99",
+        "porcentDesc": "30%",
+        "descripcion": "Control remoto de persianas eléctricas, programación desde app, compatible con asistentes de voz.",
+        "imagen": "images/products/categoria3/3-43 Interruptor para persianas eléctricas.jpg"
+    },
+    {
+        "nombre": "Cámara de seguridad solar",
+        "precio": "199.99",
+        "categoria": 3,
+        "oferta": true,
+        "precioDesc": "139.99",
+        "porcentDesc": "30%",
+        "descripcion": "Alimentación solar, grabación en HD, resistente al clima, alertas en tiempo real.",
+        "imagen": "images/products/categoria3/3-44 Cámara de seguridad solar.jpg"
+    },
+    {
+        "nombre": "Calefactor inteligente Wi-Fi",
+        "precio": "149.99",
+        "categoria": 3,
+        "oferta": true,
+        "precioDesc": "104.99",
+        "porcentDesc": "30%",
+        "descripcion": "Control de temperatura desde app, programación automática, seguro y eficiente.",
+        "imagen": "images/products/categoria3/3-45 Calefactor inteligente Wi-Fi.jpg"
+    },
+    {
+        "nombre": "Foco inteligente para exteriores",
+        "precio": "59.99",
+        "categoria": 3,
+        "oferta": true,
+        "precioDesc": "41.99",
+        "porcentDesc": "30%",
+        "descripcion": "Iluminación resistente al agua, múltiples colores, control remoto por app.",
+        "imagen": "images/products/categoria3/3-46 Foco inteligente para exteriores.jpg"
+    },
+    {
+        "nombre": "Cerradura con reconocimiento facial",
+        "precio": "249.99",
+        "categoria": 3,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Seguridad avanzada con reconocimiento facial, integración con app móvil.",
+        "imagen": "images/products/categoria3/3-47 Cerradura con reconocimiento facial.jpg"
+    },
+    {
+        "nombre": "Enchufe múltiple inteligente",
+        "precio": "79.99",
+        "categoria": 3,
+        "oferta": true,
+        "precioDesc": "55.99",
+        "porcentDesc": "30%",
+        "descripcion": "Control remoto de múltiples dispositivos, monitor de energía, compatible con asistentes de voz.",
+        "imagen": "images/products/categoria3/3-48 Enchufe múltiple inteligente.jpg"
+    },
+    {
+        "nombre": "Sistema de iluminación inteligente para TV",
+        "precio": "99.99",
+        "categoria": 3,
+        "oferta": true,
+        "precioDesc": "69.99",
+        "porcentDesc": "30%",
+        "descripcion": "Luces LED sincronizadas con la pantalla, control desde app, mejora la experiencia visual.",
+        "imagen": "images/products/categoria3/3-49 Sistema de iluminación inteligente para TV.jpg"
+    },
+    {
+        "nombre": "Dispositivo de monitoreo de sueño",
+        "precio": "149.99",
+        "categoria": 3,
+        "oferta": true,
+        "precioDesc": "104.99",
+        "porcentDesc": "30%",
+        "descripcion": "Seguimiento avanzado del sueño, estadísticas en app, recomendaciones personalizadas.",
+        "imagen": "images/products/categoria3/3-50 Dispositivo de monitoreo de sueño.jpg"
+    },
+    {
+        "nombre": "Toldo retráctil inteligente",
+        "precio": "399.99",
+        "categoria": 3,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Control remoto de apertura y cierre, resistente al agua, integración con asistentes de voz.",
+        "imagen": "images/products/categoria3/3-51 Toldo retráctil inteligente.jpg"
+    },
+    {
+        "nombre": "Detector de fugas de gas inteligente",
+        "precio": "79.99",
+        "categoria": 3,
+        "oferta": true,
+        "precioDesc": "55.99",
+        "porcentDesc": "30%",
+        "descripcion": "Alertas instantáneas en caso de fugas, conexión Wi-Fi, fácil instalación.",
+        "imagen": "images/products/categoria3/3-52 Detector de fugas de gas inteligente.jpg"
+    },
+    {
+        "nombre": "Pantalla táctil para control del hogar",
+        "precio": "299.99",
+        "categoria": 3,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Control centralizado de dispositivos, interfaz intuitiva, compatible con múltiples ecosistemas.",
+        "imagen": "images/products/categoria3/3-53 Pantalla táctil para control del hogar.jpg"
+    },
+    {
+        "nombre": "Humidificador inteligente",
+        "precio": "99.99",
+        "categoria": 3,
+        "oferta": true,
+        "precioDesc": "69.99",
+        "porcentDesc": "30%",
+        "descripcion": "Control de humedad desde app, programación automática, operación silenciosa.",
+        "imagen": "images/products/categoria3/3-54 Humidificador inteligente.jpg"
+    },
+    {
+        "nombre": "Asistente de cocina inteligente",
+        "precio": "249.99",
+        "categoria": 3,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Recetas guiadas, temporizador integrado, compatible con asistentes de voz.",
+        "imagen": "images/products/categoria3/3-55 Asistente de cocina inteligente.jpg"
+    },
+    {
+        "nombre": "Proyector de estrellas inteligente",
+        "precio": "79.99",
+        "categoria": 3,
+        "oferta": true,
+        "precioDesc": "55.99",
+        "porcentDesc": "30%",
+        "descripcion": "Proyección de galaxias y constelaciones, control desde app, sincronización con música.",
+        "imagen": "images/products/categoria3/3-56 Proyector de estrellas inteligente.jpg"
+    },
+    {
+        "nombre": "Filtro de agua inteligente",
+        "precio": "149.99",
+        "categoria": 3,
+        "oferta": true,
+        "precioDesc": "104.99",
+        "porcentDesc": "30%",
+        "descripcion": "Monitoreo de calidad de agua, alertas de mantenimiento, compatible con app móvil.",
+        "imagen": "images/products/categoria3/3-57 Filtro de agua inteligente.jpg"
+    },
+    {
+        "nombre": "Luces inteligentes para escaleras",
+        "precio": "129.99",
+        "categoria": 3,
+        "oferta": true,
+        "precioDesc": "90.99",
+        "porcentDesc": "30%",
+        "descripcion": "Iluminación automática al detectar movimiento, control desde app, múltiples colores.",
+        "imagen": "images/products/categoria3/3-58 Luces inteligentes para escaleras.jpg"
+    },
+    {
+        "nombre": "Cafetera inteligente",
+        "precio": "199.99",
+        "categoria": 3,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Preparación automática, programación desde app, personalización de bebidas.",
+        "imagen": "images/products/categoria3/3-59 Cafetera inteligente.jpg"
+    },
+    {
+        "nombre": "Secador de manos automático inteligente",
+        "precio": "99.99",
+        "categoria": 3,
+        "oferta": true,
+        "precioDesc": "69.99",
+        "porcentDesc": "30%",
+        "descripcion": "Sensor de movimiento, diseño compacto, operación silenciosa.",
+        "imagen": "images/products/categoria3/3-60 Secador de manos automático inteligente.jpg"
     }
 ]

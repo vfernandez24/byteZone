@@ -102,6 +102,13 @@ let innerUlDefault = `
     <h1 class"cestaH1">No tienes actualmente ningún producto en tu cesta</h1>
 `;
 
+if (localStorage.getItem('paginaCesta') == 'index') {
+    innerUlDefault = `
+        <img src="assets/noProductsCart.svg" alt"">
+        <h1 class"cestaH1">No tienes actualmente ningún producto en tu cesta</h1>
+    `;
+}
+
 function contentCesta() {
     const ul = document.getElementById('cestaUl');
     ul.classList.remove('default');

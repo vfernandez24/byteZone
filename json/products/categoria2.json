@@ -1,5 +1,5 @@
 [
-    149.99,
+    249.99,
     {
         "nombre": "Reloj inteligente con monitor de frecuencia cardíaca",
         "precio": "79.99",
@@ -239,5 +239,365 @@
         "porcentDesc": "0%",
         "descripcion": "Filtra el aire alrededor del usuario, compacto y portátil, batería recargable.",
         "imagen": "images/products/categoria2/2-24 Purificador de aire portátil para colgar.jpg"
+    },
+    {
+        "nombre": "Almohadilla térmica inteligente",
+        "precio": "59.99",
+        "categoria": 2,
+        "oferta": true,
+        "precioDesc": "44.99",
+        "porcentDesc": "25%",
+        "descripcion": "Proporciona alivio de dolores musculares, temperatura ajustable, apagado automático.",
+        "imagen": "images/products/categoria2/2-25 Almohadilla térmica inteligente.jpg"
+    },
+    {
+        "nombre": "Cojín de asiento ergonómico con sensor de postura",
+        "precio": "79.99",
+        "categoria": 2,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Sensor integrado para mejorar la postura al sentarse, seguimiento a través de app.",
+        "imagen": "images/products/categoria2/2-26 Cojín de asiento ergonómico con sensor de postura.jpg"
+    },
+    {
+        "nombre": "Reloj inteligente para control de glucosa",
+        "precio": "199.99",
+        "categoria": 2,
+        "oferta": true,
+        "precioDesc": "159.99",
+        "porcentDesc": "20%",
+        "descripcion": "Mide niveles de glucosa en tiempo real, integración con dispositivos médicos, diseño moderno.",
+        "imagen": "images/products/categoria2/2-27 Reloj inteligente para control de glucosa.jpg"
+    },
+    {
+        "nombre": "Collar de monitoreo de estrés",
+        "precio": "69.99",
+        "categoria": 2,
+        "oferta": true,
+        "precioDesc": "52.49",
+        "porcentDesc": "25%",
+        "descripcion": "Monitoreo continuo de niveles de estrés, vibraciones para relajación, conexión Bluetooth.",
+        "imagen": "images/products/categoria2/2-28 Collar de monitoreo de estrés.jpg"
+    },
+    {
+        "nombre": "Auriculares con terapia de sonido",
+        "precio": "99.99",
+        "categoria": 2,
+        "oferta": true,
+        "precioDesc": "74.99",
+        "porcentDesc": "25%",
+        "descripcion": "Incluyen programas de terapia sonora para relajación y concentración, batería de larga duración.",
+        "imagen": "images/products/categoria2/2-29 Auriculares con terapia de sonido.jpg"
+    },
+    {
+        "nombre": "Cámara termográfica portátil",
+        "precio": "299.99",
+        "categoria": 2,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Detección de temperatura corporal y análisis térmico, ideal para uso clínico y personal.",
+        "imagen": "images/products/categoria2/2-30 Cámara termográfica portátil.jpg"
+    },
+    {
+        "nombre": "Mascarilla purificadora de aire inteligente",
+        "precio": "129.99",
+        "categoria": 2,
+        "oferta": true,
+        "precioDesc": "99.99",
+        "porcentDesc": "23%",
+        "descripcion": "Filtros intercambiables, ventilador integrado, monitoreo de calidad del aire.",
+        "imagen": "images/products/categoria2/2-31 Mascarilla purificadora de aire inteligente.jpg"
+    },
+    {
+        "nombre": "Dispositivo de acupresión electrónica",
+        "precio": "69.99",
+        "categoria": 2,
+        "oferta": true,
+        "precioDesc": "55.99",
+        "porcentDesc": "20%",
+        "descripcion": "Estimula puntos de presión con pulsos eléctricos, alivia el estrés y el dolor muscular.",
+        "imagen": "images/products/categoria2/2-32 Dispositivo de acupresión electrónica.jpg"
+    },
+    {
+        "nombre": "Almohada inteligente con monitoreo de sueño",
+        "precio": "149.99",
+        "categoria": 2,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Registra patrones de sueño y da recomendaciones para mejor descanso, altavoz integrado.",
+        "imagen": "images/products/categoria2/2-33 Almohada inteligente con monitoreo de sueño.jpg"
+    },
+    {
+        "nombre": "Botón de alerta médica portátil",
+        "precio": "89.99",
+        "categoria": 2,
+        "oferta": true,
+        "precioDesc": "67.49",
+        "porcentDesc": "25%",
+        "descripcion": "Sistema de emergencia personal con GPS y llamada automática, diseño compacto.",
+        "imagen": "images/products/categoria2/2-34 Botón de alerta médica portátil.jpg"
+    },
+    {
+        "nombre": "Banda de relajación cerebral",
+        "precio": "199.99",
+        "categoria": 2,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Estimulación suave para aliviar migrañas y reducir el estrés, compatible con app móvil.",
+        "imagen": "images/products/categoria2/2-35 Banda de relajación cerebral.jpg"
+    },
+    {
+        "nombre": "Espuma limpiadora facial con sensor de piel",
+        "precio": "49.99",
+        "categoria": 2,
+        "oferta": true,
+        "precioDesc": "37.49",
+        "porcentDesc": "25%",
+        "descripcion": "Detecta el tipo de piel para ajustar la limpieza, recargable, resistente al agua.",
+        "imagen": "images/products/categoria2/2-36 Espuma limpiadora facial con sensor de piel.jpg"
+    },
+    {
+        "nombre": "Auriculares con biofeedback",
+        "precio": "149.99",
+        "categoria": 2,
+        "oferta": true,
+        "precioDesc": "119.99",
+        "porcentDesc": "20%",
+        "descripcion": "Monitorean la actividad cerebral para ayudar en la meditación y la concentración.",
+        "imagen": "images/products/categoria2/2-37 Auriculares con biofeedback.jpg"
+    },
+    {
+        "nombre": "Anillo inteligente para salud y actividad",
+        "precio": "249.99",
+        "categoria": 2,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Mide frecuencia cardíaca, sueño y actividad diaria en un diseño minimalista.",
+        "imagen": "images/products/categoria2/2-38 Anillo inteligente para salud y actividad.jpg"
+    },
+    {
+        "nombre": "Terapia de masaje con luz infrarroja",
+        "precio": "89.99",
+        "categoria": 2,
+        "oferta": true,
+        "precioDesc": "67.49",
+        "porcentDesc": "25%",
+        "descripcion": "Combina luz infrarroja y masaje para aliviar dolores musculares y mejorar la circulación.",
+        "imagen": "images/products/categoria2/2-39 Terapia de masaje con luz infrarroja.jpg"
+    },
+    {
+        "nombre": "Reloj inteligente con monitor de oxígeno en sangre",
+        "precio": "129.99",
+        "categoria": 2,
+        "oferta": true,
+        "precioDesc": "103.99",
+        "porcentDesc": "20%",
+        "descripcion": "Monitoriza la saturación de oxígeno, frecuencia cardíaca y actividad diaria.",
+        "imagen": "images/products/categoria2/2-40 Reloj inteligente con monitor de oxígeno en sangre.jpg"
+    },
+    {
+        "nombre": "Cinturón corrector de postura con vibración",
+        "precio": "79.99",
+        "categoria": 2,
+        "oferta": true,
+        "precioDesc": "63.99",
+        "porcentDesc": "20%",
+        "descripcion": "Emite vibraciones suaves para corregir la postura y aliviar la tensión en la espalda.",
+        "imagen": "images/products/categoria2/2-41 Cinturón corrector de postura con vibración.jpg"
+    },
+    {
+        "nombre": "Monitor de hidratación portátil",
+        "precio": "49.99",
+        "categoria": 2,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Analiza los niveles de hidratación en tiempo real, compatible con app móvil.",
+        "imagen": "images/products/categoria2/2-42 Monitor de hidratación portátil.jpg"
+    },
+    {
+        "nombre": "Dispositivo para terapia de frío y calor",
+        "precio": "69.99",
+        "categoria": 2,
+        "oferta": true,
+        "precioDesc": "52.49",
+        "porcentDesc": "25%",
+        "descripcion": "Proporciona alivio para lesiones deportivas y dolores crónicos, ajustable.",
+        "imagen": "images/products/categoria2/2-43 Dispositivo para terapia de frío y calor.jpg"
+    },
+    {
+        "nombre": "Espejo inteligente con análisis de piel",
+        "precio": "149.99",
+        "categoria": 2,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Ofrece análisis detallado de la piel, recomendaciones de cuidado, conexión con app.",
+        "imagen": "images/products/categoria2/2-44 Espejo inteligente con análisis de piel.jpg"
+    },
+    {
+        "nombre": "Manta ponderada inteligente",
+        "precio": "199.99",
+        "categoria": 2,
+        "oferta": true,
+        "precioDesc": "159.99",
+        "porcentDesc": "20%",
+        "descripcion": "Ayuda a reducir la ansiedad y mejorar el sueño, con control de temperatura integrado.",
+        "imagen": "images/products/categoria2/2-45 Manta ponderada inteligente.jpg"
+    },
+    {
+        "nombre": "Casco de terapia LED para el cabello",
+        "precio": "299.99",
+        "categoria": 2,
+        "oferta": true,
+        "precioDesc": "239.99",
+        "porcentDesc": "20%",
+        "descripcion": "Estimula el crecimiento del cabello y mejora la salud del cuero cabelludo con tecnología LED.",
+        "imagen": "images/products/categoria2/2-46 Casco de terapia LED para el cabello.jpg"
+    },
+    {
+        "nombre": "Brazalete de presión arterial con ECG",
+        "precio": "179.99",
+        "categoria": 2,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Monitor de presión arterial y electrocardiograma en un solo dispositivo.",
+        "imagen": "images/products/categoria2/2-47 Brazalete de presión arterial con ECG.jpg"
+    },
+    {
+        "nombre": "Sensor para monitoreo de sueño infantil",
+        "precio": "89.99",
+        "categoria": 2,
+        "oferta": true,
+        "precioDesc": "71.99",
+        "porcentDesc": "20%",
+        "descripcion": "Dispositivo portátil que registra el sueño y las actividades nocturnas de los niños.",
+        "imagen": "images/products/categoria2/2-48 Sensor para monitoreo de sueño infantil.jpg"
+    },
+    {
+        "nombre": "Cámara portátil para inspección de piel",
+        "precio": "139.99",
+        "categoria": 2,
+        "oferta": true,
+        "precioDesc": "111.99",
+        "porcentDesc": "20%",
+        "descripcion": "Detecta anomalías en la piel y las registra en una aplicación para seguimiento.",
+        "imagen": "images/products/categoria2/2-49 Cámara portátil para inspección de piel.jpg"
+    },
+    {
+        "nombre": "Dispositivo de terapia de vibración profunda",
+        "precio": "119.99",
+        "categoria": 2,
+        "oferta": true,
+        "precioDesc": "95.99",
+        "porcentDesc": "20%",
+        "descripcion": "Alivia dolores musculares profundos, múltiples niveles de intensidad.",
+        "imagen": "images/products/categoria2/2-50 Dispositivo de terapia de vibración profunda.jpg"
+    },
+    {
+        "nombre": "Gafas inteligentes para monitoreo de fatiga ocular",
+        "precio": "129.99",
+        "categoria": 2,
+        "oferta": true,
+        "precioDesc": "103.99",
+        "porcentDesc": "20%",
+        "descripcion": "Detectan la fatiga ocular y ofrecen consejos personalizados para reducir el cansancio.",
+        "imagen": "images/products/categoria2/2-51 Gafas inteligentes para monitoreo de fatiga ocular.jpg"
+    },
+    {
+        "nombre": "Purificador nasal electrónico",
+        "precio": "59.99",
+        "categoria": 2,
+        "oferta": true,
+        "precioDesc": "47.99",
+        "porcentDesc": "20%",
+        "descripcion": "Elimina partículas y alérgenos del aire inhalado, recargable y portátil.",
+        "imagen": "images/products/categoria2/2-52 Purificador nasal electrónico.jpg"
+    },
+    {
+        "nombre": "Bandas de terapia magnética",
+        "precio": "39.99",
+        "categoria": 2,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Alivian dolores articulares mediante imanes terapéuticos, ajustables.",
+        "imagen": "images/products/categoria2/2-53 Bandas de terapia magnética.jpg"
+    },
+    {
+        "nombre": "Auriculares para meditación guiada",
+        "precio": "79.99",
+        "categoria": 2,
+        "oferta": true,
+        "precioDesc": "63.99",
+        "porcentDesc": "20%",
+        "descripcion": "Ofrecen meditaciones guiadas con sensores de relajación integrados.",
+        "imagen": "images/products/categoria2/2-54 Auriculares para meditación guiada.jpg"
+    },
+    {
+        "nombre": "Dispositivo de relajación con ondas cerebrales",
+        "precio": "159.99",
+        "categoria": 2,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Estimula ondas cerebrales específicas para mejorar el sueño y reducir la ansiedad.",
+        "imagen": "images/products/categoria2/2-55 Dispositivo de relajación con ondas cerebrales.jpg"
+    },
+    {
+        "nombre": "Camiseta inteligente con monitoreo de actividad",
+        "precio": "99.99",
+        "categoria": 2,
+        "oferta": true,
+        "precioDesc": "79.99",
+        "porcentDesc": "20%",
+        "descripcion": "Integra sensores para registrar actividad física y ritmo cardíaco.",
+        "imagen": "images/products/categoria2/2-56 Camiseta inteligente con monitoreo de actividad.jpg"
+    },
+    {
+        "nombre": "Collar cervical de calor infrarrojo",
+        "precio": "59.99",
+        "categoria": 2,
+        "oferta": true,
+        "precioDesc": "47.99",
+        "porcentDesc": "20%",
+        "descripcion": "Alivia la tensión del cuello con calor infrarrojo, ajustable y portátil.",
+        "imagen": "images/products/categoria2/2-57 Collar cervical de calor infrarrojo.jpg"
+    },
+    {
+        "nombre": "Zapatos con monitoreo de actividad",
+        "precio": "149.99",
+        "categoria": 2,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Registra pasos, calorías y postura en un diseño ergonómico y moderno.",
+        "imagen": "images/products/categoria2/2-58 Zapatos con monitoreo de actividad.jpg"
+    },
+    {
+        "nombre": "Sensor de salud wearable para mascotas",
+        "precio": "79.99",
+        "categoria": 2,
+        "oferta": true,
+        "precioDesc": "63.99",
+        "porcentDesc": "20%",
+        "descripcion": "Monitorea la actividad y la salud de las mascotas en tiempo real.",
+        "imagen": "images/products/categoria2/2-59 Sensor de salud wearable para mascotas.jpg"
+    },
+    {
+        "nombre": "Taza inteligente con control de temperatura",
+        "precio": "99.99",
+        "categoria": 2,
+        "oferta": true,
+        "precioDesc": "79.99",
+        "porcentDesc": "20%",
+        "descripcion": "Mantiene las bebidas a la temperatura ideal, control desde app móvil.",
+        "imagen": "images/products/categoria2/2-60 Taza inteligente con control de temperatura.jpg"
     }
 ]

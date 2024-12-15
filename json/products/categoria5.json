@@ -1,5 +1,5 @@
 [
-    1199.99,
+    2499.99,
     {
         "nombre": "Cámara réflex digital Canon EOS 90D",
         "precio": "1199.99",
@@ -239,5 +239,365 @@
         "porcentDesc": "0%",
         "descripcion": "Amplio ángulo de visión, fácil de usar, incluye clip de sujeción.",
         "imagen": "images/products/categoria5/5-24 Lente ojo de pez de smartpones.jpg"
+    },
+    {
+        "nombre": "Cámara mirrorless Sony Alpha A6400",
+        "precio": "999.99",
+        "categoria": 5,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Sensor APS-C de 24.2 MP, video 4K HDR, enfoque automático avanzado.",
+        "imagen": "images/products/categoria5/5-25 Cámara mirrorless Sony Alpha A6400.jpg"
+    },
+    {
+        "nombre": "Kit de limpieza para lentes y cámaras",
+        "precio": "19.99",
+        "categoria": 5,
+        "oferta": true,
+        "precioDesc": "14.99",
+        "porcentDesc": "25%",
+        "descripcion": "Incluye soplador de aire, paño de microfibra y solución de limpieza.",
+        "imagen": "images/products/categoria5/5-26 Kit de limpieza para lentes y cámaras.jpg"
+    },
+    {
+        "nombre": "Reflector de luz plegable 5 en 1",
+        "precio": "39.99",
+        "categoria": 5,
+        "oferta": true,
+        "precioDesc": "27.99",
+        "porcentDesc": "30%",
+        "descripcion": "Superficies plateadas, doradas, blancas, negras y translúcidas, ideal para fotografía en estudio.",
+        "imagen": "images/products/categoria5/5-27 Reflector de luz plegable 5 en 1.jpg"
+    },
+    {
+        "nombre": "Lente teleobjetivo 70-200 mm f/2.8",
+        "precio": "1599.99",
+        "categoria": 5,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Zoom profesional para deportes y vida salvaje, enfoque rápido y estabilización óptica.",
+        "imagen": "images/products/categoria5/5-28 Lente teleobjetivo 70-200 mm f2.8.jpg"
+    },
+    {
+        "nombre": "Caja de luz para fotografía de producto",
+        "precio": "69.99",
+        "categoria": 5,
+        "oferta": true,
+        "precioDesc": "49.99",
+        "porcentDesc": "28%",
+        "descripcion": "Incluye luces LED, varios fondos, tamaño compacto y fácil de montar.",
+        "imagen": "images/products/categoria5/5-29 Caja de luz para fotografía de producto.jpg"
+    },
+    {
+        "nombre": "Estabilizador de video portátil",
+        "precio": "89.99",
+        "categoria": 5,
+        "oferta": true,
+        "precioDesc": "62.99",
+        "porcentDesc": "30%",
+        "descripcion": "Compatible con cámaras DSLR y smartphones, fácil de usar.",
+        "imagen": "images/products/categoria5/5-30 Estabilizador de video portátil.jpg"
+    },
+    {
+        "nombre": "Cámara de bolsillo DJI Pocket 2",
+        "precio": "349.99",
+        "categoria": 5,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Estabilización en 3 ejes, grabación 4K, diseño compacto y portátil.",
+        "imagen": "images/products/categoria5/5-31 Cámara de bolsillo DJI Pocket 2.jpg"
+    },
+    {
+        "nombre": "Monitor externo para cámaras DSLR",
+        "precio": "249.99",
+        "categoria": 5,
+        "oferta": true,
+        "precioDesc": "199.99",
+        "porcentDesc": "20%",
+        "descripcion": "Pantalla táctil de 7 pulgadas, resolución Full HD, entrada HDMI.",
+        "imagen": "images/products/categoria5/5-32 Monitor externo para cámaras DSLR.jpg"
+    },
+    {
+        "nombre": "Fondo verde para croma key",
+        "precio": "49.99",
+        "categoria": 5,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Tela profesional, compatible con soportes estándar, ideal para edición de video.",
+        "imagen": "images/products/categoria5/5-33 Fondo verde para croma key.jpg"
+    },
+    {
+        "nombre": "Kit de filtros para cámaras DSLR",
+        "precio": "79.99",
+        "categoria": 5,
+        "oferta": true,
+        "precioDesc": "55.99",
+        "porcentDesc": "30%",
+        "descripcion": "Incluye filtros UV, polarizador circular y ND, compatible con lentes de 58 mm.",
+        "imagen": "images/products/categoria5/5-34 Kit de filtros para cámaras DSLR.jpg"
+    },
+    {
+        "nombre": "Micrófono de solapa inalámbrico",
+        "precio": "99.99",
+        "categoria": 5,
+        "oferta": true,
+        "precioDesc": "74.99",
+        "porcentDesc": "25%",
+        "descripcion": "Perfecto para entrevistas y grabación en exteriores, conexión Bluetooth.",
+        "imagen": "images/products/categoria5/5-35 Micrófono de solapa inalámbrico.jpg"
+    },
+    {
+        "nombre": "Paraguas difusor para iluminación",
+        "precio": "29.99",
+        "categoria": 5,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Mejora la calidad de la luz, ideal para retratos y fotografía en estudio.",
+        "imagen": "images/products/categoria5/5-36 Paraguas difusor para iluminación.jpg"
+    },
+    {
+        "nombre": "Cargador rápido para baterías de cámaras",
+        "precio": "49.99",
+        "categoria": 5,
+        "oferta": true,
+        "precioDesc": "39.99",
+        "porcentDesc": "20%",
+        "descripcion": "Compatible con baterías estándar de cámaras DSLR y mirrorless.",
+        "imagen": "images/products/categoria5/5-37 Cargador rápido para baterías de cámaras.jpg"
+    },
+    {
+        "nombre": "Adaptador de lente para cámaras mirrorless",
+        "precio": "119.99",
+        "categoria": 5,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Permite usar lentes de DSLR en cámaras mirrorless, construcción robusta.",
+        "imagen": "images/products/categoria5/5-38 Adaptador de lente para cámaras mirrorless.jpg"
+    },
+    {
+        "nombre": "Luz LED portátil para fotografía",
+        "precio": "69.99",
+        "categoria": 5,
+        "oferta": true,
+        "precioDesc": "55.99",
+        "porcentDesc": "20%",
+        "descripcion": "Batería recargable, brillo ajustable, incluye accesorios de montaje.",
+        "imagen": "images/products/categoria5/5-39 Luz LED portátil para fotografía.jpg"
+    },
+    {
+        "nombre": "Soporte para dos cámaras",
+        "precio": "89.99",
+        "categoria": 5,
+        "oferta": true,
+        "precioDesc": "62.99",
+        "porcentDesc": "30%",
+        "descripcion": "Diseño ergonómico, ajuste de altura, compatible con varias cámaras.",
+        "imagen": "images/products/categoria5/5-40 Soporte para dos cámaras.jpg"
+    },
+    {
+        "nombre": "Lente gran angular para DSLR",
+        "precio": "399.99",
+        "categoria": 5,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Ángulo de visión amplio, ideal para paisajes y arquitectura.",
+        "imagen": "images/products/categoria5/5-41 Lente gran angular para DSLR.jpg"
+    },
+    {
+        "nombre": "Dron profesional con estabilizador",
+        "precio": "2499.99",
+        "categoria": 5,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Capacidad de grabación 6K, batería de larga duración, GPS integrado.",
+        "imagen": "images/products/categoria5/5-42 Dron profesional con estabilizador.jpg"
+    },
+    {
+        "nombre": "Kit de luces RGB para video",
+        "precio": "129.99",
+        "categoria": 5,
+        "oferta": true,
+        "precioDesc": "99.99",
+        "porcentDesc": "23%",
+        "descripcion": "Cambio de colores y modos, control remoto, batería recargable.",
+        "imagen": "images/products/categoria5/5-43 Kit de luces RGB para video.jpg"
+    },
+    {
+        "nombre": "Lente macro para fotografía",
+        "precio": "899.99",
+        "categoria": 5,
+        "oferta": true,
+        "precioDesc": "799.99",
+        "porcentDesc": "11%",
+        "descripcion": "Ampliación detallada, ideal para insectos y flores, calidad premium.",
+        "imagen": "images/products/categoria5/5-44 Lente macro para fotografía.jpg"
+    },
+    {
+        "nombre": "Trípode de carbono con cabezal fluido",
+        "precio": "299.99",
+        "categoria": 5,
+        "oferta": true,
+        "precioDesc": "239.99",
+        "porcentDesc": "20%",
+        "descripcion": "Ligero y resistente, soporta hasta 15 kg, ideal para video profesional.",
+        "imagen": "images/products/categoria5/5-45 Trípode de carbono con cabezal fluido.jpg"
+    },
+    {
+        "nombre": "Panel reflector LED bicolor",
+        "precio": "189.99",
+        "categoria": 5,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Temperatura ajustable entre luz cálida y fría, control remoto incluido.",
+        "imagen": "images/products/categoria5/5-46 Panel reflector LED bicolor.jpg"
+    },
+    {
+        "nombre": "Batería extra para cámara DSLR",
+        "precio": "59.99",
+        "categoria": 5,
+        "oferta": true,
+        "precioDesc": "44.99",
+        "porcentDesc": "25%",
+        "descripcion": "Compatible con cámaras Canon y Nikon, de larga duración.",
+        "imagen": "images/products/categoria5/5-47 Batería extra para cámara DSLR.jpg"
+    },
+    {
+        "nombre": "Controlador remoto inalámbrico",
+        "precio": "49.99",
+        "categoria": 5,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Disparo remoto, compatible con múltiples modelos de cámaras.",
+        "imagen": "images/products/categoria5/5-48 Controlador remoto inalámbrico.jpg"
+    },
+    {
+        "nombre": "Bolsa de transporte para equipo fotográfico",
+        "precio": "129.99",
+        "categoria": 5,
+        "oferta": true,
+        "precioDesc": "99.99",
+        "porcentDesc": "23%",
+        "descripcion": "Amplio espacio, resistente al agua, múltiples compartimentos ajustables.",
+        "imagen": "images/products/categoria5/5-49 Bolsa de transporte para equipo fotográfico.jpg"
+    },
+    {
+        "nombre": "Anillo de luz con soporte ajustable",
+        "precio": "79.99",
+        "categoria": 5,
+        "oferta": true,
+        "precioDesc": "59.99",
+        "porcentDesc": "25%",
+        "descripcion": "Luz perfecta para retratos y videos, incluye soporte y control de brillo.",
+        "imagen": "images/products/categoria5/5-50 Anillo de luz con soporte ajustable.jpg"
+    },
+    {
+        "nombre": "Soporte para cámara en automóviles",
+        "precio": "49.99",
+        "categoria": 5,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Montaje seguro para grabación desde vehículos, compatible con cámaras DSLR.",
+        "imagen": "images/products/categoria5/5-51 Soporte para cámara en automóviles.jpg"
+    },
+    {
+        "nombre": "Gimbal estabilizador para smartphones",
+        "precio": "119.99",
+        "categoria": 5,
+        "oferta": true,
+        "precioDesc": "89.99",
+        "porcentDesc": "25%",
+        "descripcion": "Estabilización en 3 ejes, compacto y ligero, ideal para vlogs.",
+        "imagen": "images/products/categoria5/5-52 Gimbal estabilizador para smartphones.jpg"
+    },
+    {
+        "nombre": "Disco duro portátil SSD 1TB",
+        "precio": "199.99",
+        "categoria": 5,
+        "oferta": true,
+        "precioDesc": "149.99",
+        "porcentDesc": "25%",
+        "descripcion": "Velocidad de transferencia ultrarrápida, diseño resistente para fotógrafos.",
+        "imagen": "images/products/categoria5/5-53 Disco duro portátil SSD 1TB.jpg"
+    },
+    {
+        "nombre": "Fondo fotográfico de madera vintage",
+        "precio": "39.99",
+        "categoria": 5,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Impresión realista, fácil de instalar, ideal para retratos y fotografía de producto.",
+        "imagen": "images/products/categoria5/5-54 Fondo fotográfico de madera vintage.jpg"
+    },
+    {
+        "nombre": "Flash externo con difusor",
+        "precio": "199.99",
+        "categoria": 5,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Alta velocidad de sincronización, incluye difusor ajustable.",
+        "imagen": "images/products/categoria5/5-55 Flash externo con difusor.jpg"
+    },
+    {
+        "nombre": "Kit de reflectores de colores",
+        "precio": "59.99",
+        "categoria": 5,
+        "oferta": true,
+        "precioDesc": "44.99",
+        "porcentDesc": "25%",
+        "descripcion": "Incluye colores básicos y efectos para creatividad en fotografía.",
+        "imagen": "images/products/categoria5/5-56 Kit de reflectores de colores.jpg"
+    },
+    {
+        "nombre": "Software de edición fotográfica profesional",
+        "precio": "99.99",
+        "categoria": 5,
+        "oferta": true,
+        "precioDesc": "74.99",
+        "porcentDesc": "25%",
+        "descripcion": "Licencia de 1 año, herramientas avanzadas para edición y retoque.",
+        "imagen": "images/products/categoria5/5-57 Software de edición fotográfica profesional.jpg"
+    },
+    {
+        "nombre": "Guantes antideslizantes para fotógrafos",
+        "precio": "19.99",
+        "categoria": 5,
+        "oferta": true,
+        "precioDesc": "14.99",
+        "porcentDesc": "25%",
+        "descripcion": "Protección contra el frío, diseño ajustable y antideslizante.",
+        "imagen": "images/products/categoria5/5-58 Guantes antideslizantes para fotógrafos.jpg"
+    },
+    {
+        "nombre": "Lente ojo de pez para cámaras DSLR",
+        "precio": "499.99",
+        "categoria": 5,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Perspectiva única con gran distorsión, ideal para creatividad artística.",
+        "imagen": "images/products/categoria5/5-59 Lente ojo de pez para cámaras DSLR.jpg"
+    },
+    {
+        "nombre": "Soporte de fondo portátil",
+        "precio": "99.99",
+        "categoria": 5,
+        "oferta": true,
+        "precioDesc": "74.99",
+        "porcentDesc": "25%",
+        "descripcion": "Fácil de montar y desmontar, incluye bolsa de transporte.",
+        "imagen": "images/products/categoria5/5-60 Soporte de fondo portátil.jpg"
     }
 ]

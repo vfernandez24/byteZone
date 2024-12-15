@@ -58,7 +58,7 @@
         "precioDesc": "424.99",
         "porcentDesc": "15%",
         "descripcion": "Compatible con resolución 4K, almacenamiento de 1TB, mando inalámbrico incluido.",
-        "imagen": "images/products/categoria4/4-6 Proyector LED portátil"
+        "imagen": "images/products/categoria4/4-6 Consola de videojuegos 1TB.jpg"
     },
     {
         "nombre": "Altavoz Bluetooth portátil resistente al agua",
@@ -88,7 +88,7 @@
         "precioDesc": "399.99",
         "porcentDesc": "20%",
         "descripcion": "5 altavoces y 1 subwoofer, sonido envolvente de cine, conectividad Bluetooth.",
-        "imagen": "images/products/categoria4/4-9 Proyector LED portátil"
+        "imagen": "images/products/categoria4/4-9 Sistema de sonido envolvente 5.1.webp"
     },
     {
         "nombre": "Auriculares de estudio con cancelación de ruido",
@@ -239,5 +239,365 @@
         "porcentDesc": "15%",
         "descripcion": "Resolución HD, conectividad HDMI y USB, ideal para proyecciones en exteriores.",
         "imagen": "images/products/categoria4/4-24 Proyector LED portátil.webp"
+    },
+    {
+        "nombre": "Auriculares Bluetooth con cancelación de ruido",
+        "precio": "179.99",
+        "categoria": 4,
+        "oferta": true,
+        "precioDesc": "149.99",
+        "porcentDesc": "17%",
+        "descripcion": "Cancelación activa de ruido, sonido estéreo, conexión Bluetooth.",
+        "imagen": "images/products/categoria4/4-25 Auriculares Bluetooth con cancelación de ruido.jpg"
+    },
+    {
+        "nombre": "Reproductor de DVD portátil",
+        "precio": "89.99",
+        "categoria": 4,
+        "oferta": true,
+        "precioDesc": "69.99",
+        "porcentDesc": "22%",
+        "descripcion": "Pantalla de 10 pulgadas, reproductor de DVDs y CDs, batería recargable.",
+        "imagen": "images/products/categoria4/4-26 Reproductor de DVD portátil.jpg"
+    },
+    {
+        "nombre": "Pantalla de proyección motorizada 100”",
+        "precio": "249.99",
+        "categoria": 4,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Pantalla de proyección motorizada, fácil instalación, compatible con proyectores.",
+        "imagen": "images/products/categoria4/4-27 Pantalla de proyección motorizada 100”.jpg"
+    },
+    {
+        "nombre": "Silla gamer ergonómica con soporte lumbar",
+        "precio": "349.99",
+        "categoria": 4,
+        "oferta": true,
+        "precioDesc": "299.99",
+        "porcentDesc": "14%",
+        "descripcion": "Diseño ergonómico, soporte lumbar ajustable, material de alta calidad.",
+        "imagen": "images/products/categoria4/4-28 Silla gamer ergonómica con soporte lumbar.jpg"
+    },
+    {
+        "nombre": "Cámara de seguridad 4K para exteriores",
+        "precio": "199.99",
+        "categoria": 4,
+        "oferta": true,
+        "precioDesc": "159.99",
+        "porcentDesc": "20%",
+        "descripcion": "Resolución 4K, visión nocturna, resistente al agua.",
+        "imagen": "images/products/categoria4/4-29 Cámara de seguridad 4K para exteriores.jpg"
+    },
+    {
+        "nombre": "Base de carga inalámbrica para varios dispositivos",
+        "precio": "79.99",
+        "categoria": 4,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Base de carga para smartphones, auriculares y relojes inteligentes.",
+        "imagen": "images/products/categoria4/4-30 Base de carga inalámbrica para varios dispositivos.jpg"
+    },
+    {
+        "nombre": "Soporte para TV ajustable de 32” a 70”",
+        "precio": "99.99",
+        "categoria": 4,
+        "oferta": true,
+        "precioDesc": "79.99",
+        "porcentDesc": "20%",
+        "descripcion": "Soporte ajustable, fácil instalación, soporta hasta 70 pulgadas.",
+        "imagen": "images/products/categoria4/4-31 Soporte para TV ajustable de 32” a 70”.jpg"
+    },
+    {
+        "nombre": "Barra de sonido con subwoofer y Alexa integrada",
+        "precio": "249.99",
+        "categoria": 4,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Sonido envolvente, Alexa integrada, subwoofer inalámbrico.",
+        "imagen": "images/products/categoria4/4-32 Barra de sonido con subwoofer y Alexa integrada.jpg"
+    },
+    {
+        "nombre": "Mando a distancia universal inteligente",
+        "precio": "39.99",
+        "categoria": 4,
+        "oferta": true,
+        "precioDesc": "29.99",
+        "porcentDesc": "25%",
+        "descripcion": "Mando a distancia universal con control por voz y app.",
+        "imagen": "images/products/categoria4/4-33 Mando a distancia universal inteligente.jpg"
+    },
+    {
+        "nombre": "Proyector LED para cine en casa",
+        "precio": "349.99",
+        "categoria": 4,
+        "oferta": true,
+        "precioDesc": "279.99",
+        "porcentDesc": "20%",
+        "descripcion": "Proyección Full HD, entrada HDMI y USB, ideal para cine en casa.",
+        "imagen": "images/products/categoria4/4-34 Proyector LED para cine en casa.jpg"
+    },
+    {
+        "nombre": "Router Wi-Fi 6 de alto rendimiento",
+        "precio": "129.99",
+        "categoria": 4,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Tecnología Wi-Fi 6, cobertura de hasta 200 metros, puertos Ethernet.",
+        "imagen": "images/products/categoria4/4-35 Router Wi-Fi 6 de alto rendimiento.jpg"
+    },
+    {
+        "nombre": "Cargador solar para dispositivos móviles",
+        "precio": "49.99",
+        "categoria": 4,
+        "oferta": true,
+        "precioDesc": "39.99",
+        "porcentDesc": "20%",
+        "descripcion": "Cargador solar compacto, compatible con smartphones y tabletas.",
+        "imagen": "images/products/categoria4/4-36 Cargador solar para dispositivos móviles.jpg"
+    },
+    {
+        "nombre": "Controlador de luz inteligente",
+        "precio": "59.99",
+        "categoria": 4,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Controla la intensidad de las luces desde tu smartphone o por voz.",
+        "imagen": "images/products/categoria4/4-37 Controlador de luz inteligente.jpg"
+    },
+    {
+        "nombre": "Smartwatch con monitor de frecuencia cardíaca",
+        "precio": "129.99",
+        "categoria": 4,
+        "oferta": true,
+        "precioDesc": "99.99",
+        "porcentDesc": "23%",
+        "descripcion": "Monitor de frecuencia cardíaca, pantalla táctil, resistente al agua.",
+        "imagen": "images/products/categoria4/4-38 Smartwatch con monitor de frecuencia cardíaca.jpg"
+    },
+    {
+        "nombre": "Luces LED inteligentes para exteriores",
+        "precio": "79.99",
+        "categoria": 4,
+        "oferta": true,
+        "precioDesc": "59.99",
+        "porcentDesc": "25%",
+        "descripcion": "Luces LED inteligentes con control desde tu smartphone, resistentes a la intemperie.",
+        "imagen": "images/products/categoria4/4-39 Luces LED inteligentes para exteriores.jpg"
+    },
+    {
+        "nombre": "Televisor 4K UHD de 65”",
+        "precio": "799.99",
+        "categoria": 4,
+        "oferta": true,
+        "precioDesc": "649.99",
+        "porcentDesc": "19%",
+        "descripcion": "Pantalla 4K, Smart TV con acceso a apps, control por voz.",
+        "imagen": "images/products/categoria4/4-40 Televisor 4K UHD de 65”.jpg"
+    },
+    {
+        "nombre": "Cámara de acción 4K con Wi-Fi",
+        "precio": "199.99",
+        "categoria": 4,
+        "oferta": true,
+        "precioDesc": "159.99",
+        "porcentDesc": "20%",
+        "descripcion": "Cámara 4K, resistente al agua, conectividad Wi-Fi.",
+        "imagen": "images/products/categoria4/4-41 Cámara de acción 4K con Wi-Fi.jpg"
+    },
+    {
+        "nombre": "Proyector portátil con pantalla táctil",
+        "precio": "199.99",
+        "categoria": 4,
+        "oferta": true,
+        "precioDesc": "169.99",
+        "porcentDesc": "15%",
+        "descripcion": "Proyector compacto con resolución Full HD y pantalla táctil.",
+        "imagen": "images/products/categoria4/4-42 Proyector portátil con pantalla táctil.jpg"
+    },
+    {
+        "nombre": "Altavoz Bluetooth con luces LED",
+        "precio": "89.99",
+        "categoria": 4,
+        "oferta": true,
+        "precioDesc": "69.99",
+        "porcentDesc": "22%",
+        "descripcion": "Altavoz Bluetooth con luces LED integradas para ambientar cualquier espacio.",
+        "imagen": "images/products/categoria4/4-43 Altavoz Bluetooth con luces LED.jpg"
+    },
+    {
+        "nombre": "Proyector 3D Full HD para cine en casa",
+        "precio": "599.99",
+        "categoria": 4,
+        "oferta": true,
+        "precioDesc": "499.99",
+        "porcentDesc": "17%",
+        "descripcion": "Proyección en 3D, resolución Full HD, ideal para cine en casa.",
+        "imagen": "images/products/categoria4/4-44 Proyector 3D Full HD para cine en casa.jpg"
+    },
+    {
+        "nombre": "Teclado inalámbrico con retroiluminación",
+        "precio": "79.99",
+        "categoria": 4,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Teclado inalámbrico, retroiluminación RGB, diseño compacto.",
+        "imagen": "images/products/categoria4/4-45 Teclado inalámbrico con retroiluminación.jpg"
+    },
+    {
+        "nombre": "Smart TV 65” 4K Ultra HD",
+        "precio": "1199.99",
+        "categoria": 4,
+        "oferta": true,
+        "precioDesc": "999.99",
+        "porcentDesc": "17%",
+        "descripcion": "Pantalla 4K Ultra HD, Smart TV, compatible con aplicaciones de streaming.",
+        "imagen": "images/products/categoria4/4-46 Smart TV 65” 4K Ultra HD.jpg"
+    },
+    {
+        "nombre": "Auriculares Bluetooth para gaming",
+        "precio": "89.99",
+        "categoria": 4,
+        "oferta": true,
+        "precioDesc": "69.99",
+        "porcentDesc": "22%",
+        "descripcion": "Auriculares Bluetooth, sonido envolvente 7.1, micrófono con cancelación de ruido.",
+        "imagen": "images/products/categoria4/4-47 Auriculares Bluetooth para gaming.jpg"
+    },
+    {
+        "nombre": "Cámara de seguridad inteligente con visión nocturna",
+        "precio": "129.99",
+        "categoria": 4,
+        "oferta": true,
+        "precioDesc": "99.99",
+        "porcentDesc": "23%",
+        "descripcion": "Cámara de seguridad con visión nocturna y detección de movimiento.",
+        "imagen": "images/products/categoria4/4-48 Cámara de seguridad inteligente con visión nocturna.jpg"
+    },
+    {
+        "nombre": "Pantalla de proyección 120” manual",
+        "precio": "149.99",
+        "categoria": 4,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Pantalla de proyección manual, tamaño 120”, ideal para cine en casa.",
+        "imagen": "images/products/categoria4/4-49 Pantalla de proyección 120” manual.jpg"
+    },
+    {
+        "nombre": "Silla ergonómica con reposabrazos ajustables",
+        "precio": "159.99",
+        "categoria": 4,
+        "oferta": true,
+        "precioDesc": "129.99",
+        "porcentDesc": "19%",
+        "descripcion": "Silla ergonómica con soporte lumbar, reposabrazos ajustables.",
+        "imagen": "images/products/categoria4/4-50 Silla ergonómica con reposabrazos ajustables.jpg"
+    },
+    {
+        "nombre": "Controlador de consola inalámbrico",
+        "precio": "49.99",
+        "categoria": 4,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Controlador inalámbrico compatible con consolas y PC.",
+        "imagen": "images/products/categoria4/4-51 Controlador de consola inalámbrico.jpg"
+    },
+    {
+        "nombre": "Altavoz Bluetooth para exteriores",
+        "precio": "129.99",
+        "categoria": 4,
+        "oferta": true,
+        "precioDesc": "99.99",
+        "porcentDesc": "23%",
+        "descripcion": "Sonido potente y resistente al agua, ideal para exteriores.",
+        "imagen": "images/products/categoria4/4-52 Altavoz Bluetooth para exteriores.jpg"
+    },
+    {
+        "nombre": "Teclado gaming mecánico con retroiluminación",
+        "precio": "89.99",
+        "categoria": 4,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Teclado mecánico para gaming, retroiluminación RGB, anti-ghosting.",
+        "imagen": "images/products/categoria4/4-53 Teclado gaming mecánico con retroiluminación.jpg"
+    },
+    {
+        "nombre": "Reproductor de Blu-ray 4K con Dolby Vision",
+        "precio": "249.99",
+        "categoria": 4,
+        "oferta": true,
+        "precioDesc": "199.99",
+        "porcentDesc": "20%",
+        "descripcion": "Reproductor Blu-ray con soporte para 4K y Dolby Vision.",
+        "imagen": "images/products/categoria4/4-54 Reproductor de Blu-ray 4K con Dolby Vision.jpg"
+    },
+    {
+        "nombre": "Proyector de cine en casa 4K",
+        "precio": "799.99",
+        "categoria": 4,
+        "oferta": true,
+        "precioDesc": "649.99",
+        "porcentDesc": "19%",
+        "descripcion": "Proyector 4K para cine en casa, compatible con dispositivos móviles.",
+        "imagen": "images/products/categoria4/4-55 Proyector de cine en casa 4K.jpg"
+    },
+    {
+        "nombre": "Sistema de sonido inalámbrico 2.1",
+        "precio": "199.99",
+        "categoria": 4,
+        "oferta": true,
+        "precioDesc": "159.99",
+        "porcentDesc": "20%",
+        "descripcion": "Sistema de sonido inalámbrico 2.1 con subwoofer, ideal para TV.",
+        "imagen": "images/products/categoria4/4-56 Sistema de sonido inalámbrico 2.1.jpg"
+    },
+    {
+        "nombre": "Cable HDMI 4K de 3 metros",
+        "precio": "19.99",
+        "categoria": 4,
+        "oferta": true,
+        "precioDesc": "14.99",
+        "porcentDesc": "25%",
+        "descripcion": "Cable HDMI 4K de alta velocidad, 3 metros de longitud.",
+        "imagen": "images/products/categoria4/4-57 Cable HDMI 4K de 3 metros.jpg"
+    },
+    {
+        "nombre": "Auriculares de diadema con sonido surround",
+        "precio": "119.99",
+        "categoria": 4,
+        "oferta": true,
+        "precioDesc": "89.99",
+        "porcentDesc": "25%",
+        "descripcion": "Auriculares de diadema, sonido surround 7.1, micrófono ajustable.",
+        "imagen": "images/products/categoria4/4-58 Auriculares de diadema con sonido surround.jpg"
+    },
+    {
+        "nombre": "Estación de carga para Nintendo Switch",
+        "precio": "39.99",
+        "categoria": 4,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Estación de carga para Nintendo Switch, soporte para hasta 4 mandos.",
+        "imagen": "images/products/categoria4/4-59 Estación de carga para Nintendo Switch.jpg"
+    },
+    {
+        "nombre": "Microfono profesional para grabación",
+        "precio": "129.99",
+        "categoria": 4,
+        "oferta": true,
+        "precioDesc": "109.99",
+        "porcentDesc": "15%",
+        "descripcion": "Micrófono profesional con cancelación de ruido, ideal para grabaciones.",
+        "imagen": "images/products/categoria4/4-60 Microfono profesional para grabación.jpg"
     }
 ]

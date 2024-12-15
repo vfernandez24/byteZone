@@ -1,5 +1,5 @@
 [
-    59.99,
+    99.99,
     {
         "nombre": "Cargador inalámbrico rápido",
         "precio": "10.00",
@@ -239,5 +239,365 @@
         "porcentDesc": "0%",
         "descripcion": "Altura y ángulo ajustable, base antideslizante, compatible con tablets y smartphones.",
         "imagen": "images/products/categoria1/1-24 Soporte de escritorio ajustable para tablet y smartphone.jpg"
+    },
+    {
+        "nombre": "Batería externa ultradelgada 10,000mAh",
+        "precio": "34.99",
+        "categoria": 1,
+        "oferta": true,
+        "precioDesc": "17.49",
+        "porcentDesc": "50%",
+        "descripcion": "Compacta y liviana, doble salida USB, diseño moderno.",
+        "imagen": "images/products/categoria1/1-25 Batería externa ultradelgada.jpg"
+    },
+    {
+        "nombre": "Cargador rápido de pared USB-C 20W",
+        "precio": "14.99",
+        "categoria": 1,
+        "oferta": true,
+        "precioDesc": "8.99",
+        "porcentDesc": "40%",
+        "descripcion": "Carga rápida para iPhone y Android, diseño portátil.",
+        "imagen": "images/products/categoria1/1-26 Cargador rápido de pared.jpg"
+    },
+    {
+        "nombre": "Soporte para bicicleta con cargador solar",
+        "precio": "39.99",
+        "categoria": 1,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Ideal para ciclistas, carga dispositivos mientras viajas.",
+        "imagen": "images/products/categoria1/1-27 Soporte para bicicleta con cargador solar.jpg"
+    },
+    {
+        "nombre": "Luces LED decorativas para smartphone",
+        "precio": "9.99",
+        "categoria": 1,
+        "oferta": true,
+        "precioDesc": "5.99",
+        "porcentDesc": "40%",
+        "descripcion": "Cambia de color, ideal para videollamadas y selfies.",
+        "imagen": "images/products/categoria1/1-28 Luces LED decorativas para smartphone.jpg"
+    },
+    {
+        "nombre": "Trípode compacto con control remoto Bluetooth",
+        "precio": "29.99",
+        "categoria": 1,
+        "oferta": true,
+        "precioDesc": "17.99",
+        "porcentDesc": "40%",
+        "descripcion": "Ligero y portátil, compatible con todos los teléfonos.",
+        "imagen": "images/products/categoria1/1-29 Trípode compacto con control remoto Bluetooth.jpg"
+    },
+    {
+        "nombre": "Funda antigolpes para Samsung Galaxy S23",
+        "precio": "19.99",
+        "categoria": 1,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Material resistente, esquinas reforzadas, diseño ergonómico.",
+        "imagen": "images/products/categoria1/1-30 Funda antigolpes para Samsung Galaxy S23.jpg"
+    },
+    {
+        "nombre": "Batería portátil con linterna LED",
+        "precio": "24.99",
+        "categoria": 1,
+        "oferta": true,
+        "precioDesc": "12.49",
+        "porcentDesc": "50%",
+        "descripcion": "Carga tu dispositivo y úsala como linterna en emergencias.",
+        "imagen": "images/products/categoria1/1-31 Batería portátil con linterna LED.jpg"
+    },
+    {
+        "nombre": "Micrófono de solapa para grabaciones en smartphone",
+        "precio": "14.99",
+        "categoria": 1,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Calidad de sonido profesional, fácil conexión, clip incluido.",
+        "imagen": "images/products/categoria1/1-32 Micrófono de solapa.jpg"
+    },
+    {
+        "nombre": "Adaptador USB-C a HDMI 4K",
+        "precio": "29.99",
+        "categoria": 1,
+        "oferta": true,
+        "precioDesc": "14.99",
+        "porcentDesc": "50%",
+        "descripcion": "Transmite contenido 4K desde tu teléfono a una pantalla.",
+        "imagen": "images/products/categoria1/1-33 Adaptador USB-C a HDMI.jpg"
+    },
+    {
+        "nombre": "Funda tipo cartera con soporte para smartphone",
+        "precio": "24.99",
+        "categoria": 1,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Incluye compartimentos para tarjetas y billetes.",
+        "imagen": "images/products/categoria1/1-34 Funda tipo cartera.jpg"
+    },
+    {
+        "nombre": "Cargador magnético inalámbrico para escritorio",
+        "precio": "49.99",
+        "categoria": 1,
+        "oferta": true,
+        "precioDesc": "29.99",
+        "porcentDesc": "40%",
+        "descripcion": "Soporte y carga en un solo dispositivo, diseño minimalista.",
+        "imagen": "images/products/categoria1/1-35 Cargador magnético inalámbrico para escritorio.jpg"
+    },
+    {
+        "nombre": "Anillo de luz para selfies con clip",
+        "precio": "12.99",
+        "categoria": 1,
+        "oferta": true,
+        "precioDesc": "6.49",
+        "porcentDesc": "50%",
+        "descripcion": "Ilumina tus selfies con luz ajustable y recargable.",
+        "imagen": "images/products/categoria1/1-36 Anillo de luz para selfies.jpg"
+    },
+    {
+        "nombre": "Soporte de carga inalámbrica para smartwatch y teléfono",
+        "precio": "59.99",
+        "categoria": 1,
+        "oferta": true,
+        "precioDesc": "35.99",
+        "porcentDesc": "40%",
+        "descripcion": "Carga dispositivos simultáneamente con un diseño elegante.",
+        "imagen": "images/products/categoria1/1-37 Soporte de carga inalámbrica.jpg"
+    },
+    {
+        "nombre": "Cargador de coche con puerto USB-C y USB-A",
+        "precio": "19.99",
+        "categoria": 1,
+        "oferta": true,
+        "precioDesc": "11.99",
+        "porcentDesc": "40%",
+        "descripcion": "Carga rápida para dos dispositivos al mismo tiempo.",
+        "imagen": "images/products/categoria1/1-38 Cargador de coche doble.jpg"
+    },
+    {
+        "nombre": "Protector de pantalla para Samsung Galaxy S23",
+        "precio": "9.99",
+        "categoria": 1,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Cristal templado resistente a golpes y arañazos.",
+        "imagen": "images/products/categoria1/1-39 Protector de pantalla Samsung.jpg"
+    },
+    {
+        "nombre": "Batería externa de carga rápida 30,000mAh",
+        "precio": "99.99",
+        "categoria": 1,
+        "oferta": true,
+        "precioDesc": "69.99",
+        "porcentDesc": "30%",
+        "descripcion": "Alta capacidad para múltiples cargas, diseño robusto.",
+        "imagen": "images/products/categoria1/1-40 Batería externa de carga rápida.jpg"
+    },
+    {
+        "nombre": "Funda resistente para iPhone con soporte integrado",
+        "precio": "19.99",
+        "categoria": 1,
+        "oferta": true,
+        "precioDesc": "11.99",
+        "porcentDesc": "40%",
+        "descripcion": "Protección completa contra golpes y soporte ajustable.",
+        "imagen": "images/products/categoria1/1-41 Funda resistente para iPhone.jpg"
+    },
+    {
+        "nombre": "Cable Lightning certificado MFi de 3 metros",
+        "precio": "16.99",
+        "categoria": 1,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Larga durabilidad y carga rápida, compatible con dispositivos Apple.",
+        "imagen": "images/products/categoria1/1-42 Cable Lightning certificado MFi.jpg"
+    },
+    {
+        "nombre": "Auriculares inalámbricos con estuche cargador",
+        "precio": "29.99",
+        "categoria": 1,
+        "oferta": true,
+        "precioDesc": "20.99",
+        "porcentDesc": "30%",
+        "descripcion": "Diseño ergonómico, batería de larga duración, conectividad Bluetooth 5.0.",
+        "imagen": "images/products/categoria1/1-43 Auriculares inalámbricos con estuche cargador.jpg"
+    },
+    {
+        "nombre": "Gorra con auriculares Bluetooth integrados",
+        "precio": "34.99",
+        "categoria": 1,
+        "oferta": true,
+        "precioDesc": "17.49",
+        "porcentDesc": "50%",
+        "descripcion": "Ideal para deportes, música integrada con conectividad inalámbrica.",
+        "imagen": "images/products/categoria1/1-44 Gorra con auriculares Bluetooth.jpg"
+    },
+    {
+        "nombre": "Estuche organizador para cables y accesorios",
+        "precio": "14.99",
+        "categoria": 1,
+        "oferta": true,
+        "precioDesc": "9.99",
+        "porcentDesc": "33%",
+        "descripcion": "Compacto y portátil, múltiples compartimentos para accesorios tecnológicos.",
+        "imagen": "images/products/categoria1/1-45 Estuche organizador.jpg"
+    },
+    {
+        "nombre": "Lente telefoto clip-on para smartphone",
+        "precio": "24.99",
+        "categoria": 1,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Zoom óptico avanzado, compatible con la mayoría de teléfonos.",
+        "imagen": "images/products/categoria1/1-46 Lente telefoto clip-on.jpg"
+    },
+    {
+        "nombre": "Soporte flotante para smartphone",
+        "precio": "12.99",
+        "categoria": 1,
+        "oferta": true,
+        "precioDesc": "7.79",
+        "porcentDesc": "40%",
+        "descripcion": "Perfecto para uso en piscinas y playas, resistente al agua.",
+        "imagen": "images/products/categoria1/1-47 Soporte flotante para smartphone.jpg"
+    },
+    {
+        "nombre": "Cargador portátil tipo llavero",
+        "precio": "19.99",
+        "categoria": 1,
+        "oferta": true,
+        "precioDesc": "9.99",
+        "porcentDesc": "50%",
+        "descripcion": "Ideal para emergencias, compacto y fácil de transportar.",
+        "imagen": "images/products/categoria1/1-48 Cargador portátil tipo llavero.jpg"
+    },
+    {
+        "nombre": "Soporte plegable con ventilador para smartphone",
+        "precio": "29.99",
+        "categoria": 1,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Mantén tu dispositivo fresco mientras juegas o transmites videos.",
+        "imagen": "images/products/categoria1/1-49 Soporte plegable con ventilador.jpg"
+    },
+    {
+        "nombre": "Gafas de realidad virtual para smartphones",
+        "precio": "49.99",
+        "categoria": 1,
+        "oferta": true,
+        "precioDesc": "24.99",
+        "porcentDesc": "50%",
+        "descripcion": "Sumérgete en juegos y videos VR con un diseño cómodo y ajustable.",
+        "imagen": "images/products/categoria1/1-50 Gafas de realidad virtual.jpg"
+    },
+    {
+        "nombre": "Funda con anillo magnético para MagSafe",
+        "precio": "39.99",
+        "categoria": 1,
+        "oferta": true,
+        "precioDesc": "23.99",
+        "porcentDesc": "40%",
+        "descripcion": "Diseñada para iPhone con soporte para carga inalámbrica MagSafe.",
+        "imagen": "images/products/categoria1/1-51 Funda con anillo magnético.jpg"
+    },
+    {
+        "nombre": "Cargador de batería portátil para relojes inteligentes",
+        "precio": "29.99",
+        "categoria": 1,
+        "oferta": true,
+        "precioDesc": "19.99",
+        "porcentDesc": "33%",
+        "descripcion": "Compacto y fácil de usar, ideal para viajes.",
+        "imagen": "images/products/categoria1/1-52 Cargador de batería portátil para relojes inteligentes.jpg"
+    },
+    {
+        "nombre": "Adaptador universal de viaje con USB",
+        "precio": "24.99",
+        "categoria": 1,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Compatibilidad internacional, incluye puertos USB para múltiples dispositivos.",
+        "imagen": "images/products/categoria1/1-53 Adaptador universal de viaje.jpg"
+    },
+    {
+        "nombre": "Joystick para juegos móviles",
+        "precio": "19.99",
+        "categoria": 1,
+        "oferta": true,
+        "precioDesc": "9.99",
+        "porcentDesc": "50%",
+        "descripcion": "Mejora tu experiencia de juego móvil con controles precisos.",
+        "imagen": "images/products/categoria1/1-54 Joystick para juegos móviles.jpg"
+    },
+    {
+        "nombre": "Llavero con memoria USB de 128GB",
+        "precio": "49.99",
+        "categoria": 1,
+        "oferta": true,
+        "precioDesc": "34.99",
+        "porcentDesc": "30%",
+        "descripcion": "Diseño elegante y portátil, almacenamiento confiable.",
+        "imagen": "images/products/categoria1/1-55 Llavero con memoria USB.jpg"
+    },
+    {
+        "nombre": "Brazalete deportivo para smartphone",
+        "precio": "14.99",
+        "categoria": 1,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Ideal para correr y hacer ejercicio, material resistente al sudor.",
+        "imagen": "images/products/categoria1/1-56 Brazalete deportivo para smartphone.jpg"
+    },
+    {
+        "nombre": "Mini altavoz Bluetooth portátil",
+        "precio": "29.99",
+        "categoria": 1,
+        "oferta": true,
+        "precioDesc": "14.99",
+        "porcentDesc": "50%",
+        "descripcion": "Sonido potente en tamaño compacto, resistente al agua, duración de batería de 10 horas.",
+        "imagen": "images/products/categoria1/1-57 Mini altavoz Bluetooth portátil.jpg"
+    },
+    {
+        "nombre": "Clip de ventilador para smartphone",
+        "precio": "19.99",
+        "categoria": 1,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Ventilador portátil y silencioso, ideal para largas sesiones de uso del teléfono.",
+        "imagen": "images/products/categoria1/1-58 Clip de ventilador para smartphone.jpg"
+    },
+    {
+        "nombre": "Funda tipo cartera para smartphone",
+        "precio": "24.99",
+        "categoria": 1,
+        "oferta": true,
+        "precioDesc": "12.49",
+        "porcentDesc": "50%",
+        "descripcion": "Protección completa, ranuras para tarjetas y billetes, diseño elegante.",
+        "imagen": "images/products/categoria1/1-59 Funda tipo cartera para smartphone.jpg"
+    },
+    {
+        "nombre": "Anillo de luz LED para selfies",
+        "precio": "34.99",
+        "categoria": 1,
+        "oferta": true,
+        "precioDesc": "20.99",
+        "porcentDesc": "40%",
+        "descripcion": "Luz LED regulable, perfecto para fotos y videos en cualquier entorno.",
+        "imagen": "images/products/categoria1/1-60 Anillo de luz LED para selfies.jpg"
     }
 ]

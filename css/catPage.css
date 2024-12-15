@@ -10,11 +10,17 @@ h1 {
 .grid {
     width: 95%;
     height: fit-content;
+    max-height: 1938px;
+    overflow: hidden;
     margin: 10px auto 30px auto;
     display: grid;
     grid-template-columns: auto 1fr;
     border-top: 1px solid var(--border);
     border-bottom: 1px solid var(--border);
+}
+
+.grid.full {
+    max-height: fit-content;
 }
 
 .left {
@@ -218,6 +224,23 @@ h1 {
 
 .box.hidden {
     display: none;
+}
+
+.btnVerMas {
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin: 20px auto;
+    font-size: 20px;
+    color: var(--btn);
+    font-weight: 600;
+    cursor: pointer;
 }
 
 @media (max-width: 900px) {

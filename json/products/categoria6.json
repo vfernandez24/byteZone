@@ -239,5 +239,364 @@
         "porcentDesc": "50%",
         "descripcion": "Diseño clásico, compatible con PC y consolas, fácil de usar.",
         "imagen": "images/products/categoria6/6-24 Controlador de juegos retro USB.jpg"
+    },{
+        "nombre": "Escritorio gamer con luces RGB",
+        "precio": "249.99",
+        "categoria": 6,
+        "oferta": true,
+        "precioDesc": "199.99",
+        "porcentDesc": "20%",
+        "descripcion": "Superficie amplia, soporte para monitores y accesorios, iluminación RGB personalizable.",
+        "imagen": "images/products/categoria6/6-25 Escritorio gamer con luces RGB.jpg"
+    },
+    {
+        "nombre": "Enfriador para laptop gaming",
+        "precio": "59.99",
+        "categoria": 6,
+        "oferta": true,
+        "precioDesc": "44.99",
+        "porcentDesc": "25%",
+        "descripcion": "Sistema de enfriamiento silencioso con iluminación LED.",
+        "imagen": "images/products/categoria6/6-26 Enfriador para laptop gaming.jpg"
+    },
+    {
+        "nombre": "Joystick para simuladores de vuelo",
+        "precio": "129.99",
+        "categoria": 6,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Compatible con PC, botones programables, diseño ergonómico.",
+        "imagen": "images/products/categoria6/6-27 Joystick para simuladores de vuelo.jpg"
+    },
+    {
+        "nombre": "Volante para simuladores de carreras",
+        "precio": "299.99",
+        "categoria": 6,
+        "oferta": true,
+        "precioDesc": "239.99",
+        "porcentDesc": "20%",
+        "descripcion": "Sistema Force Feedback, pedales ajustables, compatible con consolas y PC.",
+        "imagen": "images/products/categoria6/6-28 Volante para simuladores de carreras.jpg"
+    },
+    {
+        "nombre": "Silla gamer con sistema de masaje",
+        "precio": "349.99",
+        "categoria": 6,
+        "oferta": true,
+        "precioDesc": "279.99",
+        "porcentDesc": "20%",
+        "descripcion": "Incluye función de masaje lumbar, reclinable hasta 180°, soporte ajustable.",
+        "imagen": "images/products/categoria6/6-29 Silla gamer con sistema de masaje.jpg"
+    },
+    {
+        "nombre": "Hub USB 3.0 para gamers",
+        "precio": "39.99",
+        "categoria": 6,
+        "oferta": true,
+        "precioDesc": "31.99",
+        "porcentDesc": "20%",
+        "descripcion": "4 puertos USB 3.0 con iluminación LED, compacto y portátil.",
+        "imagen": "images/products/categoria6/6-30 Hub USB 3.0 para gamers.jpg"
+    },
+    {
+        "nombre": "Controlador arcade para juegos retro",
+        "precio": "149.99",
+        "categoria": 6,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Compatible con múltiples plataformas, diseño clásico con botones personalizables.",
+        "imagen": "images/products/categoria6/6-31 Controlador arcade para juegos retro.jpg"
+    },
+    {
+        "nombre": "Base de carga inalámbrica para smartphones y auriculares",
+        "precio": "59.99",
+        "categoria": 6,
+        "oferta": true,
+        "precioDesc": "44.99",
+        "porcentDesc": "25%",
+        "descripcion": "Diseño 2 en 1 con iluminación LED, compatible con carga rápida.",
+        "imagen": "images/products/categoria6/6-32 Base de carga inalámbrica para smartphones y auriculares.jpg"
+    },
+    {
+        "nombre": "Lentes de bloqueo de luz azul para gamers",
+        "precio": "29.99",
+        "categoria": 6,
+        "oferta": true,
+        "precioDesc": "23.99",
+        "porcentDesc": "20%",
+        "descripcion": "Protegen la vista durante largas sesiones de juego, diseño liviano.",
+        "imagen": "images/products/categoria6/6-33 Lentes de bloqueo de luz azul para gamers.jpg"
+    },
+    {
+        "nombre": "Mini teclado para gaming portátil",
+        "precio": "49.99",
+        "categoria": 6,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Compacto, teclas retroiluminadas, diseño ergonómico.",
+        "imagen": "images/products/categoria6/6-34 Mini teclado para gaming portátil.jpg"
+    },
+    {
+        "nombre": "Micrófono USB para streaming",
+        "precio": "99.99",
+        "categoria": 6,
+        "oferta": true,
+        "precioDesc": "74.99",
+        "porcentDesc": "25%",
+        "descripcion": "Sonido profesional, patrón polar ajustable, incluye soporte antivibración.",
+        "imagen": "images/products/categoria6/6-35 Micrófono USB para streaming.jpg"
+    },
+    {
+        "nombre": "Kit de luces LED para streaming",
+        "precio": "79.99",
+        "categoria": 6,
+        "oferta": true,
+        "precioDesc": "59.99",
+        "porcentDesc": "25%",
+        "descripcion": "Incluye dos paneles LED ajustables, ideal para crear contenido.",
+        "imagen": "images/products/categoria6/6-36 Kit de luces LED para streaming.jpg"
+    },
+    {
+        "nombre": "Mouse gamer inalámbrico",
+        "precio": "69.99",
+        "categoria": 6,
+        "oferta": true,
+        "precioDesc": "55.99",
+        "porcentDesc": "20%",
+        "descripcion": "Conexión estable, batería de larga duración, diseño ergonómico.",
+        "imagen": "images/products/categoria6/6-37 Mouse gamer inalámbrico.jpg"
+    },
+    {
+        "nombre": "Plataforma de soporte para múltiples monitores",
+        "precio": "149.99",
+        "categoria": 6,
+        "oferta": true,
+        "precioDesc": "119.99",
+        "porcentDesc": "20%",
+        "descripcion": "Soporta hasta 3 monitores, ajuste de altura y ángulo.",
+        "imagen": "images/products/categoria6/6-38 Plataforma de soporte para múltiples monitores.jpg"
+    },
+    {
+        "nombre": "Teclado gaming compacto 60%",
+        "precio": "89.99",
+        "categoria": 6,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Diseño minimalista, teclas RGB personalizables, compatible con todas las plataformas.",
+        "imagen": "images/products/categoria6/6-39 Teclado gaming compacto 60%.jpg"
+    },
+    {
+        "nombre": "Cable HDMI 4K para gaming",
+        "precio": "19.99",
+        "categoria": 6,
+        "oferta": true,
+        "precioDesc": "15.99",
+        "porcentDesc": "20%",
+        "descripcion": "Compatibilidad con 4K HDR, longitud de 2 metros, alta velocidad.",
+        "imagen": "images/products/categoria6/6-40 Cable HDMI 4K para gaming.jpg"
+    },
+    {
+        "nombre": "Controlador adaptativo para accesibilidad",
+        "precio": "99.99",
+        "categoria": 6,
+        "oferta": true,
+        "precioDesc": "79.99",
+        "porcentDesc": "20%",
+        "descripcion": "Diseñado para jugadores con movilidad limitada, altamente personalizable.",
+        "imagen": "images/products/categoria6/6-41 Controlador adaptativo para accesibilidad.jpg"
+    },
+    {
+        "nombre": "Ventilador RGB para PC gamer",
+        "precio": "29.99",
+        "categoria": 6,
+        "oferta": true,
+        "precioDesc": "23.99",
+        "porcentDesc": "20%",
+        "descripcion": "Iluminación RGB, ultra silencioso, fácil de instalar.",
+        "imagen": "images/products/categoria6/6-42 Ventilador RGB para PC gamer.jpg"
+    },
+    {
+        "nombre": "Mousepad RGB con efectos dinámicos",
+        "precio": "39.99",
+        "categoria": 6,
+        "oferta": true,
+        "precioDesc": "31.99",
+        "porcentDesc": "20%",
+        "descripcion": "Superficie optimizada, 10 modos de iluminación, base antideslizante.",
+        "imagen": "images/products/categoria6/6-43 Mousepad RGB con efectos dinámicos.jpg"
+    },
+    {
+        "nombre": "Controlador profesional para esports",
+        "precio": "199.99",
+        "categoria": 6,
+        "oferta": true,
+        "precioDesc": "159.99",
+        "porcentDesc": "20%",
+        "descripcion": "Palancas ajustables, botones programables, ergonomía avanzada.",
+        "imagen": "images/products/categoria6/6-44 Controlador profesional para esports.jpg"
+    },
+    {
+        "nombre": "Funda protectora rígida para portátiles",
+        "precio": "49.99",
+        "categoria": 6,
+        "oferta": true,
+        "precioDesc": "39.99",
+        "porcentDesc": "20%",
+        "descripcion": "Diseño robusto, impermeable, compatible con laptops de hasta 17 pulgadas.",
+        "imagen": "images/products/categoria6/6-45 Funda protectora rígida para portátiles.jpg"
+    },
+    {
+        "nombre": "Docking station para consolas portátiles",
+        "precio": "79.99",
+        "categoria": 6,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Conexión HDMI, puertos USB adicionales, diseño compacto.",
+        "imagen": "images/products/categoria6/6-46 Docking station para consolas portátiles.jpg"
+    },
+    {
+        "nombre": "Puf gamer ergonómico",
+        "precio": "129.99",
+        "categoria": 6,
+        "oferta": true,
+        "precioDesc": "99.99",
+        "porcentDesc": "23%",
+        "descripcion": "Diseño envolvente, relleno de alta calidad, ideal para juegos relajados.",
+        "imagen": "images/products/categoria6/6-47 Puf gamer ergonómico.jpg"
+    },
+    {
+        "nombre": "Kit de herramientas para montaje de PC gamer",
+        "precio": "59.99",
+        "categoria": 6,
+        "oferta": true,
+        "precioDesc": "44.99",
+        "porcentDesc": "25%",
+        "descripcion": "Incluye destornilladores, pinzas y otros accesorios esenciales.",
+        "imagen": "images/products/categoria6/6-48 Kit de herramientas para montaje de PC gamer.jpg"
+    },
+    {
+        "nombre": "Cinta LED RGB adhesiva para gaming setup",
+        "precio": "19.99",
+        "categoria": 6,
+        "oferta": true,
+        "precioDesc": "14.99",
+        "porcentDesc": "25%",
+        "descripcion": "Fácil de instalar, control remoto, múltiples efectos de iluminación.",
+        "imagen": "images/products/categoria6/6-49 Cinta LED RGB adhesiva para gaming setup.jpg"
+    },
+    {
+        "nombre": "Torre de almacenamiento para juegos y accesorios",
+        "precio": "49.99",
+        "categoria": 6,
+        "oferta": true,
+        "precioDesc": "39.99",
+        "porcentDesc": "20%",
+        "descripcion": "Diseño vertical, espacio para juegos, accesorios y controladores.",
+        "imagen": "images/products/categoria6/6-50 Torre de almacenamiento para juegos y accesorios.jpg"
+    },
+    {
+        "nombre": "Organizador de cables para setups gamer",
+        "precio": "29.99",
+        "categoria": 6,
+        "oferta": true,
+        "precioDesc": "23.99",
+        "porcentDesc": "20%",
+        "descripcion": "Incluye correas y clips, fácil de instalar, mantiene el espacio ordenado.",
+        "imagen": "images/products/categoria6/6-51 Organizador de cables para setups gamer.jpg"
+    },
+    {
+        "nombre": "Altavoces para PC con sonido envolvente",
+        "precio": "99.99",
+        "categoria": 6,
+        "oferta": true,
+        "precioDesc": "74.99",
+        "porcentDesc": "25%",
+        "descripcion": "Calidad de sonido profesional, iluminación RGB, diseño compacto.",
+        "imagen": "images/products/categoria6/6-52 Altavoces para PC con sonido envolvente.jpg"
+    },
+    {
+        "nombre": "Alfombrilla XL para gaming",
+        "precio": "39.99",
+        "categoria": 6,
+        "oferta": true,
+        "precioDesc": "31.99",
+        "porcentDesc": "20%",
+        "descripcion": "Superficie optimizada para precisión y velocidad, base antideslizante.",
+        "imagen": "images/products/categoria6/6-53 Alfombrilla XL para gaming.jpg"
+    },
+    {
+        "nombre": "Banda de soporte para realidad virtual",
+        "precio": "59.99",
+        "categoria": 6,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Compatible con la mayoría de visores VR, ajuste ergonómico, fácil de instalar.",
+        "imagen": "images/products/categoria6/6-54 Banda de soporte para realidad virtual.jpg"
+    },
+    {
+        "nombre": "Cámara web para streaming HD 1080p",
+        "precio": "79.99",
+        "categoria": 6,
+        "oferta": true,
+        "precioDesc": "59.99",
+        "porcentDesc": "25%",
+        "descripcion": "Alta definición, enfoque automático, micrófono integrado.",
+        "imagen": "images/products/categoria6/6-55 Cámara web para streaming HD 1080p.jpg"
+    },
+    {
+        "nombre": "Disco duro externo para gaming 2TB",
+        "precio": "109.99",
+        "categoria": 6,
+        "oferta": true,
+        "precioDesc": "87.99",
+        "porcentDesc": "20%",
+        "descripcion": "Alta velocidad de transferencia, diseño resistente, ideal para backups.",
+        "imagen": "images/products/categoria6/6-56 Disco duro externo para gaming 2TB.jpg"
+    },
+    {
+        "nombre": "Soporte universal para auriculares",
+        "precio": "29.99",
+        "categoria": 6,
+        "oferta": true,
+        "precioDesc": "23.99",
+        "porcentDesc": "20%",
+        "descripcion": "Diseño compacto, fácil de montar en escritorios o paredes.",
+        "imagen": "images/products/categoria6/6-57 Soporte universal para auriculares.jpg"
+    },
+    {
+        "nombre": "Adaptador de red WiFi para PC",
+        "precio": "39.99",
+        "categoria": 6,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Compatibilidad con redes de alta velocidad, fácil instalación.",
+        "imagen": "images/products/categoria6/6-58 Adaptador de red WiFi para PC.jpg"
+    },
+    {
+        "nombre": "Fuente de poder modular 750W",
+        "precio": "149.99",
+        "categoria": 6,
+        "oferta": true,
+        "precioDesc": "119.99",
+        "porcentDesc": "20%",
+        "descripcion": "Eficiencia certificada 80+ Gold, diseño modular, silenciosa.",
+        "imagen": "images/products/categoria6/6-59 Fuente de poder modular 750W.jpg"
+    },
+    {
+        "nombre": "Monitor gaming 144Hz 27 pulgadas",
+        "precio": "299.99",
+        "categoria": 6,
+        "oferta": true,
+        "precioDesc": "249.99",
+        "porcentDesc": "17%",
+        "descripcion": "Resolución Full HD, tiempo de respuesta 1ms, compatible con G-Sync.",
+        "imagen": "images/products/categoria6/6-60 Monitor gaming 144Hz 27 pulgadas.jpg"
     }
 ]

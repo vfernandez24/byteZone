@@ -239,5 +239,365 @@
         "porcentDesc": "0%",
         "descripcion": "Evita enredos, protege los cables, varios colores.",
         "imagen": "images/products/categoria8/Fundas de silicona para cables de tablet.jpg"
+    },
+    {
+        "nombre": "Lente de cámara para tablet",
+        "precio": "29.99",
+        "categoria": 8,
+        "oferta": true,
+        "precioDesc": "14.99",
+        "porcentDesc": "50%",
+        "descripcion": "Mejora la calidad de tus fotos con un lente de gran angular y macro.",
+        "imagen": "images/products/categoria8/Lente de cámara para tablet.jpg"
+    },
+    {
+        "nombre": "Funda impermeable para tablet",
+        "precio": "19.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Protección contra agua y polvo, ideal para actividades al aire libre.",
+        "imagen": "images/products/categoria8/Funda impermeable para tablet.jpg"
+    },
+    {
+        "nombre": "Cargador solar portátil para tablet",
+        "precio": "49.99",
+        "categoria": 8,
+        "oferta": true,
+        "precioDesc": "24.99",
+        "porcentDesc": "50%",
+        "descripcion": "Ideal para viajes, carga directamente con luz solar, compacto y ligero.",
+        "imagen": "images/products/categoria8/Cargador solar portátil para tablet.jpg"
+    },
+    {
+        "nombre": "Soporte magnético para tablet",
+        "precio": "34.99",
+        "categoria": 8,
+        "oferta": true,
+        "precioDesc": "17.49",
+        "porcentDesc": "50%",
+        "descripcion": "Fácil instalación, ángulo ajustable, diseño moderno.",
+        "imagen": "images/products/categoria8/Soporte magnético para tablet.jpg"
+    },
+    {
+        "nombre": "Funda con teclado desmontable y touchpad",
+        "precio": "69.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Teclado retroiluminado, touchpad integrado, compatible con múltiples modelos.",
+        "imagen": "images/products/categoria8/Funda con teclado desmontable y touchpad.jpg"
+    },
+    {
+        "nombre": "Base de carga rápida inalámbrica para tablet",
+        "precio": "59.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Carga rápida, diseño compacto, compatible con tablets y teléfonos.",
+        "imagen": "images/products/categoria8/Base de carga rápida inalámbrica para tablet.jpg"
+    },
+    {
+        "nombre": "Bolígrafo táctil con goma de borrar",
+        "precio": "24.99",
+        "categoria": 8,
+        "oferta": true,
+        "precioDesc": "12.49",
+        "porcentDesc": "50%",
+        "descripcion": "Incluye punta intercambiable y goma de borrar digital, ideal para diseño gráfico.",
+        "imagen": "images/products/categoria8/Bolígrafo táctil con goma de borrar.jpg"
+    },
+    {
+        "nombre": "Mini proyector para tablets",
+        "precio": "139.99",
+        "categoria": 8,
+        "oferta": true,
+        "precioDesc": "83.99",
+        "porcentDesc": "40%",
+        "descripcion": "Proyección en HD, compacto y fácil de usar, ideal para cine en casa.",
+        "imagen": "images/products/categoria8/Mini proyector para tablets.jpg"
+    },
+    {
+        "nombre": "Adaptador OTG USB para tablet",
+        "precio": "9.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Permite conectar dispositivos USB como teclados o memorias a tu tablet.",
+        "imagen": "images/products/categoria8/Adaptador OTG USB para tablet.jpg"
+    },
+    {
+        "nombre": "Audífonos inalámbricos con micrófono",
+        "precio": "49.99",
+        "categoria": 8,
+        "oferta": true,
+        "precioDesc": "29.99",
+        "porcentDesc": "40%",
+        "descripcion": "Diseño ergonómico, sonido envolvente, ideal para videollamadas y música.",
+        "imagen": "images/products/categoria8/Audífonos inalámbricos con micrófono.jpg"
+    },
+    {
+        "nombre": "Brazo articulado para tablet",
+        "precio": "39.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Perfecto para escritorio, brazo ajustable para una visualización cómoda.",
+        "imagen": "images/products/categoria8/Brazo articulado para tablet.jpg"
+    },
+    {
+        "nombre": "Maletín organizador para tablet y accesorios",
+        "precio": "49.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Espacios específicos para tablet, cargador, cables y lápiz táctil.",
+        "imagen": "images/products/categoria8/Maletín organizador para tablet y accesorios.jpg"
+    },
+    {
+        "nombre": "Funda resistente con correa ajustable",
+        "precio": "29.99",
+        "categoria": 8,
+        "oferta": true,
+        "precioDesc": "14.99",
+        "porcentDesc": "50%",
+        "descripcion": "Diseñada para actividades al aire libre, resistente a caídas y golpes.",
+        "imagen": "images/products/categoria8/Funda resistente con correa ajustable.jpg"
+    },
+    {
+        "nombre": "Teclado mecánico compacto para tablet",
+        "precio": "69.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Sensación táctil premium, conexión Bluetooth, batería de larga duración.",
+        "imagen": "images/products/categoria8/Teclado mecánico compacto para tablet.jpg"
+    },
+    {
+        "nombre": "Bolígrafo táctil de alta precisión",
+        "precio": "19.99",
+        "categoria": 8,
+        "oferta": true,
+        "precioDesc": "9.99",
+        "porcentDesc": "50%",
+        "descripcion": "Ideal para notas y dibujo, punta fina y diseño ligero.",
+        "imagen": "images/products/categoria8/Bolígrafo táctil de alta precisión.jpg"
+    },
+    {
+        "nombre": "Soporte plegable para tablet",
+        "precio": "14.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Diseño ultracompacto, ideal para usar en viajes o en casa.",
+        "imagen": "images/products/categoria8/Soporte plegable para tablet.jpg"
+    },
+    {
+        "nombre": "Protector de pantalla mate",
+        "precio": "12.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Reduce reflejos y huellas dactilares, ideal para trabajo al aire libre.",
+        "imagen": "images/products/categoria8/Protector de pantalla mate.jpg"
+    },
+    {
+        "nombre": "Cargador inalámbrico rápido 15W para tablets",
+        "precio": "39.99",
+        "categoria": 8,
+        "oferta": true,
+        "precioDesc": "19.99",
+        "porcentDesc": "50%",
+        "descripcion": "Soporte ajustable con carga inalámbrica para máxima comodidad.",
+        "imagen": "images/products/categoria8/Cargador inalámbrico rápido 15W para tablets.jpg"
+    },
+    {
+        "nombre": "Funda con soporte y bolsillos",
+        "precio": "19.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Incluye compartimentos para lápices táctiles y tarjetas.",
+        "imagen": "images/products/categoria8/Funda con soporte y bolsillos.jpg"
+    },
+    {
+        "nombre": "Power bank ultradelgado para tablets",
+        "precio": "59.99",
+        "categoria": 8,
+        "oferta": true,
+        "precioDesc": "29.99",
+        "porcentDesc": "50%",
+        "descripcion": "Diseño compacto, capacidad de 15,000 mAh, ideal para viajes.",
+        "imagen": "images/products/categoria8/Power bank ultradelgado para tablets.jpg"
+    },
+    {
+        "nombre": "Funda con asa para niños",
+        "precio": "24.99",
+        "categoria": 8,
+        "oferta": true,
+        "precioDesc": "12.49",
+        "porcentDesc": "50%",
+        "descripcion": "Asa ergonómica, protección contra golpes, colores vibrantes.",
+        "imagen": "images/products/categoria8/Funda con asa para niños.jpg"
+    },
+    {
+        "nombre": "Teclado inalámbrico ultradelgado",
+        "precio": "34.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Conexión Bluetooth, diseño portátil, teclas silenciosas.",
+        "imagen": "images/products/categoria8/Teclado inalámbrico ultradelgado.jpg"
+    },
+    {
+        "nombre": "Adaptador multipuerto USB-C para tablet",
+        "precio": "59.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Incluye HDMI, USB 3.0 y lector de tarjetas SD, ideal para productividad.",
+        "imagen": "images/products/categoria8/Adaptador multipuerto USB-C para tablet.jpg"
+    },
+    {
+        "nombre": "Estuche rígido para lápiz táctil",
+        "precio": "14.99",
+        "categoria": 8,
+        "oferta": true,
+        "precioDesc": "7.49",
+        "porcentDesc": "50%",
+        "descripcion": "Protege tu lápiz táctil con este estuche resistente y compacto.",
+        "imagen": "images/products/categoria8/Estuche rígido para lápiz táctil.jpg"
+    },
+    {
+        "nombre": "Funda con teclado integrado y soporte ajustable",
+        "precio": "54.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Teclado desmontable, soporte ajustable para múltiples ángulos.",
+        "imagen": "images/products/categoria8/Funda con teclado integrado y soporte ajustable.jpg"
+    },
+    {
+        "nombre": "Cable magnético para carga rápida",
+        "precio": "16.99",
+        "categoria": 8,
+        "oferta": true,
+        "precioDesc": "8.49",
+        "porcentDesc": "50%",
+        "descripcion": "Conexión magnética, evita el desgaste de los puertos, diseño duradero.",
+        "imagen": "images/products/categoria8/Cable magnético para carga rápida.jpg"
+    },
+    {
+        "nombre": "Altavoz portátil con base para tablet",
+        "precio": "49.99",
+        "categoria": 8,
+        "oferta": true,
+        "precioDesc": "29.99",
+        "porcentDesc": "40%",
+        "descripcion": "Base integrada para sostener tablets, sonido de alta calidad.",
+        "imagen": "images/products/categoria8/Altavoz portátil con base para tablet.jpg"
+    },
+    {
+        "nombre": "Bolsa de transporte acolchada para tablet",
+        "precio": "29.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Interior acolchado para mayor protección, espacio para accesorios.",
+        "imagen": "images/products/categoria8/Bolsa de transporte acolchada para tablet.jpg"
+    },
+    {
+        "nombre": "Funda universal con soporte tipo trípode",
+        "precio": "34.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Compatible con tablets de 10-12 pulgadas, soporte desmontable.",
+        "imagen": "images/products/categoria8/Funda universal con soporte tipo trípode.jpg"
+    },
+    {
+        "nombre": "Lápiz táctil 2 en 1 con punta fina y goma",
+        "precio": "24.99",
+        "categoria": 8,
+        "oferta": true,
+        "precioDesc": "17.49",
+        "porcentDesc": "30%",
+        "descripcion": "Diseño ergonómico, precisión en dibujo y escritura, punta intercambiable.",
+        "imagen": "images/products/categoria8/Lápiz táctil 2 en 1 con punta fina y goma.jpg"
+    },
+    {
+        "nombre": "Protector de pantalla antirreflejo",
+        "precio": "14.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Reduce los reflejos en exteriores, fácil instalación.",
+        "imagen": "images/products/categoria8/Protector de pantalla antirreflejo.jpg"
+    },
+    {
+        "nombre": "Cargador múltiple USB para tablets",
+        "precio": "39.99",
+        "categoria": 8,
+        "oferta": true,
+        "precioDesc": "23.99",
+        "porcentDesc": "40%",
+        "descripcion": "Carga hasta 4 dispositivos simultáneamente con puertos USB-A y USB-C.",
+        "imagen": "images/products/categoria8/Cargador múltiple USB para tablets.jpg"
+    },
+    {
+        "nombre": "Soporte de tablet con clip para escritorio",
+        "precio": "19.99",
+        "categoria": 8,
+        "oferta": true,
+        "precioDesc": "13.99",
+        "porcentDesc": "30%",
+        "descripcion": "Clip seguro, ajustable a diferentes grosores de escritorio.",
+        "imagen": "images/products/categoria8/Soporte de tablet con clip para escritorio.jpg"
+    },
+    {
+        "nombre": "Base de refrigeración para tablets",
+        "precio": "29.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Mantén tu tablet fresca durante uso prolongado con esta base ventilada.",
+        "imagen": "images/products/categoria8/Base de refrigeración para tablets.jpg"
+    },
+    {
+        "nombre": "Cable retráctil USB-C para tablets",
+        "precio": "12.99",
+        "categoria": 8,
+        "oferta": true,
+        "precioDesc": "6.49",
+        "porcentDesc": "50%",
+        "descripcion": "Ajustable en longitud, diseño compacto, ideal para viajes.",
+        "imagen": "images/products/categoria8/Cable retráctil USB-C para tablets.jpg"
+    },
+    {
+        "nombre": "Funda de neopreno para tablet",
+        "precio": "19.99",
+        "categoria": 8,
+        "oferta": false,
+        "precioDesc": "0",
+        "porcentDesc": "0%",
+        "descripcion": "Protección suave, resistente al agua, perfecta para uso diario.",
+        "imagen": "images/products/categoria8/Funda de neopreno para tablet.jpg"
     }
 ]
