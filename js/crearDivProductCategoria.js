@@ -54,7 +54,6 @@ async function cargarProductoEspecifico(categoria, indice, idSection) {
 
         const divProducto = document.createElement('div');
         divProducto.className = 'box';
-        divProducto.name = 'hola';
         divProducto.onclick = function() {
             showProduct(this);
         }

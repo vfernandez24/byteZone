@@ -14,6 +14,15 @@ overlay.addEventListener('click', () => {
 })
 body.appendChild(overlay);
 
+// Crear el overlay para el search
+const overlaySearch = document.createElement('div');
+overlaySearch.className = 'overlay overlaySearch';
+overlaySearch.id = 'overlaySearch';
+overlaySearch.addEventListener('click', () => {
+    closeSearch();
+})
+body.appendChild(overlaySearch);
+
 // Crear el nav
 const nav = document.createElement('nav');
 body.appendChild(nav);
