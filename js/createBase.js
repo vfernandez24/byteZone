@@ -87,6 +87,14 @@ body.appendChild(nav);
             buscar__button__img.src = '../../assets/buscar.svg';
             buscar__button.appendChild(buscar__button__img);
 
+            const buscar__div = document.createElement('div');
+            buscar__div.className = 'buscarDiv';
+            buscar.appendChild(buscar__div);
+
+                const buscar__div__ul = document.createElement('ul');
+                buscar__div__ul.id = 'buscarUl';
+                buscar__div.appendChild(buscar__div__ul);
+
     // Botones func
     const containerBtn = document.createElement('div');
     containerBtn.className = 'containerBtn';
