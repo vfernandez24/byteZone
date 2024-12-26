@@ -11,5 +11,3 @@
         api.html
         ayuda.html => en proceso
         devoluciones.html
-
-    Hay que crear el funcionamiento de la busqueda
