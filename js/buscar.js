@@ -53,7 +53,9 @@ function buscarProductos(productos, criterio) {
     });
 }
 
-async function search() {
+async function search(event) {
+    event.preventDefault();
+
     const productos = await cargarTodosLosProductos(localStorage.getItem('paginaSearch'));
     const criterio = searchInput.value;
     const resultados = buscarProductos(productos, criterio);
@@ -82,7 +84,7 @@ async function search() {
         const imagenDiv = document.createElement('div');
         imagenDiv.className = 'imagenDiv';
         const imagen = document.createElement('img');
-        if (localStorage) {
+        if (localStorage.getItem('paginaSearch') == 'index') {
             imagen.src = producto.imagen;
         } else {
             imagen.src = '../../' + producto.imagen;

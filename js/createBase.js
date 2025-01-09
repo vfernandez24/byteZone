@@ -68,8 +68,11 @@ body.appendChild(nav);
         categoriasTodas.innerHTML = '<i class="fa-solid fa-bars"></i>Todas las categorías'
         buscador.appendChild(categoriasTodas);
 
-        const buscar = document.createElement('div');
+        const buscar = document.createElement('form');
         buscar.className = 'search';
+        buscar.onsubmit = function() {
+            search(event);
+        }
         buscador.appendChild(buscar);
 
             const buscar__input = document.createElement('input');
@@ -78,18 +81,8 @@ body.appendChild(nav);
             buscar__input.id = 'searchInput';
             buscar.appendChild(buscar__input)
 
-            const buscar__reset = document.createElement('button');
-            buscar__reset.className = 'resetSearch';
-            buscar__reset.onclick = function() {
-                cleanSearch()
-            };
-            buscar__reset.innerHTML = '<i class="fa-solid fa-xmark"></i>';
-            buscar.appendChild(buscar__reset);
-
             const buscar__button = document.createElement('button');
-            buscar__button.onclick = function() {
-                search();
-            };
+            buscar__button.type = 'submit'
             buscar.appendChild(buscar__button);
 
             const buscar__button__img = document.createElement('img');
